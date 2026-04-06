@@ -1218,5 +1218,295 @@
     "fechaFuente": "2026-04-01",
     "entidadId": "roberto-enrique-chiabra-leon",
     "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-ronald-darwin-atencio-sotomayor",
+    "url": "https://elcomercio.pe/politica/ronald-atencio-anuncia-comando-para-luchar-contra-la-inseguridad-ciudadana-noticia/",
+    "tipo": "debate",
+    "titulo": "Atencio: comando de 500 policias contra inseguridad ciudadana",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-17",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-jose-daniel-williams-zapata",
+    "url": "https://rpp.pe/politica/elecciones/jose-williams-promete-formalizar-a-13-millones-de-trabajadores-con-beneficios-sociales-es-viable-noticia-1682646",
+    "tipo": "articulo",
+    "titulo": "Williams promete formalizar 1.3 millones de trabajadores: es viable?",
+    "medio": "RPP",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "jose-daniel-williams-zapata",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "url": "https://elcomercio.pe/politica/elecciones/elecciones-generales-2026-alvaro-paz-de-la-barra-plantea-referendum-constitucional-en-90-dias-y-un-estado-de-excepcion-para-enfrentar-la-crisis-ultimas-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Paz de la Barra: referendum constitucional en 90 dias y estado de excepcion",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-fiorella-giannina-molinelli-aristondo",
+    "url": "https://elcomercio.pe/politica/fiorella-molinelli-en-foro-de-candidatos-vamos-a-modernizar-3-mil-centros-de-salud-en-el-primer-ano-fuerza-y-libertad-ultimas-noticia/",
+    "tipo": "debate",
+    "titulo": "Molinelli: modernizar 3 mil centros de salud en el primer ano",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-17",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-roberto-helbert-sanchez-palomino",
+    "url": "https://larepublica.pe/politica/2026/03/18/roberto-sanchez-propone-nueva-constitucion-apoyo-militar-en-seguridad-y-cadena-perpetua-para-corruptos-hnews-328914",
+    "tipo": "entrevista",
+    "titulo": "Sanchez: cadena perpetua para corruptos y FFAA en apoyo a seguridad",
+    "medio": "La Republica",
+    "fechaFuente": "2026-03-18",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-rafael-jorge-belaunde-llosa",
+    "url": "https://rpp.pe/politica/elecciones/rafael-belaunde-llosa-el-congreso-ha-sido-un-aliado-de-la-extorsion-y-el-sicariato-noticia-1678551",
+    "tipo": "entrevista",
+    "titulo": "Belaunde: el Congreso ha sido un aliado de la extorsion y el sicariato",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-04",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-pitter-enrique-valderrama-pena",
+    "url": "https://gestion.pe/economia/el-apra-quiere-volver-al-poder-aplicarian-un-reactiva-peru-20-en-un-nuevo-gobierno-noticia/",
+    "tipo": "entrevista",
+    "titulo": "APRA/Valderrama: Reactiva Peru 2.0, credito a mypes y trenes regionales",
+    "medio": "Gestion",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-ricardo-pablo-belmont-cassinelli",
+    "url": "https://rpp.pe/politica/elecciones/ricardo-belmont-propone-que-fiscales-y-jueces-sean-designados-por-voto-popular-el-pueblo-tiene-que-elegir-noticia-1679257",
+    "tipo": "entrevista",
+    "titulo": "Belmont: jueces y fiscales elegidos por voto popular",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-09",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-charlie-carrasco-salazar",
+    "url": "https://rpp.pe/politica/elecciones/elecciones-2026-las-propuestas-de-los-candidatos-sobre-empleo-desarrollo-y-emprendimiento-noticia-1682462",
+    "tipo": "debate",
+    "titulo": "Carrasco: Fronteras Vivas, shock de inversion y Banco de Mypes",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "charlie-carrasco-salazar",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-alex-gonzales-castillo",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-2026-estas-son-las-propuestas-de-los-candidatos-sobre-empleo-desarrollo-y-emprendimiento-noticia-1682276",
+    "tipo": "debate",
+    "titulo": "Gonzales denuncia esclavitud laboral por tercerizacion",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "alex-gonzales-castillo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-armando-joaquin-masse-fernandez",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-armando-masse-plantea-impulsar-crecimiento-mediante-industrializacion-1062393.aspx",
+    "tipo": "entrevista",
+    "titulo": "Massé: impulsar crecimiento mediante industrialización",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-luis-fernando-olivera-vega",
+    "url": "https://rpp.pe/politica/elecciones/elecciones-2026-desde-revocatoria-de-congresistas-hasta-depuracion-de-los-malos-policias-las-propuestas-de-olivera-noticia-1667112",
+    "tipo": "entrevista",
+    "titulo": "Olivera: revocatoria directa y Plan Patriota",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-05",
+    "entidadId": "luis-fernando-olivera-vega",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-mesias-antonio-guevara-amasifuen",
+    "url": "https://diariocorreo.pe/politica/mesias-guevara-asegura-que-fortalecera-beca-18-y-dara-creditos-para-jovenes-indigenas-noticia/",
+    "tipo": "debate",
+    "titulo": "Guevara: Beca 18 y créditos para jóvenes indígenas",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-carlos-gonzalo-alvarez-loayza",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-carlos-alvarez-del-partido-pais-para-todos",
+    "tipo": "entrevista",
+    "titulo": "Álvarez: seguridad-nutrición-educación como cadena causal",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-herbert-caller-gutierrez",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-candidato-del-partido-patriotico-del-peru-propone-revolucion-educativa-1062790.aspx",
+    "tipo": "entrevista",
+    "titulo": "Caller: revolución educativa con superaprendizaje",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-12",
+    "entidadId": "herbert-caller-gutierrez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-yonhy-lescano-ancieta",
+    "url": "https://diariocorreo.pe/politica/yonhy-lescano-lo-importante-es-la-conducta-de-la-gente-en-las-elecciones-2026-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Lescano: lo importante es la conducta de la gente",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "yonhy-lescano-ancieta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-wolfgang-mario-grozo-costa",
+    "url": "https://gestion.pe/peru/politica/wolfgang-grozo-de-integridad-democratica-propone-la-construccion-de-3-megacarceles-para-combatir-la-delincuencia-durante-debate-electoral-2026-noticia/",
+    "tipo": "debate",
+    "titulo": "Grozo: 3 megacárceles y sistema de inteligencia",
+    "medio": "Gestión",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-vladimir-roy-cerron-rojas",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-vladimir-cerron-del-partido-peru-libre",
+    "tipo": "entrevista",
+    "titulo": "Cerrón: Módulo 24 — capturar, juzgar, sentenciar en 24h",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-18",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-francisco-ernesto-diez-canseco-tavara",
+    "url": "https://elperuano.pe/noticia/290806-elecciones-2026-conoce-el-plan-de-gobierno-de-francisco-diez-canseco",
+    "tipo": "articulo",
+    "titulo": "Diez-Canseco: reducir IGV a 16%, fusionar ministerios",
+    "medio": "El Peruano",
+    "fechaFuente": "2026-04-03",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-mario-enrique-vizcarra-cornejo",
+    "url": "https://caretas.pe/politica/debate-presidencial-2026-mario-vizcarra-presenta-propuestas-sobre-seguridad-y-reforma-del-estado/",
+    "tipo": "debate",
+    "titulo": "Vizcarra: ataque a Keiko y reforma constitucional",
+    "medio": "Caretas",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-walter-gilmer-chirinos-purizaga",
+    "url": "https://diariocorreo.pe/politica/walter-chirinos-plantea-eliminar-la-bicameralidad-para-evitar-bloqueo-politico-elecciones-2026-debate-presidencial-noticia/",
+    "tipo": "debate",
+    "titulo": "Chirinos: eliminar bicameralidad",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-alfonso-carlos-espa-y-garces-alvear",
+    "url": "https://gestion.pe/peru/politica/carlos-espa-propone-bono-educativo-de-hasta-s-7000-para-estudiantes-de-escasos-recursos-noticia/",
+    "tipo": "debate",
+    "titulo": "Espá: bono educativo S/7000",
+    "medio": "Gestión",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-carlos-ernesto-jaico-carranza",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-carlos-jaico-plantea-guardia-civil-y-republicana-para-reforzar-seguridad-1060612.aspx",
+    "tipo": "entrevista",
+    "titulo": "Jaico: restablecer Guardia Civil y Republicana",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-22",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-jose-leon-luna-galvez",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-jose-luna-galvez-de-podemos-peru",
+    "tipo": "entrevista",
+    "titulo": "Luna Gálvez: plan Urresti, limpiar PNP",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-02-27",
+    "entidadId": "jose-leon-luna-galvez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-maria-soledad-perez-tello-de-rodriguez",
+    "url": "https://caretas.pe/politica/debate-presidencial-2026-que-propone-marisol-perez-tello-en-el-sector-educacion-y-empleo/",
+    "tipo": "debate",
+    "titulo": "Pérez Tello: Estado castiga al informal",
+    "medio": "Caretas",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-paul-davis-jaimes-blanco",
+    "url": "https://diariocorreo.pe/politica/debate-presidencial-francisco-diez-canseco-y-paul-jaimes-plantean-zonas-francas-y-moratoria-para-informales-noticia/",
+    "tipo": "debate",
+    "titulo": "Jaimes: zonas francas y exoneración 3 años",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-antonio-ortiz-villano",
+    "url": "https://diariocorreo.pe/politica/debate-2026-que-medidas-aplicaran-fernandez-atencio-y-ortiz-para-luchar-contra-la-corrupcion-noticia/",
+    "tipo": "debate",
+    "titulo": "Ortiz: seguimiento digital del gasto, Contraloría con dientes",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "antonio-ortiz-villano",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-rosario-del-pilar-fernandez-bazan",
+    "url": "https://diariocorreo.pe/politica/debate-presidencial-rosario-fernandez-y-ricardo-belmont-plantean-reformas-en-educacion-e-innovacion-noticia/",
+    "tipo": "debate",
+    "titulo": "Fernández: bachilleratos automáticos, innovación 0.2% a 2%",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada3-roberto-enrique-chiabra-leon",
+    "url": "https://diariocorreo.pe/politica/debate-presidencial-roberto-chiabra-propone-controles-medicos-anuales-y-educacion-preventiva-noticia/",
+    "tipo": "debate",
+    "titulo": "Chiabra: control médico anual por distritos",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "estado": "evaluada"
   }
 ]

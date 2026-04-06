@@ -2202,5 +2202,527 @@
     "estadioAlternativo": 3,
     "notas": "Consistente con oleada 1 (estadio 4). Ambas fuentes muestran razonamiento institucional.",
     "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-ronald-darwin-atencio-sotomayor",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "fuenteId": "f-oleada3-ronald-darwin-atencio-sotomayor",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Propone un 'comando de aniquilamiento' de 500 policias que el liderara personalmente. El lenguaje belico ('aniquilar') y el personalismo (yo lidero) revelan razonamiento de fuerza bruta. Promete que no sera un Grupo Colina, pero la estructura es la misma: unidad de elite al margen del sistema institucional regular.",
+    "citas": [
+      {
+        "texto": "Formaremos un comando de aniquilamiento contra la corrupcion compuesto por los mejores 500 policias. Yo voy a liderar ese comando",
+        "ubicacion": "Foro SNI / Debate JNE tercera fecha, bloque seguridad",
+        "indicador": "Lenguaje belico + personalismo — fuerza como solucion, lider como ejecutor directo — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Tema diferente a oleadas 1 y 2. Baja de 2 a 1: el lenguaje de aniquilamiento es pre-convencional puro. Anti-ventriloquismo: no importa que diga 'no sera un Colina', la estructura propuesta es identica.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-jose-daniel-williams-zapata",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "f-oleada3-jose-daniel-williams-zapata",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Promete formalizar 1.3 millones de trabajadores con beneficios sociales y credito preferencial a pymes. La propuesta es transaccional: mas beneficios = mas formalizacion. No articula por que la formalidad es un derecho ni que falla estructuralmente en el mercado laboral. Ventanilla unica en 48h es slogan sin sustento operativo.",
+    "citas": [
+      {
+        "texto": "Vamos a formalizar 1.3 millones de trabajadores con gratificaciones, CTS, vacaciones y seguro. Otorgaremos creditos a las pymes con tasas preferenciales",
+        "ubicacion": "Debate JNE ultima fecha, bloque empleo",
+        "indicador": "Transaccional — beneficios como intercambio para formalizacion, sin reforma estructural — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema diferente a oleadas 1 y 2. Baja de 3 a 2: en economia revela logica transaccional pura. RPP cuestiona viabilidad de la promesa.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "fuenteId": "f-oleada3-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Referendum constitucional en 90 dias + estado de excepcion + plazo de 7 dias para que corruptos renuncien. La concentracion de poder es extrema: un presidente que declara emergencia, cambia la constitucion y da ultimatum a funcionarios en sus primeros 100 dias. No articula limites ni contrapesos. Patron autoritario consistente con oleada 1 (sin debido proceso).",
+    "citas": [
+      {
+        "texto": "Convocara un referendum constitucional dentro de los primeros 90 dias de gobierno y aplicara estado de excepcion para enfrentar la crisis",
+        "ubicacion": "Entrevista El Comercio, presentacion de plan de gobierno",
+        "indicador": "Concentracion de poder sin contrapesos — emergencia como herramienta de control total — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Tema diferente a oleadas 1 y 2. Se mantiene en estadio 1: patron de concentracion de poder y plazos arbitrarios sin marco institucional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-fiorella-giannina-molinelli-aristondo",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "f-oleada3-fiorella-giannina-molinelli-aristondo",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone modernizar 3 mil centros de salud en el primer ano, con programas de deteccion de cancer y atencion a salud mental. Como exjefa de EsSalud, tiene conocimiento institucional real del sector. La propuesta es ambiciosa pero articulada dentro de marco institucional. Apela a obligacion del Estado, no a beneficencia.",
+    "citas": [
+      {
+        "texto": "Vamos a modernizar 3 mil centros de salud en el primer ano",
+        "ubicacion": "Foro SNI candidatos, bloque salud",
+        "indicador": "Propuesta institucional basada en experiencia sectorial — obligacion del Estado — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema diferente a oleadas 1 y 2. Se mantiene en estadio 4: en salud articula propuesta desde conocimiento institucional. REGLA DE MITIN no aplica (es foro, no mitin).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-roberto-helbert-sanchez-palomino",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "fuenteId": "f-oleada3-roberto-helbert-sanchez-palomino",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone cadena perpetua para altos funcionarios corruptos y FFAA como soporte permanente de la PNP. La logica es punitiva: a mayor autoridad, mayor castigo. No articula por que la cadena perpetua disuade mejor que otras penas ni como se evita el abuso de las FFAA en seguridad interna.",
+    "citas": [
+      {
+        "texto": "Cuanto mas alta sea la autoridad, la pena a aplicar debe ser mas severa y esta es la cadena perpetua, eso es lo que corresponde",
+        "ubicacion": "Entrevista La Republica, bloque anticorrupcion",
+        "indicador": "Logica punitiva proporcional al poder — castigo como principio, no justicia — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema diferente a oleadas 1 y 2. Se mantiene en estadio 2: la cadena perpetua como solucion revela instrumentalismo punitivo. No distingue entre disuasion y venganza.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-rafael-jorge-belaunde-llosa",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "fuenteId": "f-oleada3-rafael-jorge-belaunde-llosa",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Denuncia que el Congreso es aliado de la extorsion y el sicariato por aprobar leyes que dificultan allanamientos y confiscacion de bienes. Propone GEIN desde Las Palmas con fiscales y jueces ad hoc, interceptacion telefonica e informantes. Es analisis institucional solido: identifica al Congreso como obstaculo y propone reforma concreta con contrapesos (jueces + fiscales + tecnologia).",
+    "citas": [
+      {
+        "texto": "El Congreso ha sido un aliado de la extorsion y el sicariato. Eso se tiene que derogar porque no puede ser que sea casi imposible allanar una vivienda",
+        "ubicacion": "Entrevista RPP, marzo 2026",
+        "indicador": "Diagnostico institucional del problema + propuesta de reforma con contrapesos — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 5,
+    "notas": "Tema diferente a oleadas 1 y 2. Baja de 5 a 4: en seguridad Belaunde es institucionalista (propone contrapesos) pero no llega a principios universales como con la Corte IDH. Estadio 4 solido.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-pitter-enrique-valderrama-pena",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "f-oleada3-pitter-enrique-valderrama-pena",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone Reactiva Peru 2.0 con credito a mypes y trenes regionales. Reconoce que el Reactiva original tuvo manejo politico de creditos, pero propone replicar el esquema con 'especialistas adecuados'. No articula que cambio estructural evitaria los mismos problemas. Promesas grandilocuentes: 7-8% de crecimiento, 3.5 millones de empleos. Sin sustento fiscal.",
+    "citas": [
+      {
+        "texto": "Las mypes, el sector agrario y los jovenes deben sentir que el crecimiento les beneficia los bolsillos. Nuestra meta es alcanzar un crecimiento del 7% u 8%",
+        "ubicacion": "Entrevista Gestion, plan economico APRA",
+        "indicador": "Transaccional — crecimiento como beneficio tangible, sin principio de equidad articulado — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema diferente a oleadas 1 y 2. Baja de 3 a 2: en economia Valderrama es puramente transaccional. Promete numeros sin articular principios ni mecanismos institucionales.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-ricardo-pablo-belmont-cassinelli",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "fuenteId": "f-oleada3-ricardo-pablo-belmont-cassinelli",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Propone que jueces y fiscales sean elegidos por voto popular. La idea suena democratica pero en la practica politiza completamente la justicia. No articula como se garantiza independencia judicial ni competencia tecnica. Diagnostico correcto ('ahi se cocina la inseguridad') pero solucion populista que destruye la autonomia institucional.",
+    "citas": [
+      {
+        "texto": "El pueblo tiene que elegir quienes van a gobernar dentro de la justicia. Fiscalia, Policia, Inpe y Poder Judicial: ahi es donde se cocina toda esta inseguridad",
+        "ubicacion": "Entrevista RPP, marzo 2026",
+        "indicador": "Diagnostico correcto + solucion populista que destruye autonomia institucional — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema diferente a oleadas 1 y 2. Se mantiene en estadio 2: patron constante de diagnosticos correctos con soluciones que instrumentalizan al pueblo sin proteger instituciones.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-charlie-carrasco-salazar",
+    "entidadId": "charlie-carrasco-salazar",
+    "fuenteId": "f-oleada3-charlie-carrasco-salazar",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone 'Fronteras Vivas' con inversion de 45 mil millones de dolares y creacion de 1 millon de empleos. Tambien propone Banco de Mypes y politica de formalizacion. Las cifras son desproporcionadas (45 mil millones es mas del 20% del PBI) y no tienen sustento fiscal. Pero al menos articula una logica economica: inversion -> infraestructura -> empleo. Es transaccional pero no punitivo.",
+    "citas": [
+      {
+        "texto": "El desarrollo economico solo sera posible si se garantiza la seguridad juridica y la seguridad ciudadana. Proponemos un shock de inversion de 45 mil millones de dolares",
+        "ubicacion": "Debate JNE quinta fecha, bloque empleo",
+        "indicador": "Transaccional — inversion como mecanismo, seguridad como precondicion — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema diferente a oleadas 1 y 2. Sube de 1 a 2: cuando habla de economia en vez de seguridad, Carrasco abandona el castigo y articula logica transaccional. Mejora relativa pero sigue pre-convencional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-alex-gonzales-castillo",
+    "entidadId": "alex-gonzales-castillo",
+    "fuenteId": "f-oleada3-alex-gonzales-castillo",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Denuncia la tercerizacion como 'sistema de esclavitud oculta' donde el trabajador gana 1800 soles y el empleador 5500. Es la primera vez que articula un problema estructural con datos y apela a la dignidad del trabajador. Sube de estadio porque no recurre a fuerza ni a logica puramente cuantitativa.",
+    "citas": [
+      {
+        "texto": "Hoy vivimos en un pais con un sistema de esclavitud oculta. Un humilde trabajador gana 1800 soles por tercerizacion mientras el empleador gana 5500 soles",
+        "ubicacion": "Debate JNE cuarta fecha, bloque empleo",
+        "indicador": "Denuncia de injusticia estructural con datos — apela a dignidad — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Tema diferente a oleadas 1 y 2. Sube de 2 a 3: cuando habla de derechos laborales en vez de seguridad, Gonzales articula injusticia. Techo Estadio 3 por ser debate (no mitin, pero formato similar).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-armando-joaquin-masse-fernandez",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "fuenteId": "f-oleada3-armando-joaquin-masse-fernandez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Repite industrialización como mantra sin marco institucional.",
+    "citas": [
+      {
+        "texto": "La primera, industrialización. La segunda, industrialización. La tercera, industrialización",
+        "ubicacion": "Entrevista Andina",
+        "indicador": "Solución mágica repetitiva — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Oleada 3, evaluación basada en entrevista en Andina.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-luis-fernando-olivera-vega",
+    "entidadId": "luis-fernando-olivera-vega",
+    "fuenteId": "f-oleada3-luis-fernando-olivera-vega",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Democracia directa instrumentalizada.",
+    "citas": [
+      {
+        "texto": "El pueblo lo pone, el pueblo lo saca",
+        "ubicacion": "Entrevista RPP",
+        "indicador": "Democracia directa como herramienta del líder — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Oleada 3, evaluación basada en entrevista en RPP.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-mesias-antonio-guevara-amasifuen",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "fuenteId": "f-oleada3-mesias-antonio-guevara-amasifuen",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Romanticismo del Perú milenario. Debate=techo 3.",
+    "citas": [
+      {
+        "texto": "El viejo Perú milenario siempre nos enseña el arte de gobernar",
+        "ubicacion": "Debate JNE pregunta ciudadana",
+        "indicador": "Apelación a tradición y moralidad colectiva — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Oleada 3, evaluación basada en debate en Correo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-carlos-gonzalo-alvarez-loayza",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "fuenteId": "f-oleada3-carlos-gonzalo-alvarez-loayza",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Razonamiento sistémico sin ataques personales.",
+    "citas": [
+      {
+        "texto": "Nuestra lucha frontal se centrará en la inseguridad ciudadana... El segundo punto es la lucha contra la anemia",
+        "ubicacion": "Entrevista TVPerú",
+        "indicador": "Razonamiento sistémico con cadena causal — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Oleada 3, evaluación basada en entrevista en TVPerú.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-herbert-caller-gutierrez",
+    "entidadId": "herbert-caller-gutierrez",
+    "fuenteId": "f-oleada3-herbert-caller-gutierrez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Promesa grandilocuente sin plan de implementación.",
+    "citas": [
+      {
+        "texto": "Vamos a aplicar la revolución educativa con metodologías de super aprendizaje",
+        "ubicacion": "Entrevista Andina",
+        "indicador": "Solución mágica importada — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Oleada 3, evaluación basada en entrevista en Andina.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-yonhy-lescano-ancieta",
+    "entidadId": "yonhy-lescano-ancieta",
+    "fuenteId": "f-oleada3-yonhy-lescano-ancieta",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Moralidad basada en carácter personal, no en instituciones.",
+    "citas": [
+      {
+        "texto": "Lo importante es la conducta de la gente",
+        "ubicacion": "Foro Candidatos Correo",
+        "indicador": "Moralidad basada en carácter personal — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Oleada 3, evaluación basada en entrevista en Correo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-wolfgang-mario-grozo-costa",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "fuenteId": "f-oleada3-wolfgang-mario-grozo-costa",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "En debate baja: megacárceles punitivo. MITIN=techo 3.",
+    "citas": [
+      {
+        "texto": "Capturar, encerrar y sacarlos de las calles",
+        "ubicacion": "Debate JNE primera fecha",
+        "indicador": "Solución punitiva directa — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Oleada 3, evaluación basada en debate en Gestión.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-vladimir-roy-cerron-rojas",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "fuenteId": "f-oleada3-vladimir-roy-cerron-rojas",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Destruye garantías procesales. Prófugo proponiendo justicia express.",
+    "citas": [
+      {
+        "texto": "Se captura, se juzga y se sentencia, en 24 horas. Eso es Módulo 24",
+        "ubicacion": "Entrevista TVPerú",
+        "indicador": "Destrucción del debido proceso — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Oleada 3, evaluación basada en entrevista en TVPerú.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-francisco-ernesto-diez-canseco-tavara",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "fuenteId": "f-oleada3-francisco-ernesto-diez-canseco-tavara",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propuestas institucionales concretas: reforma fiscal dentro del orden legal.",
+    "citas": [
+      {
+        "texto": "Reducir IGV a 16% eliminando FONCOMUN",
+        "ubicacion": "Plan de gobierno El Peruano",
+        "indicador": "Reforma fiscal dentro del marco institucional — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Oleada 3, evaluación basada en articulo en El Peruano.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-mario-enrique-vizcarra-cornejo",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "fuenteId": "f-oleada3-mario-enrique-vizcarra-cornejo",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Ataque personal sin argumentación institucional.",
+    "citas": [
+      {
+        "texto": "La representante del partido más corrupto de la historia",
+        "ubicacion": "Debate JNE",
+        "indicador": "Ataque personal sin argumentación — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Oleada 3, evaluación basada en debate en Caretas.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-walter-gilmer-chirinos-purizaga",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "fuenteId": "f-oleada3-walter-gilmer-chirinos-purizaga",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Destruir instituciones, no reformarlas.",
+    "citas": [
+      {
+        "texto": "Este congreso dictatorial hizo que haya bicameralidad",
+        "ubicacion": "Debate JNE cuarta fecha",
+        "indicador": "Destrucción institucional como solución — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Oleada 3, evaluación basada en debate en Correo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-alfonso-carlos-espa-y-garces-alvear",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "fuenteId": "f-oleada3-alfonso-carlos-espa-y-garces-alvear",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Libertad individual como eslogan. Busca aprobación.",
+    "citas": [
+      {
+        "texto": "Creemos en la libertad del individuo",
+        "ubicacion": "Debate JNE cuarta fecha",
+        "indicador": "Principio genérico sin articulación profunda — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Oleada 3, evaluación basada en debate en Gestión.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-carlos-ernesto-jaico-carranza",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "fuenteId": "f-oleada3-carlos-ernesto-jaico-carranza",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Reforma institucional: recrear cuerpos de seguridad.",
+    "citas": [
+      {
+        "texto": "Debemos regresar a lo que teníamos, guardia civil, guardia republicana",
+        "ubicacion": "Entrevista Andina",
+        "indicador": "Reforma institucional estructurada — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Oleada 3, evaluación basada en entrevista en Andina.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-jose-leon-luna-galvez",
+    "entidadId": "jose-leon-luna-galvez",
+    "fuenteId": "f-oleada3-jose-leon-luna-galvez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Delega en caudillo. Lógica transaccional: purgar y luego invertir.",
+    "citas": [
+      {
+        "texto": "Hay 10% de la PNP infiltrada de corruptos, tenemos que limpiar la Policía",
+        "ubicacion": "Entrevista TVPerú",
+        "indicador": "Purga + inversión = transaccional — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Oleada 3, evaluación basada en entrevista en TVPerú.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-maria-soledad-perez-tello-de-rodriguez",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "fuenteId": "f-oleada3-maria-soledad-perez-tello-de-rodriguez",
+    "estadio": 5,
+    "confianza": "media",
+    "justificacion": "Reconoce injusticia estructural. Principio de equidad universal.",
+    "citas": [
+      {
+        "texto": "Ocho de cada diez trabajan en la informalidad. Con un Estado que te castiga",
+        "ubicacion": "Debate JNE sexta fecha",
+        "indicador": "Denuncia injusticia sistémica — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Oleada 3, evaluación basada en debate en Caretas.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-paul-davis-jaimes-blanco",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "fuenteId": "f-oleada3-paul-davis-jaimes-blanco",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Transaccional: exoneraciones como regalo sin marco institucional.",
+    "citas": [
+      {
+        "texto": "Declarar todas las fronteras como zonas francas libres de impuesto",
+        "ubicacion": "Debate JNE quinta fecha",
+        "indicador": "Transaccional: exonerar como regalo — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Oleada 3, evaluación basada en debate en Correo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-antonio-ortiz-villano",
+    "entidadId": "antonio-ortiz-villano",
+    "fuenteId": "f-oleada3-antonio-ortiz-villano",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Diagnóstico sistémico pero en formato debate. Techo 3.",
+    "citas": [
+      {
+        "texto": "El Perú pierde 25 mil millones al año por corrupción: eso no es error, es sistema",
+        "ubicacion": "Debate JNE sexta fecha",
+        "indicador": "Diagnóstico sistémico pero formato mitin — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Oleada 3, evaluación basada en debate en Correo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-rosario-del-pilar-fernandez-bazan",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "fuenteId": "f-oleada3-rosario-del-pilar-fernandez-bazan",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Transaccional: regalar títulos no es reforma educativa.",
+    "citas": [
+      {
+        "texto": "Vamos a otorgar bachilleratos automáticos y titulación gratuita",
+        "ubicacion": "Debate JNE sexta fecha",
+        "indicador": "Transaccional: regalar títulos — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Oleada 3, evaluación basada en debate en Correo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada3-roberto-enrique-chiabra-leon",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "fuenteId": "f-oleada3-roberto-enrique-chiabra-leon",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Diagnóstico de fracaso de regionalización. Propone coordinación entre niveles.",
+    "citas": [
+      {
+        "texto": "La regionalización ha fracasado",
+        "ubicacion": "Debate JNE quinta fecha",
+        "indicador": "Diagnóstico institucional — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Oleada 3, evaluación basada en debate en Correo.",
+    "evaluador": "lucas"
   }
 ]
