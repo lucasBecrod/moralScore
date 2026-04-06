@@ -1,0 +1,1684 @@
+[
+  {
+    "id": "eval-keiko-debate-25mar-seguridad",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "keiko-sofia-fujimori-higuchi-2026-03-25-la-republica",
+    "estadio": 3,
+    "confianza": "alta",
+    "justificacion": "La candidata evita asumir responsabilidad por la acción legislativa de su partido desestimando las leyes como 'papeles'. No articula un principio moral para justificar esta posición, sino que apela a la necesidad de obtener el poder ejecutivo como solución. El razonamiento busca aprobación del electorado sin asumir el costo político de reconocer la responsabilidad del fujimorismo en el Congreso.",
+    "citas": [
+      {
+        "texto": "las leyes son papeles, son intenciones. Para poder recuperar la seguridad se necesita ganar la presidencia",
+        "ubicacion": "Bloque preguntas ciudadanas, seguridad",
+        "indicador": "Evita el conflicto central (responsabilidad legislativa) apelando a una solución futura vaga — Estadio 3"
+      },
+      {
+        "texto": "el fujimorismo no ha gobernado, ni yo tampoco",
+        "ubicacion": "Continuación preguntas ciudadanas",
+        "indicador": "Deslinde de responsabilidad sin principio articulado — entre Estadio 2 y Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "El anti-ventriloquismo funciona: un LLM sin corrección podría inflar a Estadio 4 porque menciona 'leyes' e 'instituciones', pero la candidata las desestima en vez de defenderlas.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-aliaga-amenaza-onpe",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "rafael-bernardo-lopez-aliaga-cazorla-2026-04-01-la-republica",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "El candidato justifica su posición mediante amenaza directa y apelación a la fuerza. No articula un principio legal ni institucional — su razonamiento es puramente de poder y consecuencias físicas. La frase 'no sé si quede vivo' es una amenaza velada que opera en la lógica de castigo/obediencia.",
+    "citas": [
+      {
+        "texto": "Si me hacen eso a mí, voy a ver las oficinas y no sé si quede vivo",
+        "ubicacion": "Entrevista post-debate, sobre ONPE",
+        "indicador": "Amenaza velada basada en consecuencias físicas — Estadio 1 (castigo/obediencia)"
+      },
+      {
+        "texto": "este es un sinvergüenza. No confío",
+        "ubicacion": "Sobre el jefe de la ONPE Corvetto",
+        "indicador": "Ataque personal sin argumentación institucional — Estadio 1"
+      },
+      {
+        "texto": "ya nos han robado una elección, ya han llevado al Perú al carajo",
+        "ubicacion": "Sobre elecciones 2021",
+        "indicador": "Narrativa de agravio sin propuesta de reforma institucional — entre Estadio 1 y 2"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "El candidato tiene 90 mil personeros (Estadio 4 sería respetar el proceso). Pero su justificación no es institucional sino de fuerza y desconfianza personal.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-penales-militares",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "george-patrick-forsyth-sommer-2026-03-23-rpp",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "El candidato apela a la empatía emocional ('no me van a contar lo que sufren las madres') para justificar una acción de fuerza (militares en penales). La justificación combina Estadio 3 (busca aprobación emocional) con Estadio 1 (solución punitiva). No articula por qué la militarización resuelve el problema estructural ni qué marco legal lo soporta.",
+    "citas": [
+      {
+        "texto": "A mí no me van a contar lo que sufren las madres, a mí no me van a contar lo que sufren los transportistas que hoy pagan cupos",
+        "ubicacion": "Debate JNE, bloque seguridad",
+        "indicador": "Apelación emocional para justificar acción de fuerza — Estadio 3 (busca aprobación)"
+      },
+      {
+        "texto": "voy a tomar control de forma inmediata con las fuerzas armadas de las cárceles",
+        "ubicacion": "Debate JNE, bloque seguridad",
+        "indicador": "Solución punitiva sin marco institucional — Estadio 1-2"
+      },
+      {
+        "texto": "un delincuente no persigue a un delincuente",
+        "ubicacion": "Debate JNE, sobre policía",
+        "indicador": "Descalificación institucional de la policía sin propuesta de reforma — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "El discurso mezcla empatía genuina con soluciones autoritarias. La congruencia es baja: dice entender el sufrimiento pero propone fuerza militar sin articular por qué eso soluciona el problema de fondo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-coalicion-mal",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "jorge-nieto-montesinos-2026-04-01-la-republica",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "El candidato apela al orden institucional y al rechazo de la corrupción como transgresión del sistema. Su lenguaje es institucionalista ('coalición de mal y corrupta' implica que hay un orden que fue violado). Sin embargo, la evidencia es limitada — solo dos citas disponibles, una de las cuales es una disculpa por llegar tarde.",
+    "citas": [
+      {
+        "texto": "¿Vamos a seguir gobernados por una coalición de mal y corrupta?",
+        "ubicacion": "Mensaje final del debate",
+        "indicador": "Apelación al orden institucional violado por la corrupción — Estadio 4"
+      },
+      {
+        "texto": "Quisiera tomar unos segundos para pedir perdón por mi tardanza",
+        "ubicacion": "Inicio del debate",
+        "indicador": "Reconocimiento de falta y disculpa pública — coherente con Estadio 4 (respeto a reglas)"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Evidencia insuficiente para una evaluación robusta. Solo dos citas de un debate completo. Se necesitan más fuentes. La confianza es media por falta de material, no por ambigüedad en el razonamiento.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-leyes-procrimen",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "keiko-sofia-fujimori-higuchi-2026-03-31-el-comercio",
+    "estadio": 3,
+    "confianza": "alta",
+    "justificacion": "La candidata niega la narrativa de leyes procrimen aprobadas por su bancada sin articular un principio alternativo. No explica por qué las leyes no son procrimen, solo rechaza la etiqueta. Evita el conflicto central: la responsabilidad legislativa de su partido.",
+    "citas": [
+      {
+        "texto": "No creo en esa narrativa de las leyes pro-crimen",
+        "ubicacion": "Entrevista El Comercio",
+        "indicador": "Rechazo de etiqueta sin argumentación sustantiva — Estadio 3 (evita conflicto)"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Consistente con evaluación anterior (debate 25/03). Patrón: evita responsabilidad del partido.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-extorsion-militares",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "keiko-sofia-fujimori-higuchi-2026-03-25-el-comercio",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone combatir extorsión con policías y militares en las calles. La solución es puramente de fuerza sin abordar causas estructurales ni marco institucional. Razonamiento instrumental: más fuerza = menos crimen.",
+    "citas": [
+      {
+        "texto": "Enfrentaremos la extorsión con policías y militares en zonas industriales y barridos conjuntos en las zonas más peligrosas",
+        "ubicacion": "Foro de candidatos, seguridad",
+        "indicador": "Solución de fuerza sin articulación de principio institucional — Estadio 1-2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Similar a Forsyth en militarización. Pero Keiko al menos menciona una estrategia (zonas industriales), no solo fuerza bruta.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-aliaga-cade-seguridad-juridica",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "rafael-bernardo-lopez-aliaga-cazorla-2026-03-23-el-comercio",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "El candidato divide el mundo en 'gente decente' vs 'delincuentes' y argumenta que la seguridad jurídica solo aplica a los primeros. No reconoce que la seguridad jurídica es un principio universal del Estado de derecho. Ataca personalmente al presidente de Confiep. Razonamiento binario sin matices institucionales.",
+    "citas": [
+      {
+        "texto": "La seguridad jurídica es para gente decente, no para delincuentes",
+        "ubicacion": "CADE 2025, panel económico",
+        "indicador": "División binaria que niega universalidad del derecho — Estadio 2 (instrumental)"
+      },
+      {
+        "texto": "Nunca voy a pactar nunca con la corrupción",
+        "ubicacion": "CADE 2025, respuesta a Confiep",
+        "indicador": "Declaración de pureza moral sin mecanismo concreto — Estadio 3 (busca aprobación)"
+      },
+      {
+        "texto": "a mí no me tiembla la mano",
+        "ubicacion": "Sobre expulsión de mineros ilegales del partido",
+        "indicador": "Apelación a la fuerza personal — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Patrón consistente: discurso de fuerza personal, ataques ad hominem, sin articulación institucional. Score 2 por el intento de justificar con concepto de seguridad jurídica aunque lo aplica selectivamente.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-jurado-popular",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "george-patrick-forsyth-sommer-2026-03-24-el-comercio",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone un 'jurado popular' para juzgar corrupción. La idea apela al sentimiento ciudadano de injusticia pero no articula cómo se integra con el sistema judicial existente. Es una propuesta que busca aprobación popular sin resolver el problema institucional de fondo.",
+    "citas": [
+      {
+        "texto": "Propone instaurar un jurado popular para juzgar casos de corrupción",
+        "ubicacion": "Debate JNE 24/03",
+        "indicador": "Propuesta populista que busca aprobación sin articulación institucional — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Si el jurado popular estuviera articulado con reforma constitucional y garantías procesales, podría ser Estadio 4-5. Pero la propuesta es un eslogan sin sustancia.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-crecimiento-6pct",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "cesar-acuna-peralta-2026-03-23-el-comercio",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "El candidato promete crecimiento del 6% anual y adjudicación de 80,000 millones de dólares en proyectos. Las promesas son transaccionales: más inversión = más empleo. No articula un principio sobre para qué sirve el crecimiento ni cómo se distribuyen los beneficios. El 'apagón regulatorio' es desregulación sin justificación moral.",
+    "citas": [
+      {
+        "texto": "un crecimiento del 3% anual es insuficiente para reducir las brechas sociales y económicas",
+        "ubicacion": "Debate JNE, bloque empleo",
+        "indicador": "Diagnóstico correcto pero solución puramente cuantitativa — Estadio 2"
+      },
+      {
+        "texto": "eliminación de más de mil barreras burocráticas mediante un apagón regulatorio",
+        "ubicacion": "Debate JNE, bloque empleo",
+        "indicador": "Desregulación como fin en sí mismo, sin criterio de qué se protege — Estadio 2"
+      },
+      {
+        "texto": "adjudicación de 80,000 millones de dólares en proyectos en todas las regiones",
+        "ubicacion": "Debate JNE, bloque empleo",
+        "indicador": "Promesa transaccional: dinero = solución — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Acuña es consistentemente transaccional. Sus propuestas son numéricas sin articulación de principios. Estadio 2 claro.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-anemia-alimentacion",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "cesar-acuna-peralta-2026-04-01-la-republica",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Sobre anemia infantil, el candidato articula una cadena causal (agricultura → agua → alimentación → salud → cero anemia). Muestra más elaboración que sus propuestas económicas. Sin embargo, simplifica un problema multifactorial y no reconoce determinantes sociales ni institucionales.",
+    "citas": [
+      {
+        "texto": "Lo fundamental para que no haya anemia es la alimentación, por eso vamos a invertir en agricultura. Para que haya agricultura tiene que haber agua",
+        "ubicacion": "Debate JNE, pregunta ciudadana",
+        "indicador": "Cadena causal simplificada pero con lógica interna — Estadio 3 (convencional)"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Mejor que su discurso económico pero sigue sin articular derechos ni principios. Estadio 3 por el intento de razonamiento causal.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-seguridad-coalicion",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "jorge-nieto-montesinos-2026-03-25-el-comercio",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "El candidato articula que la seguridad ciudadana depende de derrotar una 'coalición por la impunidad' — un argumento institucional que identifica el problema como sistémico, no individual. Apela al orden legal y a la derrota de la corrupción como prerrequisito para la seguridad.",
+    "citas": [
+      {
+        "texto": "Lo principal para lograr la seguridad ciudadana es la derrota de la coalición por la impunidad",
+        "ubicacion": "Debate JNE 25/03, bloque seguridad",
+        "indicador": "Análisis sistémico: seguridad = derrotar impunidad institucional — Estadio 4 (ley y orden)"
+      }
+    ],
+    "estadioAlternativo": 5,
+    "notas": "Podría ser Estadio 5 si articulara que la impunidad viola derechos previos al sistema legal. Pero se queda en Estadio 4: respetar las instituciones y el orden.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-constitucion",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "pablo-alfonso-lopez-chau-nava-2026-04-01-la-republica",
+    "estadio": 5,
+    "confianza": "media",
+    "justificacion": "El candidato argumenta que se necesita una nueva Constitución, que el Estado está capturado por intereses criminales, y que todas las leyes han favorecido a sectores delincuenciales. Reconoce que el marco legal vigente puede ser injusto y propone reformarlo. Articula la nación como 'sistema de valores compartidos', no como ley impuesta.",
+    "citas": [
+      {
+        "texto": "Yo creo que necesitamos una nueva Constitución",
+        "ubicacion": "Entrevista Ojo Público",
+        "indicador": "Reconoce que el marco legal puede ser injusto y propone reformarlo — Estadio 5"
+      },
+      {
+        "texto": "El Estado está tomado, infiltrado, capturado, sometido",
+        "ubicacion": "Entrevista Ojo Público",
+        "indicador": "Diagnóstico sistémico que trasciende el orden legal vigente — Estadio 5"
+      },
+      {
+        "texto": "Todas las leyes han favorecido a los sectores delincuenciales",
+        "ubicacion": "Entrevista Ojo Público",
+        "indicador": "Reconocimiento de que la legalidad formal puede ser inmoral — Estadio 5"
+      },
+      {
+        "texto": "La nación es como un verbo, es un sistema de valores compartidos",
+        "ubicacion": "Entrevista Ojo Público",
+        "indicador": "Concepción abstracta de la comunidad basada en principios, no en ley — Estadio 5-6"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "ALERTA VENTRILOQUISMO: el discurso suena sofisticado. Pero hay congruencia: el candidato ha sido rector, tiene formación académica, y su propuesta de nueva Constitución es coherente con su diagnóstico. Test de costo: proponer nueva Constitución tiene costo político alto (lo asocian con la izquierda radical). Lo asume. Score 5 sostenido.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-policia-pip",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "pablo-alfonso-lopez-chau-nava-2026-04-01-la-republica",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone reorganizar la Policía 'desde arriba hacia abajo' y reinstalar la PIP. Es una propuesta institucional concreta que busca restaurar el orden mediante reforma institucional, no mediante fuerza bruta.",
+    "citas": [
+      {
+        "texto": "La primera medida que se debiera tomar es reorganizar a toda la Policía, desde arriba hacia abajo",
+        "ubicacion": "Entrevista Ojo Público, seguridad",
+        "indicador": "Reforma institucional como solución — Estadio 4"
+      },
+      {
+        "texto": "Estaríamos proponiendo que se reinstale la honorable Policía de Investigación del Perú",
+        "ubicacion": "Entrevista Ojo Público, seguridad",
+        "indicador": "Restaurar institución histórica — Estadio 4 (orden y ley)"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Propuesta institucional concreta. Estadio 4 claro.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-tc-absolucio-falsa",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "fuente-keiko-tc-cocteles",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "La candidata afirma públicamente que el TC la 'absolvió' cuando la verificación de Ojo Público demuestra que es falso. El TC anuló procedimientos pero no absolvió. Usar una decisión procesal como 'absolución' es manipulación instrumental del lenguaje jurídico para beneficio propio. Viola regla de Gert #6 (no engañar).",
+    "citas": [
+      {
+        "texto": "Hace algunos días el Tribunal Constitucional me absolvió",
+        "ubicacion": "Mitin en Trujillo, 30/10/2025",
+        "indicador": "Afirmación falsa verificada — engaño instrumental para beneficio electoral (Estadio 2)"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Transgresión directa a regla Gert #6. El TC no absolvió, anuló procedimientos. La candidata lo sabe y elige la versión que le beneficia.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-rla-25-promesas-incumplidas",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "fuente-rla-gestion-lima",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Como alcalde de Lima dejó sin cumplir 25 de 105 promesas de su plan de gobierno (24%). Investigado por colusión y endeudamiento de S/4 mil millones. Desacató orden fiscal del MEF. Patrón: promete, no cumple, y cuando lo confrontan ataca personalmente. Viola reglas Gert #7 (cumplir promesas), #8 (no hacer trampa), #9 (obedecer la ley).",
+    "citas": [
+      {
+        "texto": "Dejaría la alcaldía sin cumplir 25 promesas de su plan de gobierno municipal",
+        "ubicacion": "Reportaje La República, octubre 2025",
+        "indicador": "Incumplimiento masivo de promesas — violación regla Gert #7"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "No hay cita directa del candidato porque no responde a estas acusaciones en la fuente. El historial habla por sí solo. Evaluación basada en hechos verificables, no en discurso.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-rla-endeudamiento-4mil-millones",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "fuente-rla-endeudamiento-mml",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Investigado por presunta colusión tras endeudar la MML por S/4 mil millones. Desacató advertencia del Consejo Fiscal y orden del MEF. El patrón es consistente: actúa unilateralmente sin respeto por las instituciones de control. Viola reglas Gert #3 (no incapacitar instituciones), #8 (no hacer trampa), #9 (obedecer la ley).",
+    "citas": [
+      {
+        "texto": "Será investigado por presunta colusión y negociación incompatible tras endeudamiento de la MML por S/4 mil millones",
+        "ubicacion": "La República, 22/03/2026",
+        "indicador": "Actuación unilateral contra instituciones de control — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Confianza media porque no hay cita directa del candidato. Pero los hechos son verificables y documentados por múltiples medios.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-renuncia-alcaldia",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "fuente-forsyth-renuncia-victoria",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Renunció a la alcaldía de La Victoria antes de cumplir 2 años para ser candidato presidencial. Justificó diciendo que el Estado 'no funciona'. Es un razonamiento instrumental: el cargo municipal era un trampolín, no un compromiso. Los vecinos se sintieron 'usados políticamente'. Viola regla Gert #7 (cumplir promesas).",
+    "citas": [
+      {
+        "texto": "Podía ser 10 años alcalde de La Victoria y no iba a poder cambiarla más porque no funciona el Estado",
+        "ubicacion": "Entrevista El Comercio, 2021",
+        "indicador": "Justificación instrumental para abandonar compromiso — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "El argumento tiene algo de verdad (límites del poder municipal). Pero renunciar a mitad de mandato para candidatear revela priorización del interés propio.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-plagio-tesis",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "fuente-acuna-plagio-tesis",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "La Complutense detectó irregularidades en su tesis. Indecopi lo multó por plagio. Su defensa: 'la Comisión Jurídica demostró la originalidad' (verificado como engañoso por Ojo Público). Admitió tener 'equipo de redacción'. Patrón: niega la evidencia y manipula el lenguaje jurídico. Viola reglas Gert #6 (no engañar) y #8 (no hacer trampa).",
+    "citas": [
+      {
+        "texto": "La originalidad de mi tesis la ha demostrado la Comisión Jurídica",
+        "ubicacion": "Declaración pública, verificada como engañosa",
+        "indicador": "Afirmación engañosa sobre veredicto jurídico — Estadio 2 (manipulación instrumental)"
+      },
+      {
+        "texto": "Tuve un equipo de redacción",
+        "ubicacion": "Entrevista El Comercio",
+        "indicador": "Admisión indirecta de autoría compartida — inconsistente con defensa de originalidad"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "El candidato usa tecnicismos legales para evadir responsabilidad. La Complutense no lo 'absolvió', archivó el caso por falta de prueba suficiente para anular un título ya otorgado. Similar al caso Keiko con el TC.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-5abril-democracia",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "fuente-lopez-chau-5abril",
+    "estadio": 5,
+    "confianza": "media",
+    "justificacion": "En el aniversario del autogolpe de 1992, López Chau articula que el fujimorismo 'quebró la democracia'. Es un juicio basado en principios democráticos previos al orden legal vigente. Asume costo político: criticar al fujimorismo siendo candidato de izquierda lo encasilla ideológicamente, pero lo hace por principio.",
+    "citas": [
+      {
+        "texto": "El fujimorismo quebró la democracia e inició ocho años de dictadura",
+        "ubicacion": "Mensaje por el 5 de abril, La República",
+        "indicador": "Juicio basado en principios democráticos universales — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Podría ser Estadio 4 si solo apelara al orden constitucional. Pero va más allá: cuestiona un régimen que tuvo legalidad formal pero violó principios democráticos. Eso es Estadio 5.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-reinfo-mineria",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "f-keiko-reinfo",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone extender el Reinfo un año más y 'escuchar a los mineros pequeños'. Reconoce matices (no es lo mismo un pequeño que un grande) pero la posición es de conveniencia electoral: la minería informal es un electorado importante. No articula principio sobre por qué la formalización debe ser flexible.",
+    "citas": [
+      {
+        "texto": "No creo en esa narrativa de las leyes pro-crimen",
+        "ubicacion": "Entrevista RPP",
+        "indicador": "Negación sin argumentación — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Patrón: evita posición firme que le cueste votos.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-reconoce-rechazo",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "f-keiko-rechazo",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Reconoce públicamente ser una de las personas con mayor rechazo. Muestra autoconciencia pero la usa para pedir comprensión, no para cambiar comportamiento. Es apelación emocional (Estadio 3) no reflexión sobre las causas del rechazo.",
+    "citas": [
+      {
+        "texto": "Reconozco que dentro de los políticos soy una de las personas que tiene mayor rechazo",
+        "ubicacion": "Entrevista El Comercio",
+        "indicador": "Autoconciencia sin autocrítica sustantiva — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Si articulara por qué tiene rechazo y qué cambiaría, podría ser Estadio 4+.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-rla-corte-idh",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "f-rla-corte-idh",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Propone retirar al Perú de la Corte IDH 'porque beneficia a terroristas'. Propone jueces sin rostro. Ambas medidas desmantelan el sistema de derechos humanos. No articula alternativa institucional. Viola regla Gert #4 (no privar de libertad) y #3 (no incapacitar instituciones).",
+    "citas": [
+      {
+        "texto": "Retiro inmediato de la Corte IDH porque beneficia a terroristas y sicarios",
+        "ubicacion": "Presentación precandidatura",
+        "indicador": "Destrucción institucional sin alternativa — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Proponer jueces sin rostro es retroceder a prácticas dictatoriales de los 90.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-rla-carceles-serpientes",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "f-rla-carceles-selva",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Propone cárceles en la selva con serpientes como 'barrera natural'. Verificado como falso por La República (el veneno del jergón no mata en 10 min). Combina ignorancia científica con espectáculo mediático. Viola regla Gert #6 (no engañar) y #2 (no causar dolor).",
+    "citas": [
+      {
+        "texto": "Las shushupes son una barrera natural, no van a escapar de ahí",
+        "ubicacion": "Declaración de campaña",
+        "indicador": "Afirmación verificada como falsa — desinformación deliberada — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Patrón: propuestas espectaculares sin fundamento técnico ni ético.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-educacion",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "f-forsyth-educacion-debate",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Promete reparar 10 mil colegios, 400 mil laptops, Starlink. Son promesas numéricas sin articular por qué la educación es un derecho ni cómo se sostiene fiscalmente. Transaccional pero con empatía: 'internet es un derecho'.",
+    "citas": [
+      {
+        "texto": "Reparar al menos 10 mil colegios en el peor estado y conectar el 100% con Internet",
+        "ubicacion": "Debate JNE 30/03",
+        "indicador": "Promesa cuantitativa sin principio articulado — Estadio 2-3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "La mención de internet como derecho lo eleva a Estadio 3, pero falta articulación.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-energia",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "f-forsyth-energia",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Articula un razonamiento sistémico: si no diversificamos la matriz energética, entramos en crisis. Reconoce que Camisea tiene 13 años. Es Estadio 4: análisis institucional del problema energético con visión de largo plazo.",
+    "citas": [
+      {
+        "texto": "Si no diversificamos la matriz energética, vamos a entrar en crisis",
+        "ubicacion": "Debate JNE 30/03",
+        "indicador": "Análisis sistémico con temporalidad — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Mejor intervención de Forsyth. Muestra capacidad de razonamiento sistémico cuando el tema lo permite.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-procompite",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "f-acuna-procompite",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Como gobernador, su programa Procompite gastó S/58M en concursos anulados por cobros ilegales. Contraloría acusa a 6 exfuncionarios. Patrón: gestión opaca con fondos públicos. Viola reglas Gert #8 (no hacer trampa), #10 (cumplir con el deber).",
+    "citas": [
+      {
+        "texto": "Anulan concursos de S/58 millones por presuntos cobros ilegales",
+        "ubicacion": "Reportaje RPP",
+        "indicador": "Gestión con irregularidades documentadas — evidencia de conducta, no de discurso"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Evaluación basada en hechos de gestión, no en discurso. La conducta real es el indicador más fuerte.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-contratos-315m",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "f-acuna-contratos",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Firmó contratos por S/315M a empresa de 2 años sin experiencia, cuya dueña fue denunciada por estafa. Reducció presupuesto en S/140M para inflar artificialmente el % de ejecución presupuestal. Manipulación de indicadores públicos. Viola reglas Gert #6 (no engañar), #8 (no hacer trampa), #10 (cumplir con el deber).",
+    "citas": [
+      {
+        "texto": "Firmó contratos por S/315 millones a empresaria denunciada por estafa",
+        "ubicacion": "Reportaje La República",
+        "indicador": "Contratación irregular — evidencia de conducta"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Evidencia de gestión más grave que el plagio. Manipuló indicadores de ejecución presupuestal para aparentar eficiencia.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-salud-unico",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "f-nieto-salud-extorsion",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone sistema prestacional de salud único y unidad policial especializada anti-extorsión. Ambas son propuestas institucionales concretas con marco de reforma del Estado. Estadio 4: resuelve problemas a través de instituciones.",
+    "citas": [
+      {
+        "texto": "Propone sistema único de salud y unidad policial contra extorsión y sicariato",
+        "ubicacion": "Entrevista RPP",
+        "indicador": "Reforma institucional concreta — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 5,
+    "notas": "Consistente con evaluaciones anteriores. Nieto es el más institucionalista.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-congreso-electorales",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "f-nieto-congreso-electorales",
+    "estadio": 5,
+    "confianza": "media",
+    "justificacion": "Denuncia que el Congreso busca apropiarse de los organismos electorales para controlar al ganador. Es un análisis que trasciende el orden legal vigente: reconoce que la legalidad formal (las leyes del Congreso) puede ser usada para destruir la democracia. Estadio 5: los derechos democráticos son previos a las leyes.",
+    "citas": [
+      {
+        "texto": "El objetivo del Congreso es apropiarse de los organismos electorales para controlar el ganador de las próximas elecciones",
+        "ubicacion": "Entrevista RPP, 2024",
+        "indicador": "Diagnóstico que trasciende la legalidad formal — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Esta es la evaluación más alta de Nieto. Asume costo político: critica al Congreso donde necesitaría aliados.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-criminalidad",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "f-nieto-criminalidad",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Admite que 'no estamos dando la respuesta adecuada'. Humildad institucional: reconoce el fracaso del Estado sin echar culpas a otros. Propone respuesta institucional, no de fuerza.",
+    "citas": [
+      {
+        "texto": "No estamos dando la respuesta adecuada para detener esta ola de criminalidad",
+        "ubicacion": "Entrevista El Comercio",
+        "indicador": "Autocrítica institucional — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "La autocrítica es rara en políticos peruanos. Indica razonamiento de Estadio 4+.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-anticorrupcion",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "f-lopez-chau-anticorrupcion",
+    "estadio": 5,
+    "confianza": "alta",
+    "justificacion": "Propone un sistema integral anticorrupción AUTÓNOMO. La palabra clave es 'autónomo': reconoce que las instituciones actuales están capturadas y necesitan independencia del poder político. Es Estadio 5: crear instituciones nuevas basadas en principios de justicia previos al sistema actual.",
+    "citas": [
+      {
+        "texto": "Propuso crear un sistema integral anticorrupción autónomo",
+        "ubicacion": "Debate JNE 23/03",
+        "indicador": "Creación institucional basada en principio de autonomía — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Consistente con su diagnóstico de Estado capturado y propuesta de nueva Constitución.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-dcho-intl",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "f-lopez-chau-dcho-intl",
+    "estadio": 5,
+    "confianza": "alta",
+    "justificacion": "Defiende el derecho internacional frente a acciones militares de EEUU. Articula que la soberanía es un principio previo al poder militar. Asume costo político: criticar a EEUU no es popular. Estadio 5: principios universales de soberanía sobre el poder de facto.",
+    "citas": [
+      {
+        "texto": "El respeto a la soberanía es clave",
+        "ubicacion": "Entrevista EFE, 03/04/2026",
+        "indicador": "Principio de soberanía como derecho universal — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "López Chau es consistentemente post-convencional. Sus posiciones tienen costo político y las asume.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-gas-tarifa-unica",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "f-lopez-chau-gas",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone masificación del gas con tarifa única (mismo precio Lima que Megantoni). Es una propuesta de equidad territorial a través de política pública. Estadio 4: usa el Estado para corregir desigualdades dentro del marco institucional.",
+    "citas": [
+      {
+        "texto": "La masificación del gas será una realidad y con tarifa única costará lo mismo en Lima que en Megantoni",
+        "ubicacion": "Debate JNE última jornada",
+        "indicador": "Equidad territorial mediante política pública — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 5,
+    "notas": "Podría ser 5 si articulara el acceso a energía como derecho. Pero se queda en propuesta de política pública.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-disculpa-saavedra",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "f-keiko-disculpa-saavedra",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Pide disculpas públicamente por la censura a Saavedra. Reconoce que 'esto se pudo haber evitado'. Es un acto de autocrítica raro en la política peruana. Estadio 4: reconoce que la acción violó normas institucionales de respeto al poder ejecutivo.",
+    "citas": [
+      {
+        "texto": "Tengo que pedir disculpas tanto a Jaime Saavedra como a Fernando Zavala",
+        "ubicacion": "Entrevista Perú21, 2021",
+        "indicador": "Autocrítica y reconocimiento de error institucional — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Mejor evaluación de Keiko. Pero fue 5 años después del hecho y en contexto de campaña (2021), lo que reduce la espontaneidad.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-ministro-energia",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "f-keiko-energia-ministro",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Argumenta que una persona acusada no debe ejercer cargo público. Apela a un estándar ético institucional. Estadio 4: respeto a las normas de idoneidad en función pública.",
+    "citas": [
+      {
+        "texto": "Una persona que tiene este tipo de acusaciones no debe ejercer este cargo",
+        "ubicacion": "Declaración sobre ministro de Energía, marzo 2026",
+        "indicador": "Estándar ético institucional — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Coherente con Estadio 4, pero ironía: su propio partido tiene investigados. Congruencia cuestionable.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-rla-potencia-cambio",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "f-rla-potencia-mundial",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Cambió su eslogan de 'Lima potencia mundial' a 'Perú potencia turística' sin explicar por qué abandonó la primera promesa. Patrón de promesas transaccionales que mutan según conveniencia electoral. Viola regla Gert #7 (cumplir promesas).",
+    "citas": [
+      {
+        "texto": "De 'Lima potencia mundial' a 'Perú potencia turística'",
+        "ubicacion": "Reportaje La República, febrero 2026",
+        "indicador": "Mutación de promesas por conveniencia — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Ni siquiera intenta justificar el cambio.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-rla-neutralidad-electoral",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "f-rla-neutralidad",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Investigado por vulnerar la neutralidad electoral siendo alcalde. Usó el cargo público para beneficio de su candidatura. Viola regla Gert #8 (no hacer trampa) y #9 (obedecer la ley).",
+    "citas": [
+      {
+        "texto": "Cerró su gestión como alcalde con investigación por presunta vulneración a la neutralidad",
+        "ubicacion": "RPP, diciembre 2025",
+        "indicador": "Uso del cargo público para beneficio electoral — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Patrón consistente de instrumentalización del poder.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-chatgpt-plan",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "f-forsyth-chatgpt-plan",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Ante la crítica de ChatGPT a su plan ('no está bien elaborado'), Forsyth refuta diciendo que 'está entre los 5 mejores de 36'. No aborda la sustancia de la crítica (falta de metas medibles, financiamiento). Defiende por comparación, no por argumentación. Estadio 3: busca validación externa.",
+    "citas": [
+      {
+        "texto": "Su plan está entre los 5 mejores de los 36 candidatos",
+        "ubicacion": "Entrevista Fuego Cruzado, febrero 2026",
+        "indicador": "Defensa por comparación, no por sustancia — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Oportunidad perdida: podría haber reconocido debilidades y propuesto mejoras (Estadio 4).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-regiones",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "f-forsyth-regiones-congreso",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone gobernar desde las regiones y cuestiona al Congreso. Marca distancia con el presidente del Congreso. Muestra razonamiento institucional: el poder debe estar descentralizado, el Congreso no debe concentrar poder.",
+    "citas": [
+      {
+        "texto": "Propone gobernar desde regiones, marca distancia con Jerí y cuestiona al Congreso",
+        "ubicacion": "Entrevista La República, marzo 2026",
+        "indicador": "Descentralización y cuestionamiento institucional — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Mejor propuesta de Forsyth. Si articulara por qué la descentralización es un derecho, sería Estadio 5.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-vallejo-baja",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "f-acuna-vallejo-baja",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Como gobernador, bromea sobre la baja ejecución en seguridad de su propia región ('parece la Vallejo, en baja'). Solo gastó S/863,833 de S/9 millones. Trivializa un fracaso de gestión que afecta la seguridad ciudadana. Viola regla Gert #10 (cumplir con el deber).",
+    "citas": [
+      {
+        "texto": "La región está como la Vallejo, en baja (risas). Parece la Vallejo, en baja (risas)",
+        "ubicacion": "Visita a obra GORE La Libertad, agosto 2024",
+        "indicador": "Trivialización de fracaso de gestión pública — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Gastó menos del 10% del presupuesto de seguridad y se ríe. Estadio 1 claro.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-olivera",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "f-acuna-olivera-difamacion",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Ante acusaciones de Olivera en el debate, responde con amenaza de denuncia por difamación. No aborda el contenido de las acusaciones, solo ataca al mensajero. Razonamiento defensivo instrumental.",
+    "citas": [
+      {
+        "texto": "Rechazó acusaciones de Olivera y anunció que lo denunciará por difamación",
+        "ubicacion": "Debate JNE 23/03",
+        "indicador": "Ataque al mensajero sin abordar contenido — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Patrón: cuando lo confrontan, amenaza con demandas en vez de argumentar.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-china",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "f-acuna-china-viaje",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Justifica viaje a China diciendo que fue 'como gobernador, no como rector'. Distingue entre roles para evadir el conflicto de interés entre su función pública y su universidad privada. Razonamiento instrumental.",
+    "citas": [
+      {
+        "texto": "Fui invitado a China como gobernador de La Libertad y no como fundador de la Universidad César Vallejo",
+        "ubicacion": "Entrevista El Comercio",
+        "indicador": "Distinción de roles para evadir conflicto de interés — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "La distinción es formalmente correcta pero sustancialmente débil.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-oas-defensa",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "f-nieto-villaran-defensa",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Niega categóricamente las acusaciones y apela al proceso legal: 'la verdad se abrirá paso, las acusaciones son falsas'. Confía en el sistema de justicia para reivindicarse. Estadio 4: respeto al proceso institucional como mecanismo de verdad.",
+    "citas": [
+      {
+        "texto": "La verdad se abrirá paso, las acusaciones son falsas en el caso de la constructora OAS",
+        "ubicacion": "Declaración en Trujillo, 2023",
+        "indicador": "Confianza en el proceso institucional — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Si las acusaciones resultan ciertas, este Estadio 4 se convierte en Estadio 2 (manipulación).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-castro-calumnia",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "f-nieto-calumnia-castro",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Responde a acusaciones de Castro con 'lo que señala es una calumnia' y anuncia denuncia por difamación. A diferencia de Acuña (que solo amenaza), Nieto articula que las acusaciones dañan 'un honor inmaculado de más de 6 décadas'. Apela a principios de honra y justicia.",
+    "citas": [
+      {
+        "texto": "Lo que señala José Miguel Castro es una calumnia",
+        "ubicacion": "Declaración RPP, 2020",
+        "indicador": "Defensa basada en honor y justicia — Estadio 4"
+      },
+      {
+        "texto": "Daña un honor inmaculado de más de 6 décadas de vida",
+        "ubicacion": "Declaración RPP, 2020",
+        "indicador": "Apelación a trayectoria de vida como evidencia — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Similar a su defensa en el caso OAS. Consistente: confía en instituciones.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-formato-debate",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "f-lopez-chau-formato-debate",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Cuestiona el formato del debate del JNE: 'me hubiera gustado que los candidatos tengan tiempo para exponer sus ideas'. No critica al JNE como institución sino al formato. Propone mejora constructiva. Estadio 4: busca mejorar las instituciones, no destruirlas.",
+    "citas": [
+      {
+        "texto": "Me hubiera gustado que los candidatos tengan tiempo para exponer sus ideas",
+        "ubicacion": "Entrevista post-debate El Comercio",
+        "indicador": "Crítica constructiva a formato institucional — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Evaluación moderada de López Chau. No todas sus intervenciones son Estadio 5.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-mistica-rector",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "f-lopez-chau-rector-mistica",
+    "estadio": 5,
+    "confianza": "media",
+    "justificacion": "Dice 'llegué a ser rector sin plata, creo en la mística'. Articula que el liderazgo se basa en valores y convicciones, no en recursos económicos. Costo político: en Perú decir que no tienes plata para campaña te descalifica ante muchos. Lo asume por principio.",
+    "citas": [
+      {
+        "texto": "Yo creo en la mística. Yo llegué a ser rector, sin plata",
+        "ubicacion": "Entrevista Ojo Público",
+        "indicador": "Liderazgo basado en convicciones sobre recursos — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Coherente con su perfil académico. La 'mística' como principio vs el 'dinero' como instrumento.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-autoritarismo",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "f-keiko-autoritarismo-padre",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Reconoce que el gobierno de su padre 'por momentos fue autoritario'. Distingue entre dictadura y autoritarismo. Es autocrítica parcial: reconoce fallas pero las minimiza ('por momentos'). Estadio 4: reconoce la violación del orden institucional pero no llega a articular principios de derechos humanos.",
+    "citas": [
+      {
+        "texto": "Al gobierno de mi padre, dictadura no, pero creo que por momentos fue un gobierno autoritario",
+        "ubicacion": "Entrevista El Comercio, 2021",
+        "indicador": "Autocrítica parcial sobre institucionalidad — Estadio 4 (con reservas)"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "La minimización ('por momentos') limita la autocrítica. Pero es más de lo que la mayoría de fujimoristas admiten.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-keiko-perdon-confrontacion",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "f-keiko-perdon-confrontacion",
+    "estadio": 3,
+    "confianza": "alta",
+    "justificacion": "Pide perdón a su padre, hermano y fujimoristas por la confrontación política. No pide perdón al país ni a las víctimas del fujimorismo. El perdón es intragrupal, no institucional. Estadio 3: busca restaurar la armonía del grupo, no reparar el daño institucional.",
+    "citas": [
+      {
+        "texto": "Le pido perdón a mi padre, a mi hermano y a los fujimoristas",
+        "ubicacion": "Entrevista El Comercio, 2021",
+        "indicador": "Disculpa intragrupal, no institucional — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Pide perdón a los suyos pero no a los afectados por las acciones del fujimorismo en el Congreso.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-rla-dni-fetos",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "f-rla-dni-fetos",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Propone DNI para no nacidos sin sustento legal. Juristas señalan que los derechos del concebido ya están protegidos. Es una propuesta de espectáculo ideológico sin viabilidad. Usa lenguaje de derechos para promover agenda religiosa personal.",
+    "citas": [
+      {
+        "texto": "Son ciudadanos desde el vientre. DNI para el niño desde el vientre de su madre",
+        "ubicacion": "Mitin en Arequipa, febrero 2026",
+        "indicador": "Propuesta sin sustento legal, espectáculo ideológico — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Podría ser Estadio 3 si articulara con coherencia. Pero es transaccional: busca el voto conservador.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-rla-genero-exterminar",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "f-rla-genero-exterminar",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Dice que 'la doctrina de género va a ser exterminada'. Lenguaje de exterminio aplicado a una política pública. No articula qué reemplazaría la política de igualdad de género ni por qué. Viola regla Gert #4 (no privar de libertad) y #5 (no privar de bienestar).",
+    "citas": [
+      {
+        "texto": "Toda la doctrina de género, evidentemente, va a ser exterminada",
+        "ubicacion": "Entrevista El Comercio, 2021",
+        "indicador": "Lenguaje de exterminio contra política pública — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "El uso de 'exterminar' revela razonamiento de fuerza bruta aplicado a política social.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-li-gobierno",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "f-forsyth-patricia-li",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Establece separación entre la presidenta del partido y funciones de gobierno. Articulación institucional: el partido y el gobierno son instancias separadas. Estadio 4.",
+    "citas": [
+      {
+        "texto": "Patricia Li no tendrá ninguna función dentro del gobierno, ninguna",
+        "ubicacion": "Entrevista La República, marzo 2026",
+        "indicador": "Separación partido-gobierno — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Buena señal institucional, aunque podría ser oportunismo ante las críticas.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-educacion-congreso",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "f-forsyth-keiko-saavedra",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Declara que no permitirá que el Congreso interfiera en educación como hizo Keiko al censurar a Saavedra. Defiende la autonomía del ejecutivo frente al legislativo en materia educativa. Estadio 4: respeto a la separación de poderes.",
+    "citas": [
+      {
+        "texto": "No permitiré que el Congreso interfiera en educación como Keiko Fujimori hizo cuando censuró al ministro Jaime Saavedra",
+        "ubicacion": "Debate JNE 30/03",
+        "indicador": "Defensa de separación de poderes — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Forsyth mejora cuando habla de instituciones. Su debilidad es la propuesta de fuerza en seguridad.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-forsyth-investigacion-corrupcion",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "f-forsyth-corrupcion-investigacion",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "El PJ amplió investigación contra Forsyth por presunta corrupción en La Victoria (contratos a amigo sin experiencia). Evaluación de conducta, no de discurso. Viola regla Gert #8 (no hacer trampa).",
+    "citas": [
+      {
+        "texto": "PJ amplía investigación contra Forsyth por presunta corrupción",
+        "ubicacion": "El Comercio, febrero 2026",
+        "indicador": "Investigación por favorecimiento en contrataciones — conducta Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Contratos de S/107 mil a amigo sin estudios ni experiencia pública.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-financiamiento-falso",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "f-acuna-campana-financiamiento",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Verificado como falso que su campaña sea financiada solo por él. Misma lógica que el plagio: afirma algo verificablemente falso para proyectar independencia. Viola regla Gert #6 (no engañar).",
+    "citas": [
+      {
+        "texto": "Es falso que la campaña de César Acuña sea financiada solo por él",
+        "ubicacion": "Verificación RPP, marzo 2026",
+        "indicador": "Afirmación verificada como falsa — Estadio 2 (engaño instrumental)"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Patrón consistente con plagio de tesis: manipula la verdad para beneficio de imagen.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-acuna-contraloria-116m",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "f-acuna-contraloria-s116m",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Contraloría acusa a 6 exfuncionarios de su gestión por malos manejos en programa de S/116 millones. Tercer programa de su gestión con irregularidades (Procompite S/58M + contratos S/315M + este). Patrón sistémico. Viola reglas Gert #8, #9, #10.",
+    "citas": [
+      {
+        "texto": "Contraloría acusa a 6 exfuncionarios de César Acuña por malos manejos en programa de S/116 millones",
+        "ubicacion": "La República, marzo 2026",
+        "indicador": "Tercer escándalo de gestión — patrón sistémico"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Acuña acumula irregularidades: S/58M + S/315M + S/116M = S/489M en programas cuestionados.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-democracia-mayoria",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "f-nieto-democracia-congreso",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Articula que en democracia un gobierno necesita mayoría del Congreso para tener poder real. Diagnóstico institucional que reconoce la disfuncionalidad del sistema actual. Estadio 4: busca soluciones dentro del marco democrático.",
+    "citas": [
+      {
+        "texto": "En democracia, un gobierno con poder es uno con mayoría del Congreso en la primera vuelta",
+        "ubicacion": "Entrevista La República, febrero 2026",
+        "indicador": "Análisis institucional de gobernabilidad — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Podría ser controversial (implica que sin mayoría no se puede gobernar). Pero es un diagnóstico honesto.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-nino-costero",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "f-nieto-nino-costero",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Como ministro de Defensa coordinó la respuesta al Niño Costero 2017. Creó el COEN reuniendo presidente, premier y ministros para respuesta inmediata. Evaluación de gestión real, no solo discurso. Estadio 4: capacidad de respuesta institucional ante crisis.",
+    "citas": [
+      {
+        "texto": "Coordinó la respuesta de las Fuerzas Armadas al Niño Costero 2017 creando el COEN como Comando de Operaciones de Emergencia",
+        "ubicacion": "Perfil La República, marzo 2026",
+        "indicador": "Gestión institucional efectiva ante crisis — Estadio 4 (evidencia de conducta)"
+      }
+    ],
+    "estadioAlternativo": 5,
+    "notas": "Nieto es el candidato con mejor balance entre discurso y gestión real.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-nieto-rechaza-fujimori",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "f-nieto-fujimori-rechaza",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Rechaza versiones que lo vinculan con favores del gobierno de Alberto Fujimori. Mantiene coherencia con su postura institucionalista: si las acusaciones son falsas, el sistema lo demostrará.",
+    "citas": [
+      {
+        "texto": "Rechazó versiones que lo vinculan con presuntos favores políticos del gobierno de Alberto Fujimori",
+        "ubicacion": "RPP, marzo 2026",
+        "indicador": "Defensa basada en institucionalidad — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Consistente con su patrón: confía en instituciones para reivindicarse.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-juliaca",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "f-lopez-chau-descentralizacion",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Expone propuestas directamente en regiones (Juliaca), no solo desde Lima. La descentralización no es solo discurso sino práctica de campaña. Estadio 4: coherencia entre propuesta y acción.",
+    "citas": [
+      {
+        "texto": "Expuso sus propuestas de gobierno durante una actividad en Juliaca",
+        "ubicacion": "RPP, enero 2026",
+        "indicador": "Descentralización como práctica, no solo discurso — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Evaluación basada en coherencia entre discurso y acción.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-lopez-chau-economia",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "f-lopez-chau-economia-mercado",
+    "estadio": 5,
+    "confianza": "media",
+    "justificacion": "Propone 'economía nacional de mercado' como modelo propio: ni estatismo ni neoliberalismo puro. Articula un principio económico que trasciende las opciones binarias del debate político peruano. Estadio 5: crea marco propio basado en principios, no repite ideologías.",
+    "citas": [
+      {
+        "texto": "Economía nacional de mercado",
+        "ubicacion": "Perfil La República, mayo 2025",
+        "indicador": "Modelo económico propio que trasciende binario izq/der — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Sin más detalle es difícil evaluar la profundidad. Pero la articulación es post-convencional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-ronald-darwin-atencio-sotomayor",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "fuenteId": "f-oleada1-ronald-darwin-atencio-sotomayor",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Discurso transaccional-instrumental: el Estado debe recuperar riquezas. Ataque ad hominem a Fujimori sin principio moral superior.",
+    "citas": [
+      {
+        "texto": "No permitira la criminalizacion de los pequenos mineros ni de los mineros artesanales",
+        "ubicacion": "Debate JNE tercera fecha",
+        "indicador": "Razonamiento instrumental — proteger a un grupo por beneficio economico"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-jose-daniel-williams-zapata",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "f-oleada1-jose-daniel-williams-zapata",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Razonamiento basado en fuerza y castigo puro. Prioriza derechos de buenos peruanos sobre delincuentes.",
+    "citas": [
+      {
+        "texto": "Implementare un estado de guerra contra la delincuencia con fuerzas especiales, inteligencia operativa y rastrillaje 7x24",
+        "ubicacion": "Debate JNE primera fecha",
+        "indicador": "Castigo/obediencia — fuerza como solucion, derechos condicionados"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "fuenteId": "f-oleada1-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Niega explicitamente derechos fundamentales. Pre-convencional puro — la autoridad decide quien merece derechos.",
+    "citas": [
+      {
+        "texto": "Corrupto y criminal no tiene derechos, no tiene debido proceso ni presuncion de inocencia",
+        "ubicacion": "Debate JNE tercera fecha",
+        "indicador": "Negacion de derechos universales, autoridad arbitraria"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-fiorella-giannina-molinelli-aristondo",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "f-oleada1-fiorella-giannina-molinelli-aristondo",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Busca posicionarse como la buena frente a los malos. Propuestas punitivas enmarcadas en legitimidad institucional.",
+    "citas": [
+      {
+        "texto": "No se debe tenerle miedo a los poderosos, a las mafias y a los corruptos",
+        "ubicacion": "Debate JNE tercera fecha",
+        "indicador": "Enfasis en imagen moral personal, busca aprobacion"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-roberto-helbert-sanchez-palomino",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "fuenteId": "f-oleada1-roberto-helbert-sanchez-palomino",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Apela a inclusion de pueblos originarios pero defiende a Castillo como secuestrado sin reconocer proceso judicial. Busca aprobacion de base.",
+    "citas": [
+      {
+        "texto": "Esta republica de 200 anos no ha sido capaz de incluir a los pueblos quechuas, aimaras, amazonicos",
+        "ubicacion": "Debate JNE tercera fecha",
+        "indicador": "Busca aprobacion de grupo; framing victima/agresor sin analisis institucional"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-rafael-jorge-belaunde-llosa",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "fuenteId": "f-oleada1-rafael-jorge-belaunde-llosa",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Razonamiento institucional: inversion privada, canon minero para becas, sin ataques personales. No he venido a hacer circo.",
+    "citas": [
+      {
+        "texto": "Si queremos mejor empleo debemos tener mas y mejor inversion privada",
+        "ubicacion": "Debate JNE cuarta fecha",
+        "indicador": "Respeto al sistema institucional, soluciones dentro del marco legal"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-pitter-enrique-valderrama-pena",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "f-oleada1-pitter-enrique-valderrama-pena",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Mezcla transaccional e instrumental. Cadena perpetua como herramienta disuasoria, no como principio de justicia.",
+    "citas": [
+      {
+        "texto": "A todo juez, policia, fiscal o militar que se coluda con organizaciones criminales le aplicaremos cadena perpetua",
+        "ubicacion": "Debate JNE tercera fecha",
+        "indicador": "Castigo como herramienta disuasoria, no como principio"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-ricardo-pablo-belmont-cassinelli",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "fuenteId": "f-oleada1-ricardo-pablo-belmont-cassinelli",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Discurso emotivo y paternalista. Datos incorrectos sobre sueldos docentes. Busca aprobacion como figura paternal.",
+    "citas": [
+      {
+        "texto": "Los maestros ganan entre 500 y 700 soles como maximo. Hay que aumentarles el sueldo",
+        "ubicacion": "Debate JNE quinta fecha",
+        "indicador": "Busca aprobacion — discurso emotivo, autopresentacion paternal"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-charlie-carrasco-salazar",
+    "entidadId": "charlie-carrasco-salazar",
+    "fuenteId": "f-oleada1-charlie-carrasco-salazar",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Pre-convencional puro. Autoridad divina como fuente de norma, expulsion sin proceso, llamado a rebelion.",
+    "citas": [
+      {
+        "texto": "Vamos a gobernar con los principios biblicos",
+        "ubicacion": "Debate JNE segunda fecha",
+        "indicador": "Autoridad externa biblica, expulsion sin proceso, llamado a rebelion"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-alex-gonzales-castillo",
+    "entidadId": "alex-gonzales-castillo",
+    "fuenteId": "f-oleada1-alex-gonzales-castillo",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Transaccional-instrumental. Critica a Lopez Aliaga con logica de confianza traicionada.",
+    "citas": [
+      {
+        "texto": "Nos dejo Lima potencia mundial del crimen. Lima y los trenes chatarra y S/4 mil millones en bonos",
+        "ubicacion": "Debate JNE primera fecha",
+        "indicador": "Confianza como transaccion, critica basada en resultados"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-armando-joaquin-masse-fernandez",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "fuenteId": "f-oleada1-armando-joaquin-masse-fernandez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propuestas transaccionales: ofrecer beneficios tangibles (conciertos, ferias) como mecanismo para ganar apoyo.",
+    "citas": [
+      {
+        "texto": "El peruano trabaja duro, pero tambien necesita alegria",
+        "ubicacion": "Debate JNE ultima jornada",
+        "indicador": "Razonamiento instrumental: beneficios concretos a cambio de apoyo"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-luis-fernando-olivera-vega",
+    "entidadId": "luis-fernando-olivera-vega",
+    "fuenteId": "f-oleada1-luis-fernando-olivera-vega",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Confrontacion personal y descalificacion de adversarios. Pensamiento instrumental.",
+    "citas": [
+      {
+        "texto": "Cuando un pueblo sabe, no lo engana nadie. No lo engana una japonesa, ni un mitomano, ni un ladronzuelo",
+        "ubicacion": "Debate JNE 31/03",
+        "indicador": "Discurso descalificador e instrumental"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-mesias-antonio-guevara-amasifuen",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "fuenteId": "f-oleada1-mesias-antonio-guevara-amasifuen",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Amenaza con cerrar el Congreso. Populismo que respeta formas pero busca concentrar poder.",
+    "citas": [
+      {
+        "texto": "Si el Congreso se convierte en un obstaculo para gobernar, yo no voy a tener ningun reparo en cerrarlo",
+        "ubicacion": "Entrevista Ojo Publico",
+        "indicador": "Busca aprobacion social atacando institucion desprestigiada"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-carlos-gonzalo-alvarez-loayza",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "fuenteId": "f-oleada1-carlos-gonzalo-alvarez-loayza",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Apela a dignidad institucional. Plan economico detallado con autonomia del BCR y formalizacion.",
+    "citas": [
+      {
+        "texto": "Tenemos que recuperar la dignidad de la institucion presidencial",
+        "ubicacion": "Entrevista El Comercio",
+        "indicador": "Apelacion a dignidad de instituciones, orden legal"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-herbert-caller-gutierrez",
+    "entidadId": "herbert-caller-gutierrez",
+    "fuenteId": "f-oleada1-herbert-caller-gutierrez",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Militarizacion del orden interno. Fuerza y castigo como solucion.",
+    "citas": [
+      {
+        "texto": "Las Fuerzas Armadas van a estar al mando de la Policia Nacional del Peru",
+        "ubicacion": "Foro de candidatos 2026",
+        "indicador": "Apelacion a fuerza militar como solucion; castigo y control"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-yonhy-lescano-ancieta",
+    "entidadId": "yonhy-lescano-ancieta",
+    "fuenteId": "f-oleada1-yonhy-lescano-ancieta",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Ataque personal y defensa del ego. Instrumentalizacion del debate para posicionamiento propio.",
+    "citas": [
+      {
+        "texto": "No voy a permitir que el telonero de Fujimori me venga a dar clases de moral",
+        "ubicacion": "Debate JNE cuarta jornada",
+        "indicador": "Defensa del ego, ataque personal, instrumentalizacion"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-wolfgang-mario-grozo-costa",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "fuenteId": "f-oleada1-wolfgang-mario-grozo-costa",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Apela a calidad institucional y legal. Propone reforma institucional dentro del marco legal.",
+    "citas": [
+      {
+        "texto": "El problema no es que faltan leyes, sino que sobran malas leyes y dadas con nombre propio",
+        "ubicacion": "Entrevista La Republica",
+        "indicador": "Apelacion al sistema legal e institucional, critica sistemica"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-vladimir-roy-cerron-rojas",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "fuenteId": "f-oleada1-vladimir-roy-cerron-rojas",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Lenguaje punitivo y autoritario. Candidatea desde clandestinidad evadiendo justicia.",
+    "citas": [
+      {
+        "texto": "Ganare las elecciones desde la clandestinidad. Hay que disciplinar a los golpistas y traidores",
+        "ubicacion": "Publicacion en X desde clandestinidad",
+        "indicador": "Lenguaje punitivo, logica de castigo y fuerza"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-francisco-ernesto-diez-canseco-tavara",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "fuenteId": "f-oleada1-francisco-ernesto-diez-canseco-tavara",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone organo institucional para combatir corrupcion. Confia en mecanismos legales e institucionales.",
+    "citas": [
+      {
+        "texto": "Vamos a crear el Consejo Nacional de Moral Publica cuya primera mision va a ser votar a los corruptos",
+        "ubicacion": "Programa Elecciones Generales 2026, Andina",
+        "indicador": "Creacion de instituciones para resolver problemas"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-mario-enrique-vizcarra-cornejo",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "fuenteId": "f-oleada1-mario-enrique-vizcarra-cornejo",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Razonamiento punitivo: regimen de excepcion, carceles en selva remota. Castigo fisico y aislamiento.",
+    "citas": [
+      {
+        "texto": "Ahi se van a arrepentir de todas sus fechorias",
+        "ubicacion": "Debate JNE",
+        "indicador": "Castigo fisico y aislamiento; logica de miedo"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-walter-gilmer-chirinos-purizaga",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "fuenteId": "f-oleada1-walter-gilmer-chirinos-purizaga",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Propone estado de excepcion con control policial y militar. Razonamiento punitivo y de fuerza.",
+    "citas": [
+      {
+        "texto": "El 28 de julio daremos estado de excepcion con control policial y militar",
+        "ubicacion": "Debate JNE segunda fecha",
+        "indicador": "Justifica por fuerza y castigo sin diferenciacion moral"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-alfonso-carlos-espa-y-garces-alvear",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "fuenteId": "f-oleada1-alfonso-carlos-espa-y-garces-alvear",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Apela a emociones populares, promesas grandilocuentes. Busca aprobacion masiva como fuente de legitimidad.",
+    "citas": [
+      {
+        "texto": "Vamos a poner al Estado al servicio del pueblo, rompiendo la corrupcion y el pacto infame",
+        "ubicacion": "Debate JNE cuarta fecha",
+        "indicador": "Busca aprobacion popular, apela a emociones colectivas"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-carlos-ernesto-jaico-carranza",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "fuenteId": "f-oleada1-carlos-ernesto-jaico-carranza",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Articula propuestas en marco institucional: reforma Policia, muerte civil como sancion legal formal.",
+    "citas": [
+      {
+        "texto": "Para combatir la corrupcion debemos declarar la muerte civil de los funcionarios condenados por delitos dolosos",
+        "ubicacion": "Foro de candidatos 2026",
+        "indicador": "Apela a instituciones, procedimientos legales y reformas"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-jose-leon-luna-galvez",
+    "entidadId": "jose-leon-luna-galvez",
+    "fuenteId": "f-oleada1-jose-leon-luna-galvez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Transaccional puro: promesas imposibles en plazos cortos, mega carcel de 50,000 internos. Mas dinero = menos crimen.",
+    "citas": [
+      {
+        "texto": "Aseguramos que en seis meses se acaba la extorsion y sicariato",
+        "ubicacion": "Foro de candidatos 2026",
+        "indicador": "Relaciones como transacciones. Promesas de intercambio"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-maria-soledad-perez-tello-de-rodriguez",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "fuenteId": "f-oleada1-maria-soledad-perez-tello-de-rodriguez",
+    "estadio": 5,
+    "confianza": "media",
+    "justificacion": "Subordina candidatura a principios. Denuncia leyes procrimen como injustas. Apela a principios universales.",
+    "citas": [
+      {
+        "texto": "Mi candidatura es un incidente; lo que defiendo son principios y valores en democracia",
+        "ubicacion": "Entrevista El Comercio",
+        "indicador": "Reconoce que leyes pueden ser injustas. Apela a principios universales"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-paul-davis-jaimes-blanco",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "fuenteId": "f-oleada1-paul-davis-jaimes-blanco",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Razonamiento punitivo: pena de muerte, salida de Corte IDH para ejecutar castigos extremos.",
+    "citas": [
+      {
+        "texto": "Ha llegado la hora de implementar la pena de muerte en casos de sicariato y violacion de menores",
+        "ubicacion": "Debate JNE tercera fecha",
+        "indicador": "Castigo como fin absoluto. Destruir mecanismos de proteccion de derechos"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-antonio-ortiz-villano",
+    "entidadId": "antonio-ortiz-villano",
+    "fuenteId": "f-oleada1-antonio-ortiz-villano",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Transaccional: el Estado da creditos a cambio de que emprendedores produzcan.",
+    "citas": [
+      {
+        "texto": "En mi gobierno vamos a dar Reactiva a todas las mypes, pero dandole la parte tecnica",
+        "ubicacion": "Foro de candidatos 2026",
+        "indicador": "Relacion transaccional Estado-ciudadano"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-rosario-del-pilar-fernandez-bazan",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "fuenteId": "f-oleada1-rosario-del-pilar-fernandez-bazan",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Admite candidatura instrumental: postula para ceder poder a hermano. Uso transaccional del cargo.",
+    "citas": [
+      {
+        "texto": "Yo provocaria una vacancia para que el pueda ascender",
+        "ubicacion": "Entrevista Infobae",
+        "indicador": "Uso instrumental del cargo. Candidatura como transaccion familiar"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": null,
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada1-roberto-enrique-chiabra-leon",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "fuenteId": "f-oleada1-roberto-enrique-chiabra-leon",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Diagnostico estructural con respuesta institucional. Rechaza pena de muerte como populista. Marco de orden institucional.",
+    "citas": [
+      {
+        "texto": "Estamos viviendo una violencia excepcional que requiere medidas excepcionales. El Comando Conjunto asumira la responsabilidad",
+        "ubicacion": "Entrevista RPP",
+        "indicador": "Apela a instituciones, rechaza populismo punitivo"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": null,
+    "evaluador": "lucas"
+  }
+]

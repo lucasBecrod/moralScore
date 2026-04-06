@@ -1,0 +1,932 @@
+[
+  {
+    "id": "keiko-sofia-fujimori-higuchi-2026-03-25-el-comercio",
+    "url": "https://elcomercio.pe/politica/debate-presidencial-jne-2026-miercoles-25-keiko-fujimori-en-vivo-hoy-mario-vizcarra-jorge-nieto-candidatos-temas-y-planes-de-gobierno-a-poco-de-las-elecciones-generales-peru-2026-noticia/",
+    "tipo": "debate",
+    "titulo": "Debate JNE 25/03 — Fujimori vs Nieto vs Vizcarra",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "aprobada"
+  },
+  {
+    "id": "keiko-sofia-fujimori-higuchi-2026-03-31-el-comercio",
+    "url": "https://elcomercio.pe/politica/elecciones/rafael-lopez-aliaga-keiko-fujimori-y-marisol-perez-tello-se-lanzan-pullas-durante-el-debate-presidencial-del-jne-elecciones-2026-noticia/",
+    "tipo": "debate",
+    "titulo": "Debate JNE 31/03 — Fujimori vs López Aliaga vs Pérez Tello",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "aprobada"
+  },
+  {
+    "id": "keiko-sofia-fujimori-higuchi-2026-03-25-la-republica",
+    "url": "https://larepublica.pe/politica/2026/03/25/keiko-fujimori-se-lava-las-manos-las-leyes-son-papeles-el-fujimorismo-no-ha-gobernado-ni-yo-tampoco-hnews-325025",
+    "tipo": "debate",
+    "titulo": "\"Las leyes son papeles, el fujimorismo no ha gobernado\"",
+    "medio": "La República",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "aprobada"
+  },
+  {
+    "id": "keiko-sofia-fujimori-higuchi-2026-03-31-rpp",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-2026-cruces-entre-keiko-fujimori-mesias-guevara-y-roberto-sanchez-noticia-1682458",
+    "tipo": "debate",
+    "titulo": "Cruces entre Fujimori, Guevara y Sánchez",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "aprobada"
+  },
+  {
+    "id": "rafael-bernardo-lopez-aliaga-cazorla-2026-03-23-el-comercio",
+    "url": "https://elcomercio.pe/politica/debate-presidencial-jne-2026-lunes-23-rafael-lopez-aliaga-en-vivo-hoy-candidato-ternas-propuestas-y-planes-de-gobierno-a-poco-de-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "Debate JNE 23/03 — López Aliaga primera fecha",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "aprobada"
+  },
+  {
+    "id": "rafael-bernardo-lopez-aliaga-cazorla-2026-03-31-el-comercio",
+    "url": "https://elcomercio.pe/politica/rafael-lopez-aliaga-participa-en-debate-presidencial-2026-martes-31-incidentes-temas-pullas-y-planes-de-gobierno-previo-a-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "Debate JNE 31/03 — López Aliaga propone 6 ministerios",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "aprobada"
+  },
+  {
+    "id": "rafael-bernardo-lopez-aliaga-cazorla-2026-04-01-la-republica",
+    "url": "https://larepublica.pe/politica/2026/04/01/rafael-lopez-aliaga-lanza-amenaza-contra-jefe-de-la-onpe-si-me-hacen-eso-a-mi-voy-a-ver-las-oficinas-y-no-se-si-quede-vivo-elecciones-2026-hnews-42829",
+    "tipo": "entrevista",
+    "titulo": "López Aliaga amenaza contra jefe de la ONPE",
+    "medio": "La República",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "aprobada"
+  },
+  {
+    "id": "george-patrick-forsyth-sommer-2026-03-30-el-comercio",
+    "url": "https://elcomercio.pe/politica/george-forsyth-en-debate-presidencial-2026-lunes-30-incidentes-temas-pullas-y-planes-de-gobierno-previo-a-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "Debate JNE 30/03 — Forsyth sobre educación e infraestructura",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "aprobada"
+  },
+  {
+    "id": "george-patrick-forsyth-sommer-2026-03-24-el-comercio",
+    "url": "https://elcomercio.pe/politica/debate-presidencial-jne-2026-martes-24-en-vivo-hoy-george-forsyth-fechas-candidatos-temas-y-planes-de-gobierno-a-poco-de-las-elecciones-generales-peru-2026-noticia/",
+    "tipo": "debate",
+    "titulo": "Forsyth propone \"jurado popular\" anticorrupción",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-24",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "aprobada"
+  },
+  {
+    "id": "george-patrick-forsyth-sommer-2026-03-23-rpp",
+    "url": "https://rpp.pe/politica/elecciones/george-forsyth-asegura-que-desde-el-primer-dia-tomara-el-control-de-los-penales-con-los-militares-noticia-1681570",
+    "tipo": "debate",
+    "titulo": "Forsyth: control militar de penales desde el primer día",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "aprobada"
+  },
+  {
+    "id": "cesar-acuna-peralta-2026-03-23-el-comercio",
+    "url": "https://elcomercio.pe/politica/debate-presidencial-jne-2026-lunes-23-cesar-acuna-en-vivo-hoy-candidato-de-app-propuestas-ternas-y-planes-de-gobierno-a-poco-de-las-elecciones-generales-peru-2026-noticia/",
+    "tipo": "debate",
+    "titulo": "Debate JNE 23/03 — Acuña primera fecha",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "aprobada"
+  },
+  {
+    "id": "cesar-acuna-peralta-2026-04-01-la-republica",
+    "url": "https://larepublica.pe/politica/2026/04/01/debate-presidencial-2026-en-vivo-alfonso-lopezchau-cesar-acuna-y-jorge-nieto-se-enfrentan-hnews-2453464",
+    "tipo": "debate",
+    "titulo": "Debate JNE 01/04 — Acuña vs López Chau vs Nieto (última jornada)",
+    "medio": "La República",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "aprobada"
+  },
+  {
+    "id": "jorge-nieto-montesinos-2026-03-25-el-comercio",
+    "url": "https://elcomercio.pe/politica/debate-presidencial-jne-2026-miercoles-25-keiko-fujimori-en-vivo-hoy-mario-vizcarra-jorge-nieto-candidatos-temas-y-planes-de-gobierno-a-poco-de-las-elecciones-generales-peru-2026-noticia/",
+    "tipo": "debate",
+    "titulo": "Debate JNE 25/03 — Nieto vs Fujimori vs Vizcarra",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "aprobada"
+  },
+  {
+    "id": "jorge-nieto-montesinos-2026-04-01-la-republica",
+    "url": "https://larepublica.pe/politica/2026/04/01/debate-presidencial-2026-en-vivo-alfonso-lopezchau-cesar-acuna-y-jorge-nieto-se-enfrentan-hnews-2453464",
+    "tipo": "debate",
+    "titulo": "Debate JNE 01/04 — Nieto vs Acuña vs López Chau",
+    "medio": "La República",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "aprobada"
+  },
+  {
+    "id": "pablo-alfonso-lopez-chau-nava-2026-04-01-la-republica",
+    "url": "https://larepublica.pe/politica/2026/04/01/debate-presidencial-2026-en-vivo-alfonso-lopezchau-cesar-acuna-y-jorge-nieto-se-enfrentan-hnews-2453464",
+    "tipo": "debate",
+    "titulo": "Debate JNE 01/04 — López Chau vs Acuña vs Nieto",
+    "medio": "La República",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "aprobada"
+  },
+  {
+    "id": "fuente-keiko-tc-cocteles",
+    "url": "https://ojo-publico.com/5982/es-falso-que-el-tc-absolvio-keiko-fujimori-del-caso-cocteles",
+    "tipo": "articulo",
+    "titulo": "Ojo Público: Es falso que el TC absolvió a Keiko del caso Cócteles",
+    "medio": "Ojo Público",
+    "fechaFuente": "2025-10-30",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "evaluada"
+  },
+  {
+    "id": "fuente-rla-gestion-lima",
+    "url": "https://larepublica.pe/sociedad/2025/10/12/rafael-lopez-aliaga-dejaria-la-alcaldia-de-lima-sin-cumplir-25-promesas-de-su-plan-de-gobierno-municipal-hnews-167364",
+    "tipo": "articulo",
+    "titulo": "López Aliaga dejaría alcaldía sin cumplir 25 promesas",
+    "medio": "La República",
+    "fechaFuente": "2025-10-12",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "evaluada"
+  },
+  {
+    "id": "fuente-rla-endeudamiento-mml",
+    "url": "https://larepublica.pe/politica/2026/03/22/rafael-lopez-aliaga-sera-investigado-por-presunta-colusion-y-negociacion-incompatible-tras-endeudamiento-de-la-mml-por-s4-mil-millones-hnews-1944052",
+    "tipo": "articulo",
+    "titulo": "López Aliaga investigado por endeudamiento de S/4 mil millones en MML",
+    "medio": "La República",
+    "fechaFuente": "2026-03-22",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "evaluada"
+  },
+  {
+    "id": "fuente-forsyth-renuncia-victoria",
+    "url": "https://elcomercio.pe/politica/george-forsyth-podia-ser-10-anos-alcalde-de-la-victoria-y-no-iba-a-poder-cambiarla-mas-porque-no-funciona-el-estado-nndc-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Forsyth: 'Podía ser 10 años alcalde y no cambiarla más'",
+    "medio": "El Comercio",
+    "fechaFuente": "2021-02-01",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "evaluada"
+  },
+  {
+    "id": "fuente-acuna-plagio-tesis",
+    "url": "https://rpp.pe/peru/actualidad/verdadero-o-falso-cesar-acuna-la-originalidad-de-mi-tesis-la-ha-demostrado-la-comision-juridica-noticia-1178268",
+    "tipo": "entrevista",
+    "titulo": "Acuña: 'La originalidad de mi tesis la demostró la Comisión Jurídica'",
+    "medio": "RPP",
+    "fechaFuente": "2020-01-15",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "fuente-acuna-equipo-redaccion",
+    "url": "https://elcomercio.pe/politica/cesar-acuna-tesis-doctorado-tuve-equipo-redaccion-noticia-nndc-601808-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Acuña: 'Tuve un equipo de redacción' para mi tesis",
+    "medio": "El Comercio",
+    "fechaFuente": "2019-08-01",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "fuente-lopez-chau-5abril",
+    "url": "https://larepublica.pe/politica/2026/04/05/alfonso-lopez-chau-y-su-mensaje-por-el-5-de-abril-el-fujimorismo-quebro-la-democracia-e-inicio-ocho-anos-de-dictadura-hnews-128090",
+    "tipo": "articulo",
+    "titulo": "López Chau: 'El fujimorismo quebró la democracia e inició 8 años de dictadura'",
+    "medio": "La República",
+    "fechaFuente": "2026-04-05",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "evaluada"
+  },
+  {
+    "id": "fuente-nieto-seguridad-impunidad",
+    "url": "https://elcomercio.pe/politica/debate-presidencial-jne-2026-miercoles-25-en-vivo-hoy-jorge-nieto-keiko-fujimori-candidatos-temas-y-planes-de-gobierno-a-poco-de-las-elecciones-generales-peru-2026-noticia/",
+    "tipo": "debate",
+    "titulo": "Nieto: 'Lo principal es derrotar la coalición por la impunidad'",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-keiko-reinfo",
+    "url": "https://rpp.pe/politica/elecciones/keiko-fujimori-niega-que-existan-las-llamadas-leyes-procrimen-yo-no-creo-en-esa-narrativa-noticia-1681244",
+    "tipo": "entrevista",
+    "titulo": "Keiko sobre Reinfo: 'hay que escuchar a los mineros pequeños'",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-keiko-rechazo",
+    "url": "https://elcomercio.pe/politica/elecciones/keiko-fujimori-reconozco-que-dentro-de-los-politicos-soy-una-de-las-personas-que-tiene-mayor-rechazo-elecciones-2026-ultimas-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Keiko reconoce su alto rechazo ciudadano",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-rla-corte-idh",
+    "url": "https://elcomercio.pe/politica/elecciones/rafael-lopez-aliaga-plantea-retiro-de-la-corte-idh-y-jueces-sin-rostro-noticia/",
+    "tipo": "entrevista",
+    "titulo": "López Aliaga: retiro de Corte IDH y jueces sin rostro",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-02-01",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-rla-carceles-selva",
+    "url": "https://larepublica.pe/verificador/2026/03/23/rafael-lopez-aliaga-vuelve-a-mentir-sobre-las-serpientes-como-guardianes-naturales-de-carceles-en-la-selva-el-veneno-del-jergon-no-mata-en-10-minutos-242440",
+    "tipo": "articulo",
+    "titulo": "López Aliaga miente sobre serpientes como guardianes de cárceles",
+    "medio": "La República",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-forsyth-educacion-debate",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-2026-estas-son-las-propuestas-de-los-candidatos-sobre-educacion-innovacion-y-tecnologia-noticia-1682292",
+    "tipo": "debate",
+    "titulo": "Forsyth: reparar 10 mil colegios y Starlink para escuelas",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-forsyth-energia",
+    "url": "https://elcomercio.pe/politica/elecciones/debate-presidencial-2026-en-vivo-lunes-30-de-marzo-candidatos-propuestas-planes-de-gobierno-y-pullas-en-debate-del-jne-lboposting-noticia/",
+    "tipo": "debate",
+    "titulo": "Forsyth: 'Si no diversificamos la matriz energética, entraremos en crisis'",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-acuna-procompite",
+    "url": "https://rpp.pe/peru/actualidad/programa-procompite-de-gestion-de-cesar-acuna-anulan-concursos-de-s-58-millones-por-presuntos-cobros-ilegales-noticia-1649959",
+    "tipo": "articulo",
+    "titulo": "Anulan concursos Procompite de Acuña por cobros ilegales (S/58M)",
+    "medio": "RPP",
+    "fechaFuente": "2025-08-10",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-acuna-contratos",
+    "url": "https://larepublica.pe/politica/2025/07/31/cesar-acuna-firmo-contratos-por-s315-millones-a-empresaria-denunciada-por-estafa-gobierno-regional-de-la-libertad-gore-la-libertad-lucero-coca-condori-juan-carlos-coca-rojas-hnews-363990",
+    "tipo": "articulo",
+    "titulo": "Acuña firmó contratos por S/315M a empresaria denunciada por estafa",
+    "medio": "La República",
+    "fechaFuente": "2025-07-31",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-nieto-salud-extorsion",
+    "url": "https://rpp.pe/politica/elecciones/jorge-nieto-propone-sistema-unico-de-salud-y-unidad-policial-contra-extorsion-y-sicariato-noticia-1679661",
+    "tipo": "entrevista",
+    "titulo": "Nieto: sistema único de salud + unidad policial anti-extorsión",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-nieto-criminalidad",
+    "url": "https://elcomercio.pe/politica/jorge-nieto-no-estamos-dando-la-respuesta-adecuada-para-detener-esta-ola-de-criminalidad-tlc-nota-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Nieto: 'No damos la respuesta adecuada para detener la criminalidad'",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-05",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-nieto-congreso-electorales",
+    "url": "https://rpp.pe/peru/actualidad/jorge-nieto-el-objetivo-del-congreso-es-apropiarse-de-los-organismos-electorales-para-controlar-el-ganador-de-las-proximas-elecciones-noticia-1503572",
+    "tipo": "entrevista",
+    "titulo": "Nieto: 'El Congreso quiere apropiarse de los organismos electorales'",
+    "medio": "RPP",
+    "fechaFuente": "2024-06-01",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-lopez-chau-anticorrupcion",
+    "url": "https://rpp.pe/politica/elecciones/alfonso-lopez-chau-propuso-crear-un-sistema-integral-anticorrupcion-autonomo-noticia-1681588",
+    "tipo": "debate",
+    "titulo": "López Chau: sistema integral anticorrupción autónomo",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-lopez-chau-dcho-intl",
+    "url": "https://rpp.pe/politica/elecciones/alfonso-lopez-chau-defiende-el-derecho-internacional-y-cuestiona-acciones-militares-de-estados-unidos-noticia-1682819",
+    "tipo": "entrevista",
+    "titulo": "López Chau defiende derecho internacional vs acciones militares de EEUU",
+    "medio": "RPP",
+    "fechaFuente": "2026-04-03",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-lopez-chau-gas",
+    "url": "https://elcomercio.pe/politica/alfonso-lopez-chau-participa-en-el-debate-presidencial-2026-miercoles-31-sexta-y-ultima-jornada-incidentes-temas-pullas-y-planes-de-gobierno-previo-a-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "López Chau: masificación del gas con tarifa única",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-keiko-disculpa-saavedra",
+    "url": "https://rpp.pe/politica/elecciones/elecciones-2021-keiko-fujimori-tengo-que-pedir-disculpas-tanto-a-jaime-saavedra-como-a-fernando-zavala-noticia-1338332",
+    "tipo": "entrevista",
+    "titulo": "Keiko: 'Tengo que pedir disculpas a Saavedra y Zavala'",
+    "medio": "RPP",
+    "fechaFuente": "2021-05-15",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-keiko-energia-ministro",
+    "url": "https://larepublica.pe/politica/2026/03/19/keiko-fujimori-sobre-el-ministro-de-energia-y-minas-una-persona-que-tiene-este-tipo-de-acusaciones-no-debe-ejercer-este-cargo-hnews-1398172",
+    "tipo": "articulo",
+    "titulo": "Keiko sobre ministro de Energía: 'no debe ejercer el cargo'",
+    "medio": "La República",
+    "fechaFuente": "2026-03-19",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-rla-potencia-mundial",
+    "url": "https://larepublica.pe/politica/2026/02/24/ya-no-es-lima-potencia-mundial-rafael-lopez-aliaga-promete-ahora-que-peru-sera-potencia-turistica-hnews-662088",
+    "tipo": "articulo",
+    "titulo": "López Aliaga: de 'Lima potencia mundial' a 'Perú potencia turística'",
+    "medio": "La República",
+    "fechaFuente": "2026-02-24",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-rla-neutralidad",
+    "url": "https://rpp.pe/politica/elecciones/rafael-lopez-aliaga-cerro-su-gestion-como-alcalde-con-investigacion-por-presunta-vulneracion-a-la-neutralidad-noticia-1659563",
+    "tipo": "articulo",
+    "titulo": "López Aliaga cerró gestión con investigación por vulnerar neutralidad",
+    "medio": "RPP",
+    "fechaFuente": "2025-12-01",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-forsyth-chatgpt-plan",
+    "url": "https://larepublica.pe/politica/2026/02/09/george-forsyth-apuesta-por-la-ia-pero-chatgpt-cuestiona-su-plan-de-gobierno-no-esta-bien-elaborado-hnews-310329",
+    "tipo": "entrevista",
+    "titulo": "ChatGPT cuestiona plan de Forsyth: 'No está bien elaborado'",
+    "medio": "La República",
+    "fechaFuente": "2026-02-09",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-forsyth-regiones-congreso",
+    "url": "https://larepublica.pe/politica/2026/03/14/forsyth-propone-gobernar-desde-regiones-marca-distancia-con-jeri-y-cuestiona-al-congreso-hnews-399518",
+    "tipo": "entrevista",
+    "titulo": "Forsyth: gobernar desde regiones, cuestiona al Congreso",
+    "medio": "La República",
+    "fechaFuente": "2026-03-14",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-acuna-vallejo-baja",
+    "url": "https://rpp.pe/peru/la-libertad/cesar-acuna-bromea-sobre-poco-gasto-de-la-libertad-en-seguridad-parece-la-vallejo-en-baja-noticia-1579416",
+    "tipo": "entrevista",
+    "titulo": "Acuña bromea: 'La región está como la Vallejo, en baja'",
+    "medio": "RPP",
+    "fechaFuente": "2024-08-25",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-acuna-olivera-difamacion",
+    "url": "https://rpp.pe/politica/elecciones/cesar-acuna-rechazo-acusaciones-de-fernando-olivera-en-el-debate-y-anuncio-que-lo-denunciara-por-difamacion-noticia-1681448",
+    "tipo": "debate",
+    "titulo": "Acuña rechaza acusaciones de Olivera, anuncia denuncia",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-acuna-china-viaje",
+    "url": "https://elcomercio.pe/politica/actualidad/cesar-acuna-asegura-que-fue-invitado-a-china-como-gobernador-de-la-libertad-y-no-como-fundador-de-la-universidad-cesar-vallejo-ucv-ultimas-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Acuña: 'Fui invitado a China como gobernador, no como rector'",
+    "medio": "El Comercio",
+    "fechaFuente": "2025-02-01",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-nieto-villaran-defensa",
+    "url": "https://larepublica.pe/politica/2023/06/09/trujillo-jorge-nieto-la-verdad-se-abrira-paso-las-acusaciones-son-falsas-en-el-caso-de-la-constructora-oas-susana-villaran-fiscalia-lrnd-142092",
+    "tipo": "entrevista",
+    "titulo": "Nieto: 'Las acusaciones son falsas en el caso OAS'",
+    "medio": "La República",
+    "fechaFuente": "2023-06-09",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-nieto-calumnia-castro",
+    "url": "https://rpp.pe/politica/judiciales/jorge-nieto-dice-que-denunciara-a-jose-miguel-castro-por-difamacion-lo-que-senala-es-una-calumnia-noticia-1280201",
+    "tipo": "entrevista",
+    "titulo": "Nieto: 'Lo que señala Castro es una calumnia'",
+    "medio": "RPP",
+    "fechaFuente": "2020-07-14",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-lopez-chau-formato-debate",
+    "url": "https://elcomercio.pe/politica/elecciones/elecciones-generales-2026-alfonso-lopez-chau-cuestiona-formato-de-debates-organizados-por-el-jne-me-hubiera-gustado-que-los-candidatos-tengan-tiempo-para-exponer-sus-ideas-ultimas-noticia/",
+    "tipo": "entrevista",
+    "titulo": "López Chau cuestiona formato de debates del JNE",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-lopez-chau-rector-mistica",
+    "url": "https://ojo-publico.com/entrevistas/alfonso-lopez-chau-creo-que-necesitamos-una-nueva-constitucion",
+    "tipo": "entrevista",
+    "titulo": "López Chau: 'Llegué a ser rector sin plata, creo en la mística'",
+    "medio": "Ojo Público",
+    "fechaFuente": "2026-03-01",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-keiko-autoritarismo-padre",
+    "url": "https://elcomercio.pe/politica/elecciones/keiko-fujimori-al-gobierno-de-mi-padre-dictadura-no-pero-creo-que-por-momentos-fue-un-gobierno-autoritario-alberto-fujimori-elecciones-2021-nndc-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Keiko: 'Dictadura no, pero por momentos fue un gobierno autoritario'",
+    "medio": "El Comercio",
+    "fechaFuente": "2021-04-01",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-keiko-perdon-confrontacion",
+    "url": "https://elcomercio.pe/politica/keiko-fujimori-sobre-confrontacion-politica-le-pido-perdon-a-mi-padre-a-mi-hermano-y-a-los-fujimoristas-nndc-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Keiko pide perdón a padre, hermano y fujimoristas por confrontación",
+    "medio": "El Comercio",
+    "fechaFuente": "2021-05-01",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-rla-dni-fetos",
+    "url": "https://larepublica.pe/politica/2026/02/01/rafael-lopez-aliaga-plantea-sin-sustento-otorgar-dni-a-nonatos-son-ciudadanos-desde-el-vientre-hnews-80946",
+    "tipo": "articulo",
+    "titulo": "López Aliaga: DNI para no nacidos 'son ciudadanos desde el vientre'",
+    "medio": "La República",
+    "fechaFuente": "2026-02-01",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-rla-genero-exterminar",
+    "url": "https://elcomercio.pe/elecciones-2021/rafael-lopez-aliaga-toda-la-doctrina-de-genero-evidentemente-va-a-ser-exterminada-renovacion-popular-entrevista-elecciones-2021-noticia/",
+    "tipo": "entrevista",
+    "titulo": "López Aliaga: 'La doctrina de género va a ser exterminada'",
+    "medio": "El Comercio",
+    "fechaFuente": "2021-03-01",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-forsyth-patricia-li",
+    "url": "https://larepublica.pe/politica/2026/03/28/george-forsyth-patricia-li-no-tendra-ninguna-funcion-dentro-del-gobierno-si-es-que-es-presidente-hnews-400904",
+    "tipo": "entrevista",
+    "titulo": "Forsyth: 'Patricia Li no tendrá función en el gobierno'",
+    "medio": "La República",
+    "fechaFuente": "2026-03-28",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-forsyth-keiko-saavedra",
+    "url": "https://larepublica.pe/politica/2026/03/31/debate-presidencial-emboscadas-entre-candidatos-y-falta-de-respuestas-primaron-en-el-debate-elecciones-2026-hnews-1433874",
+    "tipo": "debate",
+    "titulo": "Forsyth: 'No permitiré que el Congreso interfiera en educación como Keiko'",
+    "medio": "La República",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-forsyth-corrupcion-investigacion",
+    "url": "https://elcomercio.pe/politica/george-forsyth-los-detalles-de-la-decision-del-poder-judicial-que-amplio-la-investigacion-en-su-contra-por-presunta-corrupcion-tlcnota-noticia/",
+    "tipo": "articulo",
+    "titulo": "PJ amplía investigación contra Forsyth por presunta corrupción",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-02-01",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-acuna-campana-financiamiento",
+    "url": "https://rpp.pe/politica/elecciones/es-falso-que-la-campana-de-cesar-acuna-sea-financiada-solo-por-el-noticia-1680408",
+    "tipo": "articulo",
+    "titulo": "Es falso que campaña de Acuña sea financiada solo por él",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-acuna-contraloria-s116m",
+    "url": "https://larepublica.pe/politica/2026/03/20/contraloria-acusa-a-6-exfuncionarios-de-cesar-acuna-por-malos-manejos-en-programa-de-s116-millones-alianza-para-el-progreso-contraloria-hnews-861420",
+    "tipo": "articulo",
+    "titulo": "Contraloría acusa a 6 exfuncionarios de Acuña por S/116 millones",
+    "medio": "La República",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "cesar-acuna-peralta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-nieto-democracia-congreso",
+    "url": "https://larepublica.pe/politica/2026/02/17/jorge-nieto-en-democracia-un-gobierno-con-poder-es-uno-con-mayoria-del-congreso-en-la-primera-vuelta-hnews-936581",
+    "tipo": "entrevista",
+    "titulo": "Nieto: 'Un gobierno con poder necesita mayoría del Congreso'",
+    "medio": "La República",
+    "fechaFuente": "2026-02-17",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-nieto-nino-costero",
+    "url": "https://larepublica.pe/politica/2026/03/04/jorge-nieto-montesinos-quien-es-el-candidato-presidencial-del-partido-buen-gobierno-hnews-95384",
+    "tipo": "articulo",
+    "titulo": "Nieto: coordinó respuesta al Niño Costero como ministro de Defensa",
+    "medio": "La República",
+    "fechaFuente": "2026-03-04",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-nieto-fujimori-rechaza",
+    "url": "https://rpp.pe/politica/elecciones/jorge-nieto-rechazo-versiones-que-lo-vinculan-con-presuntos-favores-politicos-del-gobierno-de-alberto-fujimori-noticia-1682052",
+    "tipo": "entrevista",
+    "titulo": "Nieto rechaza vínculos con favores del gobierno de Fujimori",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "jorge-nieto-montesinos",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-lopez-chau-descentralizacion",
+    "url": "https://rpp.pe/politica/elecciones/alfonso-lopez-chau-expuso-sus-propuestas-de-gobierno-durante-una-actividad-en-juliaca-noticia-1673951",
+    "tipo": "conferencia",
+    "titulo": "López Chau expone propuestas en Juliaca: descentralización profunda",
+    "medio": "RPP",
+    "fechaFuente": "2026-01-15",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-lopez-chau-economia-mercado",
+    "url": "https://larepublica.pe/politica/2025/05/12/alfonso-lopez-chau-el-rector-de-la-uni-que-busca-ser-presidente-del-peru-con-economia-nacional-de-mercado-hnews-476949",
+    "tipo": "entrevista",
+    "titulo": "López Chau: 'economía nacional de mercado' como modelo",
+    "medio": "La República",
+    "fechaFuente": "2025-05-12",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-ronald-darwin-atencio-sotomayor",
+    "url": "https://www.infobae.com/peru/2026/03/25/debate-presidencial-peru-2026-en-vivo-hoy-tercera-fecha-con-12-postulantes-temas-clave-y-el-minuto-a-minuto-del-encuentro-del-25-de-marzo/",
+    "tipo": "debate",
+    "titulo": "Atencio: critica al neoliberalismo y defensa de mineros artesanales",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-jose-daniel-williams-zapata",
+    "url": "https://gestion.pe/peru/politica/jose-williams-candidato-de-avanza-pais-apuesta-por-un-estado-de-guerra-contra-la-delincuencia-noticia/",
+    "tipo": "debate",
+    "titulo": "Williams propone estado de guerra contra la delincuencia",
+    "medio": "Gestion",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "jose-daniel-williams-zapata",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "url": "https://www.infobae.com/peru/2026/03/25/expulsion-de-migrantes-chapa-tu-corrupto-y-pacificacion-del-peru-en-100-dias-las-propuestas-de-alvaro-paz-de-la-barra-en-el-debate-presidencial/",
+    "tipo": "debate",
+    "titulo": "Paz de la Barra: corrupto y criminal no tiene debido proceso",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-fiorella-giannina-molinelli-aristondo",
+    "url": "https://www.infobae.com/peru/2026/03/25/asi-fue-la-acalorada-discusion-entre-fiorella-molinelli-y-roberto-sanchez-criticas-a-pedro-castillo-floro-y-la-aparicion-de-cerron/",
+    "tipo": "debate",
+    "titulo": "Molinelli confronta a Sanchez sobre Cerron",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-roberto-helbert-sanchez-palomino",
+    "url": "https://www.infobae.com/peru/2026/03/25/roberto-sanchez-afirma-que-el-peru-necesita-una-nueva-constitucion-y-sostiene-que-pedro-castillo-esta-secuestrado/",
+    "tipo": "debate",
+    "titulo": "Sanchez pide nueva Constitucion y defiende a Castillo",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-rafael-jorge-belaunde-llosa",
+    "url": "https://gestion.pe/peru/politica/rafael-belaunde-busca-financiar-becas-anuales-con-canon-minero-lo-que-dijo-en-el-debate-presidencial-noticia/",
+    "tipo": "debate",
+    "titulo": "Belaunde: 50,000 becas con canon minero, inversion privada",
+    "medio": "Gestion",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-pitter-enrique-valderrama-pena",
+    "url": "https://www.infobae.com/peru/2026/03/26/enrique-valderrama-candidato-del-apra-propone-reforzar-fronteras-duplicar-efectivos-policiales-y-sancionar-la-corrupcion/",
+    "tipo": "debate",
+    "titulo": "Valderrama (APRA): cadena perpetua para funcionarios corruptos",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-26",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-ricardo-pablo-belmont-cassinelli",
+    "url": "https://elcomercio.pe/politica/ricardo-belmont-participa-en-debate-presidencial-2026-martes-31-incidentes-temas-pullas-y-planes-de-gobierno-previo-a-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "Belmont: educacion como prioridad y ultima batalla politica",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-charlie-carrasco-salazar",
+    "url": "https://www.infobae.com/peru/2026/03/24/debate-presidencial-2026-en-vivo-minuto-a-minuto-de-la-segunda-fecha-hoy-martes-24-de-marzo-con-11-candidatos-temas-bloques-e-incidencias-previo-a-elecciones/",
+    "tipo": "debate",
+    "titulo": "Carrasco: gobernar con principios biblicos, expulsar migrantes en 48h",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-24",
+    "entidadId": "charlie-carrasco-salazar",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-alex-gonzales-castillo",
+    "url": "https://larepublica.pe/politica/2026/03/23/alex-gonzales-increpa-a-rafael-lopez-aliaga-nos-dejo-a-lima-como-potencia-mundial-del-crimen-hnews-1191216",
+    "tipo": "debate",
+    "titulo": "Gonzales increpa a Lopez Aliaga por inseguridad en Lima",
+    "medio": "La Republica",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "alex-gonzales-castillo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-armando-joaquin-masse-fernandez",
+    "url": "https://www.infobae.com/peru/2026/04/02/candidato-armando-masse-plantea-conciertos-gratuitos-de-grupo-5-y-agua-marina-impulsados-por-el-estado-necesitan-alegria/",
+    "tipo": "articulo",
+    "titulo": "Masse: conciertos gratuitos impulsados por el Estado",
+    "medio": "Infobae",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-luis-fernando-olivera-vega",
+    "url": "https://www.infobae.com/peru/2026/03/31/fernando-olivera-lanza-polemica-frase-en-debate-presidencial-cuando-un-pueblo-sabe-no-lo-engana-una-japonesa-un-ladronzuelo-un-mitomano/",
+    "tipo": "debate",
+    "titulo": "Olivera: polemica frase descalificadora en debate",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "luis-fernando-olivera-vega",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-mesias-antonio-guevara-amasifuen",
+    "url": "https://ojo-publico.com/politica/elecciones-2026/guevara-si-el-congreso-es-un-obstaculo-no-tendre-reparos-cerrarlo",
+    "tipo": "entrevista",
+    "titulo": "Guevara: si el Congreso es obstaculo, no tendre reparos en cerrarlo",
+    "medio": "Ojo Publico",
+    "fechaFuente": "2026-03-18",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-carlos-gonzalo-alvarez-loayza",
+    "url": "https://elcomercio.pe/politica/elecciones-2026-carlos-alvarez-loayza-candidato-presidencial-de-pais-para-todos-tenemos-que-recuperar-la-dignidad-de-la-institucion-presidencial-12-de-abril-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Alvarez: recuperar la dignidad de la institucion presidencial",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-herbert-caller-gutierrez",
+    "url": "https://elcomercio.pe/politica/elecciones/herbert-caller-en-foro-de-candidatos-las-fuerzas-armadas-van-a-estar-al-mando-de-la-policia-nacional-del-peru-ultimas-noticia/",
+    "tipo": "debate",
+    "titulo": "Caller: FFAA al mando de la Policia Nacional",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "herbert-caller-gutierrez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-yonhy-lescano-ancieta",
+    "url": "https://larepublica.pe/politica/2026/03/30/yonhy-lescano-llama-telonero-de-fujimori-a-carlos-alvarez-no-voy-a-permitir-que-me-de-clases-de-moral-hnews-2839080",
+    "tipo": "debate",
+    "titulo": "Lescano llama telonero de Fujimori a Carlos Alvarez",
+    "medio": "La Republica",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "yonhy-lescano-ancieta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-wolfgang-mario-grozo-costa",
+    "url": "https://larepublica.pe/politica/2026/03/18/wolfgang-grozo-el-problema-no-es-que-faltan-leyes-sino-que-sobran-malas-leyes-y-dadas-con-nombre-propio-hnews-897660",
+    "tipo": "entrevista",
+    "titulo": "Grozo: el problema no es que faltan leyes, sino que sobran malas leyes",
+    "medio": "La Republica",
+    "fechaFuente": "2026-03-18",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-vladimir-roy-cerron-rojas",
+    "url": "https://www.infobae.com/peru/2025/12/07/vladimir-cerron-afirma-que-ganara-las-elecciones-2026-pese-a-estar-profugo-hay-que-disciplinar-a-los-golpistas-y-traidores/",
+    "tipo": "articulo",
+    "titulo": "Cerron: ganar elecciones desde clandestinidad, disciplinar golpistas",
+    "medio": "Infobae",
+    "fechaFuente": "2025-12-07",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-francisco-ernesto-diez-canseco-tavara",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-diez-canseco-propone-crear-consejo-nacional-moral-publica-1060577.aspx",
+    "tipo": "entrevista",
+    "titulo": "Diez-Canseco: crear Consejo Nacional de Moral Publica",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-mario-enrique-vizcarra-cornejo",
+    "url": "https://www.infobae.com/peru/2026/03/26/debate-presidencial-las-propuestas-de-mario-vizcarra-de-cara-a-las-elecciones-2026/",
+    "tipo": "debate",
+    "titulo": "Vizcarra Cornejo: presos a la selva para que se arrepientan",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-26",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-walter-gilmer-chirinos-purizaga",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-walter-chirinos-del-prin-propone-estado-excepcion-contra-criminalidad-1061053.aspx",
+    "tipo": "debate",
+    "titulo": "Chirinos: estado de excepcion con control policial y militar",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-24",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-alfonso-carlos-espa-y-garces-alvear",
+    "url": "https://elcomercio.pe/politica/carlos-espa-en-debate-presidencial-2026-lunes-30-incidentes-temas-pullas-y-planes-de-gobierno-previo-a-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "Espa: romper el pacto infame de corrupcion",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-carlos-ernesto-jaico-carranza",
+    "url": "https://elcomercio.pe/politica/elecciones/carlos-jaico-trabajaremos-para-que-la-seguridad-sea-una-realidad-con-la-reforma-total-de-la-policia-peru-moderno-ultimas-elecciones-2026-noticia/",
+    "tipo": "debate",
+    "titulo": "Jaico: reforma policial total y muerte civil para corruptos",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-17",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-jose-leon-luna-galvez",
+    "url": "https://elcomercio.pe/politica/elecciones/jose-luna-galvez-aseguramos-que-en-seis-meses-se-acaba-la-extorsion-y-sicariato-ultimas-noticia/",
+    "tipo": "debate",
+    "titulo": "Luna Galvez: en 6 meses se acaba la extorsion y sicariato",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-17",
+    "entidadId": "jose-leon-luna-galvez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-maria-soledad-perez-tello-de-rodriguez",
+    "url": "https://elcomercio.pe/politica/elecciones/elecciones-generales-2026-marisol-perez-tello-asegura-que-su-candidatuta-es-un-incidente-lo-que-defiendo-son-principios-y-valores-en-democracia-ultimas-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Perez Tello: mi candidatura es un incidente, defiendo principios",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-paul-davis-jaimes-blanco",
+    "url": "https://rpp.pe/politica/elecciones/paul-jaimes-candidato-de-progresemos-propone-salida-de-la-corte-idh-y-medidas-frente-a-la-inseguridad-noticia-1673563",
+    "tipo": "entrevista",
+    "titulo": "Jaimes: pena de muerte y salida de Corte IDH",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-antonio-ortiz-villano",
+    "url": "https://elcomercio.pe/politica/elecciones/antonio-ortiz-villano-en-foro-de-candidatos-en-mi-gobierno-vamos-a-dar-reactiva-a-todas-las-mypes-ultimas-noticia/",
+    "tipo": "debate",
+    "titulo": "Ortiz Villano: Reactiva para todas las mypes",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-17",
+    "entidadId": "antonio-ortiz-villano",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-rosario-del-pilar-fernandez-bazan",
+    "url": "https://www.infobae.com/peru/2026/03/09/rosario-fernandez-admite-que-postula-a-la-presidencia-para-autovacarse-y-entregar-el-poder-a-su-hermano-el-es-el-lider/",
+    "tipo": "entrevista",
+    "titulo": "Fernandez admite que postula para autovacarse y dar poder a su hermano",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-09",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada1-roberto-enrique-chiabra-leon",
+    "url": "https://rpp.pe/politica/elecciones/roberto-chiabra-propone-que-las-fuerzas-armadas-apoyen-en-la-lucha-contra-la-criminalidad-noticia-1678980",
+    "tipo": "entrevista",
+    "titulo": "Chiabra: Comando Conjunto contra criminalidad, rechaza pena de muerte",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "estado": "evaluada"
+  }
+]

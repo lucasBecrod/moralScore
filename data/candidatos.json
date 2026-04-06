@@ -1,0 +1,317 @@
+[
+  {
+    "id": "pablo-alfonso-lopez-chau-nava",
+    "nombre": "Pablo Alfonso López Chau Nava",
+    "partido": "Ahora Nación - AN",
+    "foto": "/img/entidades/pablo-alfonso-lopez-chau-nava.jpg",
+    "logoPartido": "/img/partidos/2980.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "ronald-darwin-atencio-sotomayor",
+    "nombre": "Ronald Darwin Atencio Sotomayor",
+    "partido": "Alianza Electoral Venceremos",
+    "foto": "/img/entidades/ronald-darwin-atencio-sotomayor.jpg",
+    "logoPartido": "/img/partidos/3025.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "cesar-acuna-peralta",
+    "nombre": "César Acuña Peralta",
+    "partido": "Alianza para el Progreso",
+    "foto": "/img/entidades/cesar-acuna-peralta.jpg",
+    "logoPartido": "/img/partidos/1257.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "jose-daniel-williams-zapata",
+    "nombre": "José Daniel Williams Zapata",
+    "partido": "Avanza País",
+    "foto": "/img/entidades/jose-daniel-williams-zapata.jpg",
+    "logoPartido": "/img/partidos/2173.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "nombre": "Álvaro Gonzalo Paz de la Barra Freigeiro",
+    "partido": "Fe en el Perú",
+    "foto": "/img/entidades/alvaro-gonzalo-paz-de-la-barra-freigeiro.jpg",
+    "logoPartido": "/img/partidos/2898.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "keiko-sofia-fujimori-higuchi",
+    "nombre": "Keiko Sofía Fujimori Higuchi",
+    "partido": "Fuerza Popular",
+    "foto": "/img/entidades/keiko-sofia-fujimori-higuchi.jpeg",
+    "logoPartido": "/img/partidos/1366.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "fiorella-giannina-molinelli-aristondo",
+    "nombre": "Fiorella Giannina Molinelli Aristondo",
+    "partido": "Fuerza y Libertad",
+    "foto": "/img/entidades/fiorella-giannina-molinelli-aristondo.jpg",
+    "logoPartido": "/img/partidos/3024.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "roberto-helbert-sanchez-palomino",
+    "nombre": "Roberto Helbert Sánchez Palomino",
+    "partido": "Juntos por el Perú",
+    "foto": "/img/entidades/roberto-helbert-sanchez-palomino.jpg",
+    "logoPartido": "/img/partidos/1264.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "rafael-jorge-belaunde-llosa",
+    "nombre": "Rafael Jorge Belaúnde Llosa",
+    "partido": "Libertad Popular",
+    "foto": "/img/entidades/rafael-jorge-belaunde-llosa.jpg",
+    "logoPartido": "/img/partidos/2933.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "pitter-enrique-valderrama-pena",
+    "nombre": "Pitter Enrique Valderrama Peña",
+    "partido": "Partido Aprista Peruano",
+    "foto": "/img/entidades/pitter-enrique-valderrama-pena.jpg",
+    "logoPartido": "/img/partidos/2930.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "ricardo-pablo-belmont-cassinelli",
+    "nombre": "Ricardo Pablo Belmont Cassinelli",
+    "partido": "Partido Cívico Obras",
+    "foto": "/img/entidades/ricardo-pablo-belmont-cassinelli.jpg",
+    "logoPartido": "/img/partidos/2941.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "jorge-nieto-montesinos",
+    "nombre": "Jorge Nieto Montesinos",
+    "partido": "Partido del Buen Gobierno",
+    "foto": "/img/entidades/jorge-nieto-montesinos.jpg",
+    "logoPartido": "/img/partidos/2961.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "charlie-carrasco-salazar",
+    "nombre": "Charlie Carrasco Salazar",
+    "partido": "Partido Demócrata Unido Perú",
+    "foto": "/img/entidades/charlie-carrasco-salazar.jpg",
+    "logoPartido": "/img/partidos/2867.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "alex-gonzales-castillo",
+    "nombre": "Alex Gonzales Castillo",
+    "partido": "Partido Demócrata Verde",
+    "foto": "/img/entidades/alex-gonzales-castillo.jpg",
+    "logoPartido": "/img/partidos/2895.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "armando-joaquin-masse-fernandez",
+    "nombre": "Armando Joaquín Massé Fernández",
+    "partido": "Partido Democrático Federal",
+    "foto": "/img/entidades/armando-joaquin-masse-fernandez.jpg",
+    "logoPartido": "/img/partidos/2986.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "george-patrick-forsyth-sommer",
+    "nombre": "George Patrick Forsyth Sommer",
+    "partido": "Partido Democrático Somos Perú",
+    "foto": "/img/entidades/george-patrick-forsyth-sommer.jpg",
+    "logoPartido": "/img/partidos/14.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "luis-fernando-olivera-vega",
+    "nombre": "Luis Fernando Olivera Vega",
+    "partido": "Partido Frente de la Esperanza 2021",
+    "foto": "/img/entidades/luis-fernando-olivera-vega.jpg",
+    "logoPartido": "/img/partidos/2857.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "mesias-antonio-guevara-amasifuen",
+    "nombre": "Mesías Antonio Guevara Amasifuén",
+    "partido": "Partido Morado",
+    "foto": "/img/entidades/mesias-antonio-guevara-amasifuen.jpg",
+    "logoPartido": "/img/partidos/2840.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "carlos-gonzalo-alvarez-loayza",
+    "nombre": "Carlos Gonzalo Álvarez Loayza",
+    "partido": "Partido País para Todos",
+    "foto": "/img/entidades/carlos-gonzalo-alvarez-loayza.jpg",
+    "logoPartido": "/img/partidos/2956.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "herbert-caller-gutierrez",
+    "nombre": "Herbert Caller Gutiérrez",
+    "partido": "Partido Patriótico del Perú",
+    "foto": "/img/entidades/herbert-caller-gutierrez.jpg",
+    "logoPartido": "/img/partidos/2869.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "yonhy-lescano-ancieta",
+    "nombre": "Yonhy Lescano Ancieta",
+    "partido": "Partido Político Cooperación Popular",
+    "foto": "/img/entidades/yonhy-lescano-ancieta.jpg",
+    "logoPartido": "/img/partidos/2995.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "wolfgang-mario-grozo-costa",
+    "nombre": "Wolfgang Mario Grozo Costa",
+    "partido": "Partido Político Integridad Democrática",
+    "foto": "/img/entidades/wolfgang-mario-grozo-costa.jpg",
+    "logoPartido": "/img/partidos/2985.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "vladimir-roy-cerron-rojas",
+    "nombre": "Vladimir Roy Cerrón Rojas",
+    "partido": "Partido Político Nacional Perú Libre",
+    "foto": "/img/entidades/vladimir-roy-cerron-rojas.jpg",
+    "logoPartido": "/img/partidos/2218.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "francisco-ernesto-diez-canseco-tavara",
+    "nombre": "Francisco Ernesto Diez-Canseco Távara",
+    "partido": "Partido Político Perú Acción",
+    "foto": "/img/entidades/francisco-ernesto-diez-canseco-tavara.jpg",
+    "logoPartido": "/img/partidos/2932.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "mario-enrique-vizcarra-cornejo",
+    "nombre": "Mario Enrique Vizcarra Cornejo",
+    "partido": "Partido Político Perú Primero",
+    "foto": "/img/entidades/mario-enrique-vizcarra-cornejo.jpg",
+    "logoPartido": "/img/partidos/2925.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "walter-gilmer-chirinos-purizaga",
+    "nombre": "Walter Gilmer Chirinos Purizaga",
+    "partido": "Partido Político PRIN",
+    "foto": "/img/entidades/walter-gilmer-chirinos-purizaga.jpg",
+    "logoPartido": "/img/partidos/2921.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "alfonso-carlos-espa-y-garces-alvear",
+    "nombre": "Alfonso Carlos Espá y Garcés-Alvear",
+    "partido": "Partido Sicreo",
+    "foto": "/img/entidades/alfonso-carlos-espa-y-garces-alvear.jpg",
+    "logoPartido": "/img/partidos/2935.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "carlos-ernesto-jaico-carranza",
+    "nombre": "Carlos Ernesto Jaico Carranza",
+    "partido": "Perú Moderno",
+    "foto": "/img/entidades/carlos-ernesto-jaico-carranza.jpg",
+    "logoPartido": "/img/partidos/2924.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "jose-leon-luna-galvez",
+    "nombre": "José León Luna Gálvez",
+    "partido": "Podemos Perú",
+    "foto": "/img/entidades/jose-leon-luna-galvez.jpg",
+    "logoPartido": "/img/partidos/2731.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "maria-soledad-perez-tello-de-rodriguez",
+    "nombre": "María Soledad Pérez Tello de Rodríguez",
+    "partido": "Primero la Gente",
+    "foto": "/img/entidades/maria-soledad-perez-tello-de-rodriguez.jpg",
+    "logoPartido": "/img/partidos/2931.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "paul-davis-jaimes-blanco",
+    "nombre": "Paul Davis Jaimes Blanco",
+    "partido": "Progresemos",
+    "foto": "/img/entidades/paul-davis-jaimes-blanco.jpg",
+    "logoPartido": "/img/partidos/2967.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "rafael-bernardo-lopez-aliaga-cazorla",
+    "nombre": "Rafael Bernardo López Aliaga Cazorla",
+    "partido": "Renovación Popular",
+    "foto": "/img/entidades/rafael-bernardo-lopez-aliaga-cazorla.jpg",
+    "logoPartido": "/img/partidos/22.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "antonio-ortiz-villano",
+    "nombre": "Antonio Ortiz Villano",
+    "partido": "Salvemos al Perú",
+    "foto": "/img/entidades/antonio-ortiz-villano.jpg",
+    "logoPartido": "/img/partidos/2927.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "rosario-del-pilar-fernandez-bazan",
+    "nombre": "Rosario del Pilar Fernández Bazán",
+    "partido": "Un Camino Diferente",
+    "foto": "/img/entidades/rosario-del-pilar-fernandez-bazan.jpg",
+    "logoPartido": "/img/partidos/2998.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  },
+  {
+    "id": "roberto-enrique-chiabra-leon",
+    "nombre": "Roberto Enrique Chiabra León",
+    "partido": "Unidad Nacional",
+    "foto": "/img/entidades/roberto-enrique-chiabra-leon.jpg",
+    "logoPartido": "/img/partidos/3023.jpg",
+    "tipo": "persona",
+    "rol": "presidente"
+  }
+]
