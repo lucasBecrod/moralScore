@@ -1,9 +1,9 @@
 const LIMITATIONS = [
-  "Medimos razonamiento publico observable, no moralidad interna.",
-  "La IA puede equivocarse — por eso hay validacion humana obligatoria.",
-  "Fuentes limitadas a discurso publico (entrevistas, debates, conferencias).",
+  "Medimos razonamiento p\u00fablico observable, no moralidad interna.",
+  "La IA puede alucinar \u2014 por eso el motor usa validaci\u00f3n cruzada (Kohlberg vs Gert) y cada score incluye trazabilidad absoluta al video original para auditor\u00eda p\u00fablica.",
+  "Fuentes limitadas a discurso p\u00fablico (entrevistas, debates, conferencias).",
   "El score no es un juicio de valor absoluto: es un indicador basado en evidencia.",
-  "El sistema mejora con cada fuente evaluada y cada revision humana.",
+  "El sistema mejora con cada nueva fuente evaluada y cada impugnaci\u00f3n ciudadana.",
 ];
 
 export function SectionLimitations() {

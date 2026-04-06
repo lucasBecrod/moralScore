@@ -14,7 +14,11 @@ const TABS = [
 
 type TabId = (typeof TABS)[number]["id"];
 
-export function MetodologiaTabs() {
+interface MetodologiaTabsProps {
+  docContents: Record<string, string>;
+}
+
+export function MetodologiaTabs({ docContents }: MetodologiaTabsProps) {
   const [active, setActive] = useState<TabId>("fundamentos");
 
   return (
@@ -40,7 +44,7 @@ export function MetodologiaTabs() {
       <div className="mt-6">
         {active === "fundamentos" && <TabFundamentos />}
         {active === "datos" && <TabDatos />}
-        {active === "gobernanza" && <TabGobernanza />}
+        {active === "gobernanza" && <TabGobernanza docContents={docContents} />}
       </div>
     </div>
   );
@@ -87,40 +91,86 @@ function TabDatos() {
   return <SectionSourceQuality />;
 }
 
-function TabGobernanza() {
+function TabGobernanza({ docContents }: { docContents: Record<string, string> }) {
   return (
     <div className="space-y-8">
       <SectionLimitations />
 
-      {/* Documentación técnica — links limpios, sin <pre> dumps */}
       <section>
         <h3 className="text-lg font-semibold text-zinc-100">
           Documentaci&oacute;n t&eacute;cnica
         </h3>
         <p className="mt-1 text-xs text-zinc-500">
-          Prompts, r&uacute;bricas y criterios publicados en GitHub.
+          Prompts, r&uacute;bricas y criterios p&uacute;blicos. Haz clic para leer o copiar.
         </p>
-        <div className="mt-4 space-y-1.5">
+        <div className="mt-4 space-y-2">
           {TECH_DOCS.map((doc) => (
-            <a
+            <DocCard
               key={doc.file}
-              href={`https://github.com/lucasBecrod/moralScore/blob/main/public/docs/${doc.file}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 rounded-lg border border-zinc-800 px-4 py-3 text-sm transition-colors hover:border-zinc-700 hover:bg-zinc-900"
-            >
-              <svg className="h-4 w-4 shrink-0 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-              </svg>
-              <div className="min-w-0 flex-1">
-                <p className="font-medium text-zinc-300">{doc.title}</p>
-                <p className="text-xs text-zinc-500">{doc.desc}</p>
-              </div>
-              <span className="text-xs text-zinc-600">&rarr;</span>
-            </a>
+              title={doc.title}
+              desc={doc.desc}
+              content={docContents[doc.file] || ""}
+            />
           ))}
         </div>
       </section>
+    </div>
+  );
+}
+
+function DocCard({ title, desc, content }: { title: string; desc: string; content: string }) {
+  const [expanded, setExpanded] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  async function handleCopy() {
+    await navigator.clipboard.writeText(content);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
+
+  return (
+    <div className="rounded-lg border border-zinc-800">
+      <button
+        type="button"
+        onClick={() => setExpanded((v) => !v)}
+        className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-zinc-900"
+      >
+        <svg className="h-4 w-4 shrink-0 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+        </svg>
+        <div className="min-w-0 flex-1">
+          <p className="text-sm font-medium text-zinc-300">{title}</p>
+          <p className="text-xs text-zinc-500">{desc}</p>
+        </div>
+        <svg
+          className={`h-4 w-4 shrink-0 text-zinc-500 transition-transform ${expanded ? "rotate-180" : ""}`}
+          fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {expanded && content && (
+        <div className="border-t border-zinc-800 px-4 pb-4 pt-3">
+          <div className="mb-2 flex justify-end">
+            <button
+              onClick={handleCopy}
+              className="inline-flex items-center gap-1.5 rounded border border-zinc-700 px-2.5 py-1 text-xs text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-white"
+            >
+              {copied ? "Copiado" : "Copiar"}
+            </button>
+          </div>
+          <div className="max-h-80 overflow-auto rounded-lg bg-zinc-950 p-4 text-xs leading-relaxed text-zinc-400 whitespace-pre-wrap break-words">
+            {content}
+          </div>
+        </div>
+      )}
+
+      {expanded && !content && (
+        <div className="border-t border-zinc-800 px-4 py-3">
+          <p className="text-xs text-zinc-600">Documento no disponible.</p>
+        </div>
+      )}
     </div>
   );
 }

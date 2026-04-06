@@ -1,7 +1,25 @@
+import { readFileSync, readdirSync } from "fs";
+import { join } from "path";
 import { SectionHowItWorks } from "./SectionHowItWorks";
 import { MetodologiaTabs } from "./MetodologiaTabs";
 
+function loadDocContents(): Record<string, string> {
+  const docsDir = join(process.cwd(), "public", "docs");
+  const contents: Record<string, string> = {};
+  try {
+    const files = readdirSync(docsDir).filter((f) => f.endsWith(".md"));
+    for (const file of files) {
+      contents[file] = readFileSync(join(docsDir, file), "utf-8");
+    }
+  } catch {
+    // Docs dir not available
+  }
+  return contents;
+}
+
 export function MetodologiaPage() {
+  const docContents = loadDocContents();
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-12">
       {/* Capa 1: Hero + Motor Visual */}
@@ -9,8 +27,8 @@ export function MetodologiaPage() {
         Juicio &eacute;tico basado en evidencia
       </h1>
       <p className="mt-2 max-w-xl text-sm leading-relaxed text-zinc-400">
-        Analizamos c&oacute;mo razonan moralmente los candidatos usando IA,
-        marcos acad&eacute;micos y validaci&oacute;n humana. Todo es p&uacute;blico y auditable.
+        Analizamos c&oacute;mo razonan moralmente los candidatos usando IA
+        y marcos acad&eacute;micos. Prompts, r&uacute;bricas y fuentes son p&uacute;blicos.
       </p>
 
       {/* 3 pilares — resumen ultra-compacto */}
@@ -24,8 +42,8 @@ export function MetodologiaPage() {
           <p className="mt-0.5 text-[11px] text-zinc-500">Qu&eacute; transgrede</p>
         </div>
         <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-3 text-center">
-          <p className="text-lg font-bold text-blue-400">Humano</p>
-          <p className="mt-0.5 text-[11px] text-zinc-500">Qui&eacute;n valida</p>
+          <p className="text-lg font-bold text-blue-400">Trazabilidad</p>
+          <p className="mt-0.5 text-[11px] text-zinc-500">C&oacute;digo abierto</p>
         </div>
       </div>
 
@@ -36,7 +54,7 @@ export function MetodologiaPage() {
 
       {/* Capa 2: Tabs — Fundamentos / Datos / Gobernanza */}
       <div className="mt-12">
-        <MetodologiaTabs />
+        <MetodologiaTabs docContents={docContents} />
       </div>
 
       {/* CTA GitHub */}

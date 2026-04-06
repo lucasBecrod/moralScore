@@ -1,10 +1,28 @@
-const STEPS = [
-  { num: 1, title: "Fuente", desc: "Se sube una URL de entrevista, debate o art\u00edculo" },
-  { num: 2, title: "Extracci\u00f3n", desc: "La IA extrae el contenido relevante" },
-  { num: 3, title: "An\u00e1lisis", desc: "R\u00fabrica Kohlberg + reglas Gert aplicadas" },
-  { num: 4, title: "Resultado", desc: "Estadio + confianza + citas textuales" },
-  { num: 5, title: "Validaci\u00f3n", desc: "Revisi\u00f3n humana obligatoria" },
-  { num: 6, title: "Publicaci\u00f3n", desc: "Score publicado con evidencia verificable" },
+const PHASES = [
+  {
+    label: "Entrada",
+    title: "Evidencia",
+    desc: "Entrevistas, debates y prensa procesados para eliminar ruido subjetivo.",
+    color: "text-blue-400",
+    bg: "bg-blue-500/10",
+    border: "border-blue-500/20",
+  },
+  {
+    label: "Transformaci\u00f3n",
+    title: "Auditor\u00eda \u00c9tica",
+    desc: "Marcos Kohlberg y Gert aplicados para mapear razonamiento moral.",
+    color: "text-violet-400",
+    bg: "bg-violet-500/10",
+    border: "border-violet-500/20",
+  },
+  {
+    label: "Salida",
+    title: "MoralScore",
+    desc: "Score vinculado a citas textuales verificables. Prompt y c\u00f3digo p\u00fablicos.",
+    color: "text-emerald-400",
+    bg: "bg-emerald-500/10",
+    border: "border-emerald-500/20",
+  },
 ];
 
 export function SectionHowItWorks() {
@@ -13,17 +31,21 @@ export function SectionHowItWorks() {
       <h2 className="font-serif text-2xl font-semibold text-zinc-100">
         C&oacute;mo funciona
       </h2>
-      <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
-        {STEPS.map((step) => (
-          <div
-            key={step.num}
-            className="rounded-lg border border-zinc-800 bg-zinc-900 p-3"
-          >
-            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-violet-600/20 text-xs font-bold text-violet-400">
-              {step.num}
-            </span>
-            <p className="mt-2 text-sm font-medium text-zinc-200">{step.title}</p>
-            <p className="mt-0.5 text-xs text-zinc-500">{step.desc}</p>
+      <div className="mt-4 grid grid-cols-3 gap-0">
+        {PHASES.map((phase, i) => (
+          <div key={phase.label} className="flex items-stretch">
+            <div className={`flex-1 rounded-lg border p-4 ${phase.bg} ${phase.border}`}>
+              <p className={`text-[11px] font-medium uppercase tracking-wider ${phase.color}`}>
+                {phase.label}
+              </p>
+              <p className="mt-1 text-sm font-semibold text-zinc-100">{phase.title}</p>
+              <p className="mt-1 text-xs leading-relaxed text-zinc-500">{phase.desc}</p>
+            </div>
+            {i < PHASES.length - 1 && (
+              <div className="flex items-center px-2">
+                <span className="text-zinc-600">&rarr;</span>
+              </div>
+            )}
           </div>
         ))}
       </div>
