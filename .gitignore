@@ -43,8 +43,8 @@ service-account*.json
 public/img/entidades/
 public/img/partidos/
 
-# generated docs (regenerate from docs/transparencia/)
-public/docs/
+# generated docs — NO ignorar, se necesitan en deploy
+# public/docs/
 
 # firebase emulator logs
 firebase-debug.log

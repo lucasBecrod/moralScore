@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from "fs";
+import { readFileSync, readdirSync, existsSync } from "fs";
 import { join } from "path";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -17,6 +17,7 @@ const DOC_TITLES: Record<string, string> = {
 };
 
 export function generateStaticParams() {
+  if (!existsSync(DOCS_DIR)) return [];
   const files = readdirSync(DOCS_DIR).filter((f) => f.endsWith(".md"));
   return files.map((f) => ({ slug: f.replace(".md", "") }));
 }
