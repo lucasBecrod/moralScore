@@ -1,0 +1,74 @@
+import type { Metadata } from "next";
+import { Inter, Playfair_Display } from "next/font/google";
+import Link from "next/link";
+import { SITE_CONFIG, NAV_LINKS } from "@/shared/config/site";
+import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "MoralScore — Razonamiento moral verificable",
+  description: SITE_CONFIG.description,
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="es"
+      className={`${inter.variable} ${playfair.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col">
+        <header className="border-b border-gray-200 dark:border-gray-800">
+          <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+            <Link href="/" className="font-serif text-xl font-bold tracking-tight">
+              {SITE_CONFIG.name}
+            </Link>
+            <nav className="flex gap-6">
+              {NAV_LINKS.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-gray-600 transition-colors hover:text-foreground dark:text-gray-400"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+        </header>
+
+        <main className="flex-1">{children}</main>
+
+        <footer className="border-t border-gray-200 dark:border-gray-800">
+          <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6 text-sm text-gray-500">
+            <span>
+              {SITE_CONFIG.name} — {SITE_CONFIG.context}
+            </span>
+            <a
+              href={SITE_CONFIG.repo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-foreground"
+            >
+              GitHub
+            </a>
+          </div>
+        </footer>
+      </body>
+    </html>
+  );
+}
