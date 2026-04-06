@@ -27,87 +27,63 @@ export function RankingPage() {
   return (
     <div>
       {/* Hero section */}
-      <section className="border-b border-zinc-800 bg-zinc-950 px-4 py-16 text-center">
+      <section className="border-b border-zinc-800 bg-zinc-950 px-4 py-20 text-center">
         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-          &iquest;C&oacute;mo razonan moralmente tus candidatos?
+          &iquest;C&oacute;mo razonan moralmente
+          <br className="hidden sm:block" />
+          tus candidatos?
         </h1>
-        <p className="mx-auto mt-4 max-w-xl text-lg text-zinc-400">
+        <p className="mx-auto mt-5 max-w-lg text-balance text-lg leading-relaxed text-zinc-400">
           Analizamos el discurso p&uacute;blico de cada candidato presidencial
-          usando inteligencia artificial. Sin ideolog&iacute;a. Solo evidencia.
+          con inteligencia artificial.
+        </p>
+        <p className="mt-1 text-sm tracking-wide text-zinc-500">
+          Sin ideolog&iacute;a. Solo evidencia.
         </p>
 
-        {/* Avatares apilados */}
+        {/* Avatares apilados — solo fotos, overlap agresivo */}
         {!loading && entidades.length > 0 && (
-          <div className="mx-auto mt-6 flex items-center justify-center gap-3">
-            <div className="flex -space-x-2">
-              {entidades.slice(0, 8).flatMap((e) => {
-                const items = [];
-                // Foto candidato
-                items.push(
-                  e.foto ? (
-                    <img
-                      key={`foto-${e.id}`}
-                      src={e.foto}
-                      alt={e.nombre}
-                      title={e.nombre}
-                      className="h-8 w-8 rounded-full border-2 border-zinc-950 object-cover object-top"
-                    />
-                  ) : (
-                    <div
-                      key={`foto-${e.id}`}
-                      className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-zinc-950 bg-zinc-800 text-xs text-zinc-500"
-                    >
-                      ?
-                    </div>
-                  )
-                );
-                // Logo partido (intercalado)
-                if (e.logoPartido) {
-                  items.push(
-                    <img
-                      key={`logo-${e.id}`}
-                      src={e.logoPartido}
-                      alt={e.partido || ""}
-                      title={e.partido || ""}
-                      className="h-8 w-8 rounded-full border-2 border-zinc-950 bg-white object-contain"
-                    />
-                  );
-                }
-                return items;
-              }).slice(0, 12)}
+          <div className="mx-auto mt-8 flex items-center justify-center gap-3">
+            <div className="flex -space-x-3">
+              {entidades
+                .filter((e) => e.foto)
+                .slice(0, 8)
+                .map((e) => (
+                  <img
+                    key={e.id}
+                    src={e.foto!}
+                    alt={e.nombre}
+                    title={e.nombre}
+                    className="h-10 w-10 rounded-full border-2 border-zinc-950 object-cover object-top ring-1 ring-zinc-800"
+                  />
+                ))}
+              {entidades.length > 8 && (
+                <span className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-zinc-950 bg-zinc-800 text-xs font-medium text-zinc-300 ring-1 ring-zinc-800">
+                  +{entidades.length - 8}
+                </span>
+              )}
             </div>
-            <span className="text-sm text-zinc-400">
-              {entidades.length} candidatos presidenciales
+            <span className="text-sm text-zinc-500">
+              {entidades.length} candidatos analizados
             </span>
           </div>
         )}
 
-        {/* Método badges */}
-        <div className="mx-auto mt-6 flex flex-wrap items-center justify-center gap-3">
-          <span className="rounded-full border border-zinc-700 bg-zinc-900 px-4 py-1.5 text-sm text-zinc-300">
-            Escala de Kohlberg (1-6)
-          </span>
-          <span className="rounded-full border border-zinc-700 bg-zinc-900 px-4 py-1.5 text-sm text-zinc-300">
-            Moralidad Com&uacute;n de Gert
-          </span>
-        </div>
-
-        {/* CTAs */}
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+        {/* CTA principal */}
+        <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
             href="#ranking"
-            className="rounded-lg bg-white px-5 py-2.5 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-200"
+            className="rounded-lg bg-white px-6 py-3 text-sm font-semibold text-zinc-900 shadow-lg shadow-white/5 transition-all hover:bg-zinc-100 hover:shadow-white/10"
           >
-            Ver candidatos
+            Explorar candidatos
           </a>
           <Link
             href="/metodologia"
-            className="rounded-lg border border-zinc-600 px-5 py-2.5 text-sm font-medium text-zinc-300 transition-colors hover:bg-zinc-800 hover:text-white"
+            className="text-sm font-medium text-zinc-500 transition-colors hover:text-zinc-300"
           >
-            &iquest;C&oacute;mo se calcula?
+            &iquest;C&oacute;mo se calcula? &rarr;
           </Link>
         </div>
-
       </section>
 
       {/* Ranking */}
@@ -115,9 +91,17 @@ export function RankingPage() {
         <h2 className="mb-2 text-center text-xl font-semibold text-zinc-100">
           Candidatos presidenciales
         </h2>
-        <p className="mb-6 text-center text-sm text-zinc-500">
+        <p className="mb-4 text-center text-sm text-zinc-500">
           Ordenados por score moral. Sin evaluar al final.
         </p>
+        <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
+          <span className="rounded-full border border-zinc-800 px-3 py-1 text-xs text-zinc-500">
+            Escala de Kohlberg (1-6)
+          </span>
+          <span className="rounded-full border border-zinc-800 px-3 py-1 text-xs text-zinc-500">
+            Moralidad Com&uacute;n de Gert
+          </span>
+        </div>
 
         {loading ? (
           <p className="text-center text-zinc-400">Cargando...</p>
