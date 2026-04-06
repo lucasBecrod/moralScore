@@ -1508,5 +1508,295 @@
     "fechaFuente": "2026-03-31",
     "entidadId": "roberto-enrique-chiabra-leon",
     "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-ronald-darwin-atencio-sotomayor",
+    "url": "https://caretas.pe/politica/elecciones-2026-ronald-atencio-condiciona-actividad-minera-a-licencia-social-y-proteccion-hidrica",
+    "tipo": "articulo",
+    "titulo": "Atencio condiciona actividad minera a licencia social y proteccion hidrica",
+    "medio": "Caretas",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-jose-daniel-williams-zapata",
+    "url": "https://diariocorreo.pe/politica/jose-williams-plantea-modernizar-salud-con-telemedicina-y-bonos-para-medicos-debate-presidencial-jne-noticia/",
+    "tipo": "debate",
+    "titulo": "Williams: modernizar salud con telemedicina y bonos para medicos",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "jose-daniel-williams-zapata",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "url": "https://diariocorreo.pe/politica/paz-de-la-barra-sobre-crisis-en-salud-hay-que-descentralizar-y-desconcentrar-en-lima-absolutamente-todo-noticia/",
+    "tipo": "debate",
+    "titulo": "Paz de la Barra: descentralizar y desconcentrar en Lima absolutamente todo",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-fiorella-giannina-molinelli-aristondo",
+    "url": "https://caretas.pe/politica/molinelli-destrabe-inversiones-empleo-formal-peru/",
+    "tipo": "entrevista",
+    "titulo": "Molinelli: destrabe de inversiones y empleo formal",
+    "medio": "Caretas",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-roberto-helbert-sanchez-palomino",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-roberto-sanchez-ofrece-puno-apoyo-a-agricultura-y-ganaderia-1066037.aspx",
+    "tipo": "entrevista",
+    "titulo": "Sanchez ofrece en Puno apoyo a agricultura y ganaderia",
+    "medio": "Andina",
+    "fechaFuente": "2026-04-03",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-rafael-jorge-belaunde-llosa",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026belaunde-propone-impulso-a-inversiones-e-infraestructura-para-crear-empleo-1067268.aspx",
+    "tipo": "entrevista",
+    "titulo": "Belaunde: impulso a inversiones e infraestructura para crear empleo",
+    "medio": "Andina",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-pitter-enrique-valderrama-pena",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-enrique-valderrama-plantea-creditos-agrarios-e-inversion-educacion-1066503.aspx",
+    "tipo": "entrevista",
+    "titulo": "Valderrama: creditos agrarios e inversion en educacion",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-28",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-ricardo-pablo-belmont-cassinelli",
+    "url": "https://diariocorreo.pe/politica/debate-presidencial-belaunde-y-belmont-destacan-inversion-privada-y-apoyo-a-mypes-noticia/",
+    "tipo": "debate",
+    "titulo": "Belmont destaca inversion privada y apoyo a Mypes",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-charlie-carrasco-salazar",
+    "url": "https://diariocorreo.pe/politica/charlie-carrasco-asegura-que-para-solucionar-la-brecha-sanitaria-se-necesita-decision-y-voluntad-politica-noticia/",
+    "tipo": "debate",
+    "titulo": "Carrasco: brecha sanitaria requiere decision y voluntad politica",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "charlie-carrasco-salazar",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-alex-gonzales-castillo",
+    "url": "https://diariocorreo.pe/politica/debate-presidencial-2026-alex-gonzales-propone-aumentar-presupuesto-a-universidades-publicas-noticia/",
+    "tipo": "debate",
+    "titulo": "Gonzales: aumentar presupuesto a universidades publicas",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "alex-gonzales-castillo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-armando-joaquin-masse-fernandez",
+    "url": "https://elcomercio.pe/politica/armando-masse-participa-en-el-debate-presidencial-2026-miercoles-31-sexta-y-ultima-jornada-incidentes-temas-pullas-y-planes-de-gobierno-previo-a-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "Masse: acabar con anemia infantil y erradicar ceguera por cataratas",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-luis-fernando-olivera-vega",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-fernando-olivera-plantea-reformas-materia-economica-1062076.aspx",
+    "tipo": "entrevista",
+    "titulo": "Olivera: reformas economicas, mineria de primer mundo y salud al 7% PBI",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "luis-fernando-olivera-vega",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-mesias-antonio-guevara-amasifuen",
+    "url": "https://caretas.pe/politica/debate-presidencial-2026-conoce-las-propuestas-de-mesias-guevara/",
+    "tipo": "debate",
+    "titulo": "Guevara: bases permanentes en Amazonia contra mineria ilegal",
+    "medio": "Caretas",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-carlos-gonzalo-alvarez-loayza",
+    "url": "https://rpp.pe/politica/elecciones/elecciones-2026-carlos-alvarez-propone-cerrar-brechas-de-infraestructura-hospitalaria-noticia-1683040",
+    "tipo": "debate",
+    "titulo": "Alvarez: cerrar brechas hospitalarias y atencion a salud mental",
+    "medio": "RPP",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-herbert-caller-gutierrez",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-herbert-caller-gutierrez-del-partido-patriotico-del-peru",
+    "tipo": "entrevista",
+    "titulo": "Caller: hospitales modulares y descentralizacion de ministerios ambientales",
+    "medio": "TVPeru",
+    "fechaFuente": "2026-03-05",
+    "entidadId": "herbert-caller-gutierrez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-yonhy-lescano-ancieta",
+    "url": "https://www.infobae.com/peru/2026/03/23/debate-presidencial-2026-del-jne-yonhy-lescano-de-cooperacion-popular-participa-en-la-primera-jornada-de-hoy-lunes-23-de-marzo/",
+    "tipo": "debate",
+    "titulo": "Lescano: reconstruir 22 mil colegios y formalizar microempresas sin sancionarlas",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "yonhy-lescano-ancieta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-wolfgang-mario-grozo-costa",
+    "url": "https://www.infobae.com/peru/2026/04/02/wolfgang-grozo-en-debate-presidencial-2026-promesa-de-duplicar-beca-18-y-construir-data-centers-para-la-educacion-publica/",
+    "tipo": "debate",
+    "titulo": "Grozo: duplicar Beca 18, Becas por Impuestos, data centers educativos",
+    "medio": "Infobae",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-vladimir-roy-cerron-rojas",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-vladimir-cerron-rojas-1065379.aspx",
+    "tipo": "articulo",
+    "titulo": "Plan de gobierno Cerron: sistema unico de salud universal y gratuito",
+    "medio": "Andina",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-francisco-ernesto-diez-canseco-tavara",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-estas-son-las-propuestas-de-11-candidatos-sobre-educacion-innovacion-y-tecnologia-noticia-1682453",
+    "tipo": "debate",
+    "titulo": "Diez Canseco: Agrobanco sin corrupcion y educacion tecnica con becas",
+    "medio": "RPP",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-mario-enrique-vizcarra-cornejo",
+    "url": "https://diariocorreo.pe/politica/paul-jaimes-herbert-caller-y-mario-vizcarra-exponen-propuestas-educativas-en-el-quinto-dia-de-debate-presidencial-jne-elecciones-2026-en-vivo-noticia/",
+    "tipo": "debate",
+    "titulo": "Vizcarra: reconocer deuda social docentes y llenar Peru de postas medicas",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-walter-gilmer-chirinos-purizaga",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-2026-estas-son-las-propuestas-de-los-candidatos-sobre-educacion-innovacion-y-tecnologia-noticia-1682292",
+    "tipo": "debate",
+    "titulo": "Chirinos: revolucion educativa, institutos tecnicos regionales",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-alfonso-carlos-espa-y-garces-alvear",
+    "url": "https://diariocorreo.pe/politica/carlos-espa-propone-revisar-la-regionalizacion-y-cerrar-brecha-de-agua-potable-debate-presidencial-jne-elecciones-2026-peru-noticia/",
+    "tipo": "debate",
+    "titulo": "Espa: cerrar brecha agua potable, revisar regionalizacion",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-carlos-ernesto-jaico-carranza",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-2026-estas-son-las-propuestas-de-los-candidatos-sobre-educacion-innovacion-y-tecnologia-noticia-1682292",
+    "tipo": "debate",
+    "titulo": "Jaico: triplicar SENATI, banco del emprendedor, formacion tecnica en escuelas",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-jose-leon-luna-galvez",
+    "url": "https://rpp.pe/politica/elecciones/elecciones-2026-las-propuestas-de-los-candidatos-sobre-educacion-innovacion-y-tecnologia-en-el-debate-presidencial-noticia-1682607",
+    "tipo": "debate",
+    "titulo": "Luna Galvez: duplicar vacantes universitarias, triplicar Beca 18, crear Beca 25",
+    "medio": "RPP",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "jose-leon-luna-galvez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-maria-soledad-perez-tello-de-rodriguez",
+    "url": "https://diariocorreo.pe/politica/marisol-perez-tello-plantea-dotar-recursos-para-mejorar-salud-infantil-desde-el-nacimiento-noticia/",
+    "tipo": "debate",
+    "titulo": "Perez Tello: erradicar anemia y desnutricion en primera infancia",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-paul-davis-jaimes-blanco",
+    "url": "https://diariocorreo.pe/politica/paul-jaimes-herbert-caller-y-mario-vizcarra-exponen-propuestas-educativas-en-el-quinto-dia-de-debate-presidencial-jne-elecciones-2026-en-vivo-noticia/",
+    "tipo": "debate",
+    "titulo": "Jaimes: ampliar Beca 18, carrera tecnica a nombre de la nacion en secundaria",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-antonio-ortiz-villano",
+    "url": "https://diariocorreo.pe/politica/elecciones-2026-estas-son-las-propuestas-de-acuna-ortiz-y-grozo-para-mejorar-la-educacion-y-tecnologia-noticia/",
+    "tipo": "debate",
+    "titulo": "Ortiz: educacion conectada a industria, parques industriales regionales",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "antonio-ortiz-villano",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-rosario-del-pilar-fernandez-bazan",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-rosario-fernandez-plantea-impulso-de-salud-preventiva-la-poblacion-1061240.aspx",
+    "tipo": "entrevista",
+    "titulo": "Fernandez: salud preventiva, unificar EsSalud-Minsa, 4 ambulancias por posta",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada4-roberto-enrique-chiabra-leon",
+    "url": "https://elcomercio.pe/politica/roberto-chiabra-participa-en-debate-presidencial-2026-martes-31-incidentes-temas-pullas-y-planes-de-gobierno-previo-a-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "Chiabra: eliminar brecha salarial genero, empleo juvenil, cadenas productivas regionales",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-31",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "estado": "evaluada"
   }
 ]

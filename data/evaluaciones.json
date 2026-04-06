@@ -2724,5 +2724,527 @@
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en debate en Correo.",
     "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-ronald-darwin-atencio-sotomayor",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "fuenteId": "f-oleada4-ronald-darwin-atencio-sotomayor",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Condiciona mineria a licencia social y proteccion hidrica. El agua como derecho suena a estadio 4-5 pero el framing es instrumental: comunidades tienen poder de veto, no principio universal de proteccion ambiental. La licencia social opera como transaccion comunidad-empresa, no como derecho institucionalizado.",
+    "citas": [
+      {
+        "texto": "El agua no debe ser un privilegio sino un derecho. La actividad minera solo se realizara en zonas establecidas con licencia social de las comunidades",
+        "ubicacion": "Articulo Caretas, propuestas ambientales",
+        "indicador": "Transaccional: licencia social como poder de veto comunitario, no como marco institucional de derechos — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (medio ambiente). El discurso de derechos hidricos podria ser estadio 3 si se interpreta como apelacion a dignidad comunitaria. Pero anti-ventriloquismo: decir derecho no basta si el mecanismo es transaccional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-jose-daniel-williams-zapata",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "f-oleada4-jose-daniel-williams-zapata",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone modernizar salud con telemedicina, historias clinicas digitales e incentivos a medicos rurales. La propuesta es mas articulada que en oleadas previas: reconoce que medicos no quieren ir a zonas alejadas y ofrece bonos. Pero sigue siendo debate con logica de lista de promesas sin marco de derecho a la salud como principio.",
+    "citas": [
+      {
+        "texto": "Implementaremos telemedicina y bonos para incentivar a medicos a trabajar en zonas alejadas, mejorando la infraestructura a cuatro niveles de atencion",
+        "ubicacion": "Debate JNE ultima fecha, bloque salud, Correo",
+        "indicador": "Propuesta articulada con incentivos pero sin principio de derecho universal a la salud — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (salud). Sube de 2 a 3: en salud Williams articula mejor que en economia. El CENS (Consejo Estrategico Nacional de Salud) podria ser estadio 4 pero falta desarrollo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "fuenteId": "f-oleada4-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Diagnostica correctamente la concentracion de servicios de salud en Lima. Pero la solucion es grandilocuente: desconcentrar absolutamente todo. No articula como, ni con que recursos, ni que marco institucional garantiza la descentralizacion. Es eslogan, no plan.",
+    "citas": [
+      {
+        "texto": "Hay que descentralizar y desconcentrar en Lima absolutamente todo. Tenemos que incentivar a los medicos del Serum a trabajar en regiones",
+        "ubicacion": "Debate JNE cuarta fecha, bloque salud, Correo",
+        "indicador": "Diagnostico correcto + solucion eslogan sin plan institucional — Estadio 2 transaccional"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (salud). Se mantiene en estadio 1-2: patron de diagnosticos correctos con soluciones grandilocuentes sin sustento.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-fiorella-giannina-molinelli-aristondo",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "f-oleada4-fiorella-giannina-molinelli-aristondo",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone destrabar US$30 mil millones en inversiones, reducir informalidad de 71% a 58%, y generar un millon de empleos juveniles con incentivos tributarios y formacion dual. Articula propuestas con datos y mecanismos institucionales. Frase clave: el Estado debe ensenar a pescar, no solo entregar pescado — critica al asistencialismo desde principio de autonomia.",
+    "citas": [
+      {
+        "texto": "El Estado debe ensenar a pescar y no solo entregar pescado. Necesitamos un Estado participativo que promueva empleo formal en todas las regiones",
+        "ubicacion": "Entrevista Caretas / Debate JNE bloque empleo, Correo",
+        "indicador": "Critica al asistencialismo con principio de autonomia. Marco institucional con datos — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (economia/empleo). Se mantiene en estadio 4: consistente con oleadas 2 y 3. La critica al asistencialismo es principio articulado.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-roberto-helbert-sanchez-palomino",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "fuenteId": "f-oleada4-roberto-helbert-sanchez-palomino",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Ofrece apoyo a agricultura y ganaderia con segunda reforma agraria, tecnificacion y seguridad hidrica. Pero es mitin en Puno: promesas electorales dirigidas a audiencia local. No articula marco institucional ni principios de politica agraria. Continuidad de agenda Castillo sin diferenciacion propia.",
+    "citas": [
+      {
+        "texto": "Vamos a impulsar la segunda reforma agraria para tecnificar e industrializar el campo, con asistencia tecnica y financiamiento a la micro y pequena agricultura familiar",
+        "ubicacion": "Mitin en Puno, Andina",
+        "indicador": "MITIN = techo 3. Promesas electorales a audiencia local. Logica transaccional: yo te doy apoyo — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (agricultura). REGLA MITIN aplica. Se mantiene en estadio 2: patron de promesas sin sustento institucional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-rafael-jorge-belaunde-llosa",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "fuenteId": "f-oleada4-rafael-jorge-belaunde-llosa",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone shock de inversiones con reformas normativas, simplificacion de tramites y Reactiva Mype via Cofide. El razonamiento es institucional: Cofide asume parte del riesgo, marco normativo facilita formalizacion. No hay promesas grandilocuentes sino mecanismos dentro del sistema existente.",
+    "citas": [
+      {
+        "texto": "Si queremos mejor empleo debemos tener mas y mejor inversion privada. Proponemos un Reactiva Mype donde Cofide asuma parte del riesgo para que las entidades financieras presten a micro y pequenos empresarios",
+        "ubicacion": "Entrevista Andina, propuestas economicas",
+        "indicador": "Mecanismo institucional concreto: Cofide como garante, marco normativo — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 5,
+    "notas": "Tema nuevo (economia/mypes). Se mantiene en estadio 4: consistente con oleadas 1 y 3. No sube a 5 porque no articula principios universales, solo eficiencia institucional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-pitter-enrique-valderrama-pena",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "f-oleada4-pitter-enrique-valderrama-pena",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Promete creditos agrarios para pequenos productores, ampliar frontera agricola de 250 mil a 500 mil hectareas e incrementar presupuesto educativo de 5.1% a 7% del PBI. Las cifras son ambiciosas sin sustento fiscal. La logica es transaccional: mas presupuesto = mas educacion. No articula que reforma estructural necesita el sistema educativo.",
+    "citas": [
+      {
+        "texto": "Implementaremos creditos agrarios para pequenos productores y ampliaremos la frontera agricola de 250 mil a 500 mil hectareas. En educacion subiremos del 5.1% al 7% del PBI",
+        "ubicacion": "Entrevista Andina, campana en Sullana",
+        "indicador": "Transaccional: cifras ambiciosas sin reforma estructural. Mas presupuesto como solucion magica — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (educacion + agricultura). Se mantiene en estadio 2: patron de promesas cuantitativas sin principio articulado.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-ricardo-pablo-belmont-cassinelli",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "fuenteId": "f-oleada4-ricardo-pablo-belmont-cassinelli",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "En debate destaca inversion privada y apoyo a Mypes. Pero el contenido es generico: no articula mecanismos concretos ni reformas institucionales. Debate = formato de promesas rapidas. Repite logica transaccional: yo apoyo Mypes, las Mypes crecen.",
+    "citas": [
+      {
+        "texto": "Hay que apoyar a las Mypes que son el motor del Peru. Vamos a facilitar la inversion privada eliminando trabas burocraticas",
+        "ubicacion": "Debate JNE ultima fecha, bloque empleo, Correo",
+        "indicador": "Generico y transaccional: apoyo a Mypes como eslogan sin mecanismo institucional — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (economia/Mypes). Se mantiene en estadio 2: patron de propuestas vagas confirmado en oleada 2.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-charlie-carrasco-salazar",
+    "entidadId": "charlie-carrasco-salazar",
+    "fuenteId": "f-oleada4-charlie-carrasco-salazar",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Dice que la brecha sanitaria se resuelve con decision y voluntad politica. Promete que cada provincia tendra hospital nivel 1, 2 y 3. La solucion es personalista: el lider decide y se resuelve. No articula financiamiento, formacion de personal ni cadena logistica. Un hospital de nivel 3 por provincia es inviable sin analisis de demanda.",
+    "citas": [
+      {
+        "texto": "Para solucionar la brecha sanitaria se necesita decision y voluntad politica. Cada provincia tendra un hospital de nivel 1, 2 y 3 con infraestructura y equipamiento completo",
+        "ubicacion": "Debate JNE cuarta fecha, bloque salud, Correo",
+        "indicador": "Voluntarismo personalista: decision del lider como solucion. Promesas inviables — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema nuevo (salud). Se mantiene en estadio 2: mejora relativa vs estadio 1 pero sigue pre-convencional. El voluntarismo roza estadio 1.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-alex-gonzales-castillo",
+    "entidadId": "alex-gonzales-castillo",
+    "fuenteId": "f-oleada4-alex-gonzales-castillo",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone elevar presupuesto educativo de 5.1% a 7.6% del PBI y aumentar presupuesto universitario. La logica es cuantitativa: mas dinero = mejor educacion. No articula que reformas curriculares, de gestion o de calidad necesita el sistema. Cosmovision andina y amazonica suena a estadio 3 pero es eslogan sin desarrollo.",
+    "citas": [
+      {
+        "texto": "De llegar a Palacio elevare el presupuesto en educacion del 5.1% al 7.6% en los proximos cinco anos y aumentaremos el presupuesto en educacion universitaria",
+        "ubicacion": "Debate JNE cuarta fecha, bloque educacion, Correo",
+        "indicador": "Cuantitativo: mas presupuesto como solucion. Sin reforma de calidad — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (educacion universitaria). Baja de 3 a 2: en educacion Gonzales no articula la injusticia como en tercerizacion. Logica puramente cuantitativa.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-armando-joaquin-masse-fernandez",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "fuenteId": "f-oleada4-armando-joaquin-masse-fernandez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone acabar con anemia infantil usando tecnologia para monitorear hemoglobina en tiempo real y erradicar ceguera por cataratas. Las propuestas suenan tecnicas pero son slogans de debate: no articula plan de implementacion, financiamiento ni cadena de atencion. Logica transaccional: yo traigo la tecnologia, se resuelve el problema.",
+    "citas": [
+      {
+        "texto": "El 43.7% de ninos sufre de anemia. Vamos a utilizar la tecnologia para monitorear la hemoglobina en tiempo real y darle tratamiento integral",
+        "ubicacion": "Debate JNE sexta fecha, bloque salud, El Comercio",
+        "indicador": "Solucion tecnomagica: tecnologia como respuesta sin plan de implementacion — Estadio 2 transaccional"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (salud infantil). Consistente con oleadas previas (2,2,2). Cuatro evaluaciones confirman patron transaccional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-luis-fernando-olivera-vega",
+    "entidadId": "luis-fernando-olivera-vega",
+    "fuenteId": "f-oleada4-luis-fernando-olivera-vega",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone mineria de primer mundo responsable con medio ambiente y presupuesto de salud al 7% del PBI. La logica es: capitalizar riquezas para invertir en servicios. No hay principio articulado de politica ambiental ni marco institucional. Mineria responsable es eslogan sin desarrollo.",
+    "citas": [
+      {
+        "texto": "El Peru es un pais minero y nosotros debemos capitalizar toda esa riqueza para poder invertir en educacion, salud y seguridad",
+        "ubicacion": "Entrevista Andina, reformas economicas",
+        "indicador": "Transaccional: extraer riquezas para repartir en servicios. Sin principio ambiental — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (economia/mineria). Consistente con oleadas previas (2,2,2). Cuatro evaluaciones confirman patron transaccional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-mesias-antonio-guevara-amasifuen",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "fuenteId": "f-oleada4-mesias-antonio-guevara-amasifuen",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone 8 bases operacionales permanentes en Amazonia con helicopteros, drones y personal rotativo contra mineria ilegal, tala y narcotrafico. Tambien propone renegociar contratos mineros y gravar sobreganancias. Es la propuesta mas institucional: bases permanentes (no operativos esporadicos), equipamiento y personal rotativo. Articula defensa de Amazonia como politica de Estado, no como slogan.",
+    "citas": [
+      {
+        "texto": "Crearemos 8 bases operacionales permanentes en zonas criticas de la Amazonia con infraestructura, helicopteros, botes rapidos, drones y personal rotativo para erradicar mineria ilegal, tala y narcotrafico",
+        "ubicacion": "Debate JNE / Caretas, propuestas medio ambiente",
+        "indicador": "Propuesta institucional concreta: bases permanentes, equipamiento, personal — Estadio 4 (politica de Estado)"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (medio ambiente/Amazonia). Sube de 3 a 4: en defensa ambiental articula propuesta institucional con mecanismos concretos. Techo debate no aplica porque la propuesta es especifica y operativa.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-carlos-gonzalo-alvarez-loayza",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "fuenteId": "f-oleada4-carlos-gonzalo-alvarez-loayza",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone compra masiva de medicamentos via central nacional, cerrar brecha hospitalaria, y alerta sobre falta de psiquiatras que deja a jovenes vulnerables. El diagnostico es sistemico: identifica que la falta de farmacos en postas es critica, y la salud mental es invisible. Propone historial clinico unificado publico-privado. Es razonamiento institucional con cadena causal.",
+    "citas": [
+      {
+        "texto": "La falta de farmacos en las postas medicas es una preocupacion critica. Proponemos una compra masiva de medicamentos a traves de una central nacional que funcione de manera efectiva, y un historial clinico unificado",
+        "ubicacion": "Debate JNE, bloque salud, RPP",
+        "indicador": "Diagnostico sistemico + mecanismo institucional concreto (central de compras, historial unificado) — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (salud). Se mantiene en estadio 4: consistente con oleadas 1 y 3. Tres de cuatro evaluaciones dan estadio 4.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-herbert-caller-gutierrez",
+    "entidadId": "herbert-caller-gutierrez",
+    "fuenteId": "f-oleada4-herbert-caller-gutierrez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone hospitales modulares armables que se convierten en bienes muebles sin traba burocratica. La idea suena innovadora pero es solucion magica: en un mes construyes un hospital. No articula personal, equipo, cadena de suministro. Piura como laboratorio climatologico es declaracion sin plan.",
+    "citas": [
+      {
+        "texto": "Nuestra propuesta busca pasar del concepto de infraestructura como bienes inmuebles al concepto modular, armables, que se convierten en bienes muebles sin traba burocratica. En un mes se estaria construyendo un hospital",
+        "ubicacion": "Entrevista TVPeru Tu Decision 2026",
+        "indicador": "Solucion magica: hospitales en un mes. Tecnomagico sin plan de operacion — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (salud/infraestructura modular). Consistente con oleadas previas (1,2,2). Patron de soluciones magicas importadas.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-yonhy-lescano-ancieta",
+    "entidadId": "yonhy-lescano-ancieta",
+    "fuenteId": "f-oleada4-yonhy-lescano-ancieta",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Promete reconstruir 22 mil colegios y formalizar microempresas sin sancionarlas. La cifra de 22 mil colegios es grandilocuente sin plan de financiamiento. Formalizar sin sancionar es transaccional: el Estado te da beneficios a cambio de que te formalices. No hay principio de derecho a la educacion articulado.",
+    "citas": [
+      {
+        "texto": "Vamos a reconstruir 22 mil colegios publicos y a formalizar las microempresas sin sancionarlas, dandoles incentivos para que se integren al sistema",
+        "ubicacion": "Debate JNE primera fecha, Infobae",
+        "indicador": "Promesas grandilocuentes (22 mil colegios). Formalizacion como transaccion sin reforma — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (educacion/formalizacion). Se mantiene en estadio 2: consistente con oleadas 1 y 2. La cifra de 22 mil colegios es inviable en un quinquenio.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-wolfgang-mario-grozo-costa",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "fuenteId": "f-oleada4-wolfgang-mario-grozo-costa",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone duplicar presupuesto de Beca 18, crear programa Becas por Impuestos (sector privado financia a cambio de beneficio tributario), becas para docentes con cooperacion internacional, y data centers para conectividad educativa. Es propuesta institucional articulada: mecanismo publico-privado (Becas por Impuestos), formacion docente, infraestructura digital.",
+    "citas": [
+      {
+        "texto": "Vamos a duplicar Beca 18, implementar Becas por Impuestos donde el sector privado financia formacion a cambio de beneficios tributarios, y construir dos data centers para garantizar conectividad educativa",
+        "ubicacion": "Debate JNE ultima fecha, bloque educacion, Infobae",
+        "indicador": "Mecanismo institucional publico-privado. Propuesta articulada con multiples componentes — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (educacion). Sube de 3 a 4: en educacion Grozo articula mecanismos institucionales (Becas por Impuestos). Debate pero propuesta especifica, no eslogan.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-vladimir-roy-cerron-rojas",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "fuenteId": "f-oleada4-vladimir-roy-cerron-rojas",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Plan de gobierno propone sistema unico de salud universal, gratuito, preventivo, financiado y conducido por el Estado. Suena a estadio 4-5 pero anti-ventriloquismo: es profugo proponiendo control estatal absoluto de la salud. La palabra clave es conducido por el Estado — no articula participacion ciudadana, autonomia medica ni contrapesos. Es concentracion de poder disfrazada de universalidad.",
+    "citas": [
+      {
+        "texto": "Implementar un sistema unico de salud universal, gratuito, preventivo e integrado, financiado y conducido por el Estado, que garantice atencion oportuna y equitativa",
+        "ubicacion": "Plan de gobierno Peru Libre, Andina",
+        "indicador": "Control estatal absoluto sin contrapesos. Profugo proponiendo concentracion de poder en salud — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Tema nuevo (salud). Consistente con oleadas previas (1,1,1). Anti-ventriloquismo: el lenguaje de universalidad oculta concentracion de poder. Cuatro evaluaciones confirman estadio 1.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-francisco-ernesto-diez-canseco-tavara",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "fuenteId": "f-oleada4-francisco-ernesto-diez-canseco-tavara",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone que Agrobanco funcione sin corrupcion y apoye a pequenos agricultores. Tambien propone formacion tecnica con becas. El diagnostico es correcto (Agrobanco corrupto) pero la solucion es moralista: sin corrupcion. No articula mecanismos anticorrupcion concretos. Apela a ser buen gestor, no a reformar instituciones.",
+    "citas": [
+      {
+        "texto": "El Agrobanco va a funcionar sin corrupcion y va a brindar apoyo a los pequenos agricultores del Peru",
+        "ubicacion": "Debate JNE, respuesta a pregunta sobre brechas agrarias, RPP",
+        "indicador": "Solucion moralista: prometer gestion limpia sin mecanismo anticorrupcion concreto — Estadio 3 (buen chico)"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (agricultura). Baja de 4 a 3: en agricultura Diez Canseco apela a moralidad personal (sin corrupcion) en vez de reforma institucional. Consistente con oleada 2 (Mano de Hierro = estadio 3).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-mario-enrique-vizcarra-cornejo",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "fuenteId": "f-oleada4-mario-enrique-vizcarra-cornejo",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Promete reconocer deuda social docente y llenar Peru de postas medicas. La deuda social es un derecho ganado pero Vizcarra lo usa como promesa electoral, no como principio de justicia. Llenar de postas es grandilocuente sin plan de personal ni financiamiento. Logica transaccional: yo pago deuda, docentes me apoyan.",
+    "citas": [
+      {
+        "texto": "Vamos a reconocer inmediatamente el pago de la deuda social, un derecho ganado por todos los profesores. Y vamos a llenar el Peru de postas medicas",
+        "ubicacion": "Debate JNE quinta fecha, bloque educacion/salud, Correo",
+        "indicador": "Promesas grandilocuentes: deuda social como transaccion electoral, postas sin plan — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (educacion + salud). Consistente con oleadas 2 y 3 (estadio 2). La deuda social podria ser estadio 3 si se enmarca en justicia laboral.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-walter-gilmer-chirinos-purizaga",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "fuenteId": "f-oleada4-walter-gilmer-chirinos-purizaga",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone revolucion educativa con institutos tecnicos regionales alineados a agro, mineria y tecnologia. Exoneracion de impuestos por 5 anos a empresas que se instalen. Suena a estadio 3-4 pero es debate con promesas desconectadas: exoneracion 5 anos + seguridad juridica + menos burocracia. No articula como vincula educacion con mercado laboral ni que reforma institucional del sistema educativo propone.",
+    "citas": [
+      {
+        "texto": "Impulsare colegios e institutos tecnicos de alto nivel en todas las regiones, alineados al agro, la mineria y la tecnologia. Menos burocracia y mas empleo",
+        "ubicacion": "Debate JNE cuarta fecha, bloque educacion, RPP",
+        "indicador": "Promesas multiples desconectadas. Exoneraciones como regalo. Debate = techo 3, pero contenido es eslogan — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (educacion). Mejora relativa vs estadio 1 pero sigue siendo pre-convencional. Cuatro evaluaciones: 1,1,1,2.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-alfonso-carlos-espa-y-garces-alvear",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "fuenteId": "f-oleada4-alfonso-carlos-espa-y-garces-alvear",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Diagnostica que la regionalizacion traslado vicios del centralismo limeno a capitales departamentales. Propone cerrar brecha de agua potable y que gobierno central intervenga donde hay mala gestion. Es diagnostico correcto con solucion centralista: si la region falla, Lima interviene. No articula como fortalecer capacidades regionales sino como retomar control central.",
+    "citas": [
+      {
+        "texto": "La falsa regionalizacion ha trasladado los vicios del centralismo limeno a las capitales de cada departamento. Me comprometo a cerrar la brecha del agua potable al final de mi gobierno",
+        "ubicacion": "Debate JNE cuarta fecha, bloque descentralizacion, Correo",
+        "indicador": "Diagnostico correcto de regionalizacion + solucion centralista. Compromiso personal como garantia — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (agua/descentralizacion). Se mantiene en estadio 3: critica a regionalizacion es buena pero la solucion es re-centralizar, no reformar. Anti-ventriloquismo: compromiso personal no es mecanismo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-carlos-ernesto-jaico-carranza",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "fuenteId": "f-oleada4-carlos-ernesto-jaico-carranza",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone triplicar SENATI, crear banco del emprendedor para financiar mas de 2 millones de Mypes, formacion tecnica en escuelas vinculada a demanda laboral. El razonamiento es institucional: usa instituciones existentes (SENATI), crea nuevas (banco emprendedor), y vincula educacion con mercado. No promete cifras magicas sino reformas del sistema formativo.",
+    "citas": [
+      {
+        "texto": "Vamos a triplicar el SENATI e implementar formacion tecnica en las escuelas. Crearemos el banco del emprendedor para que mas de 2 millones de Mypes tengan acceso a financiamiento sin bancos depredadores",
+        "ubicacion": "Debate JNE cuarta fecha, bloque educacion, RPP",
+        "indicador": "Reforma institucional: usar SENATI existente + crear banco emprendedor + vincular educacion-mercado — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (educacion tecnica). Consistente con oleadas 1, 2 y 3 (estadio 4). Cuatro evaluaciones confirman razonamiento institucional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-jose-leon-luna-galvez",
+    "entidadId": "jose-leon-luna-galvez",
+    "fuenteId": "f-oleada4-jose-leon-luna-galvez",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Duplicar vacantes universitarias, triplicar Beca 18, crear Beca 25 para maestrias, 1000 millones para politecnicos. Todas son cifras redondas sin sustento fiscal. No articula reforma de calidad educativa: mas vacantes no significa mejor educacion. Patron de promesas grandilocuentes en todos los temas.",
+    "citas": [
+      {
+        "texto": "Duplicaremos las vacantes de universidades nacionales, triplicaremos las cuotas de Beca 18 y crearemos Beca 25 para maestrias. Destinaremos 1000 millones de soles a politecnicos",
+        "ubicacion": "Debate JNE ultima fecha, bloque educacion, RPP",
+        "indicador": "Cifras redondas multiplicadoras sin reforma de calidad. Mas = mejor como logica — Estadio 2 transaccional"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema nuevo (educacion). Consistente con oleadas previas (2,2,2). Cuatro evaluaciones confirman patron transaccional en todo tema.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-maria-soledad-perez-tello-de-rodriguez",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "fuenteId": "f-oleada4-maria-soledad-perez-tello-de-rodriguez",
+    "estadio": 5,
+    "confianza": "alta",
+    "justificacion": "Plantea erradicar anemia y desnutricion en primera infancia como prerequisito para cualquier otra politica. Articula servicios continuos desde nacimiento con seguimiento tecnologico a distancia. Lo clave: en una sociedad que atiende a ninos y ancianos, los padres pueden salir a trabajar sin abandonarlos — reconoce que los derechos sociales son interdependientes. No es lista de promesas sino principio de politica publica.",
+    "citas": [
+      {
+        "texto": "Nuestro compromiso es erradicar la anemia y la desnutricion en la primera infancia. En una sociedad que atiende a los ninos y a los ancianos, los padres pueden salir a trabajar sin abandonarlos",
+        "ubicacion": "Debate JNE, bloque salud/primera infancia, Correo",
+        "indicador": "Principio de interdependencia de derechos sociales. No lista de promesas sino marco de politica — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (primera infancia). Consistente con oleadas previas (5,5,5). Cuatro evaluaciones confirman razonamiento de principios universales.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-paul-davis-jaimes-blanco",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "fuenteId": "f-oleada4-paul-davis-jaimes-blanco",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone que estudiantes terminen secundaria con carrera tecnica a nombre de la nacion, duplicar Beca 18, pagar deuda al magisterio. Las propuestas suenan positivas pero siguen logica transaccional: yo te doy titulo, beca, pago deuda. No articula reforma curricular ni como se garantiza calidad. Eliminar AFP y ATU muestran patron de destruir antes que reformar.",
+    "citas": [
+      {
+        "texto": "Los estudiantes van a terminar el quinto de secundaria con una carrera tecnica a nombre de la nacion como si fuera instituto. Vamos a duplicar Beca 18 y pagar al 100% la deuda con el magisterio",
+        "ubicacion": "Debate JNE quinta fecha, bloque educacion, Correo",
+        "indicador": "Transaccional: regalar titulos y pagos. No hay reforma de calidad ni marco institucional — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (educacion). Se mantiene en estadio 1-2: patron de promesas transaccionales. Mejora relativa vs pena de muerte pero misma logica.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-antonio-ortiz-villano",
+    "entidadId": "antonio-ortiz-villano",
+    "fuenteId": "f-oleada4-antonio-ortiz-villano",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone educacion conectada a industria, mineria y agroindustria, con parques industriales en cada region. Va mas alla del eslogan: articula que el pais debe pasar de exportar materia prima a producir con valor agregado, y que la educacion debe vincularse a ese objetivo. No es solo dar becas sino reformar el modelo productivo-educativo.",
+    "citas": [
+      {
+        "texto": "El pais debe pasar de exportar materia prima a producir con valor agregado a traves de educacion conectada a industria, mineria y agroindustria. Crearemos parques industriales en cada region",
+        "ubicacion": "Debate JNE sexta fecha, bloque educacion, Correo",
+        "indicador": "Vinculacion educacion-industria como vision de desarrollo. Mas que lista de promesas — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (educacion/industria). Se mantiene en estadio 3: sube de 2 (oleadas 1-2) a 3 en educacion. La vision productiva es articulada pero parques industriales por region es grandilocuente.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-rosario-del-pilar-fernandez-bazan",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "fuenteId": "f-oleada4-rosario-del-pilar-fernandez-bazan",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone salud preventiva como eje, unificar EsSalud y Minsa, 4 ambulancias por posta, atencion 24/7. Las propuestas son una lista de deseos: unificar dos sistemas burocraticos gigantes requiere reforma legislativa y presupuestal que no articula. Cuatro ambulancias por posta es cifra arbitraria. Evaluaciones medicas obligatorias es enfoque autoritario de salud.",
+    "citas": [
+      {
+        "texto": "Vamos a unificar EsSalud y Minsa garantizando atencion 24/7 con un minimo de 4 ambulancias por establecimiento de salud. Evaluaciones medicas integrales y obligatorias para toda la poblacion",
+        "ubicacion": "Entrevista Andina, propuestas de salud",
+        "indicador": "Lista de deseos sin plan de implementacion. Evaluaciones obligatorias = enfoque autoritario — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (salud). Consistente con oleadas previas (2,1,2). Patron de propuestas autoritarias sin marco institucional.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada4-roberto-enrique-chiabra-leon",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "fuenteId": "f-oleada4-roberto-enrique-chiabra-leon",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone eliminar brecha salarial entre hombres y mujeres, inclusion financiera para mujeres lideres de Mypes, bonos de cuidado infantil, empleo juvenil con incentivos tributarios, y cadenas productivas regionales integrando Mypes. El razonamiento es institucional y multidimensional: genero + empleo + Mypes + regiones. No son promesas sueltas sino un marco de politica de empleo con perspectiva de genero.",
+    "citas": [
+      {
+        "texto": "Vamos a eliminar la brecha salarial entre hombres y mujeres, dar inclusion financiera a mujeres lideres de Mypes, incentivos tributarios para primer empleo juvenil y cadenas productivas macro-regionales",
+        "ubicacion": "Debate JNE quinta fecha, bloque empleo, El Comercio",
+        "indicador": "Marco institucional multidimensional: genero + empleo + Mypes + regiones — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (genero/empleo). Consistente con oleadas previas (4,4,4). Cuatro evaluaciones confirman razonamiento institucional en todo tema.",
+    "evaluador": "lucas"
   }
 ]
