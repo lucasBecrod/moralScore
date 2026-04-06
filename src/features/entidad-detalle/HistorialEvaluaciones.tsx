@@ -14,6 +14,7 @@ interface Evaluacion {
   citas: Cita[];
   fuente: {
     titulo: string;
+    url?: string;
     medio?: string;
     fechaFuente?: string;
   };
@@ -40,6 +41,7 @@ export default function HistorialEvaluaciones({ evaluaciones }: HistorialEvaluac
               key={ev.id}
               estadio={ev.estadio}
               titulo={ev.fuente.titulo}
+              url={ev.fuente.url}
               medio={ev.fuente.medio}
               fechaFuente={ev.fuente.fechaFuente}
               confianza={ev.confianza}

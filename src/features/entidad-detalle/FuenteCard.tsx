@@ -12,6 +12,7 @@ interface Cita {
 interface FuenteCardProps {
   estadio: number;
   titulo: string;
+  url?: string;
   medio?: string;
   fechaFuente?: string;
   confianza: "alta" | "media" | "baja";
@@ -22,6 +23,7 @@ interface FuenteCardProps {
 export default function FuenteCard({
   estadio,
   titulo,
+  url,
   medio,
   fechaFuente,
   confianza,
@@ -76,6 +78,18 @@ export default function FuenteCard({
       {expanded && (
         <div className="px-4 pb-4 border-t border-zinc-800 pt-3 space-y-4">
           <p className="text-sm text-zinc-300">{justificacion}</p>
+
+          {url && (
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs text-blue-400 hover:text-blue-300 transition-colors"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Ver fuente original &rarr;
+            </a>
+          )}
 
           <div className="space-y-3">
             <h4 className="text-xs font-semibold text-zinc-500 uppercase tracking-wide">

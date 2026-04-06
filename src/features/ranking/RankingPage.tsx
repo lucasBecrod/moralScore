@@ -108,36 +108,16 @@ export function RankingPage() {
           </Link>
         </div>
 
-        {/* Breve explicación de los dos marcos */}
-        <div className="mx-auto mt-10 grid max-w-2xl gap-4 text-left sm:grid-cols-2">
-          <div className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-4">
-            <h3 className="text-sm font-semibold text-violet-400">
-              Lawrence Kohlberg
-            </h3>
-            <p className="mt-1 text-xs text-zinc-400">
-              6 estadios de desarrollo moral. Mide <em>c&oacute;mo justifica</em> sus
-              posiciones el candidato: desde el miedo al castigo (1) hasta
-              principios &eacute;ticos universales (6).
-            </p>
-          </div>
-          <div className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-4">
-            <h3 className="text-sm font-semibold text-emerald-400">
-              Gert, Culver &amp; Clouser
-            </h3>
-            <p className="mt-1 text-xs text-zinc-400">
-              10 reglas de la moralidad com&uacute;n aplicadas a la gesti&oacute;n p&uacute;blica.
-              Mide <em>qu&eacute; reglas morales transgrede</em>: no enga&ntilde;ar, cumplir
-              promesas, obedecer la ley.
-            </p>
-          </div>
-        </div>
       </section>
 
       {/* Ranking */}
       <section id="ranking" className="mx-auto max-w-3xl px-4 py-12">
-        <h2 className="mb-6 text-center text-xl font-semibold text-zinc-100">
-          Elecciones Per&uacute; 2026 &mdash; 35 candidatos presidenciales
+        <h2 className="mb-2 text-center text-xl font-semibold text-zinc-100">
+          Candidatos presidenciales
         </h2>
+        <p className="mb-6 text-center text-sm text-zinc-500">
+          Ordenados por score moral. Sin evaluar al final.
+        </p>
 
         {loading ? (
           <p className="text-center text-zinc-400">Cargando...</p>

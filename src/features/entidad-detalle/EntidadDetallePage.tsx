@@ -66,6 +66,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
       citas: ev.citas,
       fuente: {
         titulo: fuente?.titulo ?? "Fuente desconocida",
+        url: fuente?.url,
         medio: fuente?.medio,
         fechaFuente: fuente?.fechaFuente,
       },
@@ -73,6 +74,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   });
 
   const fuentesPendientes = fuentes.filter((f) => f.estado === "pendiente");
+  const fuentesAprobadas = fuentes.filter((f) => f.estado === "aprobada");
 
   const score = entidad.scoreActual;
   const stage = score ? KOHLBERG_STAGES[score as KohlbergStage] : null;
@@ -146,6 +148,35 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
                 <span className="text-sm text-zinc-300 truncate">{f.titulo}</span>
                 <span className="text-xs text-zinc-500 ml-auto">{f.tipo}</span>
               </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Fuentes aprobadas (pendientes de evaluación) */}
+      {fuentesAprobadas.length > 0 && (
+        <section className="mb-8">
+          <h2 className="text-lg font-semibold text-zinc-100 mb-3">
+            Fuentes por evaluar ({fuentesAprobadas.length})
+          </h2>
+          <div className="space-y-2">
+            {fuentesAprobadas.map((f) => (
+              <a
+                key={f.id}
+                href={f.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-lg border border-zinc-700 bg-zinc-900 hover:border-zinc-600 transition-colors"
+              >
+                <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-900/30 text-blue-400">
+                  {f.tipo}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <span className="text-sm text-zinc-300 truncate block">{f.titulo}</span>
+                  {f.medio && <span className="text-xs text-zinc-500">{f.medio} {f.fechaFuente ? `· ${f.fechaFuente}` : ""}</span>}
+                </div>
+                <span className="text-xs text-zinc-600">&rarr;</span>
+              </a>
             ))}
           </div>
         </section>

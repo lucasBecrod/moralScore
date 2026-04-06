@@ -64,11 +64,12 @@ export async function getFuentesByEntidad(
 
   const q = query(
     collection(db, "fuentes"),
-    where("entidadId", "==", entidadId),
-    orderBy("createdAt", "desc")
+    where("entidadId", "==", entidadId)
   );
   const snap = await getDocs(q);
-  return snap.docs.map((d) => ({ id: d.id, ...d.data() }) as Fuente);
+  return snap.docs
+    .map((d) => ({ id: d.id, ...d.data() }) as Fuente)
+    .sort((a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));
 }
 
 export async function createFuente(
@@ -104,9 +105,10 @@ export async function getEvaluacionesByEntidad(
 
   const q = query(
     collection(db, "evaluaciones"),
-    where("entidadId", "==", entidadId),
-    orderBy("createdAt", "desc")
+    where("entidadId", "==", entidadId)
   );
   const snap = await getDocs(q);
-  return snap.docs.map((d) => ({ id: d.id, ...d.data() }) as Evaluacion);
+  return snap.docs
+    .map((d) => ({ id: d.id, ...d.data() }) as Evaluacion)
+    .sort((a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));
 }

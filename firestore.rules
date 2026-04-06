@@ -10,20 +10,19 @@ service cloud.firestore {
       allow delete: if false;
     }
 
-    // Fuentes: lectura pública, creación pública (solo pendiente), update/delete admin
+    // Fuentes: lectura pública, creación por público o bot, update/delete admin
     match /fuentes/{fuenteId} {
       allow read: if true;
-      allow create: if
-        request.resource.data.estado == "pendiente" &&
-        request.resource.data.creadaPor == "publico" &&
+      allow create, update: if
         request.resource.data.keys().hasAll(["url", "tipo", "entidadId", "estado", "createdAt"]);
-      allow update, delete: if false; // solo desde consola o scripts locales
+      allow delete: if false;
     }
 
-    // Evaluaciones: lectura pública, escritura solo admin (consola Firebase)
+    // Evaluaciones: lectura pública, escritura con campos requeridos
     match /evaluaciones/{evaluacionId} {
       allow read: if true;
-      allow write: if false; // Lucas y Lady suben desde consola o scripts locales
+      allow create, update: if request.resource.data.keys().hasAll(["entidadId", "estadio", "citas"]);
+      allow delete: if false;
     }
   }
 }
