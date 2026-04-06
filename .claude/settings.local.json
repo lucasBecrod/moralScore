@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(md|txt\\)$\")",
+      "Bash(cp -r C:/Users/lucas/proyectos/moralscore-tmp/* C:/Users/lucas/proyectos/moralScore/)",
+      "Bash(cp C:/Users/lucas/proyectos/moralscore-tmp/.eslintrc* C:/Users/lucas/proyectos/moralScore/)",
+      "Bash(cp C:/Users/lucas/proyectos/moralscore-tmp/.gitignore C:/Users/lucas/proyectos/moralScore/)",
+      "Bash(cp -r C:/Users/lucas/proyectos/moralscore-tmp/node_modules C:/Users/lucas/proyectos/moralScore/)",
+      "Bash(cp C:/Users/lucas/proyectos/moralscore-tmp/pnpm-lock.yaml C:/Users/lucas/proyectos/moralScore/)",
+      "Read(//c/Users/lucas/proyectos/**)",
+      "Bash(cp moralscore-tmp/package.json moralScore/)",
+      "Bash(cp moralscore-tmp/pnpm-lock.yaml moralScore/)",
+      "Bash(cp moralscore-tmp/pnpm-workspace.yaml moralScore/)",
+      "Bash(cp moralscore-tmp/postcss.config.mjs moralScore/)",
+      "Bash(export PATH=\"$PATH:/c/Users/lucas/AppData/Roaming/npm\")",
+      "Bash(pnpm add:*)",
+      "Bash(rm -rf node_modules)",
+      "Bash(pnpm install:*)",
+      "Bash(mkdir:*)"
+    ]
+  }
+}
