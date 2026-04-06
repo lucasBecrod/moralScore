@@ -36,8 +36,7 @@ export default function FuenteCard({
 
   return (
     <div
-      className="rounded-lg border bg-zinc-900 overflow-hidden cursor-pointer transition-shadow hover:shadow-md"
-      style={{ borderLeftWidth: "4px", borderLeftColor: color }}
+      className="rounded-lg border border-zinc-800 bg-zinc-900 overflow-hidden cursor-pointer transition-colors hover:border-zinc-700"
       onClick={() => setExpanded(!expanded)}
       role="button"
       tabIndex={0}
