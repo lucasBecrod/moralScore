@@ -91,7 +91,8 @@ async function syncCollection(
       await setDoc(ref, data, { merge: true });
       updated++;
     } else {
-      await setDoc(ref, data);
+      // New doc — add createdAt for Firestore rules compliance
+      await setDoc(ref, { ...data, createdAt: new Date().toISOString() });
       created++;
     }
   }

@@ -928,5 +928,295 @@
     "fechaFuente": "2026-03-25",
     "entidadId": "roberto-enrique-chiabra-leon",
     "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-ronald-darwin-atencio-sotomayor",
+    "url": "https://rpp.pe/politica/elecciones/ronald-atencio-propone-impuestos-a-las-grandes-fortunas-para-financiar-la-educacion-noticia-1682339",
+    "tipo": "debate",
+    "titulo": "Atencio propone impuestos a grandes fortunas para financiar educacion",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-jose-daniel-williams-zapata",
+    "url": "https://gestion.pe/peru/jose-williams-plantea-educacion-rural-con-conectividad-mas-becas-y-bonos-a-docentes-noticia/",
+    "tipo": "debate",
+    "titulo": "Williams plantea educacion rural con conectividad, becas y bonos a docentes",
+    "medio": "Gestion",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "jose-daniel-williams-zapata",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "url": "https://gestion.pe/economia/paz-de-la-barra-propone-subvencion-por-seis-meses-ante-desempleo-noticia/",
+    "tipo": "debate",
+    "titulo": "Paz de la Barra propone subvencion de S/1500 por seis meses ante desempleo",
+    "medio": "Gestion",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-fiorella-giannina-molinelli-aristondo",
+    "url": "https://gestion.pe/economia/fiorella-molinelli-propone-incrementar-el-sueldo-de-los-docentes-y-reforzar-el-senati-noticia/",
+    "tipo": "debate",
+    "titulo": "Molinelli propone incrementar sueldo de docentes y reforzar Senati",
+    "medio": "Gestion",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-roberto-helbert-sanchez-palomino",
+    "url": "https://www.infobae.com/peru/2026/04/01/roberto-sanchez-apuesta-por-populismo-educativo-con-ingreso-libre-a-universidades-y-continuar-con-agenda-de-pedro-castillo/",
+    "tipo": "articulo",
+    "titulo": "Sanchez apuesta por ingreso libre a universidades y continuar agenda de Castillo",
+    "medio": "Infobae",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-rafael-jorge-belaunde-llosa",
+    "url": "https://ojo-publico.com/entrevistas/rafael-belaunde-llosa-salirse-la-corte-idh-es-un-disparate",
+    "tipo": "entrevista",
+    "titulo": "Belaunde: salirse de la Corte IDH es un disparate",
+    "medio": "Ojo Publico",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-pitter-enrique-valderrama-pena",
+    "url": "https://www.infobae.com/peru/2026/03/26/enrique-valderrama-propone-duplicar-presupuesto-de-salud-mental-y-garantizar-psicologos-en-colegios-sera-una-prioridad/",
+    "tipo": "debate",
+    "titulo": "Valderrama propone duplicar presupuesto de salud mental y psicologos en colegios",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-26",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-ricardo-pablo-belmont-cassinelli",
+    "url": "https://ojobionico.ojo-publico.com/articulo/belmont-el-candidato-de-las-propuestas-vagas/",
+    "tipo": "articulo",
+    "titulo": "Belmont: el candidato de las propuestas vagas — analisis fact-check",
+    "medio": "Ojo Publico",
+    "fechaFuente": "2026-03-28",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-charlie-carrasco-salazar",
+    "url": "https://www.infobae.com/peru/2026/03/25/servicio-militar-obligatorio-expulsion-de-extranjeros-ilegales-y-eliminacion-de-la-atu-las-propuestas-de-charlie-carrasco/",
+    "tipo": "debate",
+    "titulo": "Carrasco: servicio militar obligatorio, expulsion de extranjeros y eliminacion de ATU",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "charlie-carrasco-salazar",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-alex-gonzales-castillo",
+    "url": "https://gestion.pe/peru/politica/alex-gonzales-candidato-del-partido-democrata-verde-propone-la-fusion-del-ministerio-de-interior-con-defensa-noticia/",
+    "tipo": "debate",
+    "titulo": "Gonzales propone fusionar Ministerio de Interior con Defensa contra delincuencia",
+    "medio": "Gestion",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "alex-gonzales-castillo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-armando-joaquin-masse-fernandez",
+    "url": "https://rpp.pe/politica/elecciones/armando-masse-propone-un-sistema-de-gobierno-federal-que-acerque-el-estado-a-las-regiones-noticia-1672161",
+    "tipo": "entrevista",
+    "titulo": "Masse propone sistema de gobierno federal para acercar el Estado a las regiones",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-luis-fernando-olivera-vega",
+    "url": "https://elcomercio.pe/politica/elecciones/debate-presidencial-jne-2026-candidato-fernando-olivera-participa-el-lunes-23-de-marzo-en-evento-previo-a-las-elecciones-generales-peru-2026-ultimas-noticia/",
+    "tipo": "debate",
+    "titulo": "Olivera: Expulsare a todos los generales y coroneles comprometidos con el crimen",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "luis-fernando-olivera-vega",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-mesias-antonio-guevara-amasifuen",
+    "url": "https://www.infobae.com/peru/2026/04/01/mesias-guevara-del-partido-morado-a-rafael-lopez-aliaga-ha-dejado-endeudada-a-lima-por-mas-de-s-4-mil-millones/",
+    "tipo": "debate",
+    "titulo": "Guevara a Lopez Aliaga: Ha dejado endeudada a Lima por mas de S/4 mil millones",
+    "medio": "Infobae",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-carlos-gonzalo-alvarez-loayza",
+    "url": "https://rpp.pe/politica/elecciones/carlos-alvarez-propone-la-pena-de-muerte-para-sicarios-en-flagrancia-noticia-1681597",
+    "tipo": "debate",
+    "titulo": "Alvarez propone pena de muerte para sicarios en flagrancia",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-herbert-caller-gutierrez",
+    "url": "https://rpp.pe/politica/elecciones/herbert-caller-candidato-presidencial-del-ppp-plantea-trasladar-cinco-ministerios-a-regiones-noticia-1671255",
+    "tipo": "entrevista",
+    "titulo": "Caller plantea trasladar cinco ministerios a regiones",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "herbert-caller-gutierrez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-yonhy-lescano-ancieta",
+    "url": "https://elcomercio.pe/politica/yonhy-lescano-en-debate-presidencial-2026-lunes-30-incidentes-temas-pullas-y-planes-de-gobierno-previo-a-las-elecciones-generales-peru-2026-video-noticia/",
+    "tipo": "debate",
+    "titulo": "Lescano: Voy a comprar un satelite para internet gratuito a estudiantes y profesores",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "yonhy-lescano-ancieta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-wolfgang-mario-grozo-costa",
+    "url": "https://ojo-publico.com/politica/elecciones-2026/wolfgang-grozo-los-estados-emergencia-no-sirven",
+    "tipo": "entrevista",
+    "titulo": "Grozo: Los estados de emergencia no sirven para la lucha contra la criminalidad",
+    "medio": "Ojo Publico",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-vladimir-roy-cerron-rojas",
+    "url": "https://elcomercio.pe/politica/elecciones/vladimir-cerron-da-entrevista-en-vivo-desde-la-clandestinidad-y-asegura-que-permanece-en-el-peru-elecciones-2026-peru-libre-ultimas-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Cerron da entrevista desde clandestinidad: permanece en Peru, pide asamblea constituyente",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-28",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-francisco-ernesto-diez-canseco-tavara",
+    "url": "https://elcomercio.pe/politica/debate-presidencial-jne-candidato-francisco-diez-canseco-participa-el-martes-24-en-segunda-fecha-de-debate-previo-a-elecciones-2026-ultimas-noticia/",
+    "tipo": "debate",
+    "titulo": "Diez Canseco propone plan Mano de Hierro para botar corruptos de Policia, PJ y fiscalia",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-24",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-mario-enrique-vizcarra-cornejo",
+    "url": "https://www.infobae.com/peru/2026/04/01/debate-presidencial-2026-choque-entre-mario-vizcarra-y-roberto-chiabra-en-medio-de-propuestas-sobre-empleo-y-gestion-estatal/",
+    "tipo": "debate",
+    "titulo": "Vizcarra vs Chiabra: propuestas sobre empleo, Bono Emprendedor y meritocracia estatal",
+    "medio": "Infobae",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-walter-gilmer-chirinos-purizaga",
+    "url": "https://rpp.pe/politica/elecciones/walter-chirinos-propone-modelo-de-seguridad-inspirado-en-bukele-y-el-salvador-para-combatir-la-criminalidad-con-justicia-noticia-1675084",
+    "tipo": "entrevista",
+    "titulo": "Chirinos: modelo Bukele para combatir criminalidad con justicia",
+    "medio": "RPP",
+    "fechaFuente": "2026-02-09",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-alfonso-carlos-espa-y-garces-alvear",
+    "url": "https://www.infobae.com/peru/2026/03/25/debate-presidencial-2026-carlos-espa-propone-seis-penales-de-maxima-seguridad-sin-visitas-para-cabecillas/",
+    "tipo": "debate",
+    "titulo": "Espa: 6 penales de maxima seguridad sin visitas para cabecillas",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-carlos-ernesto-jaico-carranza",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-2026-estas-son-las-propuestas-de-los-candidatos-sobre-empleo-desarrollo-y-emprendimiento-noticia-1682276",
+    "tipo": "debate",
+    "titulo": "Jaico: escudo tributario para mypes y crecimiento 6-7%",
+    "medio": "RPP",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-jose-leon-luna-galvez",
+    "url": "https://rpp.pe/politica/elecciones/jose-luna-promete-que-el-estado-asumira-el-30-de-la-planilla-joven-es-viable-noticia-1682644",
+    "tipo": "debate",
+    "titulo": "Luna Galvez: Estado asume 30% planilla joven, 100 mil empleos/ano",
+    "medio": "RPP",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "jose-leon-luna-galvez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-maria-soledad-perez-tello-de-rodriguez",
+    "url": "https://ojo-publico.com/entrevistas/perez-tello-congreso-se-cargo-legislacion-contra-crimen-organizado",
+    "tipo": "entrevista",
+    "titulo": "Perez Tello: el Congreso se cargo la legislacion contra crimen organizado",
+    "medio": "Ojo Publico",
+    "fechaFuente": "2025-03-23",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-paul-davis-jaimes-blanco",
+    "url": "https://www.infobae.com/peru/2026/03/25/debate-presidencial-peru-2026-en-vivo-hoy-tercera-fecha-con-12-postulantes-temas-clave-y-el-minuto-a-minuto-del-encuentro-del-25-de-marzo/",
+    "tipo": "debate",
+    "titulo": "Jaimes: delincuentes no merecen vivir, recompensa por capturas",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-antonio-ortiz-villano",
+    "url": "https://rpp.pe/politica/elecciones/antonio-ortiz-candidato-de-salvemos-al-peru-anuncia-referendum-para-aplicar-pena-de-muerte-noticia-1681770",
+    "tipo": "debate",
+    "titulo": "Ortiz Villano: referendum para pena de muerte, cortar dinero al crimen",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-26",
+    "entidadId": "antonio-ortiz-villano",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-rosario-del-pilar-fernandez-bazan",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-cuales-fueron-las-propuestas-de-los-candidatos-en-lucha-contra-la-corrupcion-noticia-1681705",
+    "tipo": "debate",
+    "titulo": "Fernandez: reforma sistema justicia, purga Contraloria, disolver camaras",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada2-roberto-enrique-chiabra-leon",
+    "url": "https://www.infobae.com/peru/2026/04/01/debate-electoral-2026-roberto-chiabra-propone-construccion-y-equipamiento-educativo-para-cerrar-brechas-en-el-pais/",
+    "tipo": "debate",
+    "titulo": "Chiabra: construccion y equipamiento educativo para cerrar brechas",
+    "medio": "Infobae",
+    "fechaFuente": "2026-04-01",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "estado": "evaluada"
   }
 ]
