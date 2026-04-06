@@ -52,7 +52,7 @@ export function MetodologiaTabs({ docContents }: MetodologiaTabsProps) {
 
 function TabFundamentos() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-12">
       <div>
         <h3 className="text-lg font-semibold text-zinc-100">
           Escala de Kohlberg &mdash; 6 estadios
@@ -60,7 +60,7 @@ function TabFundamentos() {
         <p className="mt-1 text-xs text-zinc-500">
           Mide C&Oacute;MO razona moralmente el candidato.
         </p>
-        <div className="mt-4">
+        <div className="mt-6">
           <EscalaKohlberg />
         </div>
       </div>
@@ -72,7 +72,7 @@ function TabFundamentos() {
         <p className="mt-1 text-xs text-zinc-500">
           Mide QU&Eacute; normas morales transgrede en su discurso p&uacute;blico.
         </p>
-        <div className="mt-4">
+        <div className="mt-6">
           <SectionGertRules />
         </div>
       </div>
@@ -130,36 +130,44 @@ function DocCard({ title, desc, content }: { title: string; desc: string; conten
 
   return (
     <div className="rounded-lg border border-zinc-800">
-      <button
-        type="button"
-        onClick={() => setExpanded((v) => !v)}
-        className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-zinc-900"
-      >
-        <svg className="h-4 w-4 shrink-0 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-        </svg>
-        <div className="min-w-0 flex-1">
-          <p className="text-sm font-medium text-zinc-300">{title}</p>
-          <p className="text-xs text-zinc-500">{desc}</p>
-        </div>
-        <svg
-          className={`h-4 w-4 shrink-0 text-zinc-500 transition-transform ${expanded ? "rotate-180" : ""}`}
-          fill="none" viewBox="0 0 24 24" stroke="currentColor"
+      <div className="flex items-center gap-3 px-4 py-3">
+        <button
+          type="button"
+          onClick={() => setExpanded((v) => !v)}
+          className="flex min-w-0 flex-1 items-center gap-3 text-left transition-colors hover:opacity-80"
         >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-        </svg>
-      </button>
+          <svg className="h-4 w-4 shrink-0 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+          </svg>
+          <div className="min-w-0 flex-1">
+            <p className="text-sm font-medium text-zinc-300">{title}</p>
+            <p className="text-xs text-zinc-500">{desc}</p>
+          </div>
+        </button>
+        {content && (
+          <button
+            onClick={handleCopy}
+            className="shrink-0 rounded border border-zinc-700 px-2.5 py-1 text-xs text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-white"
+          >
+            {copied ? "Copiado" : "Copiar"}
+          </button>
+        )}
+        <button
+          type="button"
+          onClick={() => setExpanded((v) => !v)}
+          className="shrink-0"
+        >
+          <svg
+            className={`h-4 w-4 text-zinc-500 transition-transform ${expanded ? "rotate-180" : ""}`}
+            fill="none" viewBox="0 0 24 24" stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+      </div>
 
       {expanded && content && (
         <div className="border-t border-zinc-800 px-4 pb-4 pt-3">
-          <div className="mb-2 flex justify-end">
-            <button
-              onClick={handleCopy}
-              className="inline-flex items-center gap-1.5 rounded border border-zinc-700 px-2.5 py-1 text-xs text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-white"
-            >
-              {copied ? "Copiado" : "Copiar"}
-            </button>
-          </div>
           <div className="max-h-80 overflow-auto rounded-lg bg-zinc-950 p-4 text-xs leading-relaxed text-zinc-400 whitespace-pre-wrap break-words">
             {content}
           </div>

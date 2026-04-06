@@ -50,6 +50,9 @@ que la "ética de la justicia":
 ### ESTADIO 2 — Intercambio instrumental
 - Relaciones como transacciones: "Si me apoyas te doy..."
 - Clientelismo explícito, quid pro quo
+- **REGLA DE MITIN**: Si la fuente es un discurso de plaza diseñado para
+  manipular masas mediante promesas transaccionales directas ("yo te doy X"),
+  el razonamiento es instrumental por definición.
 - Busca beneficio mutuo, no principios
 - **Test**: ¿desaparecería la justificación si no hubiera beneficio personal?
 
@@ -58,6 +61,12 @@ que la "ética de la justicia":
 - Apela a emociones, lealtades, popularidad
 - Retórica bonita SIN asumir costos por coherencia
 - **ALERTA**: Aquí caen la mayoría de políticos. No inflar.
+- **REGLA DE MITIN**: Si la fuente es un discurso de plaza/mitin diseñado
+  para retener seguidores mediante manipulación emocional, ataques a
+  opositores sin sustento, o promesas inviables para buscar aplausos,
+  el TECHO AUTOMÁTICO es Estadio 3. Un discurso prefabricado para
+  manipular masas NUNCA puede alcanzar estadios 4, 5 o 6, porque no
+  estás evaluando al candidato — estás evaluando a su redactor de discursos.
 - **Test**: ¿el candidato cambiaría de posición si la encuesta cambia?
 
 ### ESTADIO 4 — Ley y orden

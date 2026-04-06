@@ -24,7 +24,21 @@ por el mismo pipeline que las de cualquier usuario humano.
 - Comunicados de prensa del equipo de campaña
 - Memes, TikToks editados o contenido satírico
 - Artículos de opinión SIN citas directas del candidato
-- Discursos de mitin preparados (buscan aplausos, no razonamiento)
+
+## FUENTES PARA MAPEO DE DEMAGOGIA (Gert-Focused)
+
+Estas fuentes son INÚTILES para Kohlberg (no hay dilemas ni razonamiento)
+pero VALIOSAS para detectar transgresiones a las reglas de Gert:
+
+- **Discursos de mitin y plazas**: donde se rompe el contrato social,
+  se incita a la violencia (Regla 1), se miente descaradamente (Regla 6),
+  o se manipula tribalmente (Estadio 2-3)
+- **Mítines con ataques a opositores**: revelan Regla 6 (no engañar)
+- **Promesas inviables en plaza pública**: revelan Regla 7 (cumplir promesas)
+
+Marcar estas fuentes como tipo: "mitin" en el reporte.
+El evaluador aplicará techo Estadio 3 para Kohlberg pero
+analizará transgresiones Gert sin restricción.
 
 ## DÓNDE BUSCAR
 
