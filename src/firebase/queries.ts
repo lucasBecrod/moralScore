@@ -72,11 +72,16 @@ export async function getFuentesByEntidad(
     .sort((a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));
 }
 
+interface CreateFuenteInput extends SubirFuenteInput {
+  titulo?: string;
+  medio?: string;
+  imagen?: string;
+}
+
 export async function createFuente(
-  input: SubirFuenteInput
+  input: CreateFuenteInput
 ): Promise<string> {
   if (!isFirebaseConfigured()) {
-    // Mock: retorna un ID falso para desarrollo
     return "mock-fuente-" + Date.now();
   }
 
@@ -85,7 +90,8 @@ export async function createFuente(
     url: input.url,
     tipo: input.tipo,
     entidadId: input.entidadId,
-    titulo: input.url, // se enriquecerá después
+    titulo: input.titulo || input.url,
+    medio: input.medio,
     estado: "pendiente",
     calidadIA: null,
     creadaPor: "publico",

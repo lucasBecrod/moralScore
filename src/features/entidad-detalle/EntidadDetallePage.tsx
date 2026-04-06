@@ -22,6 +22,14 @@ function getZoneStyle(score: number) {
   return ZONE_STYLES.pre;
 }
 
+function displayDomain(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
 interface EntidadDetallePageProps {
   id: string;
 }
@@ -84,8 +92,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
     };
   });
 
-  const fuentesPendientes = fuentes.filter((f) => f.estado === "pendiente");
-  const fuentesAprobadas = fuentes.filter((f) => f.estado === "aprobada");
+  const fuentesSinEvaluar = fuentes.filter((f) => f.estado === "pendiente" || f.estado === "aprobada");
 
   const zone = entidad.scoreActual !== null ? getZoneStyle(entidad.scoreActual) : null;
   const filledSegments = entidad.scoreActual !== null ? Math.round(entidad.scoreActual) : 0;
@@ -170,59 +177,46 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
       {/* Evaluaciones */}
       <div className="mb-10">
         <HistorialEvaluaciones evaluaciones={evalsForHistorial} />
-      </div>
 
-      {/* Pipeline: fuentes pendientes + por evaluar */}
-      {(fuentesPendientes.length > 0 || fuentesAprobadas.length > 0) && (
-        <div className="rounded-xl border border-zinc-800 bg-zinc-950 p-5 mb-8">
-          {fuentesPendientes.length > 0 && (
-            <section className="mb-6 last:mb-0">
-              <h2 className="text-sm font-semibold text-zinc-400 mb-3">
-                Fuentes pendientes ({fuentesPendientes.length})
-              </h2>
-              <div className="space-y-2">
-                {fuentesPendientes.map((f) => (
-                  <div key={f.id} className="flex items-center gap-3 p-3 rounded-lg border border-dashed border-zinc-800 bg-zinc-900/50">
-                    <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-yellow-900/30 text-yellow-400">
-                      {f.estado}
-                    </span>
-                    <span className="text-sm text-zinc-400 truncate">{f.titulo}</span>
-                    <span className="text-xs text-zinc-600 ml-auto">{f.tipo}</span>
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
+        {/* Fuentes sin evaluar — inline con las evaluaciones */}
+        {fuentesSinEvaluar.length > 0 && (
+          <div className="mt-3 space-y-3">
+            {fuentesSinEvaluar.map((f) => {
+              const titulo = f.titulo !== f.url ? f.titulo : null;
+              const domain = f.medio || displayDomain(f.url);
 
-          {fuentesAprobadas.length > 0 && (
-            <section>
-              <h2 className="text-sm font-semibold text-zinc-400 mb-3">
-                Fuentes por evaluar ({fuentesAprobadas.length})
-              </h2>
-              <div className="space-y-2">
-                {fuentesAprobadas.map((f) => (
-                  <a
-                    key={f.id}
-                    href={f.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-3 rounded-lg border border-zinc-800 bg-zinc-900/50 hover:border-zinc-700 transition-colors"
-                  >
-                    <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-900/30 text-blue-400">
-                      {f.tipo}
+              return (
+                <a
+                  key={f.id}
+                  href={f.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block rounded-lg border border-dashed border-zinc-800 bg-zinc-900/50 p-4 transition-colors hover:border-zinc-700"
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-zinc-800 text-xs text-zinc-500">
+                      ?
                     </span>
                     <div className="min-w-0 flex-1">
-                      <span className="text-sm text-zinc-400 truncate block">{f.titulo}</span>
-                      {f.medio && <span className="text-xs text-zinc-500">{f.medio} {f.fechaFuente ? `· ${f.fechaFuente}` : ""}</span>}
+                      <p className="text-sm font-medium text-zinc-300 truncate">
+                        {titulo || domain}
+                      </p>
+                      <p className="text-xs text-zinc-500">
+                        {domain}
+                        {f.fechaFuente && <> &middot; {f.fechaFuente}</>}
+                        <> &middot; {f.tipo}</>
+                      </p>
                     </div>
-                    <span className="text-xs text-zinc-600">&rarr;</span>
-                  </a>
-                ))}
-              </div>
-            </section>
-          )}
-        </div>
-      )}
+                    <span className="shrink-0 rounded-full border border-yellow-500/30 bg-yellow-500/10 px-2.5 py-0.5 text-[11px] font-medium text-yellow-400">
+                      Pendiente
+                    </span>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        )}
+      </div>
 
       {/* Botón sugerir fuente */}
       <button

@@ -6,6 +6,36 @@ import { SectionGertRules } from "./SectionGertRules";
 import { SectionSourceQuality } from "./SectionSourceQuality";
 import { SectionLimitations } from "./SectionLimitations";
 
+function parseMarkdown(md: string): string {
+  return md
+    // Headings (must be before bold)
+    .replace(/^#### (.+)$/gm, '<h4 class="mt-4 mb-1 text-sm font-semibold text-zinc-200">$1</h4>')
+    .replace(/^### (.+)$/gm, '<h3 class="mt-5 mb-1 text-sm font-bold text-zinc-200">$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2 class="mt-6 mb-2 text-base font-bold text-zinc-100">$1</h2>')
+    .replace(/^# (.+)$/gm, '<h1 class="mt-6 mb-2 text-lg font-bold text-zinc-100">$1</h1>')
+    // Blockquotes
+    .replace(/^> (.+)$/gm, '<blockquote class="border-l-2 border-zinc-700 pl-3 my-2 text-xs italic text-zinc-500">$1</blockquote>')
+    // Bold + italic
+    .replace(/\*\*\*(.+?)\*\*\*/g, '<strong class="text-zinc-200"><em>$1</em></strong>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-zinc-200">$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    // Inline code
+    .replace(/`([^`]+)`/g, '<code class="rounded bg-zinc-800 px-1 py-0.5 text-[11px] text-zinc-300">$1</code>')
+    // Unordered lists
+    .replace(/^- (.+)$/gm, '<li class="ml-4 list-disc text-xs text-zinc-400">$1</li>')
+    // Ordered lists
+    .replace(/^\d+\. (.+)$/gm, '<li class="ml-4 list-decimal text-xs text-zinc-400">$1</li>')
+    // Horizontal rules
+    .replace(/^---$/gm, '<hr class="my-4 border-zinc-800" />')
+    // Paragraphs (double newlines)
+    .replace(/\n\n/g, '</p><p class="my-2 text-xs leading-relaxed text-zinc-400">')
+    // Single newlines within paragraphs
+    .replace(/\n/g, '<br />')
+    // Wrap in paragraph
+    .replace(/^/, '<p class="text-xs leading-relaxed text-zinc-400">')
+    .replace(/$/, '</p>');
+}
+
 const TABS = [
   { id: "fundamentos", label: "Fundamentos" },
   { id: "datos", label: "Datos" },
@@ -168,9 +198,10 @@ function DocCard({ title, desc, content }: { title: string; desc: string; conten
 
       {expanded && content && (
         <div className="border-t border-zinc-800 px-4 pb-4 pt-3">
-          <div className="max-h-80 overflow-auto rounded-lg bg-zinc-950 p-4 text-xs leading-relaxed text-zinc-400 whitespace-pre-wrap break-words">
-            {content}
-          </div>
+          <div
+            className="prose-sm max-h-96 overflow-auto rounded-lg bg-zinc-950 p-4"
+            dangerouslySetInnerHTML={{ __html: parseMarkdown(content) }}
+          />
         </div>
       )}
 

@@ -2,6 +2,7 @@ import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 import { SectionHowItWorks } from "./SectionHowItWorks";
 import { MetodologiaTabs } from "./MetodologiaTabs";
+import { PilarCards } from "./PilarCards";
 
 function loadDocContents(): Record<string, string> {
   const docsDir = join(process.cwd(), "public", "docs");
@@ -31,20 +32,9 @@ export function MetodologiaPage() {
         y marcos acad&eacute;micos. Prompts, r&uacute;bricas y fuentes son p&uacute;blicos.
       </p>
 
-      {/* 3 pilares — resumen ultra-compacto */}
-      <div className="mt-6 grid grid-cols-3 gap-3">
-        <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-3 text-center">
-          <p className="text-lg font-bold text-violet-400">Kohlberg</p>
-          <p className="mt-0.5 text-[11px] text-zinc-500">C&oacute;mo razona</p>
-        </div>
-        <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-3 text-center">
-          <p className="text-lg font-bold text-emerald-400">Gert</p>
-          <p className="mt-0.5 text-[11px] text-zinc-500">Qu&eacute; transgrede</p>
-        </div>
-        <div className="rounded-lg border border-zinc-800 bg-zinc-900 p-3 text-center">
-          <p className="text-lg font-bold text-blue-400">Trazabilidad</p>
-          <p className="mt-0.5 text-[11px] text-zinc-500">C&oacute;digo abierto</p>
-        </div>
+      {/* 3 pilares — clickeables con info expandible */}
+      <div className="mt-6">
+        <PilarCards />
       </div>
 
       {/* Motor: 6 pasos */}

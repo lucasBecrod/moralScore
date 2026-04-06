@@ -14,7 +14,11 @@ export async function POST(request: Request) {
       );
     }
 
-    const id = await createFuente(parsed.data);
+    const id = await createFuente({
+      ...parsed.data,
+      titulo: body.titulo,
+      medio: body.medio,
+    });
 
     return NextResponse.json(
       { id, message: "Fuente registrada como pendiente" },
