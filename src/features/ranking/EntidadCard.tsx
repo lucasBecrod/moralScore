@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getPublicLabel } from "@/shared/config/kohlberg-stages";
 import type { Entidad } from "@/schemas/entidad.schema";
 
 interface EntidadCardProps {
@@ -68,13 +69,13 @@ export function EntidadCard({ entidad }: EntidadCardProps) {
         {scoreActual !== null && zone ? (
           <div className={`flex flex-col gap-0.5 ${confident ? "" : "opacity-40"}`}>
             <span className="text-[11px] text-zinc-500">
-              Estadio {zone.label}{totalEvaluaciones > 0 && <> ({totalEvaluaciones} eval.)</>}
+              {getPublicLabel(scoreActual)}{totalEvaluaciones > 0 && <> ({totalEvaluaciones} eval.)</>}
             </span>
             <div className="flex items-center gap-2">
               <span className={`text-sm font-bold tabular-nums ${zone.text}`}>
                 {scoreActual.toFixed(1)}
               </span>
-              <div className="flex flex-1 gap-0.5">
+              <div className="flex max-w-32 flex-1 gap-0.5">
                 {Array.from({ length: 6 }, (_, i) => (
                   <div
                     key={i}
@@ -86,12 +87,12 @@ export function EntidadCard({ entidad }: EntidadCardProps) {
           </div>
         ) : (
           <div className="flex flex-col gap-0.5">
-            <div className="flex flex-1 gap-0.5">
+            <div className="flex max-w-32 flex-1 gap-0.5">
               {Array.from({ length: 6 }, (_, i) => (
                 <div key={i} className="h-2 flex-1 rounded-sm bg-zinc-800" />
               ))}
             </div>
-            <span className="text-[11px] text-zinc-600">Sin evaluar</span>
+            <span className="text-[11px] text-zinc-600">Evidencia insuficiente</span>
           </div>
         )}
       </div>

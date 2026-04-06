@@ -17,6 +17,7 @@ interface Evaluacion {
     url?: string;
     medio?: string;
     fechaFuente?: string;
+    imagen?: string;
   };
 }
 
@@ -47,6 +48,7 @@ export default function HistorialEvaluaciones({ evaluaciones }: HistorialEvaluac
               confianza={ev.confianza}
               justificacion={ev.justificacion}
               citas={ev.citas}
+              imagen={ev.fuente.imagen}
             />
           ))}
         </div>

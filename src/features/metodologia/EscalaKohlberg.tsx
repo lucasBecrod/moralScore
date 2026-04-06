@@ -17,6 +17,8 @@ const GROUPS = [
     border: "border-violet-500/30",
     bg: "bg-violet-500/5",
     labelColor: "text-violet-400",
+    bar: "bg-violet-500",
+    text: "text-violet-300",
   },
   {
     label: "Convencional",
@@ -25,6 +27,8 @@ const GROUPS = [
     border: "border-blue-500/30",
     bg: "bg-blue-500/5",
     labelColor: "text-blue-400",
+    bar: "bg-blue-500",
+    text: "text-blue-300",
   },
   {
     label: "Pre-convencional",
@@ -33,6 +37,8 @@ const GROUPS = [
     border: "border-red-500/30",
     bg: "bg-red-500/5",
     labelColor: "text-red-400",
+    bar: "bg-red-500",
+    text: "text-red-300",
   },
 ];
 
@@ -56,27 +62,34 @@ export function EscalaKohlberg() {
               return (
                 <div
                   key={num}
-                  className={`relative rounded-xl border p-4 backdrop-blur-sm ${group.bg} ${group.border}`}
+                  className={`rounded-xl border p-4 backdrop-blur-sm ${group.bg} ${group.border}`}
                 >
-                  {/* Número — esquina superior derecha */}
-                  <span
-                    className="absolute right-3 top-3 flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold text-white"
-                    style={{ backgroundColor: stage.color }}
-                  >
-                    {num}
-                  </span>
-
-                  {/* Fila: icono centrado vertical + columna de contenido */}
                   <div className="flex items-center gap-4">
                     <span className="shrink-0 text-4xl">{STAGE_ICONS[num]}</span>
 
-                    <div className="min-w-0 flex-1 pr-8">
+                    <div className="min-w-0 flex-1">
                       <h5 className="text-sm font-semibold text-zinc-100">
                         {stage.nombre}
                       </h5>
                       <p className="mt-1 text-xs leading-relaxed text-zinc-400">
                         {stage.descripcion}
                       </p>
+
+                      {/* Barra segmentada inline */}
+                      <div className="mt-2 flex items-center gap-2">
+                        <span className={`text-xs font-bold tabular-nums ${group.text}`}>
+                          {num}.0
+                        </span>
+                        <div className="flex max-w-32 flex-1 gap-0.5">
+                          {Array.from({ length: 6 }, (_, i) => (
+                            <div
+                              key={i}
+                              className={`h-1.5 flex-1 rounded-sm ${i < num ? group.bar : "bg-zinc-800"}`}
+                            />
+                          ))}
+                        </div>
+                      </div>
+
                       <p
                         className="mt-2 border-l-2 pl-3 text-xs italic text-zinc-500"
                         style={{ borderColor: stage.color }}

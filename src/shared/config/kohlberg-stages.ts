@@ -70,3 +70,29 @@ export function getStageColor(stage: number): string {
 export function getStageName(stage: number): string {
   return KOHLBERG_STAGES[stage as KohlbergStage]?.nombre ?? "Desconocido";
 }
+
+// Etiquetas públicas — lenguaje ciudadano, sin jerga académica
+const PUBLIC_LABELS: Record<number, string> = {
+  1: "Autoritario / Punitivo",
+  2: "Transaccional / Clientelista",
+  3: "Busca aprobaci\u00f3n popular",
+  4: "Institucionalista",
+  5: "Defiende derechos universales",
+  6: "Principios \u00e9ticos absolutos",
+};
+
+export function getPublicLabel(score: number): string {
+  const rounded = Math.round(score);
+  return PUBLIC_LABELS[rounded] ?? "Sin clasificar";
+}
+
+// Etiquetas de zona — resumen por nivel
+const ZONE_LABELS: Record<string, string> = {
+  "Pre-convencional": "Inter\u00e9s propio",
+  "Convencional": "Normas y sistema",
+  "Post-convencional": "Principios propios",
+};
+
+export function getZonePublicLabel(nivel: string): string {
+  return ZONE_LABELS[nivel] ?? nivel;
+}

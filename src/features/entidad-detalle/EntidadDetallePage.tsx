@@ -3,11 +3,52 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { getEntidadById, getEvaluacionesByEntidad, getFuentesByEntidad } from "@/firebase/queries";
+import { getPublicLabel } from "@/shared/config/kohlberg-stages";
 import HistorialEvaluaciones from "./HistorialEvaluaciones";
 import SubirFuenteModal from "@/features/subir-fuente/SubirFuenteModal";
 import type { Entidad } from "@/schemas/entidad.schema";
 import type { Evaluacion } from "@/schemas/evaluacion.schema";
 import type { Fuente } from "@/schemas/fuente.schema";
+
+function FuentesRechazadas({ fuentes }: { fuentes: Fuente[] }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="mb-8">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        className="flex w-full items-center justify-between rounded-lg border border-zinc-800 px-4 py-3 text-left transition-colors hover:bg-zinc-900"
+      >
+        <span className="text-sm text-zinc-500">
+          Fuentes descartadas ({fuentes.length})
+        </span>
+        <svg
+          className={`h-4 w-4 text-zinc-600 transition-transform ${open ? "rotate-180" : ""}`}
+          fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      {open && (
+        <div className="mt-2 space-y-2">
+          {fuentes.map((f) => (
+            <div key={f.id} className="flex items-center gap-3 rounded-lg border border-zinc-800/50 bg-zinc-950 p-3 opacity-60">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-zinc-800 text-xs text-zinc-600">
+                &times;
+              </span>
+              <div className="min-w-0 flex-1">
+                <p className="truncate text-sm text-zinc-500">{f.titulo}</p>
+                <p className="text-[11px] text-zinc-600">
+                  {f.calidadIA?.razon || "Rechazada"}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 // Reutilizar la misma lógica de zona que EntidadCard
 const ZONE_STYLES = {
@@ -93,6 +134,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   });
 
   const fuentesSinEvaluar = fuentes.filter((f) => f.estado === "pendiente" || f.estado === "aprobada");
+  const fuentesRechazadas = fuentes.filter((f) => f.estado === "rechazada");
 
   const zone = entidad.scoreActual !== null ? getZoneStyle(entidad.scoreActual) : null;
   const filledSegments = entidad.scoreActual !== null ? Math.round(entidad.scoreActual) : 0;
@@ -145,13 +187,13 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
           {entidad.scoreActual !== null && zone ? (
             <div className={`flex flex-col gap-1 ${confident ? "" : "opacity-40"}`}>
               <span className="text-xs text-zinc-500">
-                Estadio {zone.label} ({entidad.totalEvaluaciones} eval.)
+                {getPublicLabel(entidad.scoreActual!)} ({entidad.totalEvaluaciones} eval.)
               </span>
               <div className="flex items-center gap-3">
                 <span className={`text-xl font-bold tabular-nums ${zone.text}`}>
                   {entidad.scoreActual.toFixed(1)}
                 </span>
-                <div className="flex flex-1 gap-1">
+                <div className="flex max-w-36 flex-1 gap-1">
                   {Array.from({ length: 6 }, (_, i) => (
                     <div
                       key={i}
@@ -163,7 +205,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
             </div>
           ) : (
             <div className="flex flex-col gap-1">
-              <div className="flex flex-1 gap-1">
+              <div className="flex max-w-36 flex-1 gap-1">
                 {Array.from({ length: 6 }, (_, i) => (
                   <div key={i} className="h-3 flex-1 rounded-sm bg-zinc-800" />
                 ))}
@@ -217,6 +259,11 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
           </div>
         )}
       </div>
+
+      {/* Fuentes rechazadas — cementerio colapsado */}
+      {fuentesRechazadas.length > 0 && (
+        <FuentesRechazadas fuentes={fuentesRechazadas} />
+      )}
 
       {/* Botón sugerir fuente */}
       <button
