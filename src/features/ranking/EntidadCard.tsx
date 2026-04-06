@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getStageColor, getStageName } from "@/shared/config/kohlberg-stages";
+import { MoralGauge } from "@/shared/ui/MoralGauge";
 import type { Entidad } from "@/schemas/entidad.schema";
 
 interface EntidadCardProps {
@@ -9,16 +9,12 @@ interface EntidadCardProps {
 export function EntidadCard({ entidad }: EntidadCardProps) {
   const { id, nombre, partido, rol, foto, logoPartido, scoreActual, totalEvaluaciones } = entidad;
 
-  const hasScore = scoreActual !== null;
-  const stageColor = hasScore ? getStageColor(scoreActual) : "#9CA3AF";
-  const stageName = hasScore ? getStageName(scoreActual) : "Sin evaluar";
-
   return (
     <Link
       href={`/entidad/${id}`}
       className="group block rounded-xl border border-zinc-700 bg-zinc-900 p-4 transition-shadow hover:shadow-lg hover:border-zinc-600"
     >
-      <div className="flex items-start gap-4">
+      <div className="flex items-start gap-3">
         {/* Foto retrato + logo partido */}
         <div className="relative shrink-0">
           {foto ? (
@@ -32,7 +28,6 @@ export function EntidadCard({ entidad }: EntidadCardProps) {
               <span className="text-xs text-zinc-500">&mdash;</span>
             </div>
           )}
-          {/* Logo partido miniatura */}
           {logoPartido && (
             <img
               src={logoPartido}
@@ -48,26 +43,19 @@ export function EntidadCard({ entidad }: EntidadCardProps) {
             {nombre}
           </h3>
           {partido && (
-            <p className="mt-1 text-xs text-zinc-400 truncate">{partido}</p>
+            <p className="mt-0.5 text-xs text-zinc-400 truncate">{partido}</p>
           )}
           {rol && (
             <p className="mt-0.5 text-xs text-zinc-500 capitalize">{rol.replace("-", " ")}</p>
           )}
+          {scoreActual !== null && totalEvaluaciones > 0 && (
+            <p className="mt-0.5 text-xs text-zinc-600">{totalEvaluaciones} eval.</p>
+          )}
+        </div>
 
-          {/* Score badge */}
-          <div className="mt-2">
-            <span
-              className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium text-white"
-              style={{ backgroundColor: stageColor }}
-            >
-              {hasScore ? `${scoreActual} — ${stageName}` : stageName}
-            </span>
-            {hasScore && totalEvaluaciones > 0 && (
-              <span className="ml-2 text-xs text-zinc-500">
-                {totalEvaluaciones} eval.
-              </span>
-            )}
-          </div>
+        {/* MoralGauge */}
+        <div className="shrink-0">
+          <MoralGauge score={scoreActual} size="sm" />
         </div>
       </div>
     </Link>

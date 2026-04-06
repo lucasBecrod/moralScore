@@ -32,7 +32,7 @@ export const EntidadSchema = z.object({
   bio: z.string().optional().describe("Descripción breve"),
 
   // Score (calculado)
-  scoreActual: z.number().min(1).max(6).nullable().describe("Mediana Kohlberg, null si no hay evaluaciones"),
+  scoreActual: z.number().min(1).max(6).nullable().describe("Score Kohlberg con decimales (ej: 3.17), null si no hay evaluaciones"),
   totalEvaluaciones: z.number().int().min(0).describe("Cantidad de evaluaciones completadas"),
 });
 

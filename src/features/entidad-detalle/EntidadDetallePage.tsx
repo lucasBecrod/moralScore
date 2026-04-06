@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { KOHLBERG_STAGES, type KohlbergStage } from "@/shared/config/kohlberg-stages";
 import { getEntidadById, getEvaluacionesByEntidad, getFuentesByEntidad } from "@/firebase/queries";
+import { MoralGauge } from "@/shared/ui/MoralGauge";
 import HistorialEvaluaciones from "./HistorialEvaluaciones";
 import SubirFuenteModal from "@/features/subir-fuente/SubirFuenteModal";
 import type { Entidad } from "@/schemas/entidad.schema";
@@ -76,9 +76,6 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   const fuentesPendientes = fuentes.filter((f) => f.estado === "pendiente");
   const fuentesAprobadas = fuentes.filter((f) => f.estado === "aprobada");
 
-  const score = entidad.scoreActual;
-  const stage = score ? KOHLBERG_STAGES[score as KohlbergStage] : null;
-
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -120,10 +117,11 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
           {entidad.rol && (
             <p className="text-sm text-zinc-500 capitalize">{entidad.rol?.replace("-", " ")}</p>
           )}
-          {stage && (
-            <p className="text-sm mt-2" style={{ color: stage.color }}>
-              Estadio {score}: {stage.nombre} ({stage.nivel})
-            </p>
+          <div className="mt-3">
+            <MoralGauge score={entidad.scoreActual} size="lg" />
+          </div>
+          {entidad.totalEvaluaciones > 0 && (
+            <p className="mt-1 text-xs text-zinc-600">{entidad.totalEvaluaciones} evaluaciones</p>
           )}
         </div>
       </div>
