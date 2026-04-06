@@ -10,7 +10,7 @@ export type Cita = z.infer<typeof CitaSchema>;
 
 export const EvaluacionSchema = z.object({
   id: z.string().describe("ID único (Firestore auto-ID)"),
-  candidatoId: z.string().describe("FK al candidato"),
+  entidadId: z.string().describe("FK a la entidad evaluada"),
   fuenteId: z.string().describe("FK a la fuente evaluada"),
   estadio: z.number().int().min(1).max(6).describe("Estadio Kohlberg asignado (1-6)"),
   confianza: z.enum(["alta", "media", "baja"]).describe("Nivel de confianza de la evaluación"),

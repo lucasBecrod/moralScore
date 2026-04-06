@@ -1,12 +1,13 @@
 # Feature: Ranking (Landing Page)
 
-Página principal que muestra la lista de candidatos con sus scores Kohlberg.
+Página principal que muestra la lista de entidades con sus scores Kohlberg.
 
 ## Responsabilidades
-- Leer candidatos desde Firestore
-- Mostrar CandidatoCard por cada candidato con score, partido, foto
+- Leer entidades desde Firestore
+- Mostrar EntidadCard por cada entidad con score, partido, foto
 - Ordenar por score (o alfabético si no hay score)
-- Link a `/candidato/[id]` por cada card
+- Link a `/entidad/[id]` por cada card
+- Botón para registrar nueva entidad (`/registrar`)
 
 ## Imports permitidos
 - `@/schemas/*`
@@ -14,4 +15,4 @@ Página principal que muestra la lista de candidatos con sus scores Kohlberg.
 - `@/firebase/client`
 
 ## NO importar de
-- Otros features (`candidato-detalle`, `subir-fuente`, `metodologia`)
+- Otros features (`entidad-detalle`, `subir-fuente`, `metodologia`, `registrar-entidad`)

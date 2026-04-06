@@ -1,9 +1,9 @@
-# Feature: Candidato Detalle
+# Feature: Entidad Detalle
 
-Página de perfil del candidato: score desglosado, fuentes evaluadas, botón [+] para subir URL.
+Página de perfil de la entidad: score desglosado, fuentes evaluadas, botón [+] para subir URL.
 
 ## Responsabilidades
-- Leer candidato + sus evaluaciones + fuentes desde Firestore
+- Leer entidad + sus evaluaciones + fuentes desde Firestore
 - Mostrar score general (mediana) con ScoreGauge
 - Listar fuentes evaluadas como FuenteCard (cita + link + estadio)
 - Botón [+] que abre el modal de subir-fuente
@@ -16,4 +16,4 @@ Página de perfil del candidato: score desglosado, fuentes evaluadas, botón [+]
 - `@/features/subir-fuente` (solo el modal SubirFuenteModal)
 
 ## NO importar de
-- `ranking`, `metodologia`
+- `ranking`, `metodologia`, `registrar-entidad`

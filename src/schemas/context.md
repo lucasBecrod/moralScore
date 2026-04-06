@@ -3,7 +3,7 @@
 Contrato de datos del sistema. Todo dato que cruza límites (Firestore ↔ API ↔ UI) pasa por Zod.
 
 ## Archivos
-- `candidato.schema.ts` — datos del candidato político
+- `entidad.schema.ts` — datos de la entidad evaluada (persona u organización)
 - `fuente.schema.ts` — URL fuente subida por usuarios
 - `evaluacion.schema.ts` — resultado del análisis Kohlberg
 - `analisis-response.schema.ts` — shape del JSON que retorna Claude Code

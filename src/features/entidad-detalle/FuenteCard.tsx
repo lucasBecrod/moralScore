@@ -34,7 +34,7 @@ export default function FuenteCard({
 
   return (
     <div
-      className="rounded-lg border bg-white overflow-hidden cursor-pointer transition-shadow hover:shadow-md"
+      className="rounded-lg border bg-zinc-900 overflow-hidden cursor-pointer transition-shadow hover:shadow-md"
       style={{ borderLeftWidth: "4px", borderLeftColor: color }}
       onClick={() => setExpanded(!expanded)}
       role="button"
@@ -52,8 +52,8 @@ export default function FuenteCard({
             {estadio}
           </span>
           <div>
-            <p className="font-medium text-gray-900">{titulo}</p>
-            <p className="text-sm text-gray-500">
+            <p className="font-medium text-zinc-100">{titulo}</p>
+            <p className="text-sm text-zinc-400">
               {medio && <span>{medio}</span>}
               {medio && fechaFuente && <span> &middot; </span>}
               {fechaFuente && <span>{fechaFuente}</span>}
@@ -61,9 +61,9 @@ export default function FuenteCard({
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-xs text-gray-400 uppercase">{confianza}</span>
+          <span className="text-xs text-zinc-500 uppercase">{confianza}</span>
           <svg
-            className={`w-4 h-4 text-gray-400 transition-transform ${expanded ? "rotate-180" : ""}`}
+            className={`w-4 h-4 text-zinc-500 transition-transform ${expanded ? "rotate-180" : ""}`}
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -74,20 +74,20 @@ export default function FuenteCard({
       </div>
 
       {expanded && (
-        <div className="px-4 pb-4 border-t border-gray-100 pt-3 space-y-4">
-          <p className="text-sm text-gray-700">{justificacion}</p>
+        <div className="px-4 pb-4 border-t border-zinc-800 pt-3 space-y-4">
+          <p className="text-sm text-zinc-300">{justificacion}</p>
 
           <div className="space-y-3">
-            <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
+            <h4 className="text-xs font-semibold text-zinc-500 uppercase tracking-wide">
               Citas textuales
             </h4>
             {citas.map((cita, i) => (
-              <div key={i} className="pl-3 border-l-2 border-gray-200 space-y-1">
-                <p className="text-sm italic text-gray-800">
+              <div key={i} className="pl-3 border-l-2 border-zinc-700 space-y-1">
+                <p className="text-sm italic text-zinc-200">
                   &ldquo;{cita.texto}&rdquo;
                 </p>
-                <p className="text-xs font-mono text-gray-400">{cita.ubicacion}</p>
-                <p className="text-xs text-gray-500" style={{ color }}>
+                <p className="text-xs font-mono text-zinc-500">{cita.ubicacion}</p>
+                <p className="text-xs text-zinc-500" style={{ color }}>
                   {cita.indicador}
                 </p>
               </div>

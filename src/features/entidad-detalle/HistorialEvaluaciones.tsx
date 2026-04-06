@@ -26,12 +26,12 @@ interface HistorialEvaluacionesProps {
 export default function HistorialEvaluaciones({ evaluaciones }: HistorialEvaluacionesProps) {
   return (
     <section>
-      <h2 className="text-lg font-semibold text-gray-900 mb-4">
+      <h2 className="text-lg font-semibold text-zinc-100 mb-4">
         Evaluaciones ({evaluaciones.length})
       </h2>
       {evaluaciones.length === 0 ? (
-        <p className="text-sm text-gray-500">
-          Aún no hay evaluaciones para este candidato.
+        <p className="text-sm text-zinc-400">
+          A&uacute;n no hay evaluaciones para este candidato.
         </p>
       ) : (
         <div className="space-y-3">

@@ -8,18 +8,19 @@
 | Campo | Valor |
 |-------|-------|
 | Etapa | Prototipo |
-| Autores | Lucas (Economista) + Lady (Psicóloga) |
 | Stack | Next.js 15, TypeScript, Tailwind 4, Firebase/Firestore |
-| Deploy | Vercel |
-| Candidatos | 4 iniciales |
+| Deploy | Firebase App Hosting |
+| Candidatos | 35 presidenciales (seed del JNE) |
 
 ## Arquitectura
 
 - **VSA**: features/ son slices autónomos. Cada feature = carpeta independiente.
 - **app/ es thin**: solo routing, importa de features/
 - **schemas/ es contrato**: Zod schemas con .describe() = tipos + validación + docs
-- **firebase/**: client.ts (client SDK) y admin.ts (server SDK)
-- **prompts/ es versionado**: system prompt y criterios en markdown, no en código
+- **firebase/**: client.ts (client SDK). Sin admin SDK en prod.
+- **docs/transparencia/**: prompts y criterios en markdown, publicados como páginas web
+- **docs/fundacional/**: investigaciones y documento maestro del proyecto
+- **scripts/**: seed, cache de imágenes, scraping JNE
 
 ## Flujo del Sistema
 
@@ -27,7 +28,7 @@
 Web pública → usuario ve candidatos con scores → click → fuentes evaluadas
 Botón [+] → sube URL → Firestore (estado: pendiente)
 Filtro IA calidad → aprueba/rechaza
-Local: Lucas/Lady abren URL → analizan con Claude Code → suben score a Firestore
+Validación humana → score publicado con evidencia
 ```
 
 ## Rutas
@@ -35,30 +36,47 @@ Local: Lucas/Lady abren URL → analizan con Claude Code → suben score a Fires
 | Ruta | Feature |
 |------|---------|
 | `/` | ranking — lista candidatos + scores |
-| `/candidato/[id]` | candidato-detalle — score + fuentes + botón [+] |
-| `/metodologia` | metodologia — marco teórico Kohlberg |
+| `/entidad/[id]` | entidad-detalle — score + fuentes + botón [+] |
+| `/registrar` | registrar-entidad — form para agregar candidato |
+| `/metodologia` | metodologia — marco teórico + transparencia |
+| `/docs/[slug]` | docs estáticos — prompts y criterios (SSG) |
 | `/api/fuente` | POST: guardar URL en Firestore |
+| `/api/entidad` | POST: registrar nueva entidad |
+
+## Estructura de Archivos
+
+```
+docs/
+  fundacional/     — proyecto.md, investigaciones
+  transparencia/   — prompts, rúbricas, criterios (fuente de verdad)
+public/docs/       — copia de transparencia/ para servir estáticamente
+scripts/           — seed-candidatos.ts, cache-images.ts, scrape-jne-urls.ts
+src/features/      — VSA slices
+src/schemas/       — Zod schemas
+src/firebase/      — client SDK + queries
+```
 
 ## Convenciones
 
-- Idioma código: inglés. Contenido UI: español.
+- Idioma código: inglés. Contenido UI: español (decir "candidato", no "entidad").
 - Schemas: todo dato que cruza límites pasa por Zod.
 - Colores Kohlberg: definidos en shared/config/kohlberg-stages.ts
 - context.md: cada feature tiene uno. Leerlo antes de editar.
 - Componentes: max 150 LOC. Si crece, extraer sub-componente.
 - features/ NUNCA importa de otro feature/. Solo de shared/ y schemas/.
+- Dark mode only. Sin modo claro.
 
 ## Colecciones Firestore
 
-- `candidatos/{id}` — datos del candidato + scoreActual
+- `entidades/{id}` — datos del candidato + scoreActual + logoPartido
 - `fuentes/{id}` — URLs subidas, estado (pendiente|aprobada|rechazada|evaluada)
 - `evaluaciones/{id}` — resultados análisis Kohlberg con citas
 
 ## Comandos
 
 ```
-pnpm dev          # desarrollo
-pnpm build        # build producción
-pnpm lint         # linter
-pnpm tsc --noEmit # type check
+pnpm dev                              # desarrollo
+pnpm build                            # build producción
+npx tsx scripts/seed-candidatos.ts     # seed/actualizar candidatos
+npx tsx scripts/cache-images.ts        # descargar fotos del JNE
 ```

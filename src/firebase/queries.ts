@@ -4,12 +4,13 @@ import {
   getDoc,
   getDocs,
   addDoc,
+  setDoc,
   query,
   where,
   orderBy,
 } from "firebase/firestore";
 import { db } from "@/firebase/client";
-import type { Candidato } from "@/schemas/candidato.schema";
+import type { Entidad } from "@/schemas/entidad.schema";
 import type { Fuente, SubirFuenteInput } from "@/schemas/fuente.schema";
 import type { Evaluacion } from "@/schemas/evaluacion.schema";
 
@@ -18,36 +19,52 @@ function isFirebaseConfigured(): boolean {
   return Boolean(process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID);
 }
 
-// --- Candidatos ---
+// --- Entidades ---
 
-export async function getCandidatos(): Promise<Candidato[]> {
+export async function getEntidades(): Promise<Entidad[]> {
   if (!isFirebaseConfigured()) return [];
 
-  const snap = await getDocs(collection(db, "candidatos"));
-  return snap.docs.map((d) => ({ id: d.id, ...d.data() }) as Candidato);
+  const snap = await getDocs(collection(db, "entidades"));
+  return snap.docs.map((d) => ({ id: d.id, ...d.data() }) as Entidad);
 }
 
-export async function getCandidatoById(
+export async function getEntidadById(
   id: string
-): Promise<Candidato | null> {
+): Promise<Entidad | null> {
   if (!isFirebaseConfigured()) return null;
 
-  const ref = doc(db, "candidatos", id);
+  const ref = doc(db, "entidades", id);
   const snap = await getDoc(ref);
   if (!snap.exists()) return null;
-  return { id: snap.id, ...snap.data() } as Candidato;
+  return { id: snap.id, ...snap.data() } as Entidad;
+}
+
+export async function createEntidad(
+  data: Omit<Entidad, "scoreActual" | "totalEvaluaciones">
+): Promise<string> {
+  if (!isFirebaseConfigured()) {
+    return "mock-entidad-" + Date.now();
+  }
+
+  const ref = doc(db, "entidades", data.id);
+  await setDoc(ref, {
+    ...data,
+    scoreActual: null,
+    totalEvaluaciones: 0,
+  });
+  return data.id;
 }
 
 // --- Fuentes ---
 
-export async function getFuentesByCandidato(
-  candidatoId: string
+export async function getFuentesByEntidad(
+  entidadId: string
 ): Promise<Fuente[]> {
   if (!isFirebaseConfigured()) return [];
 
   const q = query(
     collection(db, "fuentes"),
-    where("candidatoId", "==", candidatoId),
+    where("entidadId", "==", entidadId),
     orderBy("createdAt", "desc")
   );
   const snap = await getDocs(q);
@@ -66,7 +83,7 @@ export async function createFuente(
   const data: Omit<Fuente, "id"> = {
     url: input.url,
     tipo: input.tipo,
-    candidatoId: input.candidatoId,
+    entidadId: input.entidadId,
     titulo: input.url, // se enriquecerá después
     estado: "pendiente",
     calidadIA: null,
@@ -80,14 +97,14 @@ export async function createFuente(
 
 // --- Evaluaciones ---
 
-export async function getEvaluacionesByCandidato(
-  candidatoId: string
+export async function getEvaluacionesByEntidad(
+  entidadId: string
 ): Promise<Evaluacion[]> {
   if (!isFirebaseConfigured()) return [];
 
   const q = query(
     collection(db, "evaluaciones"),
-    where("candidatoId", "==", candidatoId),
+    where("entidadId", "==", entidadId),
     orderBy("createdAt", "desc")
   );
   const snap = await getDocs(q);

@@ -29,10 +29,10 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${inter.variable} ${playfair.variable} h-full antialiased`}
+      className={`dark ${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <header className="border-b border-gray-200 dark:border-gray-800">
+        <header className="border-b border-gray-800">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
             <Link href="/" className="font-serif text-xl font-bold tracking-tight">
               {SITE_CONFIG.name}
@@ -42,7 +42,7 @@ export default function RootLayout({
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-gray-600 transition-colors hover:text-foreground dark:text-gray-400"
+                  className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
                   {link.label}
                 </Link>
@@ -53,7 +53,7 @@ export default function RootLayout({
 
         <main className="flex-1">{children}</main>
 
-        <footer className="border-t border-gray-200 dark:border-gray-800">
+        <footer className="border-t border-gray-800">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6 text-sm text-gray-500">
             <span>
               {SITE_CONFIG.name} — {SITE_CONFIG.context}
@@ -62,7 +62,7 @@ export default function RootLayout({
               href={SITE_CONFIG.repo}
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors hover:text-foreground"
+              className="transition-colors hover:text-white"
             >
               GitHub
             </a>

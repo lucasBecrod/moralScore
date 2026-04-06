@@ -1,5 +1,5 @@
 import { initializeApp, getApps } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore, connectFirestoreEmulator, enableMultiTabIndexedDbPersistence } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -12,5 +12,21 @@ const firebaseConfig = {
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 const db = getFirestore(app);
+
+// Conectar al emulador en desarrollo
+if (process.env.NEXT_PUBLIC_USE_FIREBASE_EMULATOR === "true") {
+  try {
+    connectFirestoreEmulator(db, "localhost", 8080);
+  } catch {
+    // Ya conectado — ignorar
+  }
+}
+
+// Activar cache offline — solo descarga cambios después del primer load
+if (typeof window !== "undefined") {
+  enableMultiTabIndexedDbPersistence(db).catch(() => {
+    // Fallback silencioso si no soportado
+  });
+}
 
 export { app, db };

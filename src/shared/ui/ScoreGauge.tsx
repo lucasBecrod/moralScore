@@ -22,7 +22,7 @@ export function ScoreGauge({ score }: ScoreGaugeProps) {
           fill="none"
           stroke="currentColor"
           strokeWidth={strokeWidth}
-          className="text-gray-200 dark:text-gray-700"
+          className="text-gray-700"
         />
         {score && (
           <circle

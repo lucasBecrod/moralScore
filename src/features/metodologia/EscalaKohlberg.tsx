@@ -17,7 +17,7 @@ export function EscalaKohlberg() {
         return (
           <div
             key={num}
-            className="flex gap-4 rounded-lg border border-gray-200 p-4 dark:border-gray-800"
+            className="flex gap-4 rounded-lg border border-zinc-700 bg-zinc-900 p-4"
           >
             <div
               className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-lg font-bold text-white"
@@ -28,14 +28,14 @@ export function EscalaKohlberg() {
             <div className="space-y-2">
               <div className="flex flex-wrap items-center gap-2">
                 <KohlbergBadge stage={num} />
-                <span className="text-xs text-gray-500">
+                <span className="text-xs text-zinc-400">
                   {stage.nivel} ({LEVELS[stage.nivel]})
                 </span>
               </div>
-              <p className="text-sm text-gray-700 dark:text-gray-300">
+              <p className="text-sm text-zinc-300">
                 {stage.descripcion}
               </p>
-              <blockquote className="border-l-2 pl-3 text-sm italic text-gray-500" style={{ borderColor: stage.color }}>
+              <blockquote className="border-l-2 pl-3 text-sm italic text-zinc-400" style={{ borderColor: stage.color }}>
                 {stage.ejemplo}
               </blockquote>
             </div>

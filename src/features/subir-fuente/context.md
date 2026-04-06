@@ -1,6 +1,6 @@
 # Feature: Subir Fuente
 
-Modal/formulario para que cualquier usuario suba una URL de fuente para un candidato.
+Modal/formulario para que cualquier usuario suba una URL de fuente para una entidad.
 
 ## Responsabilidades
 - Form con input de URL + selector de tipo (youtube, artículo, entrevista, debate)

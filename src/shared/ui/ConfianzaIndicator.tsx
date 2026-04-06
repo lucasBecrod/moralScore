@@ -21,12 +21,12 @@ export function ConfianzaIndicator({ level }: ConfianzaIndicatorProps) {
             key={i}
             className={cn(
               "h-2 w-5 rounded-full",
-              i <= filled ? color : "bg-gray-200 dark:bg-gray-700"
+              i <= filled ? color : "bg-gray-700"
             )}
           />
         ))}
       </div>
-      <span className="text-xs text-gray-500">{label}</span>
+      <span className="text-xs text-zinc-400">{label}</span>
     </div>
   );
 }

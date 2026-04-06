@@ -39,6 +39,21 @@ yarn-error.log*
 *-firebase-*.json
 service-account*.json
 
+# cached images (regenerate with: npx tsx scripts/cache-images.ts)
+public/img/entidades/
+public/img/partidos/
+
+# generated docs (regenerate from docs/transparencia/)
+public/docs/
+
+# firebase emulator logs
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# playwright
+.playwright-mcp/
+
 # vercel
 .vercel
 

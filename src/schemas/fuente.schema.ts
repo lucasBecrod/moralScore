@@ -13,7 +13,7 @@ export const FuenteSchema = z.object({
   titulo: z.string().describe("Título de la fuente para mostrar"),
   medio: z.string().optional().describe("Medio de comunicación (ej: RPP, Canal N)"),
   fechaFuente: z.string().optional().describe("Fecha del contenido original"),
-  candidatoId: z.string().describe("FK al candidato evaluado"),
+  entidadId: z.string().describe("FK a la entidad evaluada"),
   estado: FuenteEstado.describe("Estado en el pipeline de revisión"),
   calidadIA: z
     .object({
@@ -32,7 +32,7 @@ export type Fuente = z.infer<typeof FuenteSchema>;
 export const SubirFuenteInput = z.object({
   url: z.url().describe("URL de la fuente"),
   tipo: FuenteTipo.describe("Tipo de contenido"),
-  candidatoId: z.string().describe("ID del candidato"),
+  entidadId: z.string().describe("ID de la entidad"),
 });
 
 export type SubirFuenteInput = z.infer<typeof SubirFuenteInput>;
