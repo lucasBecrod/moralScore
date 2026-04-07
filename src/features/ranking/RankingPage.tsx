@@ -1,10 +1,12 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useState, useRef } from "react";
 import Link from "next/link";
-import { getEntidades } from "@/firebase/queries";
+import { useRouter } from "next/navigation";
+import { useEntidades } from "@/shared/hooks/useEntidades";
+import { useAuthContext } from "@/shared/providers/AuthProvider";
+import { AuthModal } from "@/shared/ui/AuthModal";
 import { EntidadCard } from "./EntidadCard";
-import type { Entidad } from "@/schemas/entidad.schema";
 
 const SORT_OPTIONS = [
   { value: "evidencia" as const, label: "M\u00e1s evidencia" },
@@ -12,17 +14,37 @@ const SORT_OPTIONS = [
   { value: "az" as const, label: "A\u2013Z" },
 ];
 
+const SCROLL_KEY = "ranking-scroll-y";
+
 export function RankingPage() {
-  const [entidades, setEntidades] = useState<Entidad[]>([]);
-  const [loading, setLoading] = useState(true);
+  const { entidades, loading } = useEntidades();
   const [shuffleKey, setShuffleKey] = useState(0);
   const [sortBy, setSortBy] = useState<"evidencia" | "score" | "az">("evidencia");
+  const [authModalOpen, setAuthModalOpen] = useState(false);
+  const { user } = useAuthContext();
+  const router = useRouter();
+  const restoredRef = useRef(false);
 
+  // Guardar posición de scroll al salir
   useEffect(() => {
-    getEntidades()
-      .then((data) => setEntidades(data))
-      .finally(() => setLoading(false));
+    const save = () => sessionStorage.setItem(SCROLL_KEY, String(window.scrollY));
+    window.addEventListener("beforeunload", save);
+    return () => {
+      save();
+      window.removeEventListener("beforeunload", save);
+    };
   }, []);
+
+  // Restaurar posición cuando los datos están listos
+  useLayoutEffect(() => {
+    if (!loading && entidades.length > 0 && !restoredRef.current) {
+      const saved = sessionStorage.getItem(SCROLL_KEY);
+      if (saved) {
+        requestAnimationFrame(() => window.scrollTo(0, parseInt(saved, 10)));
+      }
+      restoredRef.current = true;
+    }
+  }, [loading, entidades]);
 
   const sorted = useMemo(() => {
     const list = [...entidades];
@@ -147,13 +169,27 @@ export function RankingPage() {
         )}
 
         <div className="mt-10 text-center">
-          <Link
-            href="/registrar"
+          <button
+            onClick={() => {
+              if (user) {
+                router.push("/registrar");
+              } else {
+                setAuthModalOpen(true);
+              }
+            }}
             className="inline-flex items-center gap-2 rounded-lg border border-zinc-700 px-4 py-2 text-sm font-medium text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-white"
           >
             <span className="text-lg leading-none">+</span>
             Registrar
-          </Link>
+          </button>
+          <AuthModal
+            open={authModalOpen}
+            onClose={() => setAuthModalOpen(false)}
+            onSuccess={() => {
+              setAuthModalOpen(false);
+              router.push("/registrar");
+            }}
+          />
         </div>
       </section>
     </div>

@@ -1,39 +1,49 @@
 /**
  * Script ÚNICO de sincronización: data/*.json → Firestore
  *
- * Lee candidatos.json, fuentes.json, evaluaciones.json
- * Solo escribe si el documento es nuevo o cambió.
- * Recalcula scores con mediana decimal.
+ * Usa Admin SDK (bypasea security rules).
+ * Detección automática de entorno:
+ *   - FIRESTORE_EMULATOR_HOST presente → emulador
+ *   - Si no → producción (ADC de gcloud/firebase CLI)
  *
  * Uso:
- *   npx tsx scripts/sync-firestore.ts                    # producción
- *   NEXT_PUBLIC_USE_FIREBASE_EMULATOR=true npx tsx scripts/sync-firestore.ts  # emulador
+ *   npx tsx --env-file=.env.local scripts/sync-firestore.ts
  */
 
 import { readFileSync } from "fs";
 import { join } from "path";
-import { initializeApp, getApps } from "firebase/app";
-import {
-  getFirestore, doc, getDoc, setDoc, getDocs,
-  collection, connectFirestoreEmulator,
-} from "firebase/firestore";
+import { initializeApp, applicationDefault, cert, getApps } from "firebase-admin/app";
+import { getFirestore } from "firebase-admin/firestore";
 import { createHash } from "crypto";
 
-// --- Firebase init ---
-const app = getApps().length === 0
-  ? initializeApp({
-      apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "demo",
-      projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "moral-score",
-    })
-  : getApps()[0];
-const db = getFirestore(app);
+// --- Detección de entorno ---
+const isEmulator = Boolean(process.env.FIRESTORE_EMULATOR_HOST);
 
-if (process.env.NEXT_PUBLIC_USE_FIREBASE_EMULATOR === "true") {
-  try { connectFirestoreEmulator(db, "localhost", 8080); } catch {}
-  console.log("🔌 Emulador\n");
-} else {
-  console.log("🌐 Producción\n");
+if (getApps().length === 0) {
+  if (isEmulator) {
+    initializeApp({ projectId: "moral-score" });
+    console.log("🔌 Emulador\n");
+  } else {
+    const clientEmail = process.env.FIREBASE_ADMIN_CLIENT_EMAIL;
+    const privateKey = process.env.FIREBASE_ADMIN_PRIVATE_KEY?.replace(/\\n/g, "\n");
+
+    if (clientEmail && privateKey) {
+      initializeApp({
+        credential: cert({
+          projectId: process.env.FIREBASE_ADMIN_PROJECT_ID || "moral-score",
+          clientEmail,
+          privateKey,
+        }),
+      });
+      console.log("🌐 Producción (service account)\n");
+    } else {
+      initializeApp({ credential: applicationDefault() });
+      console.log("🌐 Producción (ADC)\n");
+    }
+  }
 }
+
+const db = getFirestore();
 
 // --- Helpers ---
 function hash(obj: Record<string, unknown>): string {
@@ -65,16 +75,14 @@ async function syncCollection(
     const id = item[idField] as string;
     if (!id) continue;
 
-    const ref = doc(db, collectionName, id);
-    const snap = await getDoc(ref);
+    const ref = db.collection(collectionName).doc(id);
+    const snap = await ref.get();
 
-    // Build data without the id field (Firestore uses doc ID)
     const data = { ...item };
     delete data[idField];
 
-    if (snap.exists()) {
-      // Compare only fields we're writing, ignoring specified fields
-      const existing = snap.data();
+    if (snap.exists) {
+      const existing = snap.data() || {};
       const compareKeys = Object.keys(data).filter(k => !ignoreFieldsOnCompare.includes(k));
       const relevantExisting: Record<string, unknown> = {};
       const relevantNew: Record<string, unknown> = {};
@@ -88,11 +96,10 @@ async function syncCollection(
         continue;
       }
 
-      await setDoc(ref, data, { merge: true });
+      await ref.set(data, { merge: true });
       updated++;
     } else {
-      // New doc — add createdAt for Firestore rules compliance
-      await setDoc(ref, { ...data, createdAt: new Date().toISOString() });
+      await ref.set({ ...data, createdAt: new Date().toISOString() });
       created++;
     }
   }
@@ -102,9 +109,7 @@ async function syncCollection(
 
 // --- Main ---
 async function main() {
-  const now = new Date().toISOString();
-
-  // 1. Sync candidatos (sin sobreescribir scoreActual ni totalEvaluaciones)
+  // 1. Sync candidatos
   console.log("📋 Candidatos...");
   const candidatos = loadJson<Record<string, unknown>>("candidatos.json");
   const candResult = await syncCollection("entidades", candidatos, "id", ["scoreActual", "totalEvaluaciones"]);
@@ -130,10 +135,10 @@ async function main() {
   })), "id", ["createdAt"]);
   console.log(`   ${evalResult.created} nuevas, ${evalResult.updated} actualizadas, ${evalResult.skipped} sin cambios`);
 
-  // 4. Recalcular scores (solo si hubo cambios en evaluaciones)
+  // 4. Recalcular scores
   if (evalResult.created > 0 || evalResult.updated > 0) {
     console.log("\n📊 Recalculando scores...");
-    const evalSnap = await getDocs(collection(db, "evaluaciones"));
+    const evalSnap = await db.collection("evaluaciones").get();
     const byEntidad: Record<string, number[]> = {};
     evalSnap.forEach((d) => {
       const data = d.data();
@@ -145,13 +150,12 @@ async function main() {
 
     for (const [id, estadios] of Object.entries(byEntidad)) {
       const score = median(estadios);
-      const ref = doc(db, "entidades", id);
-      const snap = await getDoc(ref);
+      const ref = db.collection("entidades").doc(id);
+      const snap = await ref.get();
       const current = snap.data();
 
-      // Solo actualizar si el score cambió
       if (current?.scoreActual !== score || current?.totalEvaluaciones !== estadios.length) {
-        await setDoc(ref, { scoreActual: score, totalEvaluaciones: estadios.length }, { merge: true });
+        await ref.set({ scoreActual: score, totalEvaluaciones: estadios.length }, { merge: true });
         console.log(`   ${id} → ${score} (${estadios.length} evals)`);
       }
     }

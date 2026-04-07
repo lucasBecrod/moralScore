@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import Link from "next/link";
 import { SITE_CONFIG, NAV_LINKS } from "@/shared/config/site";
+import { AuthProvider } from "@/shared/providers/AuthProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -51,7 +52,9 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main className="flex-1">{children}</main>
+        <main className="flex-1">
+          <AuthProvider>{children}</AuthProvider>
+        </main>
 
         <footer className="border-t border-gray-800">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6 text-sm text-gray-500">
