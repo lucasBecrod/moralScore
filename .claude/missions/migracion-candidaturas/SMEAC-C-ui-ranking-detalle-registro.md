@@ -37,15 +37,17 @@ Componentes UI de ranking, detalle, registro, y el API route de entidad. Nada m�
 ## MISIÓN (Objetivo)
 
 ### Tarea asignada
-Migrar la UI para usar candidaturas en el ranking y el registro, mientras el detalle sigue mostrando la entidad (persona) con su score lifetime. Adaptar a los nuevos nombres de campo (`scoreHistorico`, `scoreCandidatura`, etc.).
+Migrar la UI para usar candidaturas en el ranking y el registro, mientras el detalle sigue mostrando la entidad (persona) con su score lifetime. Adaptar a los nuevos nombres de campo. **Al final, `pnpm build` debe pasar sin errores.**
 
 ### Criterio de éxito
 - `pnpm build` pasa sin errores de tipos
 - RankingPage usa `useCandidaturas()` en vez de `useEntidades()`
-- EntidadCard acepta `Candidatura` como props y usa `scoreCandidatura`/`evaluacionesCandidatura`
-- EntidadDetallePage muestra partido/rol desde candidaturas (no desde entidad) y usa `scoreHistorico`
-- RegistrarEntidadPage crea entidad + candidatura (partido/rol van a candidatura)
-- API route `/api/entidad` ya no acepta `partido`, `cargo` en el body de entidad (esos van a candidatura)
+- EntidadCard acepta `Candidatura` y usa `scoreCandidatura`/`evaluacionesCandidatura`
+- EntidadDetallePage muestra partido desde candidaturas, score desde `entidad.scoreHistorico`
+- RegistrarEntidadPage crea entidad + candidatura
+- API route `/api/entidad` separa campos entidad vs candidatura
+- No quedan referencias a `scoreActual`, `totalEvaluaciones`, `entidad.partido`, `entidad.logoPartido` en features/
+- `fechaFuente` → `fechaEvento` en componentes que lo renderizan
 
 ---
 
@@ -53,18 +55,19 @@ Migrar la UI para usar candidaturas en el ranking y el registro, mientras el det
 
 ### Principios de diseño
 
-1. **Ranking muestra candidaturas.** Cada tarjeta es una candidatura (tiene partido, logo, scoreCandidatura desnormalizados). El link va a `/entidad/{entidadId}`.
-2. **Detalle muestra la entidad (persona).** El score principal es `scoreHistorico` (lifetime). Partido/rol se obtienen de candidaturas.
+1. **Ranking muestra candidaturas.** Cada tarjeta es una candidatura (partido, logo, scoreCandidatura desnormalizados). Link va a `/entidad/{entidadId}`.
+2. **Detalle muestra la entidad (persona).** Score principal = `scoreHistorico` (lifetime). Partido/rol de candidatura.
 3. **Nombres de campo nuevos:**
-   - Entidad: `scoreHistorico`, `totalEvaluacionesHistoricas` (NO `scoreActual`, `totalEvaluaciones`)
-   - Candidatura: `scoreCandidatura`, `evaluacionesCandidatura` (NO `scoreActual`, `totalEvaluaciones`)
+   - Entidad: `scoreHistorico`, `totalEvaluacionesHistoricas`
+   - Candidatura: `scoreCandidatura`, `evaluacionesCandidatura`
+   - Fuente: `fechaEvento` (no `fechaFuente`)
 
 ### Estado actual
 - `RankingPage.tsx` usa `useEntidades()` y renderiza `EntidadCard` con tipo `Entidad`
-- `EntidadCard.tsx` desestructura `partido`, `logoPartido`, `scoreActual`, `totalEvaluaciones` de `Entidad`
+- `EntidadCard.tsx` desestructura `partido`, `logoPartido`, `scoreActual`, `totalEvaluaciones`
 - `EntidadDetallePage.tsx` muestra `entidad.partido`, `entidad.logoPartido`, `entidad.scoreActual`
-- `RegistrarEntidadPage.tsx` envía `partido`, `rol`, `cargo` al API route como parte de la entidad
-- API route `/api/entidad` acepta y pasa `partido`, `cargo` a `createEntidad()`
+- `RegistrarEntidadPage.tsx` envía `partido`, `rol`, `cargo` como parte de la entidad
+- `HistorialEvaluaciones.tsx` y `FuenteCard.tsx` usan `fechaFuente`
 
 ### Archivos objetivo
 - `src/features/ranking/RankingPage.tsx` (EDITAR)
@@ -75,14 +78,13 @@ Migrar la UI para usar candidaturas en el ranking y el registro, mientras el det
 
 ### Archivos de contexto (leer primero, NO editar)
 - `.claude/missions/migracion-candidaturas/SMEAC-A-schema-migracion-candidaturas.md` — modelo objetivo
-- `src/schemas/candidatura.schema.ts` — tipo Candidatura (creado por Agente A)
-- `src/schemas/entidad.schema.ts` — tipo Entidad actualizado (modificado por Agente A, usa `scoreHistorico`)
-- `src/shared/hooks/useCandidaturas.ts` — hook de cache (creado por Agente B)
-- `src/firebase/queries.ts` — queries disponibles (modificado por Agente B)
-- `src/shared/hooks/useEntidades.ts` — referencia de patrón de hook
+- `src/schemas/candidatura.schema.ts` — tipo Candidatura (Agente A)
+- `src/schemas/entidad.schema.ts` — tipo Entidad actualizado (Agente A)
+- `src/shared/hooks/useCandidaturas.ts` — hook de cache (Agente B)
+- `src/firebase/queries.ts` — queries disponibles (Agente B)
 
 ### Pre-requisito
-**Los Agentes A y B deben haber completado antes de ejecutar este agente.**
+**Los Agentes A y B deben haber completado.**
 
 ---
 
@@ -90,7 +92,7 @@ Migrar la UI para usar candidaturas en el ranking y el registro, mientras el det
 
 ### Paso 1: Editar `src/features/ranking/EntidadCard.tsx`
 
-Cambiar el tipo de props de `Entidad` a `Candidatura`:
+Cambiar tipo de props de `Entidad` a `Candidatura`:
 
 ```typescript
 import type { Candidatura } from "@/schemas/candidatura.schema";
@@ -101,112 +103,105 @@ interface EntidadCardProps {
 
 export function EntidadCard({ candidatura }: EntidadCardProps) {
   const { entidadId, nombre, partido, foto, logoPartido, scoreCandidatura, evaluacionesCandidatura } = candidatura;
-  // ...
-  // Donde antes usaba scoreActual → usar scoreCandidatura
-  // Donde antes usaba totalEvaluaciones → usar evaluacionesCandidatura
-  // El link va a /entidad/{entidadId} (la persona, NO el compound ID)
-  <Link href={`/entidad/${entidadId}`} ...>
+  // scoreActual → scoreCandidatura
+  // totalEvaluaciones → evaluacionesCandidatura
+  // Link: /entidad/${entidadId} (la persona, NO el compound ID)
 ```
-
-El resto de la lógica de zona/score/barra se mantiene igual, solo cambian los nombres de campo.
 
 ### Paso 2: Editar `src/features/ranking/RankingPage.tsx`
 
-Cambiar `useEntidades()` por `useCandidaturas()`:
-
 ```typescript
 import { useCandidaturas } from "@/shared/hooks/useCandidaturas";
-// Quitar: import { useEntidades } from "@/shared/hooks/useEntidades";
+// Quitar: import { useEntidades }
 
 export function RankingPage() {
   const { candidaturas, loading } = useCandidaturas("presidenciales-2026");
-  // ...
-  // Donde antes decía entidades, ahora candidaturas
   // sorted = useMemo sobre candidaturas
-  // Criterios de sort usan evaluacionesCandidatura y scoreCandidatura
-  // EntidadCard recibe candidatura={c} en vez de entidad={e}
+  // Sort "evidencia": evaluacionesCandidatura desc
+  // Sort "score": scoreCandidatura desc (nulls al final)
+  // EntidadCard recibe candidatura={c}
 ```
-
-Los retratos del hero (`entidades.filter(e => e.foto)`) ahora usan `candidaturas.filter(c => c.foto)`.
 
 ### Paso 3: Editar `src/features/entidad-detalle/EntidadDetallePage.tsx`
 
-La entidad ya NO tendrá `partido` ni `logoPartido`. Obtenerlos de candidatura:
+La entidad ya NO tiene `partido` ni `logoPartido`. Obtenerlos de candidatura:
 
 ```typescript
 import { getCandidaturasByEntidad } from "@/firebase/queries";
 import type { Candidatura } from "@/schemas/candidatura.schema";
 
-// En el state:
+// State:
 const [candidaturas, setCandidaturas] = useState<Candidatura[]>([]);
 
-// En el useEffect, agregar a Promise.all:
-getCandidaturasByEntidad(id)
+// En Promise.all agregar: getCandidaturasByEntidad(id)
 
-// Determinar candidatura principal (proceso activo o la primera):
+// Candidatura principal:
 const candidaturaPrincipal = candidaturas[0] || null;
 
-// En el header, reemplazar:
+// Header:
 // entidad.partido → candidaturaPrincipal?.partido
 // entidad.logoPartido → candidaturaPrincipal?.logoPartido
-// entidad.scoreActual → entidad.scoreHistorico (el lifetime score)
+// entidad.scoreActual → entidad.scoreHistorico
 // entidad.totalEvaluaciones → entidad.totalEvaluacionesHistoricas
 ```
 
-**IMPORTANTE:** El score, foto y nombre del detalle vienen de `entidad` (la persona), NO de la candidatura. Solo `partido` y `logoPartido` vienen de candidatura.
+**IMPORTANTE**: Score, foto y nombre del detalle vienen de `entidad`, NO de candidatura. Solo partido y logoPartido vienen de candidatura.
+
+**TAMBIÉN**: Donde se mapean evaluaciones para HistorialEvaluaciones y se referencia `fechaFuente`, cambiar a `fechaEvento`. Verificar las interfaces de los sub-componentes.
+
+**ATENCIÓN**: `HistorialEvaluaciones.tsx` y `FuenteCard.tsx` están protegidos (NO modificar). Si la interface que usan espera `fechaFuente`, el mapeo en EntidadDetallePage debe adaptar el nombre:
+
+```typescript
+// Si HistorialEvaluaciones espera fechaFuente, mapear:
+fuente: { ...fuente, fechaFuente: fuente.fechaEvento }
+// O si puedes cambiar la interface del tipo local en EntidadDetallePage, hazlo ahí.
+```
+
+Lee los componentes protegidos para entender qué interfaz esperan y adapta el mapeo.
 
 ### Paso 4: Editar `src/features/registrar-entidad/RegistrarEntidadPage.tsx`
 
-El form ahora debe:
-1. Crear la entidad (nombre, foto, tipo) via `/api/entidad`
-2. Crear la candidatura (partido, rol) — el API route se encarga internamente
-
-Cambios en el form:
-- Quitar el campo `cargo` del formulario (ya no existe en el schema)
-- `partido` y `rol` se siguen capturando en el form, pero se envían al API que los separa
+- Quitar campo `cargo` del formulario (ya no existe en schema)
+- `partido` y `rol` se capturan en el form pero se envían al API que los separa
+- El tipo `FormData` ya no necesita `cargo`
 
 ### Paso 5: Editar `src/app/api/entidad/route.ts`
 
 El endpoint debe:
-1. Crear la entidad (sin partido, rol, cargo) usando `scoreHistorico: null, totalEvaluacionesHistoricas: 0`
-2. Obtener el proceso activo via `getProcesoActivo()`
-3. Si hay proceso activo y hay partido o rol, crear candidatura con `scoreCandidatura: null, evaluacionesCandidatura: 0`
+1. Crear la entidad (sin partido, rol, cargo) con `scoreHistorico: null, totalEvaluacionesHistoricas: 0`
+2. Si hay partido o rol, obtener proceso activo y crear candidatura
 
 ```typescript
-import { createEntidad, getProcesoActivo } from "@/firebase/queries";
+import { getProcesoActivo } from "@/firebase/queries";
 import { setDoc, doc } from "firebase/firestore";
 import { db } from "@/firebase/client";
 
-// Input validation: separar campos de entidad vs candidatura
-const CrearEntidadInput = z.object({
-  nombre: z.string().min(1),
-  foto: z.string().min(1),
-  tipo: EntidadTipo.optional(),
-  nombreLegal: z.string().optional(),
-  dniRuc: z.string().optional(),
-  region: z.string().optional(),
-  bio: z.string().optional(),
-  // Campos de candidatura (opcionales)
-  partido: z.string().optional(),
-  rol: z.string().optional(),
-});
-
-// En el handler:
-// 1. Crear entidad sin partido/rol
-// 2. Si hay proceso activo y hay partido o rol:
-//    const procesoActivo = await getProcesoActivo();
-//    if (procesoActivo && (partido || rol)) {
-//      const candidaturaId = `${slug}_${procesoActivo.id}`;
-//      await setDoc(doc(db, "candidaturas", candidaturaId), {
-//        id: candidaturaId,
-//        entidadId: slug,
-//        procesoId: procesoActivo.id,
-//        partido, rol, nombre, foto,
-//        scoreCandidatura: null,
-//        evaluacionesCandidatura: 0,
-//      });
-//    }
+// En el handler, después de crear entidad:
+if (partido || rol) {
+  const procesoActivo = await getProcesoActivo();
+  if (procesoActivo) {
+    const candidaturaId = `${slug}_${procesoActivo.id}`;
+    await setDoc(doc(db, "candidaturas", candidaturaId), {
+      id: candidaturaId,
+      entidadId: slug,
+      procesoId: procesoActivo.id,
+      partido, logoPartido: undefined, rol,
+      nombre, foto,
+      scoreCandidatura: null,
+      evaluacionesCandidatura: 0,
+    });
+  }
+}
 ```
+
+### Paso 6: Verificar que no quedan referencias viejas
+
+Buscar en `src/features/` y `src/app/`:
+```bash
+grep -rn "scoreActual\|totalEvaluaciones\|fechaFuente\|entidad\.partido\|entidad\.logoPartido\|entidad\.rol\|entidad\.cargo" src/features/ src/app/
+```
+
+Si hay hits fuera de archivos protegidos, corregirlos.
 
 ---
 
@@ -221,18 +216,30 @@ const CrearEntidadInput = z.object({
 ## VALIDACIÓN (Verificar antes de reportar completado)
 
 1. `pnpm build` → exitoso, sin errores de tipos
-2. No hay referencias a `entidad.partido`, `entidad.logoPartido`, `entidad.rol`, `entidad.cargo` en features/
-3. No hay referencias a `scoreActual` ni `totalEvaluaciones` (nombres viejos) en features/
+2. No hay referencias a `scoreActual`, `totalEvaluaciones` (nombres viejos) en features/ ni app/
+3. No hay `entidad.partido`, `entidad.logoPartido`, `entidad.rol`, `entidad.cargo` en features/
 4. RankingPage importa `useCandidaturas`, no `useEntidades`
-5. EntidadCard recibe `Candidatura`, usa `scoreCandidatura`/`evaluacionesCandidatura`, link va a `/entidad/{entidadId}`
+5. EntidadCard recibe `Candidatura`, link va a `/entidad/{entidadId}`
 6. EntidadDetallePage obtiene partido de candidaturas, score de `entidad.scoreHistorico`
-7. RegistrarEntidadPage no envía `cargo` al API
-8. API route crea candidatura con `scoreCandidatura: null, evaluacionesCandidatura: 0`
-9. Verificar que archivos protegidos no fueron modificados
+7. RegistrarEntidadPage no envía `cargo`
+8. API route crea candidatura si hay partido/rol
+9. Archivos protegidos no fueron modificados
 10. `git diff --stat` → solo archivos dentro del scope
 
-### Si algo falla después de 3 enfoques distintos
-Reportar bloqueo con: qué intentaste, qué falló, qué propones.
+---
+
+## PURGADO — Algoritmo de Musk, Paso 2
+
+Antes de validar, aplica el Paso 2 (Eliminar):
+1. Revisa lo que escribiste. Identifica:
+   - Props que se pasan pero no se usan
+   - Estados intermedios innecesarios
+   - Código defensivo para escenarios imposibles
+2. Elimina al menos 1 elemento concreto
+3. Si algún componente supera 150 LOC, extraer sub-componente
+4. Verifica que `pnpm build` sigue pasando después de podar
+
+> Métrica del 10%: si no tuviste que re-agregar nada, no fuiste agresivo.
 
 ---
 
