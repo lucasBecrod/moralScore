@@ -10,6 +10,8 @@ MoralScore evalúa el razonamiento moral de PERSONAS (score Kohlberg 1-6). El sc
 
 **Datos actuales:** 35 entidades, 276 fuentes, 272 evaluaciones, 70 imágenes en Storage.
 
+> **⚠ Corrección post-revisión:** El score desnormalizado en candidatura NO debe ser un mirror en tiempo real del lifetime score. Debe ser un **snapshot congelado** del momento electoral. Ver detalles en Fase 3.
+
 ## Modelo objetivo
 
 ```
@@ -122,7 +124,9 @@ Agregar sync de:
 2. `candidaturas.json` → colección `candidaturas` (ignorar scoreActual, totalEvaluaciones en compare)
 
 En el recálculo de scores (paso 4 del script):
-- Actualizar `scoreActual` y `totalEvaluaciones` en AMBOS: `entidades/{id}` Y todas las `candidaturas` que tengan ese `entidadId`
+- Actualizar `scoreActual` y `totalEvaluaciones` en `entidades/{id}` (lifetime score — mediana de TODAS las evaluaciones)
+- Actualizar `scoreActual` y `totalEvaluaciones` en candidaturas **SOLO si el proceso está activo** (`activa: true`). Cuando un proceso deja de estar activo, su score se congela y no se recalcula más.
+- Lógica: cargar `procesos`, filtrar los activos, y solo propagar scores a candidaturas de esos procesos.
 
 ### Fase 4: queries.ts
 
@@ -154,12 +158,15 @@ En el recálculo de scores (paso 4 del script):
 
 **`EntidadDetallePage.tsx`:**
 - Sigue leyendo entidad por ID (persona + score)
-- Para mostrar partido/rol: consultar candidatura de esa entidad con `getCandidaturasByEntidad(id)` y mostrar la info
+- Para mostrar partido/rol: consultar candidaturas con `getCandidaturasByEntidad(id)`
+- Si hay 1 candidatura → mostrar partido/rol directamente
+- Si hay múltiples → mostrar la del proceso activo como principal, y listar las demás como historial simple (no sobrediseñar timeline)
 - Fuentes y evaluaciones: sin cambio (usan entidadId)
 
 **`RegistrarEntidadPage.tsx`:**
 - Al crear entidad, también crear candidatura asociada al proceso activo
 - Campos partido y rol van a la candidatura, no a la entidad
+- **Proceso activo:** query `procesos` where `activa == true`, tomar el primero. Si no hay proceso activo, crear solo la entidad (sin candidatura) y mostrar aviso al usuario.
 
 ### Fase 7: Firestore rules
 
