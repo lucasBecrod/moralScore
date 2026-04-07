@@ -16,7 +16,6 @@ export async function generateMetadata({
     return { title: "Candidato no encontrado — MoralScore" };
   }
 
-  // Resolve score: prefer candidatura score for active process
   let score = entidad.scoreHistorico;
   let partido: string | undefined;
   const proceso = await getProcesoActivo();
@@ -33,12 +32,9 @@ export async function generateMetadata({
 
   const label = score !== null ? getPublicLabel(score) : "Sin evaluar";
   const scoreText = score !== null ? `${score.toFixed(1)}/6` : "Sin evaluar";
-  const title = `${entidad.nombre} — ${scoreText} — MoralScore`;
-  const description = partido
-    ? `${entidad.nombre} (${partido}): ${label}. Score Kohlberg ${scoreText}. Evaluación moral verificable con fuentes.`
-    : `${entidad.nombre}: ${label}. Score Kohlberg ${scoreText}. Evaluación moral verificable con fuentes.`;
-
-  const ogImageUrl = `${SITE_CONFIG.url}/api/og?id=${id}`;
+  const evalCount = entidad.totalEvaluacionesHistoricas ?? 0;
+  const title = `${entidad.nombre} — Score: ${scoreText} (${label})`;
+  const description = `Auditoría ciudadana basada en ${evalCount} fuentes públicas. Cero lobby, código abierto. Revisa la evidencia.`;
 
   return {
     title,
@@ -50,10 +46,8 @@ export async function generateMetadata({
       url: `${SITE_CONFIG.url}/entidad/${id}`,
       images: [
         {
-          url: ogImageUrl,
-          width: 1200,
-          height: 630,
-          alt: `Score moral de ${entidad.nombre}`,
+          url: entidad.foto,
+          alt: entidad.nombre,
         },
       ],
       siteName: SITE_CONFIG.name,
@@ -62,7 +56,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [ogImageUrl],
+      images: [entidad.foto],
     },
   };
 }
