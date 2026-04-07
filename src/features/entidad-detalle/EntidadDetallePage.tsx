@@ -188,7 +188,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
           {entidad.scoreActual !== null && zone ? (
             <div className={`flex flex-col gap-1 ${confident ? "" : "opacity-40"}`}>
               <span className="text-xs text-zinc-500">
-                {getPublicLabel(entidad.scoreActual!)} ({realEvalCount} eval.)
+                {getPublicLabel(entidad.scoreActual!)} ({realEvalCount} evaluaciones)
               </span>
               <div className="flex items-center gap-3">
                 <span className={`text-xl font-bold tabular-nums ${zone.text}`}>
