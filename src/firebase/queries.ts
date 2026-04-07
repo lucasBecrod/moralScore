@@ -6,9 +6,11 @@ import {
   addDoc,
   setDoc,
   updateDoc,
+  deleteDoc,
   query,
   where,
   orderBy,
+  increment,
 } from "firebase/firestore";
 import { db } from "@/firebase/client";
 import type { Entidad } from "@/schemas/entidad.schema";
@@ -159,6 +161,49 @@ export async function getProcesoActivo(): Promise<Proceso | null> {
   if (snap.empty) return null;
   const d = snap.docs[0];
   return { id: d.id, ...d.data() } as Proceso;
+}
+
+// --- Likes ---
+
+function likeDocId(userId: string, entidadId: string): string {
+  return `${userId}_${entidadId}`;
+}
+
+export async function getLikeStatus(
+  userId: string,
+  entidadId: string
+): Promise<boolean> {
+  if (!isFirebaseConfigured()) return false;
+
+  const ref = doc(db, "likes", likeDocId(userId, entidadId));
+  const snap = await getDoc(ref);
+  return snap.exists();
+}
+
+export async function toggleLike(
+  userId: string,
+  entidadId: string
+): Promise<boolean> {
+  if (!isFirebaseConfigured()) return false;
+
+  const id = likeDocId(userId, entidadId);
+  const ref = doc(db, "likes", id);
+  const snap = await getDoc(ref);
+  const entidadRef = doc(db, "entidades", entidadId);
+
+  if (snap.exists()) {
+    await deleteDoc(ref);
+    await updateDoc(entidadRef, { totalLikes: increment(-1) });
+    return false;
+  } else {
+    await setDoc(ref, {
+      userId,
+      entidadId,
+      createdAt: new Date().toISOString(),
+    });
+    await updateDoc(entidadRef, { totalLikes: increment(1) });
+    return true;
+  }
 }
 
 // --- Reconciliación ---

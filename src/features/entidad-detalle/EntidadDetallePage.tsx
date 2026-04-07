@@ -2,9 +2,14 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { getEntidadById, getEvaluacionesByEntidad, getFuentesByEntidad, getCandidaturasByEntidad } from "@/firebase/queries";
+import { getEntidadById, getEvaluacionesByEntidad, getFuentesByEntidad, getCandidaturasByEntidad, toggleLike, getLikeStatus } from "@/firebase/queries";
+import { trackMetric } from "@/shared/lib/track-metric";
+import { useAuthContext } from "@/shared/providers/AuthProvider";
+import { AuthModal } from "@/shared/ui/AuthModal";
+import { SITE_CONFIG } from "@/shared/config/site";
 import { getPublicLabel } from "@/shared/config/kohlberg-stages";
 import HistorialEvaluaciones from "./HistorialEvaluaciones";
+import EngagementBar from "./EngagementBar";
 import SubirFuenteModal from "@/features/subir-fuente/SubirFuenteModal";
 import type { Entidad } from "@/schemas/entidad.schema";
 import type { Candidatura } from "@/schemas/candidatura.schema";
@@ -84,6 +89,13 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   const [fuentes, setFuentes] = useState<Fuente[]>([]);
   const [candidaturas, setCandidaturas] = useState<Candidatura[]>([]);
 
+  const [hasViewedFuente, setHasViewedFuente] = useState(false);
+  const [liked, setLiked] = useState(false);
+  const [likeCount, setLikeCount] = useState(0);
+  const [authModalOpen, setAuthModalOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const { user } = useAuthContext();
+
   useEffect(() => {
     Promise.all([
       getEntidadById(id),
@@ -96,9 +108,16 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
         setEvaluaciones(evals);
         setFuentes(fts);
         setCandidaturas(cands);
+        setLikeCount(ent?.totalLikes ?? 0);
       })
       .finally(() => setLoading(false));
   }, [id]);
+
+  useEffect(() => {
+    if (user && id) {
+      getLikeStatus(user.uid, id).then(setLiked);
+    }
+  }, [user, id]);
 
   if (loading) {
     return (
@@ -146,6 +165,44 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   const zone = entidad.scoreHistorico !== null ? getZoneStyle(entidad.scoreHistorico) : null;
   const filledSegments = entidad.scoreHistorico !== null ? Math.round(entidad.scoreHistorico) : 0;
   const confident = realEvalCount >= 5;
+
+  const score = candidaturaPrincipal?.scoreCandidatura
+    ? candidaturaPrincipal.scoreCandidatura.toFixed(1)
+    : entidad.scoreHistorico?.toFixed(1) ?? "?";
+
+  async function handleLike() {
+    if (!hasViewedFuente) return;
+    if (!user) { setAuthModalOpen(true); return; }
+    const nowLiked = await toggleLike(user.uid, id);
+    setLiked(nowLiked);
+    setLikeCount((c) => c + (nowLiked ? 1 : -1));
+    trackMetric(nowLiked ? "likes_dados" : "likes_quitados");
+  }
+
+  function handleFuenteExpanded() {
+    if (!hasViewedFuente) setHasViewedFuente(true);
+  }
+
+  function getShareUrl() { return `${SITE_CONFIG.url}/entidad/${id}`; }
+
+  function shareWhatsApp() {
+    const text = `${entidad!.nombre} tiene un score Kohlberg de ${score}/6. Audita la evidencia:`;
+    window.open(`https://wa.me/?text=${encodeURIComponent(text + " " + getShareUrl() + "?ref=share_wa")}`, "_blank");
+    trackMetric("shares_wa");
+  }
+
+  function shareTwitter() {
+    const text = `${entidad!.nombre}: score Kohlberg ${score}/6. Sin ideología, solo evidencia.`;
+    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(getShareUrl() + "?ref=share_tw")}`, "_blank");
+    trackMetric("shares_tw");
+  }
+
+  async function copyLink() {
+    await navigator.clipboard.writeText(getShareUrl() + "?ref=share_copy");
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+    trackMetric("shares_copy");
+  }
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
@@ -223,9 +280,21 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
         </div>
       </div>
 
+      {/* Engagement bar */}
+      <EngagementBar
+        hasViewedFuente={hasViewedFuente}
+        liked={liked}
+        likeCount={likeCount}
+        copied={copied}
+        onLike={handleLike}
+        onShareWhatsApp={shareWhatsApp}
+        onShareTwitter={shareTwitter}
+        onCopyLink={copyLink}
+      />
+
       {/* Evaluaciones */}
       <div className="mb-10">
-        <HistorialEvaluaciones evaluaciones={evalsForHistorial} />
+        <HistorialEvaluaciones evaluaciones={evalsForHistorial} onFuenteExpanded={handleFuenteExpanded} />
 
         {/* Fuentes sin evaluar — inline con las evaluaciones */}
         {fuentesSinEvaluar.length > 0 && (
@@ -287,6 +356,12 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
           onClose={() => setShowModal(false)}
         />
       )}
+
+      <AuthModal
+        open={authModalOpen}
+        onClose={() => setAuthModalOpen(false)}
+        onSuccess={() => setAuthModalOpen(false)}
+      />
     </div>
   );
 }
