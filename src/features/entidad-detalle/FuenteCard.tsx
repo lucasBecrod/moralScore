@@ -146,8 +146,6 @@ export default function FuenteCard({
             {medio}
             {medio && fechaFuente && " \u00b7 "}
             {fechaFuente}
-            {" \u00b7 "}
-            <span className="uppercase">{confianza}</span>
           </p>
         </div>
 
