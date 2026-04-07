@@ -39,6 +39,28 @@ que la "ética de la justicia":
 5. Cita TEXTUALMENTE las frases que sustentan tu evaluación
 6. Si el material no contiene razonamiento moral suficiente, responde INSUFICIENTE
 
+## RESALTADO INLINE — Radiografía del discurso
+
+Usa **negritas markdown** dentro de `citas.texto` y `justificacion` para
+marcar las frases exactas que revelan el mecanismo retórico del candidato.
+La UI renderiza estas negritas con el color del estadio asignado.
+
+El objetivo: que el ciudadano VEA la estructura de manipulación por sí mismo,
+sin que le digamos "esto es malo". Las negritas hacen el trabajo.
+
+Ejemplo:
+```json
+{
+  "texto": "**Si ustedes me apoyan con sus votos**, yo les prometo que saco a los militares y **les doy su bono**",
+  "indicador": "Condiciona el deber público a un favor personal — Estadio 2"
+}
+```
+
+Reglas:
+- Resalta SOLO las frases que evidencian el mecanismo retórico, no toda la cita
+- En `justificacion`, resalta los fragmentos que conectan con el estadio asignado
+- En `indicador`, describe el mecanismo en lenguaje ciudadano, terminando con "— Estadio N"
+
 ## RÚBRICA DE ESTADIOS
 
 ### ESTADIO 1 — Castigo/Obediencia

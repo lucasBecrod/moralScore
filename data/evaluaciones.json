@@ -4179,5 +4179,707 @@
     "estadioAlternativo": 1,
     "notas": "Tema: reforma judicial. Patrón: 2,1,2,2,2,2.",
     "evaluador": "lucas"
+  },
+  {
+    "id": "eval-masse-seguridad-reforma-policial",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "fuenteId": "armando-joaquin-masse-fernandez-2026-03-25-infobae",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Massé aborda la seguridad mediante **soluciones transaccionales y técnico-administrativas**. Propone: (1) **mal pagados, mal equipados** — diagnóstico operacional cuya solución es mejorar la máquina estatal; (2) **incentivos económicos por reportes** — intercambio puro; (3) coordinación Policía-Fiscalía-Jueces — pragmatismo institucional sin mención a derechos humanos.",
+    "citas": [
+      {
+        "texto": "135.000 policías están **mal pagados, mal equipados, mal distribuidos**",
+        "ubicacion": "Debate Presidencial JNE, propuestas de seguridad, marzo 2026",
+        "indicador": "Diagnóstico de deficiencias operacionales; solución = mejora administrativa — Estadio 2"
+      },
+      {
+        "texto": "**Mientras que no haya una coordinación plena y directa de la Policía, la Fiscalía y los jueces, nada vamos a lograr**",
+        "ubicacion": "Propuestas de reforma policial, marzo 2026",
+        "indicador": "Coordinación instrumental para eficiencia del sistema — Estadio 2"
+      },
+      {
+        "texto": "Propuso **incentivizar recompensas por reportes** y compensación económica para entregas voluntarias de armas",
+        "ubicacion": "Plan de gobierno, propuestas de seguridad, 2026",
+        "indicador": "Intercambio transaccional: dinero por información/armas — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Consistente con patrón: promesas de eficiencia administrativa sin argumentación ética de fondo.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-olivera-educacion-presupuesto",
+    "entidadId": "luis-fernando-olivera-vega",
+    "fuenteId": "luis-fernando-olivera-vega-2026-04-06-andina",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Olivera propone educación mediante **inyección presupuestaria histórica** y **mejora salarial docente**. Lógica transaccional: más dinero = mejor calidad. Sin argumentar sobre equidad o justicia educativa como derecho.",
+    "citas": [
+      {
+        "texto": "En mi gobierno se aplicará **el mayor presupuesto de la historia a educación**. **Educación de calidad que protegerá al niño desde el vientre** será la prioridad fundamental, con **maestros capacitados y bien pagados**",
+        "ubicacion": "Andina, propuestas educativas 2026",
+        "indicador": "Incremento presupuestario como solución automática, sin mecanismos de equidad — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Primera fuente sobre educación. Mantiene consistencia Estadio 2.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-cerron-imperialismo-venezuela",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "fuenteId": "vladimir-roy-cerron-rojas-2026-01-04-sinfronteras",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Cerrón caracteriza la política internacional como choque binario entre imperialismo y resistencia. **Exige que organismos internacionales actúen según su marco ideológico**, sin reconocer complejidades. El argumento se construye sobre **identidad política, no principios universales**.",
+    "citas": [
+      {
+        "texto": "el **saqueo de recursos petroleros, gasíferos y minerales** de Venezuela",
+        "ubicacion": "Declaración Perú Libre, enero 2026, Diario Sin Fronteras",
+        "indicador": "Asignación de intenciones malvadas sin debate de pruebas — Estadio 1"
+      },
+      {
+        "texto": "América Latina **no puede ser cómplice de una guerra imperialista que después terminará de devorarla**",
+        "ubicacion": "Mensaje Cerrón, enero 2026",
+        "indicador": "Causalidad mágica: castigo inevitable para quien no obedece — Estadio 1"
+      },
+      {
+        "texto": "la **dignidad de un pueblo consciente que resiste** con dignidad los ataques del imperialismo",
+        "ubicacion": "Felicitación a Maduro, julio 2024, Caretas",
+        "indicador": "Moralidad basada en alineación política, no en conducta verificable — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Consistente con 5 evaluaciones previas (todas Estadio 1). Marco binario imperialismo vs. resistencia.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-jaico-salud-cancer",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "fuenteId": "carlos-ernesto-jaico-carranza-2026-03-10-correo",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Jaico diagnostica que el sistema oncológico reacciona tarde. Propone **fortalecer el primer nivel de atención**. Reconoce impacto económico (**40-50% del presupuesto familiar**). Solución fundamentalmente **institucionalista**: confía en mejorar instituciones públicas.",
+    "citas": [
+      {
+        "texto": "No hemos habilitado y mejorado ese **primer nivel de atención** donde todos los peruanos deberían ir para un despiste oncológico",
+        "ubicacion": "Debate Presidencial en Salud, marzo 2026",
+        "indicador": "Diagnostica fallo institucional, solución dentro del sistema público — Estadio 4"
+      },
+      {
+        "texto": "Hasta el **50% del presupuesto familiar se va en tratamiento**",
+        "ubicacion": "Diario Correo, debate salud 2026",
+        "indicador": "Empatía con impacto económico como argumento para mejorar servicios del Estado — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Consistente con 5 evaluaciones previas (todas Estadio 4).",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-luna-galvez-mineria-reinfo",
+    "entidadId": "jose-leon-luna-galvez",
+    "fuenteId": "jose-leon-luna-galvez-2025-12-17-correo",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Luna Gálvez reconoce que **REINFO es un engaña muchachos**, pero su conducta revela transaccionalismo: (1) propone extender REINFO; (2) coloca al minero ilegal Torrealva en Comisión de Energía; (3) justifica con amenaza: **si no ampliamos, un millón de ciudadanos van a incendiar el Perú**.",
+    "citas": [
+      {
+        "texto": "**Es un engaña muchachos**, no va a solucionar nada",
+        "ubicacion": "Diario Correo, sobre REINFO, 2025",
+        "indicador": "Reconoce falsedad del instrumento pero promueve su extensión — Estadio 2"
+      },
+      {
+        "texto": "Si no se amplía tienes **un millón de ciudadanos que van a incendiar todo el Perú**... o les damos paz y tranquilidad o nos resignamos",
+        "ubicacion": "Diario Correo, Exitosa Noticias, 2025",
+        "indicador": "Usa amenaza de violencia colectiva para justificar beneficios a minería ilegal — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Consistente con 5 evaluaciones previas (todas Estadio 2). Doble discurso REINFO.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-perez-tello-dictadores",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "fuenteId": "maria-soledad-perez-tello-de-rodriguez-2025-12-14-larepublica",
+    "estadio": 5,
+    "confianza": "alta",
+    "justificacion": "Pérez Tello establece una **línea roja ética inquebrantable** contra dictadores independientemente de ideología. Se fundamenta en **principios democráticos universales**, no en cálculo político. Rechaza dictadores de derecha e izquierda: principios **trascienden conveniencia política bilateral**.",
+    "citas": [
+      {
+        "texto": "No trato con dictadores, **ni de derecha ni de izquierda**",
+        "ubicacion": "La República, 14 diciembre 2025",
+        "indicador": "Rechazo universal a autoritarismo sin distinciones ideológicas — Estadio 5"
+      },
+      {
+        "texto": "Rescato lo que cada una **hace bien y corrijo sus defectos**, pero no trabajo con dictadores",
+        "ubicacion": "La República, 14 diciembre 2025",
+        "indicador": "Pragmatismo selectivo ante principio inviolable de democracia — Estadio 5"
+      },
+      {
+        "texto": "Venezuela **es una dictadura, no hay ninguna duda**; Puno fue **autoritarismo, puro y duro**",
+        "ubicacion": "La República, 14 diciembre 2025",
+        "indicador": "Diagnóstico ético: llama por su nombre a violaciones democráticas — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Consistente con 5 evaluaciones previas (todas Estadio 5). Principismo genuino.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-chiabra-educacion-tecnica",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "fuenteId": "roberto-enrique-chiabra-leon-2026-04-01-infobae",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Chiabra aborda educación con enfoque **institucionalista-pragmático**. Promete **garantizar que las becas tengan su presupuesto y que no sea recortado**. Justificación **instrumental**: educación como medio para inserción laboral, no como derecho humano.",
+    "citas": [
+      {
+        "texto": "Vamos a invertir en los colegios técnicos y en los institutos tecnológicos que **dan pena y vergüenza**",
+        "ubicacion": "Debate presidencial 2026, tema educación",
+        "indicador": "Apelación al deber institucional y reputación estatal — Estadio 4"
+      },
+      {
+        "texto": "Todos los peruanos tengan **educación escolar completa, un oficio o una profesión**",
+        "ubicacion": "Debate presidencial 2026",
+        "indicador": "Universalidad del acceso justificada por utilidad instrumental — Estadio 4"
+      },
+      {
+        "texto": "Incrementar las becas, pero garantizando que tengan su presupuesto y que **no sea recortado**",
+        "ubicacion": "Debate presidencial 2026",
+        "indicador": "Continuidad institucional más allá de ciclos políticos — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Consistente con 5 evaluaciones previas (todas Estadio 4). Militar institucionalista.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-atencio-salud-seguros",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "fuenteId": "ronald-darwin-atencio-sotomayor-2026-03-25-debate-salud",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Atencio argumenta que seguros privados pagados con fondos públicos perpetúan desigualdad. Propone redistribuir al SIS. Razonamiento interpersonal-relacional: **apela a roles de servidores públicos** y expectativa de cuidado, pero sin fundamentar en derechos universales.",
+    "citas": [
+      {
+        "texto": "Se eliminarían los seguros privados pagados con fondos públicos y ese dinero **ahorrado será destinado a adultos mayores, al sistema de salud, al SIS**",
+        "ubicacion": "Debate presidencial JNE, tema salud, marzo 2026",
+        "indicador": "Redistribución de privilegios a bien común, apela a rol de servidor público — Estadio 3"
+      },
+      {
+        "texto": "El modelo privatizado es **un esquema donde quienes sin recursos económicos no acceden a atención médica**",
+        "ubicacion": "Debate presidencial JNE, marzo 2026",
+        "indicador": "Reconoce desigualdad sistémica con razonamiento interpersonal — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Previos: 2,2,1,2,2,1. Este 3 es razonable por el tema de justicia de acceso.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-williams-autonomia-institucional",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "jose-daniel-williams-zapata-2026-04-03-caretas",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Williams propone **presupuesto plurianual y autonomía financiera** para Contraloría, Fiscalía y Defensorías Anticorrupción. Apelación a **independencia institucional** como requisito sistémico.",
+    "citas": [
+      {
+        "texto": "**Autonomía financiera** para la Contraloría, la Fiscalía y las **Defensorías Anticorrupción**",
+        "ubicacion": "Plan de gobierno 2026",
+        "indicador": "Independencia de órganos de control como requisito sistémico — Estadio 4"
+      },
+      {
+        "texto": "**No más obras que no se terminan**. Los recursos deben ir a la ejecución, no a actos ilícitos",
+        "ubicacion": "Debate Presidencial 2026, Caretas",
+        "indicador": "Énfasis en procedimientos y cumplimiento — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 1,3,2,3,3,3. Un 4 es alto pero justificado por el enfoque institucional.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-paz-de-la-barra-debido-proceso",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "fuenteId": "alvaro-gonzalo-paz-de-la-barra-freigeiro-2026-03-25-infobae",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Paz de la Barra propone eliminar derechos fundamentales: **corrupto y criminal no tiene derechos, no tiene debido proceso**. Expulsión de migrantes en 48h sin evaluación individual. Inaplicar irretroactividad penal.",
+    "citas": [
+      {
+        "texto": "**Corrupto y criminal no tiene derechos, no tiene debido proceso ni presunción de inocencia**",
+        "ubicacion": "Debate presidencial JNE, marzo 2026",
+        "indicador": "Negación de derechos humanos fundamentales — Estadio 1"
+      },
+      {
+        "texto": "**Expulsión de extranjeros en situación irregular en un plazo de 48 horas**",
+        "ubicacion": "Debate presidencial JNE, marzo 2026",
+        "indicador": "Medida coercitiva sin proceso individual — Estadio 1"
+      },
+      {
+        "texto": "**Inaplicaría principio de irretroactividad penal** para perseguir delitos previos",
+        "ubicacion": "Debate presidencial JNE, marzo 2026",
+        "indicador": "Rechazo a principios legales fundamentales — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 1,2,1,2,2,1. Consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-molinelli-anticorrupcion",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "fiorella-giannina-molinelli-aristondo-2026-03-24-larepublica",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Molinelli enfatiza mecanismos formales de accountability: **protección de denunciantes**, depolitización del Estado, concursos públicos. Apela a autoridad formal: **no hay que tenerle miedo a los poderosos, a la mafia se les enfrenta con firmeza**.",
+    "citas": [
+      {
+        "texto": "No hay que tenerle miedo a los poderosos. A la mafia y a los corruptos se les enfrenta con **firmeza, decisión y acción**",
+        "ubicacion": "Debate Presidencial 2026, marzo 24",
+        "indicador": "Acción ejecutiva sobre corrupción, apelando a autoridad formal — Estadio 4"
+      },
+      {
+        "texto": "Mi partido es **el único sin condenados en el Congreso**",
+        "ubicacion": "Debate Presidencial 2026",
+        "indicador": "Conformidad legal e integridad institucional — Estadio 4"
+      },
+      {
+        "texto": "Se debe **proteger a denunciantes con pago de recompensas** y elegir autoridades mediante concurso público",
+        "ubicacion": "Plan de Gobierno, anticorrupción",
+        "indicador": "Mecanismo formal de incentivos e igualdad procesal — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 3,4,4,4,4,4. Consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-sanchez-constitucion-cadena",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "fuenteId": "roberto-helbert-sanchez-palomino-2026-03-18-larepublica",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Sánchez propone nueva Constitución y **cadena perpetua para corruptos**. Razonamiento instrumental sin fundamentación ética: reforma como medio pragmático, no como principio. **Banco minero estatal** para financiar mineros pequeños es transaccional.",
+    "citas": [
+      {
+        "texto": "**Propone nueva Constitución, apoyo militar en seguridad y cadena perpetua para corruptos**",
+        "ubicacion": "La República, 2026-03-18",
+        "indicador": "Reforma institucional abstracta sin argumentación ética profunda — Estadio 2"
+      },
+      {
+        "texto": "**Crear un banco minero estatal** que financie maquinaria y titularidad para pequeños mineros",
+        "ubicacion": "Plan de gobierno 2026-2031",
+        "indicador": "Solución pragmática para grupo específico — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Corrección anti-ventriloquismo: haiku asignó 3 pero cadena perpetua es punitivo y banco minero es transaccional. Previos: 3,2,2,2,2,3.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-belaunde-muerte-cruzada",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "fuenteId": "rafael-jorge-belaunde-llosa-2026-03-15-infobae",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Belaúnde propone la muerte cruzada como mecanismo constitucional para resolver crisis institucionales. Énfasis en **construir consensos y mayorías de gobierno**. Defensa del orden legal y mecanismos constitucionales preexistentes.",
+    "citas": [
+      {
+        "texto": "**Uno va construyendo una mayoría de gobierno**. Apuesta por consensos en el Congreso",
+        "ubicacion": "Infobae, 15 marzo 2026",
+        "indicador": "Razonamiento político pragmático basado en acuerdos negociados — Estadio 4"
+      },
+      {
+        "texto": "Propone aplicar la **muerte cruzada** como mecanismo constitucional para resolver crisis institucionales extremas",
+        "ubicacion": "Infobae, 15 marzo 2026",
+        "indicador": "Defensa del orden legal y mecanismos constitucionales — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 5,
+    "notas": "Previos: 4,5,4,4,5,4. Consistente con mediana 4.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-valderrama-cadena-perpetua-corruptos",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "pitter-enrique-valderrama-pena-2026-03-26-infobae",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Valderrama propone cadena perpetua para jueces, policías y fiscales corruptos. Conecta **criminalidad con hambre, miseria y falta de oportunidades**. Razonamiento de expectativas sociales: el sistema debe funcionar para proteger a la gente.",
+    "citas": [
+      {
+        "texto": "Todo juez, policía, fiscal o militar que se coluda con las bandas criminales debe merecer **cadena perpetua**",
+        "ubicacion": "Entrevista Altavoz / Debate JNE",
+        "indicador": "Respuesta punitiva a transgresión institucional — Estadio 3"
+      },
+      {
+        "texto": "**Luchar contra la criminalidad es luchar contra el hambre, la miseria y la falta de oportunidades**",
+        "ubicacion": "Infobae, 26 marzo 2026",
+        "indicador": "Vínculo causal entre justicia y bienestar colectivo — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Corrección: haiku asignó 4 pero cadena perpetua es punitivo y la conexión criminalidad→pobreza es E3.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-belmont-jueces-voto-popular",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "fuenteId": "ricardo-pablo-belmont-cassinelli-2026-03-24-elcomercio",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Belmont propone elegir fiscales y jueces por voto popular. Razonamiento instrumentalista: **el pueblo tiene que elegir** para que gente decente entre y corruptos salgan. Dicotomía moral simplista sin análisis de conflicto ético.",
+    "citas": [
+      {
+        "texto": "**El pueblo tiene que elegir** para que gente decente entre y gente corrupta salga",
+        "ubicacion": "RPP, Debate Presidencial 2026",
+        "indicador": "Relativismo pragmático basado en aprobación popular — Estadio 2"
+      },
+      {
+        "texto": "**Los verdaderos criminales están en el Congreso**",
+        "ubicacion": "Diario Correo, Debate 2026",
+        "indicador": "Dicotomía moral simplista sin complejidad institucional — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 3,2,2,2,2,3. Consistente con mediana 2.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-carrasco-expulsion-biblia",
+    "entidadId": "charlie-carrasco-salazar",
+    "fuenteId": "charlie-carrasco-salazar-2026-04-03-infobae",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Carrasco propone expulsión de extranjeros indocumentados en 48h sin debido proceso y gobernar bajo **principios bíblicos**. Lógica retributiva pura con apelación a autoridad religiosa.",
+    "citas": [
+      {
+        "texto": "Propuso expulsar a **extranjeros indocumentados en 48 horas**",
+        "ubicacion": "Infobae, debate presidencial 2026",
+        "indicador": "Castigo automático sin due process — Estadio 2"
+      },
+      {
+        "texto": "Gobernar bajo **principios bíblicos**",
+        "ubicacion": "Infobae, debate presidencial 2026",
+        "indicador": "Apelación a autoridad religiosa, no razonamiento secular — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 1,1,2,2,1,2. Consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-gonzales-carcel-cementerio",
+    "entidadId": "alex-gonzales-castillo",
+    "fuenteId": "alex-gonzales-castillo-2026-03-23-debate-jne",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Gonzales expresó razonamiento punitivo centrado en castigos severos: **los criminales tienen dos caminos: la cárcel o el cementerio**. Propone reingeniería total de seguridad mediante fuerza centralizada.",
+    "citas": [
+      {
+        "texto": "Los criminales tienen dos caminos: **la cárcel o el cementerio**",
+        "ubicacion": "Debate Presidencial JNE, 23 marzo 2026, bloque seguridad",
+        "indicador": "Mentalidad punitiva de castigo extremo — Estadio 2"
+      },
+      {
+        "texto": "**Los fondos de los estudiantes son sagrados. Son intocables**",
+        "ubicacion": "Debate Presidencial JNE, bloque educación",
+        "indicador": "Protección de grupo vulnerable pero centrada en autoridad — Estadio 3"
+      },
+      {
+        "texto": "Reingeniería total del sistema de seguridad: **fusionar ministerios del Interior y Defensa con 300,000 efectivos**",
+        "ubicacion": "Debate Presidencial JNE, propuesta seguridad",
+        "indicador": "Orden mediante autoridad centralizada y fuerza — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 2,2,3,2,3,3. Consistente con rango bajo.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-guevara-seguridad-endurecer",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "fuenteId": "mesias-antonio-guevara-amasifuen-2026-03-31-andina",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Guevara plantea endurecer estrategia contra crimen: cadena perpetua sicarios, 50K cámaras IA, derogar leyes pro-crimen. Énfasis en **enforcement puro sin mención de derechos humanos**. Critica a López Aliaga por deuda: **él tiene que pagar, no Lima**.",
+    "citas": [
+      {
+        "texto": "**Nunca más 5 de abril, nunca más autogolpes**. Vamos a devolver la independencia a la Sunedu",
+        "ubicacion": "Debate presidencial 2026, Caretas",
+        "indicador": "Compromiso con formalismo democrático — Estadio 4"
+      },
+      {
+        "texto": "**¡Él tiene que pagar! No tiene que pagar Lima**",
+        "ubicacion": "Infobae, 01 abril 2026, crítica a López Aliaga",
+        "indicador": "Responsabilidad personal de autoridades — Estadio 3"
+      },
+      {
+        "texto": "Derogar las **leyes pro-crimen**. Cadena perpetua para sicarios",
+        "ubicacion": "Andina, propuestas seguridad",
+        "indicador": "Enforcement y castigo severo sin discusión de proporcionalidad — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Corrección: haiku asignó 4 pero enforcement sin derechos es E3. Previos: 3,4,3,4,3,4.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-alvarez-campana-limpia",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "fuenteId": "carlos-gonzalo-alvarez-loayza-2026-04-06-infobae",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Álvarez cierra campaña enfatizando integridad procesal: **sin ataques, sin bajezas, sin golpes bajos**. Reconoce autoridad legítima del cargo. Propone compra masiva de medicamentos mediante **central nacional de farmacia**.",
+    "citas": [
+      {
+        "texto": "La voy a terminar como la empecé: **sin ataques, sin bajezas, sin golpes bajos, sin una campaña sucia**",
+        "ubicacion": "Cierre de campaña Cajamarca, Infobae 06-04-2026",
+        "indicador": "Compromiso con normas y procedimientos limpios — Estadio 4"
+      },
+      {
+        "texto": "**Yo no soy ni de izquierda ni de derecha**... La política ha perdido humanidad",
+        "ubicacion": "Cierre de campaña",
+        "indicador": "Crítica al sistema sin propuesta ideológica — Estadio 3-4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 4,1,4,4,4,4. Consistente con mediana 4.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-caller-carceles-productivas",
+    "entidadId": "herbert-caller-gutierrez",
+    "fuenteId": "herbert-caller-gutierrez-2026-03-20-andina",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Caller propone transformar cárceles en centros productivos. Enfoque **instrumental**: trabajo 8-12h → ingresos → reinserción. **Incentivos económicos por reportes** y deterrencia como razones principales. Sin apelación a derechos humanos o dignidad.",
+    "citas": [
+      {
+        "texto": "Trabajando 8-12 horas al día generarían ingresos para sus familias y **ahorros en cuentas bancarias bloqueadas** para reinserción",
+        "ubicacion": "Propuesta carcelaria, Andina 2026",
+        "indicador": "Sistema transaccional: trabajo → ingresos → reinserción — Estadio 2"
+      },
+      {
+        "texto": "Convertir las cárceles en **centros de desempeño altamente productivos** para servir como disuasivo del delito",
+        "ubicacion": "Andina 2026",
+        "indicador": "Deterrencia como razón principal, pragmatismo — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Previos: 1,2,2,2,2,2. Consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-lescano-indulto-castillo",
+    "entidadId": "yonhy-lescano-ancieta",
+    "fuenteId": "yonhy-lescano-ancieta-2026-04-06-sinfronteras",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Lescano condiciona indulto a Castillo a gesto simbólico: **pide perdón al pueblo peruano**. Razonamiento instrumental sin fundamentación en principios. Compara a Castillo con Fujimori: pensamiento binario.",
+    "citas": [
+      {
+        "texto": "Evaluaría la posibilidad de indultar a Pedro Castillo si es que **pide perdón al pueblo peruano**",
+        "ubicacion": "Rueda de prensa Azángaro, Puno, 6 abril 2026",
+        "indicador": "Condiciona decisión moral a gesto simbólico — Estadio 2"
+      },
+      {
+        "texto": "**Él quiso ser como Alberto Fujimori**",
+        "ubicacion": "Mismo contexto",
+        "indicador": "Pensamiento binario sin argumentación — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 2,2,3,2,2,3. Consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-grozo-violentistas-represion",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "fuenteId": "wolfgang-mario-grozo-costa-2026-03-07-larepublica",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Grozo defiende represión estatal contra manifestantes, etiquetándolos como **violentistas**. Afirma que militares **hicieron debido uso de la defensa** pese a documentación CIDH de uso desproporcionado. Justifica violencia estatal como lealtad al gobierno, no como principio legal.",
+    "citas": [
+      {
+        "texto": "Los estados de emergencia **no sirven** para la lucha contra la criminalidad",
+        "ubicacion": "Ojo Público, entrevista 2026",
+        "indicador": "Crítica técnica a eficacia, no ética — Estadio 3"
+      },
+      {
+        "texto": "Manifestantes fueron **violentistas**; militares **hicieron debido uso de la defensa**",
+        "ubicacion": "La República, 7 marzo 2026",
+        "indicador": "Justificación de represión por lealtad al orden establecido — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Corrección: haiku asignó 4 pero justificar represión letal como lealtad es E3. Previos: 4,4,3,4,4,3.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-diez-canseco-consejo-moral",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "fuenteId": "francisco-ernesto-diez-canseco-tavara-2026-03-25-infobae",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Diez Canseco propone un **Consejo Nacional de Moral Pública** para expulsar funcionarios corruptos de Policía, Fiscalía, Poder Judicial e INPE. Enfoque de autoridad externa para restaurar orden institucional. Miembros elegidos por votación popular.",
+    "citas": [
+      {
+        "texto": "Propone la creación del **Consejo Nacional de Moral Pública**, organismo de control externo con capacidad de **expulsar funcionarios involucrados en corrupción**",
+        "ubicacion": "Debate presidencial 25 marzo 2026, Infobae",
+        "indicador": "Autoridad externa para restaurar orden institucional — Estadio 4"
+      },
+      {
+        "texto": "El Consejo sería **aprobado por el Ejecutivo, pero sus miembros elegidos por votación popular**",
+        "ubicacion": "Análisis propuestas 2026",
+        "indicador": "Control externo + participación popular — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 4,3,4,3,4,4. Consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-vizcarra-indulto-hermano",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "fuenteId": "mario-enrique-vizcarra-cornejo-2026-03-08-larepublica",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Vizcarra promete **indultar a Martín Vizcarra el 28 de julio** como primera medida. Lealtad familiar sobre debido proceso. Contradice su propia propuesta de **restitución doble para corruptos**.",
+    "citas": [
+      {
+        "texto": "**Mi primera medida va a ser indultar a Martín Vizcarra** este 28 de julio",
+        "ubicacion": "Declaración de campaña, marzo 2026",
+        "indicador": "Lealtad familiar sobre debido proceso — Estadio 2"
+      },
+      {
+        "texto": "Si fuera a prisión iría injustamente, por lo tanto, yo de presidente, **yo indultaría a todos los presidentes que están ahí**",
+        "ubicacion": "Infobae, noviembre 2025",
+        "indicador": "Redefinición subjetiva de justicia por interés personal — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Corrección anti-ventriloquismo: haiku asignó 4. Previos: 1,2,2,2,2,2. E2 es consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-chirinos-bukele-montesinos",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "fuenteId": "walter-gilmer-chirinos-purizaga-2026-03-30-elcomercio",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Chirinos propone **aplicar el método Bukele en el Perú** y colaborar con **Vladimiro Montesinos**. Estado de excepción auditado pero envuelto en modelo represivo.",
+    "citas": [
+      {
+        "texto": "**Vamos a aplicar el método Bukele en el Perú**",
+        "ubicacion": "Debate JNE, 30 marzo 2026",
+        "indicador": "Control territorial coercitivo — Estadio 2"
+      },
+      {
+        "texto": "Colaboración con **Vladimiro Montesinos** para sistema de inteligencia",
+        "ubicacion": "Debate presidencial 2026",
+        "indicador": "Asociación con régimen autoritario — Estadio 1"
+      },
+      {
+        "texto": "El estado de excepción no es como el estado de emergencia, es un estado con **planificación y auditoría constante**",
+        "ubicacion": "Debate seguridad ciudadana",
+        "indicador": "Intento de accountability institucional débil — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 1,1,1,2,2,1. Consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-espa-anticorrupcion-redistribucion",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "fuenteId": "alfonso-carlos-espa-y-garces-alvear-2026-02-17-elperuano",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Espá propone zar anticorrupción, gobierno digital y **crecimiento de abajo hacia arriba**. Rechaza xenofobia contra migrantes. La solución personalista (zar) es E3; la defensa de migrantes tiene matiz E4-5 pero sin profundidad.",
+    "citas": [
+      {
+        "texto": "Secar el pozo de la corrupción eliminando burocracia. Propone un **zar anticorrupción** y **gobierno digital para rendición de cuentas**",
+        "ubicacion": "El Peruano, 17 febrero 2026",
+        "indicador": "Énfasis en instituciones pero con solución personalista — Estadio 3"
+      },
+      {
+        "texto": "Rechaza **dividir a las personas en función de su nacionalidad y actitudes de xenofobia**",
+        "ubicacion": "El Peruano, 17 febrero 2026",
+        "indicador": "Reconocimiento de dignidad más allá de nacionalidad — Estadio 3-4"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Corrección: haiku asignó 4. Previos: 3,2,3,3,3,3. E3 consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-jaimes-pena-muerte-corte-idh",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "fuenteId": "paul-davis-jaimes-blanco-2026-03-15-rpp",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Jaimes propone pena de muerte y **salida de la Corte IDH**. Argumenta que delincuentes **han perdido todo concepto de humanidad**. Deshumanización y rechazo de principios universales.",
+    "citas": [
+      {
+        "texto": "Las personas que cometen crímenes atroces **han perdido todo concepto de humanidad**",
+        "ubicacion": "RPP, sobre pena de muerte",
+        "indicador": "Deshumanización del ofensor — Estadio 2"
+      },
+      {
+        "texto": "Aboga por **salida del Perú de la Corte IDH** para implementar pena de muerte",
+        "ubicacion": "RPP, sobre derechos internacionales",
+        "indicador": "Rechazo a normas universales — Estadio 1-2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 1,1,2,2,2,2. Consistente.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-ortiz-muerte-civil",
+    "entidadId": "antonio-ortiz-villano",
+    "fuenteId": "antonio-ortiz-villano-2026-03-25-debate-jne",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Ortiz propone **muerte civil** para corruptos: nunca más vuelvan al Estado. Castigo retributivo perpetuo y binario sin reflexión sobre rehabilitación.",
+    "citas": [
+      {
+        "texto": "Propone que la muerte civil se aplique para que **corruptos nunca más vuelvan al Estado a servir al Perú, ni como proveedores**",
+        "ubicacion": "Debate Presidencial JNE, 25 marzo 2026",
+        "indicador": "Castigo perpetuo sin reflexión ética — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 2,2,3,3,2,3. Consistente con rango bajo.",
+    "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-fernandez-pacto-etico",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "fuenteId": "rosario-del-pilar-fernandez-bazan-2025-12-19-infobae",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Fernández rechaza firmar Pacto Ético Electoral: **la ética no se firma, se practica**. Critica financiamiento irregular. Sin embargo, es hermana de prófugo Arturo Fernández — la crítica al sistema es deflección, no principio.",
+    "citas": [
+      {
+        "texto": "**La ética no se firma, se practica**",
+        "ubicacion": "Declaración a Infobae, diciembre 2025",
+        "indicador": "Apelación retórica sin coherencia con contexto personal — Estadio 2"
+      },
+      {
+        "texto": "Veo **partidos financiados irregularmente**",
+        "ubicacion": "Crítica sobre financiamiento electoral",
+        "indicador": "Deflección: critica sistema mientras su hermano prófugo — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Corrección: haiku asignó 4. Previos: 2,1,2,2,2,2. E2 es consistente.",
+    "evaluador": "haiku-7"
   }
 ]
