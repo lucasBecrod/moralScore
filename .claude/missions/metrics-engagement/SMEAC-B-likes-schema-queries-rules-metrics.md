@@ -33,12 +33,14 @@ Schemas Zod, queries Firestore, helper de métricas, y reglas de seguridad. Nada
 
 MoralScore necesita un sistema de likes para candidatos y un registro ligero de métricas. Los likes son condicionados: 1 por usuario por entidad, requieren autenticación. Las métricas usan el "Spine Pattern": un documento por día con counters atómicos (sin un doc por evento).
 
-Colecciones actuales en Firestore:
-- `entidades/{id}` — candidatos con scoreActual, totalEvaluaciones
-- `fuentes/{id}` — URLs subidas
-- `evaluaciones/{id}` — análisis Kohlberg
+Colecciones actuales en Firestore (post-migración):
+- `entidades/{id}` — personas/organizaciones con scoreHistorico, totalEvaluacionesHistoricas
+- `candidaturas/{id}` — relación entidad-proceso con partido, scoreCandidatura
+- `procesos/{id}` — procesos electorales con fechaCorte
+- `fuentes/{id}` — URLs subidas con fechaEvento
+- `evaluaciones/{id}` — análisis Kohlberg con fechaEvento
 
-Colecciones nuevas:
+Colecciones nuevas (esta misión):
 - `likes/{userId_entidadId}` — un doc por like, ID compuesto como candado de unicidad
 - `metricas/diaria-YYYYMMDD` — un doc por día con counters incrementales
 
@@ -224,3 +226,18 @@ Explicación:
 - `increment` viene de `firebase/firestore`, no de un paquete separado.
 - `setDoc` con `{ merge: true }` crea el doc si no existe y solo actualiza los campos especificados.
 - No agregar funciones innecesarias (como getLikeCount). El count se lee desde `entidades/{id}.totalLikes` que ya está denormalizado.
+
+---
+
+## PURGADO — Algoritmo de Musk, Paso 2
+
+Antes de validar, aplica el Paso 2 (Eliminar):
+1. Revisa lo que escribiste. Identifica:
+   - Queries que duplican lógica existente
+   - Código defensivo para escenarios imposibles
+   - Abstracciones de 1 uso
+2. Elimina al menos 1 elemento concreto
+3. Si algún archivo supera 200 LOC, simplificar
+4. Verifica que sigue funcionando después de podar
+
+> Métrica del 10%: si no tuviste que re-agregar nada, no fuiste agresivo.

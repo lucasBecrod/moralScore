@@ -54,7 +54,7 @@ Crear `src/app/api/og/route.tsx`
 
 **Funcionalidad**:
 - GET endpoint que recibe `?id={entidadId}`
-- Lee de Firestore: nombre, foto, partido, scoreActual, totalEvaluaciones
+- Lee de Firestore: entidad (nombre, foto, scoreHistorico, totalEvaluacionesHistoricas) + candidatura del proceso activo (partido, logoPartido, scoreCandidatura)
 - Genera imagen 1200x630 (estándar OG) usando ImageResponse de @vercel/og
 
 **Diseño de la tarjeta** (dark mode, alto contraste para mobile):
@@ -81,7 +81,8 @@ Crear `src/app/api/og/route.tsx`
 ```typescript
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "@/firebase/client";
-// Leer entidad por ID → nombre, foto, partido, scoreActual, totalEvaluaciones
+// Leer entidad por ID → nombre, foto, scoreHistorico, totalEvaluacionesHistoricas
+// Leer candidatura por entidadId (getCandidaturasByEntidad) → partido, scoreCandidatura
 ```
 
 **Etiqueta ciudadana**: Usar el mapeo de `getPublicLabel()` de `@/shared/config/kohlberg-stages.ts`. Las etiquetas son:
@@ -130,11 +131,12 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  // Leer entidad de Firestore para obtener nombre, score, partido, totalEvaluaciones
+  // Leer entidad de Firestore (nombre, scoreHistorico, totalEvaluacionesHistoricas)
+  // Leer candidatura del proceso activo (partido, scoreCandidatura)
   // Construir metadata dinámica
   return {
     title: `${nombre} — MoralScore`,
-    description: `Score Kohlberg: ${score}/6. ${etiqueta}. Basado en ${totalEvaluaciones} fuentes verificables.`,
+    description: `Score Kohlberg: ${score}/6. ${etiqueta}. Basado en ${totalEvaluacionesHistoricas} fuentes verificables.`,
     openGraph: {
       title: `${nombre} — Score Kohlberg ${score}/6`,
       description: `${etiqueta}. Audita la evidencia completa.`,
@@ -144,7 +146,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       title: `${nombre} — Score Kohlberg ${score}/6`,
-      description: `${etiqueta}. Basado en ${totalEvaluaciones} fuentes verificables.`,
+      description: `${etiqueta}. Basado en ${totalEvaluacionesHistoricas} fuentes verificables.`,
       images: [`${SITE_CONFIG.url}/api/og?id=${id}`],
     },
   };
@@ -170,3 +172,19 @@ Importar `getPublicLabel` de `@/shared/config/kohlberg-stages` para la etiqueta.
 - La foto del candidato viene como URL externa (del JNE). Para incluirla en Satori, necesitas hacer fetch de la imagen y pasarla como ArrayBuffer o base64 al JSX de Satori.
 - Satori soporta un subset de CSS. No usar Tailwind directamente — usar inline styles.
 - El texto debe ser legible en móvil (compartido por WhatsApp). Font sizes generosos.
+- **Modelo post-migración**: `partido` y `logoPartido` viven en `candidaturas`, NO en `entidades`. Usar `getCandidaturasByEntidad()` de `@/firebase/queries`. El score para la tarjeta puede ser `scoreCandidatura` (del proceso activo) o `scoreHistorico` (lifetime) — preferir `scoreCandidatura` si existe.
+
+---
+
+## PURGADO — Algoritmo de Musk, Paso 2
+
+Antes de validar, aplica el Paso 2 (Eliminar):
+1. Revisa lo que escribiste. Identifica:
+   - Código defensivo para escenarios imposibles
+   - Abstracciones de 1 uso
+   - Imports que no se usan
+2. Elimina al menos 1 elemento concreto
+3. Si algún archivo supera 200 LOC, simplificar
+4. Verifica que sigue funcionando después de podar
+
+> Métrica del 10%: si no tuviste que re-agregar nada, no fuiste agresivo.
