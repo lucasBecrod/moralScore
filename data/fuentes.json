@@ -1798,5 +1798,295 @@
     "fechaFuente": "2026-03-31",
     "entidadId": "roberto-enrique-chiabra-leon",
     "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-ronald-darwin-atencio-sotomayor",
+    "url": "https://rpp.pe/politica/elecciones/elecciones-2026-alianza-venceremos-presento-su-plan-de-gobierno-noticia-1668634",
+    "tipo": "entrevista",
+    "titulo": "Atencio: pensiones solidarias, vivienda popular y Nueva Constitución plurinacional",
+    "medio": "RPP",
+    "fechaFuente": "2026-02-15",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-jose-daniel-williams-zapata",
+    "url": "https://elperuano.pe/noticia/290992-elecciones-2026-conoce-el-plan-de-gobierno-de-jose-williams-zapata",
+    "tipo": "articulo",
+    "titulo": "Williams: plan de gobierno — modernización del Estado y seguridad jurídica",
+    "medio": "El Peruano",
+    "fechaFuente": "2026-04-03",
+    "entidadId": "jose-daniel-williams-zapata",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-alvaro-paz-de-la-barra-del-partido-fe-en-el-peru",
+    "tipo": "entrevista",
+    "titulo": "Paz de la Barra: digitalización 100% compras estatales y bono tecnológico juvenil",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-fiorella-giannina-molinelli-aristondo",
+    "url": "https://canaln.pe/actualidad/voto-2026-fiorella-molinelli-y-mesias-guevara-debaten-propuestas-n517040",
+    "tipo": "debate",
+    "titulo": "Molinelli: reforma judicial integral — jueces titulares, IA, comités independientes",
+    "medio": "Canal N",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-roberto-helbert-sanchez-palomino",
+    "url": "https://www.trujilloenlinea.pe/noticias/politica/13/03/2026/este-es-el-plan-de-gobierno-del-candidato-roberto-sanchez-palomino",
+    "tipo": "articulo",
+    "titulo": "Sánchez: derecho a vivienda en nueva Constitución y créditos Banco de la Nación",
+    "medio": "Trujillo en Línea",
+    "fechaFuente": "2026-03-13",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-rafael-jorge-belaunde-llosa",
+    "url": "https://larepublica.pe/opinion/2025/09/16/reforma-al-sistema-de-pensiones-o-retorno-del-tributo-indigena-por-rafael-belaunde-llosa-hnews-243936",
+    "tipo": "columna",
+    "titulo": "Belaúnde: ¿Reforma pensiones o retorno del Tributo Indígena?",
+    "medio": "La República",
+    "fechaFuente": "2025-09-16",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-pitter-enrique-valderrama-pena",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-enrique-valderrama-plantea-una-reforma-integral-de-justicia-1061368.aspx",
+    "tipo": "entrevista",
+    "titulo": "Valderrama: reforma integral justicia con IA y nueva legislatura",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-12",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-ricardo-pablo-belmont-cassinelli",
+    "url": "https://caretas.pe/politica/debate-presidencial-2026-conoce-las-propuestas-de-ricardo-belmont/",
+    "tipo": "articulo",
+    "titulo": "Belmont: eliminar ATU y plan choque 1500 obras paralizadas",
+    "medio": "Caretas",
+    "fechaFuente": "2026-03-28",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-charlie-carrasco-salazar",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-charlie-carrasco-salazar-1065378.aspx",
+    "tipo": "articulo",
+    "titulo": "Carrasco: reducir gasto público al 20% del PBI",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-05",
+    "entidadId": "charlie-carrasco-salazar",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-alex-gonzales-castillo",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-del-candidato-alex-gonzales-castillo-1065388.aspx",
+    "tipo": "articulo",
+    "titulo": "Gonzales: Plan Verde 2030, 120 mil viviendas y pensión dignificada",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-05",
+    "entidadId": "alex-gonzales-castillo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-armando-joaquin-masse-fernandez",
+    "url": "https://peruhoy.pe/propuestas-armando-masse-2026/",
+    "tipo": "articulo",
+    "titulo": "Massé: 1 millón viviendas, 30 parques industriales, Estado Federal",
+    "medio": "Perú Hoy",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-luis-fernando-olivera-vega",
+    "url": "https://inforegion.pe/elecciones-2026-fernando-olivera-propone-una-ley-patriota-para-refundar-el-peru/",
+    "tipo": "entrevista",
+    "titulo": "Olivera: Ley Patriota — referéndum y jubilación anticipada jueces supremos",
+    "medio": "Inforegión",
+    "fechaFuente": "2026-01-20",
+    "entidadId": "luis-fernando-olivera-vega",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-mesias-antonio-guevara-amasifuen",
+    "url": "https://diariocorreo.pe/politica/mesias-guevara-asegura-que-fortalecera-beca-18-y-dara-creditos-para-jovenes-indigenas-noticia/",
+    "tipo": "debate",
+    "titulo": "Guevara: créditos jóvenes indígenas y Beca 18",
+    "medio": "Correo",
+    "fechaFuente": "2026-04-02",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-carlos-gonzalo-alvarez-loayza",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-del-candidato-carlos-alvarez-loayza-1065323.aspx",
+    "tipo": "articulo",
+    "titulo": "Álvarez: gestión activa riesgo climático y desarrollo territorial sostenible",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-05",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-herbert-caller-gutierrez",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-herbert-caller-gutierrez-del-partido-patriotico-del-peru",
+    "tipo": "entrevista",
+    "titulo": "Caller: Chamba 65 pensiones S/550, oro artesanal, diplomáticos bilingües",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "herbert-caller-gutierrez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-yonhy-lescano-ancieta",
+    "url": "https://diariocorreo.pe/politica/debate-2026-yonhy-lescano-y-rafael-lopez-aliaga-definen-sus-propuestas-para-erradicar-la-corrupcion-noticia/",
+    "tipo": "debate",
+    "titulo": "Lescano: industrializar el campo y Cooperación Popular para jóvenes",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-24",
+    "entidadId": "yonhy-lescano-ancieta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-wolfgang-mario-grozo-costa",
+    "url": "https://peruhoy.pe/propuestas-wolfgang-grozo-2026/",
+    "tipo": "articulo",
+    "titulo": "Grozo: política ferroviaria nacional, micro-contribuciones pensiones, polígrafos",
+    "medio": "Perú Hoy",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-vladimir-roy-cerron-rojas",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-vladimir-cerron-del-partido-peru-libre",
+    "tipo": "entrevista",
+    "titulo": "Cerrón: asamblea constituyente, soberanía recursos, antimonopolios",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-18",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-francisco-ernesto-diez-canseco-tavara",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-francisco-diez-canseco-plantea-incremento-pension-65-a-500-soles-1060578.aspx",
+    "tipo": "entrevista",
+    "titulo": "Diez Canseco: Pensión 65 a S/500, Chamba Z, guerra minería ilegal",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-mario-enrique-vizcarra-cornejo",
+    "url": "https://larepublica.pe/politica/2026/03/20/elecciones-2026-lo-que-ofrece-lo-que-arrastra-y-lo-que-preocupa-de-jorge-nieto-vladimir-cerron-y-mario-vizcarra-hnews-1690506",
+    "tipo": "articulo",
+    "titulo": "Vizcarra: Fondo Adaptación cambio climático y reforma policial con tecnología",
+    "medio": "La República",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-walter-gilmer-chirinos-purizaga",
+    "url": "https://tucambista.pe/noticias/walter-chirinos-candidato-presidencial-elecciones-2026-peru",
+    "tipo": "articulo",
+    "titulo": "Chirinos: presupuesto directo regiones, infraestructura y conectividad",
+    "medio": "Tu Cambista",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-alfonso-carlos-espa-y-garces-alvear",
+    "url": "https://gestion.pe/peru/carlos-espa-hay-una-judicializacion-y-farandulizacion-de-la-politica-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Espá: judicialización de la política — reforma fiscal y Zar Anticorrupción",
+    "medio": "Gestión",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-carlos-ernesto-jaico-carranza",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-carlos-jaico-del-partido-peru-moderno",
+    "tipo": "entrevista",
+    "titulo": "Jaico: tren transandino 1800km, pensiones campesinas, control minería",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-jose-leon-luna-galvez",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-jose-luna-galvez-de-podemos-peru",
+    "tipo": "entrevista",
+    "titulo": "Luna Gálvez: pensión mínima universal, vivienda popular, shock inversión",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-10",
+    "entidadId": "jose-leon-luna-galvez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-maria-soledad-perez-tello-de-rodriguez",
+    "url": "https://peruhoy.pe/propuestas-marisol-perez-tello-2026/",
+    "tipo": "articulo",
+    "titulo": "Pérez Tello: Las 5 Fijas — reforma judicial meritocrática, 35% sentencias firmes",
+    "medio": "Perú Hoy",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-paul-davis-jaimes-blanco",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-paul-davis-jaimes-blanco-del-partido-progresemos",
+    "tipo": "entrevista",
+    "titulo": "Jaimes: titulación automática posesionarios y protección medioambiental",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-antonio-ortiz-villano",
+    "url": "https://larepublica.pe/politica/2026/03/20/elecciones-2026-cinco-candidatos-promesas-ambiciosas-y-planes-con-serios-vacios-de-ejecucion-hnews-455000",
+    "tipo": "articulo",
+    "titulo": "Ortiz: trenes alta velocidad y parques industriales — vacíos de ejecución",
+    "medio": "La República",
+    "fechaFuente": "2026-03-20",
+    "entidadId": "antonio-ortiz-villano",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-rosario-del-pilar-fernandez-bazan",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-conoce-plan-gobierno-de-candidata-rosario-fernandez-bazan-1065384.aspx",
+    "tipo": "articulo",
+    "titulo": "Fernández: cerrar mineras contaminantes, créditos 2% vivienda, 8 ministerios",
+    "medio": "Andina",
+    "fechaFuente": "2026-03-05",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada5-roberto-enrique-chiabra-leon",
+    "url": "https://www.tvperu.gob.pe/noticias/politica/tu-decision-2026-planes-de-gobierno-de-roberto-chiabra-del-partido-unidad-nacional",
+    "tipo": "entrevista",
+    "titulo": "Chiabra: Chamba 65 pensiones S/550, inclusión financiera mujeres, shock inversión",
+    "medio": "TVPerú",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "estado": "evaluada"
   }
 ]

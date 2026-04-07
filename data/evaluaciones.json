@@ -3246,5 +3246,527 @@
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (genero/empleo). Consistente con oleadas previas (4,4,4). Cuatro evaluaciones confirman razonamiento institucional en todo tema.",
     "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-ronald-darwin-atencio-sotomayor",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "fuenteId": "f-oleada5-ronald-darwin-atencio-sotomayor",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone pensiones solidarias eliminando oligopolio AFP y vivienda autogestionada por pueblos. El framing es instrumental: el Estado recupera soberanía de recursos para repartir. La Nueva Constitución plurinacional es bandera ideológica sin mecanismos concretos.",
+    "citas": [
+      {
+        "texto": "Crear un sistema de pensiones solidario y tripartito, eliminando el oligopolio de las AFPs actuales",
+        "ubicacion": "Plan de gobierno Venceremos, RPP",
+        "indicador": "Transaccional: eliminar AFPs como consigna, no como reforma institucional articulada — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (pensiones/vivienda). Consistente con patrón (2,2,1,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-jose-daniel-williams-zapata",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "f-oleada5-jose-daniel-williams-zapata",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Plan de gobierno enfocado en modernización del Estado y seguridad jurídica para inversión. Articula mejor que en debates pero no llega a principios. Razonamiento convencional: orden y estabilidad para crecer.",
+    "citas": [
+      {
+        "texto": "Modernizar el Estado con seguridad jurídica para atraer inversión privada y generar empleo formal",
+        "ubicacion": "Plan de gobierno Avanza País, El Peruano",
+        "indicador": "Convencional: orden para crecimiento, sin principio de equidad — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (modernización Estado). Patrón (1,3,2,3,3).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "fuenteId": "f-oleada5-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone digitalización 100% de compras estatales y bono tecnológico juvenil. La digitalización es herramienta válida pero la presenta como solución mágica. El estado de excepción sin restricción de derechos es contradicción lógica.",
+    "citas": [
+      {
+        "texto": "100% de procesos de licitación y compra estatal serán por plataformas digitales de acceso público para prevenir favoritismos",
+        "ubicacion": "Entrevista TVPerú Tu Decisión 2026",
+        "indicador": "Herramienta técnica válida pero presentada como solución total — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (digitalización). Consistente con patrón (1,2,1,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-fiorella-giannina-molinelli-aristondo",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "f-oleada5-fiorella-giannina-molinelli-aristondo",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone reforma judicial integral: eliminar jueces provisionales, digitalizar justicia con IA, crear comités independientes para revisar leyes procriminalidad. Propuesta institucional concreta que reforma sin destruir.",
+    "citas": [
+      {
+        "texto": "Acabar con los jueces provisionales, dar presupuesto al Poder Judicial para modernizar el sistema digital de justicia con jueces titulares, mapas del crimen y soporte tecnológico",
+        "ubicacion": "Debate Canal N con Guevara, abril 2026",
+        "indicador": "Reforma institucional concreta con mecanismos específicos — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 5,
+    "notas": "Tema nuevo (reforma judicial). Consistente con patrón (3,4,4,4).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-roberto-helbert-sanchez-palomino",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "fuenteId": "f-oleada5-roberto-helbert-sanchez-palomino",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone incorporar derecho a vivienda en nueva Constitución y créditos hipotecarios Banco de la Nación. Suena a estadio 4-5 pero el framing es transaccional: la nueva Constitución es vehículo para todo sin mecanismo de implementación.",
+    "citas": [
+      {
+        "texto": "Incorporar el derecho a la vivienda digna y segura en la Nueva Constitución, con participación del Banco de la Nación en créditos hipotecarios",
+        "ubicacion": "Plan de gobierno Juntos por el Perú, Trujillo en Línea",
+        "indicador": "Vivienda como derecho constitucional pero sin mecanismo — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (vivienda). Consistente con patrón (3,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-rafael-jorge-belaunde-llosa",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "fuenteId": "f-oleada5-rafael-jorge-belaunde-llosa",
+    "estadio": 5,
+    "confianza": "alta",
+    "justificacion": "En columna de opinión compara reforma AFP con Tributo Indígena colonial. Articula que ahorro forzoso viola libertad individual y derecho de propiedad. Razonamiento post-convencional: cuestiona legalidad vigente desde principios universales. Asume costo político al criticar AFPs desde centroderecha.",
+    "citas": [
+      {
+        "texto": "Considero que el ahorro forzoso es una violación de la libertad individual y del derecho de propiedad. Cuando una industria tiene un mercado cautivo por ley y pocos operadores, surgen todos los vicios de los mercados concentrados",
+        "ubicacion": "Columna La República, septiembre 2025",
+        "indicador": "Cuestiona legalidad vigente desde principios universales de libertad — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (pensiones/AFP). Patrón (4,5,4,4,5) — sube cuando escribe.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-pitter-enrique-valderrama-pena",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "f-oleada5-pitter-enrique-valderrama-pena",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone reforma integral de justicia con IA y que el siguiente Parlamento la haga. Reconoce que el Congreso actual no tiene legitimidad. Razonamiento convencional superior: respeta proceso democrático pero no articula principios.",
+    "citas": [
+      {
+        "texto": "No estoy de acuerdo con que este Parlamento reforme el sistema de justicia. Debe hacerlo el próximo, con legitimidad. Incorporaremos inteligencia artificial para agilizar procesos",
+        "ubicacion": "Entrevista Andina, reforma judicial",
+        "indicador": "Respeto al proceso democrático — Estadio 3 convencional"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (reforma judicial). Patrón (2,3,2,2,3).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-ricardo-pablo-belmont-cassinelli",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "fuenteId": "f-oleada5-ricardo-pablo-belmont-cassinelli",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Propone eliminar la ATU y terminar 1500 obras paralizadas. La eliminación de la ATU es destrucción institucional sin alternativa. Las 1500 obras sin priorización ni financiamiento.",
+    "citas": [
+      {
+        "texto": "Promueve la eliminación de la Autoridad de Transporte Urbano de Lima y Callao",
+        "ubicacion": "Propuestas de campaña, Caretas",
+        "indicador": "Destrucción institucional sin alternativa — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema nuevo (transporte). Consistente con patrón (3,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-charlie-carrasco-salazar",
+    "entidadId": "charlie-carrasco-salazar",
+    "fuenteId": "f-oleada5-charlie-carrasco-salazar",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Propone reducir gasto público al 20% del PBI, eliminando la mayoría de servicios públicos. Destruye el Estado sin articular alternativa.",
+    "citas": [
+      {
+        "texto": "Reducir drásticamente el gasto público al 20% del PBI",
+        "ubicacion": "Plan de gobierno Demócrata Unido Perú, Andina",
+        "indicador": "Destrucción del Estado social sin alternativa — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Tema nuevo (reforma del Estado). Patrón (1,1,2,2,1).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-alex-gonzales-castillo",
+    "entidadId": "alex-gonzales-castillo",
+    "fuenteId": "f-oleada5-alex-gonzales-castillo",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone Plan Verde al 2030 como enfoque ambiental integral, 120 mil viviendas y pensión para cuidadores. La integración ambiental-social es convencional superior: reconoce que cambio climático afecta a vulnerables. Pero genérico sin mecanismos.",
+    "citas": [
+      {
+        "texto": "Crear un Plan Verde al 2030 con enfoque ambiental integral. El Estado apoyará a familias cuidadoras con pensión digna",
+        "ubicacion": "Plan de gobierno Demócrata Verde, Andina",
+        "indicador": "Enfoque ambiental-social integrado pero genérico — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (medio ambiente/pensiones). Patrón (2,2,3,2,3).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-armando-joaquin-masse-fernandez",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "fuenteId": "f-oleada5-armando-joaquin-masse-fernandez",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Propone 1 millón de viviendas, 30 parques industriales y Estado Federal. Cifras desproporcionadas sin sustento fiscal. Un millón de viviendas en un quinquenio es 200 mil/año, más que cualquier programa en historia del Perú.",
+    "citas": [
+      {
+        "texto": "Reducir el déficit habitacional mediante la construcción de 1 millón de viviendas y el mejoramiento de otro millón de casas precarias",
+        "ubicacion": "Plan de gobierno Democrático Federal, Perú Hoy",
+        "indicador": "Cifras desproporcionadas sin sustento — Estadio 2 transaccional"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (vivienda). Consistente patrón (2,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-luis-fernando-olivera-vega",
+    "entidadId": "luis-fernando-olivera-vega",
+    "fuenteId": "f-oleada5-luis-fernando-olivera-vega",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Propone Ley Patriota: reformas constitucionales por referéndum y jubilación anticipada de todos jueces supremos. Instrumentalismo con nombre grandilocuente: yo llego, someto a referéndum, jubilo a los jueces. Sin contrapesos.",
+    "citas": [
+      {
+        "texto": "Presentaré el 28 de julio la Ley Patriota para refundar las instituciones. Jubilaremos anticipadamente a todos los vocales supremos y fiscales supremos",
+        "ubicacion": "Entrevista Inforegión, enero 2026",
+        "indicador": "Refundación personalista sin contrapesos — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema nuevo (reforma constitucional). Consistente patrón (2,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-mesias-antonio-guevara-amasifuen",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "fuenteId": "f-oleada5-mesias-antonio-guevara-amasifuen",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone créditos para jóvenes indígenas y fortalecer Beca 18. La inclusión de jóvenes indígenas como objetivo es positiva: reconoce exclusión estructural. Pero es debate con promesas genéricas. No articula enfoque diferenciado. Techo 3.",
+    "citas": [
+      {
+        "texto": "Vamos a fortalecer Beca 18 y daremos créditos educativos especialmente para jóvenes de pueblos indígenas, porque ellos han sido los más excluidos del sistema",
+        "ubicacion": "Debate JNE pregunta ciudadana, Correo",
+        "indicador": "Reconoce exclusión pero formato debate con promesas genéricas — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (pueblos indígenas). Patrón (3,4,3,4,3).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-carlos-gonzalo-alvarez-loayza",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "fuenteId": "f-oleada5-carlos-gonzalo-alvarez-loayza",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Plan de gobierno incluye gestión activa de riesgo climático y desarrollo territorial sostenible como ejes transversales. No es mención: Amazonía y riesgo climático son estructurales. Razonamiento institucional: el Estado gestiona activamente el riesgo.",
+    "citas": [
+      {
+        "texto": "Gestión activa del riesgo climático y desarrollo territorial sostenible como ejes transversales del plan de gobierno",
+        "ubicacion": "Plan de gobierno País para Todos, Andina",
+        "indicador": "Riesgo climático como política de Estado transversal — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (medio ambiente/clima). Patrón (4,1,4,4,4).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-herbert-caller-gutierrez",
+    "entidadId": "herbert-caller-gutierrez",
+    "fuenteId": "f-oleada5-herbert-caller-gutierrez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone Chamba 65 con pensiones S/550 financiadas con oro de mineros artesanales. Diplomáticos que hablen idioma del país. Soluciones mágicas: financiar pensiones con oro artesanal implica formalizar sector que lleva décadas sin lograrlo.",
+    "citas": [
+      {
+        "texto": "Chamba 65: pensiones a 550 soles financiados con la compra de oro a mineros artesanales. No permitiremos un diplomático en Alemania que no hable alemán",
+        "ubicacion": "Entrevista TVPerú Tu Decisión 2026",
+        "indicador": "Solución mágica: financiar pensiones con oro artesanal — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (pensiones/política exterior). Patrón (1,2,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-yonhy-lescano-ancieta",
+    "entidadId": "yonhy-lescano-ancieta",
+    "fuenteId": "f-oleada5-yonhy-lescano-ancieta",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "En debate anticorrupción propone industrializar el campo y Cooperación Popular para jóvenes en zonas lejanas. Propuesta vaga: industrializar sin decir qué industria ni con qué financiamiento. Cooperación Popular es marca partidaria, no política pública.",
+    "citas": [
+      {
+        "texto": "Pensamos que hay que industrializar el Perú, sobre todo en el campo para que haya más trabajo formal. Cooperación Popular llegará a los jóvenes en los centros poblados más lejanos",
+        "ubicacion": "Debate anticorrupción JNE, Correo",
+        "indicador": "Promesas vagas de industrialización sin mecanismo — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (industrialización). Patrón (2,2,3,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-wolfgang-mario-grozo-costa",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "fuenteId": "f-oleada5-wolfgang-mario-grozo-costa",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone política ferroviaria nacional, micro-contribuciones para pensiones de independientes, y polígrafos anticorrupción desde el presidente. Las tres son institucionales: ferrocarril es infraestructura de largo plazo, micro-contribuciones resuelve exclusión previsional, polígrafos son mecanismo de control.",
+    "citas": [
+      {
+        "texto": "Política Ferroviaria Nacional para carga pesada y transporte interurbano. Modelo de micro-contribuciones para que trabajadores independientes accedan a pensiones",
+        "ubicacion": "Plan de gobierno Integridad Democrática, Perú Hoy",
+        "indicador": "Propuestas institucionales con mecanismos concretos — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (transporte/pensiones). Patrón (4,4,3,4,4).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-vladimir-roy-cerron-rojas",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "fuenteId": "f-oleada5-vladimir-roy-cerron-rojas",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Representante propone asamblea constituyente y lucha contra monopolios. Prófugo proponiendo refundar Estado. La forma de candidatura desde clandestinidad niega el estado de derecho que dice querer reformar.",
+    "citas": [
+      {
+        "texto": "Promoveremos una asamblea constituyente para una nueva Constitución. Lucharemos contra monopolios y oligopolios",
+        "ubicacion": "Representante en TVPerú Tu Decisión 2026",
+        "indicador": "Prófugo proponiendo refundar Estado — la forma contradice el contenido — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Tema nuevo (reforma constitucional). Patrón (1,1,1,1,1).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-francisco-ernesto-diez-canseco-tavara",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "fuenteId": "f-oleada5-francisco-ernesto-diez-canseco-tavara",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone triplicar Pensión 65 a S/500, Chamba Z/65, y guerra contra minería ilegal respetando controles ambientales. Las propuestas tienen mecanismos concretos: incremento específico, programas por segmento, y respeto a controles. Razonamiento institucional.",
+    "citas": [
+      {
+        "texto": "Incrementar Pensión 65 de 175 a 500 soles. Guerra frontal con capacidad militar contra minería ilegal en reservas, respetando controles ambientales y licencia social",
+        "ubicacion": "Entrevista Andina",
+        "indicador": "Propuestas institucionales con mecanismos y respeto a controles — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (pensiones/medio ambiente). Patrón (4,3,4,3,4).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-mario-enrique-vizcarra-cornejo",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "fuenteId": "f-oleada5-mario-enrique-vizcarra-cornejo",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone Fondo de Adaptación al cambio climático descentralizado. Pero La República lo describe como promesas ambiciosas y antecedentes preocupantes. El Fondo no tiene financiamiento ni gobernanza articulada. Eslogan verde sin sustancia.",
+    "citas": [
+      {
+        "texto": "Creación de un Fondo de Adaptación para cambio climático, con enfoque descentralizado, para atender desastres como huaicos e inundaciones",
+        "ubicacion": "Plan de gobierno Perú Primero, La República",
+        "indicador": "Eslogan verde sin mecanismo de implementación — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (cambio climático). Patrón (1,2,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-walter-gilmer-chirinos-purizaga",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "fuenteId": "f-oleada5-walter-gilmer-chirinos-purizaga",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone presupuesto directo a regiones e infraestructura. Descentralización presupuestal sin mecanismos de control ni rendición de cuentas. Más presupuesto a regiones sin reforma de capacidades = más corrupción regional.",
+    "citas": [
+      {
+        "texto": "Mayor presupuesto directo para las regiones, ejecución de proyectos productivos regionales e impulso a infraestructura y conectividad",
+        "ubicacion": "Propuestas Tu Cambista",
+        "indicador": "Descentralización sin mecanismos de control — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (descentralización). Patrón (1,1,1,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-alfonso-carlos-espa-y-garces-alvear",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "fuenteId": "f-oleada5-alfonso-carlos-espa-y-garces-alvear",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Diagnostica judicialización y farandulización de la política. Propone Zar Anticorrupción con poder de inteligencia. Diagnóstico lúcido pero solución concentra poder en una sola figura sin contrapesos.",
+    "citas": [
+      {
+        "texto": "Hay una judicialización y farandulización de la política. Necesitamos un Zar Anticorrupción con poder de inteligencia y gobernanza digital",
+        "ubicacion": "Entrevista Gestión",
+        "indicador": "Diagnóstico correcto pero solución concentra poder — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (reforma política). Patrón (3,2,3,3,3).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-carlos-ernesto-jaico-carranza",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "fuenteId": "f-oleada5-carlos-ernesto-jaico-carranza",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone tren transandino 1800km conectando 15 regiones, pensiones campesinas, y control 100% producción minera. Infraestructura de integración territorial + pensiones rurales + control minero. Razonamiento institucional sistémico.",
+    "citas": [
+      {
+        "texto": "Tren transandino de 1800 km uniendo 15 regiones. Apoyo total a agricultores con créditos, pensiones y legislación que preserve sus tierras",
+        "ubicacion": "Entrevista TVPerú Tu Decisión 2026",
+        "indicador": "Infraestructura territorial + pensiones rurales + control minero — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (transporte/pensiones). Patrón (4,4,4,4,4).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-jose-leon-luna-galvez",
+    "entidadId": "jose-leon-luna-galvez",
+    "fuenteId": "f-oleada5-jose-leon-luna-galvez",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Propone pensión mínima universal, vivienda popular y shock de inversión. Sin articular financiamiento ni focalización. Misma promesa de todas las oleadas. Transaccional consistente.",
+    "citas": [
+      {
+        "texto": "Pensión mínima universal, cierre de brechas en vivienda popular y shock de inversión para destrabar obras",
+        "ubicacion": "Entrevista TVPerú Tu Decisión 2026",
+        "indicador": "Promesas sin mecanismo ni financiamiento — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema nuevo (pensiones/vivienda). Patrón (2,2,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-maria-soledad-perez-tello-de-rodriguez",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "fuenteId": "f-oleada5-maria-soledad-perez-tello-de-rodriguez",
+    "estadio": 5,
+    "confianza": "alta",
+    "justificacion": "Propone Las 5 Fijas con reforma judicial meritocrática: concursos públicos y evaluación técnica independiente para TC, JNJ y Defensoría. Meta de 35% sentencias firmes. Mérito como principio universal sobre poder político. Exministra de Justicia con conocimiento sectorial. Metas específicas y medibles.",
+    "citas": [
+      {
+        "texto": "Nuevo modelo de selección meritocrática para TC, JNJ y Defensoría, mediante concursos públicos y evaluación técnica independiente. Al menos 35% de casos con sentencias firmes",
+        "ubicacion": "Plan Las 5 Fijas, Perú Hoy",
+        "indicador": "Mérito como principio universal para la justicia — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema nuevo (reforma judicial). Patrón (5,5,5,5,5).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-paul-davis-jaimes-blanco",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "fuenteId": "f-oleada5-paul-davis-jaimes-blanco",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone titulación automática de posesionarios con más de 5 años y protección medioambiental/animal. Titulación automática sin verificar condiciones urbanísticas ni ambientales. Protección animal es marca personal sin integración en política pública.",
+    "citas": [
+      {
+        "texto": "Título de propiedad automático con la posesión pacífica, continua, vía notarial, a posesionarios con más de 5 años",
+        "ubicacion": "Entrevista TVPerú Tu Decisión 2026",
+        "indicador": "Titulación automática sin condiciones urbanísticas — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (vivienda/medio ambiente). Patrón (1,1,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-antonio-ortiz-villano",
+    "entidadId": "antonio-ortiz-villano",
+    "fuenteId": "f-oleada5-antonio-ortiz-villano",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Propone trenes de alta velocidad y parques industriales regionales. La República identifica serios vacíos de ejecución. No articula financiamiento, cronograma ni priorización. Trenes de alta velocidad en geografía andina sin análisis técnico.",
+    "citas": [
+      {
+        "texto": "Trenes de alta velocidad y parques industriales en cada región para generar empleo local",
+        "ubicacion": "Análisis La República, vacíos de ejecución",
+        "indicador": "Promesas grandilocuentes sin sustento técnico ni fiscal — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (transporte). Patrón (2,2,3,3,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-rosario-del-pilar-fernandez-bazan",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "fuenteId": "f-oleada5-rosario-del-pilar-fernandez-bazan",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Propone cerrar mineras contaminantes, créditos 2% vivienda social y reducir a 8 ministerios. Cerrar mineras sin proceso es arbitrario. Créditos al 2% sin subsidio es inviable. Reducir a 8 ministerios destruye capacidad estatal sin articular alternativa.",
+    "citas": [
+      {
+        "texto": "Cerrar empresas mineras que contaminan. Créditos 2% para vivienda social. Reducir de 19 a 8 ministerios",
+        "ubicacion": "Plan de gobierno Un Camino Diferente, Andina",
+        "indicador": "Destrucción institucional + propuestas inviables — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema nuevo (medio ambiente/vivienda). Patrón (2,1,2,2,2).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada5-roberto-enrique-chiabra-leon",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "fuenteId": "f-oleada5-roberto-enrique-chiabra-leon",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone Chamba 65 con pensiones S/550, formación e inserción laboral para mayores de 65 vía alianzas público-privadas. Inclusión financiera mujeres líderes Mypes. Propuestas institucionales con mecanismos: pensiones + inserción laboral + alianzas público-privadas + enfoque género.",
+    "citas": [
+      {
+        "texto": "Chamba 65: pensiones 550 soles, capacitación mayores de 65 e inserción laboral mediante alianzas público-privadas. Inclusión financiera a mujeres líderes de Mypes",
+        "ubicacion": "Entrevista TVPerú Tu Decisión 2026",
+        "indicador": "Pensiones + inserción laboral + género con mecanismos institucionales — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema nuevo (pensiones/género). Patrón (4,4,4,4,4).",
+    "evaluador": "lucas"
   }
 ]
