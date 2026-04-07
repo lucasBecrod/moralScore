@@ -2,6 +2,11 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useAuthContext } from "@/shared/providers/AuthProvider";
+import { AuthModal } from "@/shared/ui/AuthModal";
+import { ImageUpload } from "@/shared/ui/ImageUpload";
+import { uploadEntidadImage } from "@/firebase/storage-utils";
 
 type Rol = "presidente" | "vicepresidente-1" | "vicepresidente-2" | "congresista" | "otro";
 
@@ -15,20 +20,31 @@ const ROL_OPTIONS: { value: Rol; label: string }[] = [
 
 interface FormData {
   nombre: string;
-  foto: string;
   partido: string;
   rol: Rol;
   cargo: string;
 }
 
+function toSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 export default function RegistrarEntidadPage() {
+  const { user, loading } = useAuthContext();
+  const router = useRouter();
   const [form, setForm] = useState<FormData>({
     nombre: "",
-    foto: "",
     partido: "",
     rol: "presidente",
     cargo: "",
   });
+  const [imageFile, setImageFile] = useState<File | null>(null);
+  const [imagePreview, setImagePreview] = useState<string | undefined>();
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [createdId, setCreatedId] = useState<string | null>(null);
@@ -37,6 +53,11 @@ export default function RegistrarEntidadPage() {
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
   ) {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  }
+
+  function handleFileSelected(file: File | null) {
+    setImageFile(file);
+    setImagePreview(file ? URL.createObjectURL(file) : undefined);
   }
 
   async function handleSubmit(e: React.FormEvent) {
@@ -51,12 +72,19 @@ export default function RegistrarEntidadPage() {
     setSubmitting(true);
 
     try {
+      const id = toSlug(form.nombre.trim());
+
+      let fotoUrl = "/img/entidades/placeholder.png";
+      if (imageFile) {
+        fotoUrl = await uploadEntidadImage(imageFile, id);
+      }
+
       const res = await fetch("/api/entidad", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           nombre: form.nombre.trim(),
-          foto: form.foto.trim() || "/img/entidades/placeholder.png",
+          foto: fotoUrl,
           tipo: "persona",
           rol: form.rol,
           partido: form.partido.trim() || undefined,
@@ -76,6 +104,28 @@ export default function RegistrarEntidadPage() {
     } finally {
       setSubmitting(false);
     }
+  }
+
+  if (loading) {
+    return (
+      <div className="mx-auto max-w-lg px-4 py-12">
+        <div className="space-y-4 animate-pulse">
+          <div className="h-8 w-48 rounded bg-zinc-800" />
+          <div className="h-4 w-72 rounded bg-zinc-800" />
+          <div className="h-40 rounded bg-zinc-800" />
+        </div>
+      </div>
+    );
+  }
+
+  if (!user && !loading) {
+    return (
+      <AuthModal
+        open={true}
+        onClose={() => router.push("/")}
+        onSuccess={() => {}}
+      />
+    );
   }
 
   if (createdId) {
@@ -99,7 +149,9 @@ export default function RegistrarEntidadPage() {
           <button
             onClick={() => {
               setCreatedId(null);
-              setForm({ nombre: "", foto: "", partido: form.partido, rol: form.rol, cargo: "" });
+              setForm({ nombre: "", partido: form.partido, rol: form.rol, cargo: "" });
+              setImageFile(null);
+              setImagePreview(undefined);
             }}
             className="rounded-lg border border-zinc-600 px-4 py-2 text-sm font-medium text-zinc-300 transition-colors hover:bg-zinc-800"
           >
@@ -133,21 +185,29 @@ export default function RegistrarEntidadPage() {
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-5">
-        {/* Nombre */}
-        <div>
-          <label htmlFor="nombre" className="block text-sm font-medium text-zinc-300 mb-1">
-            Nombre completo *
-          </label>
-          <input
-            id="nombre"
-            name="nombre"
-            type="text"
-            value={form.nombre}
-            onChange={handleChange}
-            placeholder="Nombre y apellidos"
-            className="w-full rounded-lg border border-zinc-600 bg-zinc-800 text-zinc-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            required
+        {/* Foto + Nombre */}
+        <div className="flex flex-col items-start gap-3">
+          <ImageUpload
+            onFileSelected={handleFileSelected}
+            previewUrl={imagePreview}
+            disabled={submitting}
           />
+          <p className="text-xs text-zinc-500">Foto de perfil</p>
+          <div className="w-full">
+            <label htmlFor="nombre" className="block text-sm font-medium text-zinc-300 mb-1">
+              Nombre completo *
+            </label>
+            <input
+              id="nombre"
+              name="nombre"
+              type="text"
+              value={form.nombre}
+              onChange={handleChange}
+              placeholder="Nombre y apellidos"
+              className="w-full rounded-lg border border-zinc-600 bg-zinc-800 text-zinc-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              required
+            />
+          </div>
         </div>
 
         {/* Partido y Rol en fila */}
@@ -183,23 +243,6 @@ export default function RegistrarEntidadPage() {
               ))}
             </select>
           </div>
-        </div>
-
-        {/* Foto */}
-        <div>
-          <label htmlFor="foto" className="block text-sm font-medium text-zinc-300 mb-1">
-            URL de foto
-          </label>
-          <input
-            id="foto"
-            name="foto"
-            type="text"
-            value={form.foto}
-            onChange={handleChange}
-            placeholder="https://ejemplo.com/foto.jpg"
-            className="w-full rounded-lg border border-zinc-600 bg-zinc-800 text-zinc-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-          />
-          <p className="mt-1 text-xs text-zinc-400">Opcional. Se usar&aacute; un placeholder si no se especifica.</p>
         </div>
 
         {/* Cargo */}

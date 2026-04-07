@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod/v4";
 import { createEntidad } from "@/firebase/queries";
 import { EntidadTipo } from "@/schemas/entidad.schema";
+import { checkRateLimit, getClientIP } from "@/shared/lib/rate-limit";
 
 const CrearEntidadInput = z.object({
   nombre: z.string().min(1).describe("Nombre público de la entidad"),
@@ -28,6 +29,14 @@ function toSlug(name: string): string {
 }
 
 export async function POST(request: Request) {
+  const ip = getClientIP(request.headers);
+  if (!checkRateLimit(ip)) {
+    return NextResponse.json(
+      { error: "Demasiadas solicitudes. Intenta en un minuto." },
+      { status: 429 },
+    );
+  }
+
   try {
     const body = await request.json();
 

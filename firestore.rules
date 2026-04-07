@@ -3,26 +3,26 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // Entidades: lectura pública, creación con campos obligatorios, update/delete solo admin
+    // Entidades: lectura publica, escritura solo autenticados
     match /entidades/{entidadId} {
       allow read: if true;
-      allow create, update: if request.resource.data.keys().hasAll(["nombre"]);
+      allow create, update: if request.auth != null
+        && request.resource.data.keys().hasAll(["nombre"]);
       allow delete: if false;
     }
 
-    // Fuentes: lectura pública, creación por público o bot, update/delete admin
+    // Fuentes: lectura publica, escritura solo autenticados
     match /fuentes/{fuenteId} {
       allow read: if true;
-      allow create, update: if
-        request.resource.data.keys().hasAll(["url", "tipo", "entidadId", "estado", "createdAt"]);
+      allow create, update: if request.auth != null
+        && request.resource.data.keys().hasAll(["url", "tipo", "entidadId", "estado", "createdAt"]);
       allow delete: if false;
     }
 
-    // Evaluaciones: lectura pública, escritura con campos requeridos
+    // Evaluaciones: lectura publica, escritura solo admin/scripts
     match /evaluaciones/{evaluacionId} {
       allow read: if true;
-      allow create, update: if request.resource.data.keys().hasAll(["entidadId", "estadio", "citas"]);
-      allow delete: if false;
+      allow write: if false;
     }
   }
 }
