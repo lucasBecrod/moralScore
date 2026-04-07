@@ -1,32 +1,50 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { getEntidades } from "@/firebase/queries";
 import { EntidadCard } from "./EntidadCard";
 import type { Entidad } from "@/schemas/entidad.schema";
 
+const SORT_OPTIONS = [
+  { value: "evidencia" as const, label: "M\u00e1s evidencia" },
+  { value: "score" as const, label: "Mayor score" },
+  { value: "az" as const, label: "A\u2013Z" },
+];
+
 export function RankingPage() {
   const [entidades, setEntidades] = useState<Entidad[]>([]);
   const [loading, setLoading] = useState(true);
   const [shuffleKey, setShuffleKey] = useState(0);
+  const [sortBy, setSortBy] = useState<"evidencia" | "score" | "az">("evidencia");
 
   useEffect(() => {
     getEntidades()
-      .then((data) => {
-        const sorted = data.sort((a, b) => {
-          // Primero: candidatos con evaluaciones arriba
-          if (a.totalEvaluaciones > 0 && b.totalEvaluaciones === 0) return -1;
-          if (a.totalEvaluaciones === 0 && b.totalEvaluaciones > 0) return 1;
-          // Segundo: más evidencia procesada primero
-          if (a.totalEvaluaciones !== b.totalEvaluaciones) return b.totalEvaluaciones - a.totalEvaluaciones;
-          // Empate: alfabético
-          return a.nombre.localeCompare(b.nombre);
-        });
-        setEntidades(sorted);
-      })
+      .then((data) => setEntidades(data))
       .finally(() => setLoading(false));
   }, []);
+
+  const sorted = useMemo(() => {
+    const list = [...entidades];
+    switch (sortBy) {
+      case "evidencia":
+        return list.sort((a, b) => {
+          if (a.totalEvaluaciones > 0 && b.totalEvaluaciones === 0) return -1;
+          if (a.totalEvaluaciones === 0 && b.totalEvaluaciones > 0) return 1;
+          if (a.totalEvaluaciones !== b.totalEvaluaciones) return b.totalEvaluaciones - a.totalEvaluaciones;
+          return a.nombre.localeCompare(b.nombre);
+        });
+      case "score":
+        return list.sort((a, b) => {
+          if (a.scoreActual !== null && b.scoreActual !== null) return b.scoreActual - a.scoreActual;
+          if (a.scoreActual !== null) return -1;
+          if (b.scoreActual !== null) return 1;
+          return a.nombre.localeCompare(b.nombre);
+        });
+      case "az":
+        return list.sort((a, b) => a.nombre.localeCompare(b.nombre));
+    }
+  }, [entidades, sortBy]);
 
   // Rotar retratos del hero cada 20s
   useEffect(() => {
@@ -95,17 +113,34 @@ export function RankingPage() {
         <h2 className="mb-2 text-center text-xl font-semibold text-zinc-100">
           Auditor&iacute;a P&uacute;blica de Candidatos
         </h2>
-        <p className="mb-6 text-center text-sm text-zinc-500">
+        <p className="mb-4 text-center text-sm text-zinc-500">
           El score es resultado directo de las fuentes subidas. Si falta evidencia, s&uacute;bela.
         </p>
 
+        {/* Sort chips */}
+        <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
+          {SORT_OPTIONS.map((opt) => (
+            <button
+              key={opt.value}
+              onClick={() => setSortBy(opt.value)}
+              className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+                sortBy === opt.value
+                  ? "bg-zinc-700 text-zinc-100"
+                  : "border border-zinc-800 text-zinc-500 hover:text-zinc-300"
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+
         {loading ? (
           <p className="text-center text-zinc-400">Cargando...</p>
-        ) : entidades.length === 0 ? (
+        ) : sorted.length === 0 ? (
           <p className="text-center text-zinc-400">No hay registros a&uacute;n.</p>
         ) : (
           <div className="grid gap-5 sm:grid-cols-2">
-            {entidades.map((e) => (
+            {sorted.map((e) => (
               <EntidadCard key={e.id} entidad={e} />
             ))}
           </div>

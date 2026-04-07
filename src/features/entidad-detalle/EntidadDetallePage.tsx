@@ -136,9 +136,10 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   const fuentesSinEvaluar = fuentes.filter((f) => f.estado === "pendiente" || f.estado === "aprobada");
   const fuentesRechazadas = fuentes.filter((f) => f.estado === "rechazada");
 
+  const realEvalCount = evaluaciones.length;
   const zone = entidad.scoreActual !== null ? getZoneStyle(entidad.scoreActual) : null;
   const filledSegments = entidad.scoreActual !== null ? Math.round(entidad.scoreActual) : 0;
-  const confident = entidad.totalEvaluaciones >= 5;
+  const confident = realEvalCount >= 5;
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
@@ -187,7 +188,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
           {entidad.scoreActual !== null && zone ? (
             <div className={`flex flex-col gap-1 ${confident ? "" : "opacity-40"}`}>
               <span className="text-xs text-zinc-500">
-                {getPublicLabel(entidad.scoreActual!)} ({entidad.totalEvaluaciones} eval.)
+                {getPublicLabel(entidad.scoreActual!)} ({realEvalCount} eval.)
               </span>
               <div className="flex items-center gap-3">
                 <span className={`text-xl font-bold tabular-nums ${zone.text}`}>
