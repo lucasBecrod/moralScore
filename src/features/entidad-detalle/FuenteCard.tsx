@@ -33,6 +33,26 @@ function getZoneStyle(score: number) {
   return ZONE_STYLES.pre;
 }
 
+// Parsea **negritas** en texto → <strong> con resaltado del color del estadio
+function parseInlineMd(text: string, highlightColor?: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      const inner = part.slice(2, -2);
+      return (
+        <strong
+          key={i}
+          className="font-semibold text-zinc-100 rounded-sm px-0.5"
+          style={highlightColor ? { backgroundColor: highlightColor + "20" } : undefined}
+        >
+          {inner}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
+
 function getFavicon(url?: string): string | null {
   if (!url) return null;
   try {
@@ -130,22 +150,25 @@ export default function FuenteCard({
       {/* Expandido */}
       {expanded && (
         <div className="border-t border-zinc-800 bg-white/[0.02] px-4 pb-4 pt-3 space-y-4">
-          <p className="text-sm leading-relaxed text-zinc-300">{justificacion}</p>
+          <p className="text-sm leading-relaxed text-zinc-300">{parseInlineMd(justificacion)}</p>
 
           {citas.length > 0 && (
             <div className="space-y-3">
               <h4 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-600">
-                Citas textuales
+                Radiograf&iacute;a del discurso
               </h4>
               {citas.map((cita, i) => (
-                <div key={i} className="border-l-2 pl-3 space-y-0.5" style={{ borderColor: color }}>
+                <div key={i} className="border-l-2 pl-3 space-y-1" style={{ borderColor: color }}>
                   <p className="text-sm italic leading-relaxed text-zinc-200">
-                    &ldquo;{cita.texto}&rdquo;
+                    &ldquo;{parseInlineMd(cita.texto, color)}&rdquo;
                   </p>
                   <p className="text-[11px] text-zinc-500">{cita.ubicacion}</p>
-                  <p className="text-[11px] font-medium" style={{ color }}>
+                  <span
+                    className="inline-block rounded-full px-2 py-0.5 text-[10px] font-medium"
+                    style={{ backgroundColor: color + "15", color }}
+                  >
                     {cita.indicador}
-                  </p>
+                  </span>
                 </div>
               ))}
             </div>
