@@ -10,7 +10,7 @@
 
 ### No negociables
 - NO tocar archivos fuera de `src/schemas/`, `data/`, `firestore.rules`
-- NO editar `src/firebase/`, `src/features/`, `src/shared/`, `scripts/`
+- NO editar `src/firebase/`, `src/features/`, `src/shared/`, `scripts/`, `src/app/`
 - NO borrar archivos — solo crear nuevos o editar existentes
 - Leer CADA archivo antes de editarlo
 - Código en inglés, comentarios mínimos
@@ -21,6 +21,7 @@
 - `scripts/*`
 - `src/firebase/*`
 - `src/features/*`
+- `src/app/*`
 
 ### Límite de alcance
 Schemas de datos (Zod), JSONs de seed, y reglas de Firestore. Nada más.
@@ -33,13 +34,15 @@ Schemas de datos (Zod), JSONs de seed, y reglas de Firestore. Nada más.
 Separar el concepto de "persona/organización" del concepto de "candidatura electoral" en el modelo de datos. Crear schemas y datos para las nuevas colecciones `candidaturas` y `procesos`. Limpiar datos electorales de `entidades`. Agregar `fechaEvento` a fuentes y evaluaciones para habilitar time-bounding de snapshots.
 
 ### Criterio de éxito
-- `proceso.schema.ts` y `candidatura.schema.ts` existen y exportan tipos
-- `entidad.schema.ts` ya NO tiene `partido`, `logoPartido`, `rol`, `cargo`; renombra `scoreActual` → `scoreHistorico`
-- `fuente.schema.ts` tiene campo `fechaEvento` (reemplaza `fechaFuente`)
-- `evaluacion.schema.ts` tiene campo `fechaEvento`
+- Schemas nuevos (`proceso.schema.ts`, `candidatura.schema.ts`) existen y exportan tipos
+- `entidad.schema.ts` NO tiene `partido`, `logoPartido`, `rol`, `cargo`; usa `scoreHistorico` y `totalEvaluacionesHistoricas`
+- `fuente.schema.ts` tiene `fechaEvento` (required), no `fechaFuente`
+- `evaluacion.schema.ts` tiene `fechaEvento`
 - `data/procesos.json` existe con 1 proceso (incluye `fechaCorte`)
-- `data/candidaturas.json` existe con ~35 candidaturas (1 por candidato actual)
-- `data/candidatos.json` ya NO tiene `partido`, `logoPartido`, `rol`; renombra `scoreActual` → `scoreHistorico`
+- `data/candidaturas.json` existe con ~35 candidaturas
+- `data/candidatos.json` NO tiene `partido`, `logoPartido`, `rol` — solo `id`, `nombre`, `foto`, `tipo`
+- `data/fuentes.json` usa `fechaEvento` en vez de `fechaFuente`
+- `data/evaluaciones.json` tiene `fechaEvento` en cada entry
 - `firestore.rules` incluye rules para `candidaturas` y `procesos`
 - Los tipos exportados son consistentes entre sí
 
@@ -49,30 +52,53 @@ Separar el concepto de "persona/organización" del concepto de "candidatura elec
 
 ### Principios de diseño (consenso equipo + arquitecto)
 
-1. **El score es de la PERSONA, no de la candidatura.** MoralScore evalúa razonamiento moral según Kohlberg, que es evolutivo y de por vida. El score vive en la entidad.
-2. **Entidad es agnóstica.** Puede ser persona (candidato, Bukele, el Papa) u organización (empresa, partido). No toda entidad participa en un proceso electoral.
-3. **Fuentes y evaluaciones apuntan a entidadId.** NUNCA a candidaturaId. Esto permite evaluar entidades sin candidatura.
-4. **Time-bounding para snapshots.** El `scoreCandidatura` se calcula filtrando evaluaciones por `fechaEvento <= proceso.fechaCorte`. Esto congela matemáticamente el score de una candidatura sin mutar datos históricos (Principio P3: Inmutabilidad Histórica).
-5. **fechaEvento ≠ createdAt.** `fechaEvento` es cuándo ocurrió el acto/declaración. `createdAt` es cuándo se guardó en BD.
-6. **Growth (likes, shares, métricas) es misión separada.** NO mezclar en estos schemas.
+1. **El score es de la PERSONA, no de la candidatura.** Kohlberg mide desarrollo moral a lo largo de la vida. El score vive en la entidad.
+2. **Entidad es agnóstica.** Puede ser persona u organización. No toda entidad participa en un proceso electoral.
+3. **Fuentes y evaluaciones apuntan a entidadId.** NUNCA a candidaturaId. Permite evaluar entidades sin candidatura.
+4. **Time-bounding para snapshots.** `scoreCandidatura = mediana(evaluaciones WHERE fechaEvento <= proceso.fechaCorte)`. Congela score sin mutar datos.
+5. **fechaEvento ≠ createdAt.** `fechaEvento` = cuándo ocurrió el acto. `createdAt` = cuándo se guardó en BD.
+6. **Growth (likes, shares) es misión separada.** NO mezclar.
 
-### Estado actual del problema
-La colección `entidades` mezcla datos de persona (nombre, foto, score) con datos electorales (partido, rol, logoPartido). Esto impide mostrar un candidato en múltiples procesos electorales y mantener historial de partidos. Además, no existe un vector temporal para calcular snapshots inmutables.
+### Modelo objetivo
+
+```
+entidades/{id}          ← persona u organización + lifetime score
+  id, nombre, foto, tipo
+  scoreHistorico (mediana lifetime), totalEvaluacionesHistoricas
+  SIN partido, SIN rol, SIN logoPartido, SIN cargo
+
+candidaturas/{id}       ← relación entidad-proceso (compound ID)
+  id: "{entidadId}_{procesoId}"
+  entidadId, procesoId, partido, logoPartido, rol
+  nombre, foto (desnormalizados para render en 1 lectura)
+  scoreCandidatura (snapshot time-bounded), evaluacionesCandidatura
+
+procesos/{id}           ← tipo de elección
+  id, nombre, tipo, activa, fechaCorte
+
+fuentes/{id}            ← apuntan a entidadId (SIN CAMBIO de FK)
+  fechaEvento (renombrado de fechaFuente, required)
+
+evaluaciones/{id}       ← apuntan a entidadId (SIN CAMBIO de FK)
+  fechaEvento (NUEVO, heredado de la fuente)
+```
 
 ### Archivos objetivo
 - `src/schemas/proceso.schema.ts` (CREAR)
 - `src/schemas/candidatura.schema.ts` (CREAR)
-- `src/schemas/entidad.schema.ts` (EDITAR — quitar campos electorales, renombrar score)
-- `src/schemas/fuente.schema.ts` (EDITAR — agregar fechaEvento, deprecar fechaFuente)
-- `src/schemas/evaluacion.schema.ts` (EDITAR — agregar fechaEvento)
+- `src/schemas/entidad.schema.ts` (EDITAR)
+- `src/schemas/fuente.schema.ts` (EDITAR)
+- `src/schemas/evaluacion.schema.ts` (EDITAR)
 - `data/procesos.json` (CREAR)
 - `data/candidaturas.json` (CREAR)
-- `data/candidatos.json` (EDITAR — quitar campos electorales)
-- `firestore.rules` (EDITAR — agregar 2 colecciones)
+- `data/candidatos.json` (EDITAR)
+- `data/fuentes.json` (EDITAR)
+- `data/evaluaciones.json` (EDITAR)
+- `firestore.rules` (EDITAR)
 
 ### Archivos de contexto (leer primero, NO editar)
-- `.claude/missions/migracion-candidaturas/SMEAC-A-schema-migracion-candidaturas.md` — modelo objetivo detallado
-- `src/schemas/analisis-response.schema.ts` — referencia de estilo Zod del proyecto
+- `.claude/missions/migracion-candidaturas/SMEAC-A-schema-migracion-candidaturas.md` — modelo detallado con ejemplos de time-bounding
+- `src/schemas/analisis-response.schema.ts` — referencia de estilo Zod
 
 ---
 
@@ -91,7 +117,7 @@ export const ProcesoSchema = z.object({
   nombre: z.string().describe("Nombre oficial del proceso electoral"),
   tipo: ProcesoTipo.describe("Alcance del proceso"),
   activa: z.boolean().describe("Si el proceso está vigente"),
-  fechaCorte: z.string().describe("ISO 8601 date. Evaluaciones con fechaEvento <= este valor se incluyen en el snapshot del scoreCandidatura"),
+  fechaCorte: z.string().describe("ISO 8601 date. Evaluaciones con fechaEvento <= este valor se incluyen en el snapshot"),
 });
 export type Proceso = z.infer<typeof ProcesoSchema>;
 ```
@@ -102,93 +128,46 @@ export type Proceso = z.infer<typeof ProcesoSchema>;
 import { z } from "zod/v4";
 
 export const CandidaturaRol = z.enum([
-  "presidente",
-  "vicepresidente-1",
-  "vicepresidente-2",
-  "congresista",
-  "alcalde",
-  "gobernador",
-  "otro",
+  "presidente", "vicepresidente-1", "vicepresidente-2",
+  "congresista", "alcalde", "gobernador", "otro",
 ]);
 export type CandidaturaRol = z.infer<typeof CandidaturaRol>;
 
 export const CandidaturaSchema = z.object({
-  // Identidad
   id: z.string().describe("Compound: {entidadId}_{procesoId}"),
   entidadId: z.string().describe("FK a entidades/{id}"),
   procesoId: z.string().describe("FK a procesos/{id}"),
-
-  // Datos electorales
   partido: z.string().optional().describe("Nombre del partido político"),
   logoPartido: z.string().optional().describe("URL del logo del partido"),
   rol: CandidaturaRol.optional().describe("Rol en la fórmula electoral"),
-
-  // Desnormalización (para renderizar tarjeta en 1 lectura)
   nombre: z.string().describe("Desnormalizado de entidad.nombre"),
   foto: z.string().describe("Desnormalizado de entidad.foto"),
-
-  // Score snapshot (congelado por time-bounding)
-  scoreCandidatura: z.number().min(1).max(6).nullable().describe("Mediana de evaluaciones donde fechaEvento <= proceso.fechaCorte"),
-  evaluacionesCandidatura: z.number().int().min(0).describe("Total evaluaciones incluidas en el snapshot"),
+  scoreCandidatura: z.number().min(1).max(6).nullable().describe("Mediana time-bounded"),
+  evaluacionesCandidatura: z.number().int().min(0).describe("Total evaluaciones en snapshot"),
 });
 export type Candidatura = z.infer<typeof CandidaturaSchema>;
 ```
 
 ### Paso 3: Editar `src/schemas/entidad.schema.ts`
 
-Cambios:
 - QUITAR: `EntidadRol` enum y su export de tipo
 - QUITAR campos: `rol`, `partido`, `logoPartido`, `cargo`
-- RENOMBRAR: `scoreActual` → `scoreHistorico` (mediana lifetime de TODAS las evaluaciones)
+- RENOMBRAR: `scoreActual` → `scoreHistorico`
 - RENOMBRAR: `totalEvaluaciones` → `totalEvaluacionesHistoricas`
-- MANTENER: `id`, `nombre`, `foto`, `tipo` (enum "persona"|"organizacion"), `nombreLegal`, `dniRuc`, `region`, `bio`
-
-**IMPORTANTE**: `EntidadTipo` se MANTIENE como `z.enum(["persona", "organizacion"])` — NO cambiar a literal.
-
-Resultado esperado:
-```typescript
-import { z } from "zod/v4";
-
-export const EntidadTipo = z.enum(["persona", "organizacion"]);
-export type EntidadTipo = z.infer<typeof EntidadTipo>;
-
-export const EntidadSchema = z.object({
-  // Obligatorios
-  id: z.string().describe("URL-safe slug: keiko-fujimori"),
-  nombre: z.string().describe("Nombre público / comercial"),
-  foto: z.string().describe("URL de foto o ruta local"),
-
-  // Clasificación
-  tipo: EntidadTipo.optional().describe("persona u organización"),
-
-  // Opcionales
-  nombreLegal: z.string().optional().describe("Nombre legal completo"),
-  dniRuc: z.string().optional().describe("DNI o RUC"),
-  region: z.string().optional().describe("Región de origen"),
-  bio: z.string().optional().describe("Descripción breve"),
-
-  // Score lifetime (calculado — mediana de TODAS las evaluaciones históricas)
-  scoreHistorico: z.number().min(1).max(6).nullable().describe("Mediana Kohlberg de todas las evaluaciones, null si no hay"),
-  totalEvaluacionesHistoricas: z.number().int().min(0).describe("Total de evaluaciones completadas en toda su historia"),
-});
-
-export type Entidad = z.infer<typeof EntidadSchema>;
-```
+- MANTENER: `id`, `nombre`, `foto`, `tipo`, `nombreLegal`, `dniRuc`, `region`, `bio`
+- `EntidadTipo` se MANTIENE como `z.enum(["persona", "organizacion"])`
 
 ### Paso 4: Editar `src/schemas/fuente.schema.ts`
 
-Cambios:
-- RENOMBRAR: `fechaFuente` → `fechaEvento` con `.describe()` actualizado
-- Hacer `fechaEvento` required (no optional) — es necesario para el time-bounding
-- MANTENER todo lo demás intacto (entidadId, url, tipo, etc.)
-
-El campo `fechaEvento` representa **cuándo ocurrió el acto/declaración evaluado**, NO cuándo se guardó en BD (eso es `createdAt`).
+- RENOMBRAR: `fechaFuente` → `fechaEvento`
+- Hacer `fechaEvento` **required** (no optional) — necesario para time-bounding
+- Actualizar `.describe()`: "Fecha del acto/declaración evaluado (ISO 8601)"
+- MANTENER todo lo demás intacto
 
 ### Paso 5: Editar `src/schemas/evaluacion.schema.ts`
 
-Cambios:
-- AGREGAR campo: `fechaEvento: z.string().describe("ISO 8601 date del acto evaluado — heredado de la fuente")`
-- MANTENER todo lo demás intacto (entidadId, fuenteId, estadio, etc.)
+- AGREGAR: `fechaEvento: z.string().describe("ISO 8601 date del acto evaluado — heredado de la fuente")`
+- MANTENER todo lo demás intacto
 
 ### Paso 6: Crear `data/procesos.json`
 
@@ -203,8 +182,6 @@ Cambios:
   }
 ]
 ```
-
-La `fechaCorte` es el día de la primera vuelta (13 abril 2026). Todas las evaluaciones con `fechaEvento <= 2026-04-13` se incluyen en el snapshot.
 
 ### Paso 7: Crear `data/candidaturas.json`
 
@@ -225,26 +202,26 @@ Leer `data/candidatos.json`. Por cada candidato, generar:
 }
 ```
 
-- `scoreCandidatura` y `evaluacionesCandidatura` se ponen en null/0 porque sync-firestore los calculará
-- Si un campo es undefined en el candidato original, omitirlo
+- Si un campo es undefined en el candidato original, omitirlo del JSON
+- `scoreCandidatura` y `evaluacionesCandidatura` en null/0 — sync-firestore los calculará
 
 ### Paso 8: Editar `data/candidatos.json`
 
 Quitar de cada objeto: `partido`, `logoPartido`, `rol`.
-Mantener: `id`, `nombre`, `foto`, `tipo`.
+Mantener solo: `id`, `nombre`, `foto`, `tipo`.
 
-**Nota:** NO agregar `scoreHistorico` ni `totalEvaluacionesHistoricas` al JSON — esos se calculan en sync-firestore.
+NO agregar `scoreHistorico` ni `totalEvaluacionesHistoricas` — esos se calculan en sync-firestore.
 
-### Paso 9: Actualizar `data/fuentes.json`
+### Paso 9: Editar `data/fuentes.json`
 
-Renombrar `fechaFuente` → `fechaEvento` en todos los objetos.
-Para fuentes que no tengan fecha: usar la fecha más temprana razonable (revisar si el título o ID contiene una fecha, ej: "2026-03-25").
+Renombrar `fechaFuente` → `fechaEvento` en TODOS los objetos.
+Para fuentes que no tenían `fechaFuente`: inferir del ID o título si contiene fecha. Si no es posible, usar `"1970-01-01"` como sentinel y dejar un comentario.
 
-### Paso 10: Actualizar `data/evaluaciones.json`
+### Paso 10: Editar `data/evaluaciones.json`
 
-Agregar `fechaEvento` a cada evaluación. Lógica:
-- Buscar la fuente correspondiente (por `fuenteId`) y copiar su `fechaEvento`
-- Si la fuente no tiene fecha, usar el `createdAt` de la evaluación como fallback
+Agregar `fechaEvento` a cada evaluación:
+- Buscar la fuente correspondiente (por `fuenteId`) en `data/fuentes.json` y copiar su `fechaEvento`
+- Si la fuente no tiene fecha, usar el sentinel `"1970-01-01"`
 
 ### Paso 11: Editar `firestore.rules`
 
@@ -270,29 +247,39 @@ match /procesos/{procesoId} {
 ## APOYO (Recursos)
 
 ### Comandos
-- Build: `pnpm build` (NO ejecutar — el build fallará porque queries.ts y UI aún usan campos viejos. Eso lo arreglan otros agentes)
+- Build: `pnpm build` — NO ejecutar, fallará porque queries.ts y UI usan campos viejos. Eso lo arreglan otros agentes.
 
 ---
 
 ## VALIDACIÓN (Verificar antes de reportar completado)
 
 1. Los schemas compilan sin errores de sintaxis Zod
-2. `data/candidaturas.json` tiene ~35 entries (una por candidato)
+2. `data/candidaturas.json` tiene ~35 entries
 3. `data/candidatos.json` NO tiene campos `partido`, `logoPartido`, `rol`
 4. `data/procesos.json` tiene 1 entry con `fechaCorte`
-5. `data/fuentes.json` usa `fechaEvento` en vez de `fechaFuente`
+5. `data/fuentes.json` usa `fechaEvento`, no `fechaFuente`
 6. `data/evaluaciones.json` tiene `fechaEvento` en cada entry
 7. `firestore.rules` tiene las 2 nuevas reglas
-8. `entidad.schema.ts` NO exporta `EntidadRol`, NO tiene campos `partido`, `logoPartido`, `rol`, `cargo`; usa `scoreHistorico` y `totalEvaluacionesHistoricas`
-9. `fuente.schema.ts` tiene `fechaEvento` (required), no `fechaFuente`
+8. `entidad.schema.ts` NO exporta `EntidadRol`, NO tiene `partido`, `logoPartido`, `rol`, `cargo`
+9. `fuente.schema.ts` tiene `fechaEvento` (required)
 10. `evaluacion.schema.ts` tiene `fechaEvento`
-11. `candidatura.schema.ts` usa `scoreCandidatura` y `evaluacionesCandidatura` (NO `scoreActual`)
-12. `proceso.schema.ts` tiene `fechaCorte`
-13. `analisis-response.schema.ts` NO fue modificado
-14. `git diff --stat` → solo archivos dentro del scope
+11. `analisis-response.schema.ts` NO fue modificado
+12. `git diff --stat` → solo archivos dentro del scope
 
-### Si algo falla después de 3 enfoques distintos
-Reportar bloqueo con: qué intentaste, qué falló, qué propones.
+---
+
+## PURGADO — Algoritmo de Musk, Paso 2
+
+Antes de validar, aplica el Paso 2 (Eliminar):
+1. Revisa lo que escribiste. Identifica:
+   - Campos en schemas que no se usan en ningún flujo
+   - Datos en JSONs que son redundantes
+   - Reglas de Firestore que duplican lógica
+2. Elimina al menos 1 elemento concreto
+3. Si algún archivo supera 200 LOC (150 .tsx), divídelo ahora
+4. Verifica que sigue funcionando después de podar
+
+> Métrica del 10%: si no tuviste que re-agregar nada, no fuiste agresivo.
 
 ---
 
