@@ -35,7 +35,8 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <header className="border-b border-gray-800">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-            <Link href="/" className="font-serif text-xl font-bold tracking-tight">
+            <Link href="/" className="flex items-center gap-2 font-serif text-xl font-bold tracking-tight">
+              <img src="/favicon.ico" alt="" className="h-6 w-6" />
               {SITE_CONFIG.name}
             </Link>
             <nav className="flex gap-6">
