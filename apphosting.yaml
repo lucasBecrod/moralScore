@@ -1,0 +1,16 @@
+runConfig:
+  runtime: nodejs22
+
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: AIzaSyBrpdC8rgmWNNjvyOa-gmhwCrROFBX4vEw
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: moral-score.firebaseapp.com
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: moral-score
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: moral-score.firebasestorage.app
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "945589561187"
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: "1:945589561187:web:03727b9bc74a02d3379556"
