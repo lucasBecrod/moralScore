@@ -162,14 +162,12 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   function getShareUrl() { return `${SITE_CONFIG.url}/entidad/${id}`; }
 
   function shareWhatsApp() {
-    const text = `${entidad!.nombre} tiene un score Kohlberg de ${score}/6. Audita la evidencia:`;
-    window.open(`https://wa.me/?text=${encodeURIComponent(text + " " + getShareUrl() + "?ref=share_wa")}`, "_blank");
+    window.open(`https://wa.me/?text=${encodeURIComponent(getShareUrl() + "?ref=share_wa")}`, "_blank");
     trackMetric("shares_wa");
   }
 
   function shareTwitter() {
-    const text = `${entidad!.nombre}: score Kohlberg ${score}/6. Sin ideología, solo evidencia.`;
-    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(getShareUrl() + "?ref=share_tw")}`, "_blank");
+    window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(getShareUrl() + "?ref=share_tw")}`, "_blank");
     trackMetric("shares_tw");
   }
 
