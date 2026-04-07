@@ -2188,5 +2188,55 @@
     "fechaFuente": "2026-03-23",
     "entidadId": "alex-gonzales-castillo",
     "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-mesias-antonio-guevara-amasifuen",
+    "url": "https://rpp.pe/politica/elecciones/mesias-guevara-plantea-solicitar-facultades-legislativas-para-los-primeros-cien-dias-y-eliminar-leyes-procrimen-noticia-1667049",
+    "tipo": "entrevista",
+    "titulo": "Guevara: facultades legislativas para eliminar leyes procrimen",
+    "medio": "RPP",
+    "fechaFuente": "2026-02-15",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-carlos-gonzalo-alvarez-loayza",
+    "url": "https://www.infobae.com/peru/2026/04/06/plan-de-gobierno-de-pais-para-todos-2026-2031-seguridad-orden-estatal-y-lucha-anticorrupcion-para-transformar-el-peru/",
+    "tipo": "articulo",
+    "titulo": "Álvarez: plan anticorrupción País para Todos",
+    "medio": "Infobae",
+    "fechaFuente": "2026-04-06",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-herbert-caller-gutierrez",
+    "url": "https://www.exitosanoticias.pe/politica/herbert-caller-propone-ascensos-pagos-trabajadores-denuncien-corrupcion-estado-n172189",
+    "tipo": "entrevista",
+    "titulo": "Caller: incentivos para denunciar corrupción",
+    "medio": "Exitosa",
+    "fechaFuente": "2026-03-26",
+    "entidadId": "herbert-caller-gutierrez",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-yonhy-lescano-ancieta",
+    "url": "https://www.infobae.com/peru/2026/03/26/yonhy-lescano-no-descarta-designar-a-jose-domingo-perez-como-ministro-de-justicia-es-una-persona-valiente/",
+    "tipo": "entrevista",
+    "titulo": "Lescano: Pérez como ministro de Justicia",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-26",
+    "entidadId": "yonhy-lescano-ancieta",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-wolfgang-mario-grozo-costa",
+    "url": "https://elcomercio.pe/politica/elecciones/elecciones-2026-candidato-presidencial-wolfgang-grozo-propone-cadena-perpetua-para-presidente-y-altos-funcionarios-que-cometan-actos-de-corrupcion-ultimas-noticia/",
+    "tipo": "articulo",
+    "titulo": "Grozo: cadena perpetua para corrupción como traición",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-08",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "estado": "evaluada"
   }
 ]

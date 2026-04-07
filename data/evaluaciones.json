@@ -3963,5 +3963,95 @@
     "estadioAlternativo": 4,
     "notas": "Tema: justicia/corrupción. Patrón: 2,2,3,2,3,3.",
     "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-mesias-antonio-guevara-amasifuen",
+    "entidadId": "mesias-antonio-guevara-amasifuen",
+    "fuenteId": "f-oleada6-mesias-antonio-guevara-amasifuen",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Reforma judicial: eliminar leyes procrimen, reestructurar policía, facultades legislativas. Institucional.",
+    "citas": [
+      {
+        "texto": "Desaparición de leyes procrimen aprobadas por el Congreso actual, junto con reestructuración de la Policía Nacional",
+        "ubicacion": "Entrevista RPP feb 2026",
+        "indicador": "Estadio 4: reforma institucional del sistema de justicia"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: reforma judicial. Patrón: 3,4,3,4,3,4. Mediana sube a 3.5.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-carlos-gonzalo-alvarez-loayza",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "fuenteId": "f-oleada6-carlos-gonzalo-alvarez-loayza",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Reforma judicial estructural: justicia veloz y predecible, rendición de cuentas bimensual, tolerancia cero corrupción.",
+    "citas": [
+      {
+        "texto": "Justicia que sea veloz, predecible y accesible, sin temor y sin amigos poderosos",
+        "ubicacion": "Plan de Gobierno País para Todos",
+        "indicador": "Estadio 4: reforma judicial institucional"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: reforma judicial/corrupción. Patrón: 4,1,4,4,4,4. Mediana: 4.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-herbert-caller-gutierrez",
+    "entidadId": "herbert-caller-gutierrez",
+    "fuenteId": "f-oleada6-herbert-caller-gutierrez",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Incentivos económicos y ascensos para denunciantes. Mecanismo transaccional.",
+    "citas": [
+      {
+        "texto": "Otorgar incentivos económicos, ascensos y protección a servidores que denuncien actos ilícitos",
+        "ubicacion": "Plan Tucuy Ricuy, Exitosa",
+        "indicador": "Estadio 2: transaccional"
+      }
+    ],
+    "estadioAlternativo": 3,
+    "notas": "Tema: corrupción. Patrón: 1,2,2,2,2,2.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-yonhy-lescano-ancieta",
+    "entidadId": "yonhy-lescano-ancieta",
+    "fuenteId": "f-oleada6-yonhy-lescano-ancieta",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone reformar JNJ y nombrar a Pérez como ministro. Más caudillismo que institucionalismo.",
+    "citas": [
+      {
+        "texto": "Es una persona valiente. Puede ser ministro de Justicia",
+        "ubicacion": "Entrevista Infobae, mar 2026",
+        "indicador": "Estadio 3: selección por imagen personal"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema: reforma judicial. Patrón: 2,2,3,2,2,3. Anti-ventriloquismo.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-wolfgang-mario-grozo-costa",
+    "entidadId": "wolfgang-mario-grozo-costa",
+    "fuenteId": "f-oleada6-wolfgang-mario-grozo-costa",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Cadena perpetua como traición a la nación. Marco legal pero punitivo. Entre institucional (4) y castigo (1).",
+    "citas": [
+      {
+        "texto": "Reforma al Código Penal para que corrupción sea juzgada como traición a la nación con cadena perpetua",
+        "ubicacion": "El Comercio, mar 2026",
+        "indicador": "Estadio 3: marco legal punitivo"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema: corrupción. Patrón: 4,4,3,4,4,3. Mediana: 4.",
+    "evaluador": "lucas"
   }
 ]
