@@ -1,26 +1,45 @@
 # MoralScore
 
-> Razonamiento moral verificable. Democracia basada en evidencia.
+> El fin de la amnesia política.
 
-Plataforma web pública que asigna un **score de razonamiento moral** (estadios 1-6 de Kohlberg) a candidatos políticos peruanos. Cada puntuación es verificable: el usuario clickea el score y accede a las fuentes originales con las citas exactas que lo sustentan.
+Cada elección los políticos se reinventan: promesas nuevas, pasado borrado. Y ningún ciudadano tiene tiempo de revisar cientos de entrevistas y debates para saber quién dice la verdad y quién manipula.
+
+**MoralScore hace ese trabajo por ti.** Usamos inteligencia artificial para analizar lo que los candidatos dicen en entrevistas, debates y declaraciones públicas. No evaluamos si son de izquierda o derecha — evaluamos *cómo justifican sus decisiones*: si razonan con principios o con clientelismo, si respetan las reglas básicas de convivencia o las rompen cuando les conviene.
+
+Para eso usamos dos marcos científicos con décadas de investigación:
+
+- **Kohlberg** (psicología moral) — clasifica el nivel de razonamiento del candidato, desde el más básico ("te doy obras si me apoyas") hasta el más elevado ("defiendo este derecho aunque me cueste votos").
+- **Gert** (filosofía moral) — detecta si el candidato viola reglas éticas fundamentales: no engañar, cumplir promesas, respetar la ley, proteger la vida.
+
+Cada puntaje viene con las citas exactas del candidato que lo respaldan. Nada se inventa. Todo se puede verificar.
 
 **Contexto:** Elecciones Generales del Perú 2026.
 
-## Qué evalúa
+---
 
-Se evalúa la **justificación** que da el candidato, no su posición ideológica. Dos candidatos pueden defender la misma política pero uno razona en estadio 2 (transaccional) y otro en estadio 5 (contrato social).
+## Cómo funciona
 
-| Nivel | Estadios | Ejemplo |
-|-------|----------|---------|
-| Pre-convencional | 1-2 | "Si me apoyas, te doy obras para tu distrito" |
-| Convencional | 3-4 | "Debemos respetar la Constitución y fortalecer las instituciones" |
-| Post-convencional | 5-6 | "Los derechos fundamentales están por encima de cualquier mayoría coyuntural" |
+1. **Tú subes la evidencia** — Cualquier ciudadano puede enviar un link a una entrevista, debate o nota de prensa.
+2. **La IA analiza** — El sistema lee el contenido y aplica los marcos Kohlberg y Gert de forma imparcial, sin importar el partido político.
+3. **El resultado es público** — Se publica un puntaje con las frases exactas del candidato que lo justifican. Cualquiera puede auditarlo.
 
-## Stack
+## La escala (simplificada)
 
-- **Next.js 15** + TypeScript + Tailwind CSS 4
+| Puntaje | Qué significa | Ejemplo |
+|---------|--------------|---------|
+| 1-2 | Opera por interés propio, intercambia favores | "Si me apoyas, te doy obras para tu distrito." |
+| 3-4 | Sigue normas y busca aprobación popular | "Es lo que el pueblo me pide que haga." |
+| 5-6 | Se guía por principios, aunque le cueste | "Asumo el costo político porque es lo correcto." |
+
+---
+
+## Stack técnico
+
+- **Next.js 15** (App Router) + TypeScript + Tailwind CSS 4
 - **Firebase** (Firestore + App Hosting)
-- **Arquitectura VSA** (features/ como slices autónomos)
+- **Motor IA** — LLMs con rúbrica Kohlberg/Gert (prompts públicos en `/docs`)
+- **Arquitectura VSA** — features/ como slices autónomos
+- **Zod** — contratos de datos estrictos
 
 ## Desarrollo
 
@@ -29,20 +48,20 @@ pnpm install
 pnpm dev
 ```
 
-## Scripts útiles
+## Scripts
 
 ```bash
-npx tsx scripts/sync-firestore.ts                          # sincronizar data/*.json → Firestore
-npx tsx --env-file=.env.local scripts/reconcile-scores.ts   # recalcular scores
 npx tsx scripts/seed-candidatos.ts                          # seed candidatos desde JNE
 npx tsx scripts/cache-images.ts                             # descargar fotos del JNE
+npx tsx scripts/sync-firestore.ts                          # sincronizar data/*.json → Firestore
+npx tsx --env-file=.env.local scripts/reconcile-scores.ts   # recalcular scores
 ```
 
-## Metodología
+## Transparencia
 
-La metodología completa, prompts de evaluación y criterios de calidad de fuentes están publicados en `/metodologia` y `/docs/*` dentro de la app.
+Todo es auditable: la metodología, los prompts de la IA, los criterios para aceptar o rechazar fuentes, y las rúbricas de evaluación están publicados en `/metodologia` y `/docs/*` dentro de la app. Código fuente abierto.
 
 ## Autores
 
-- **Lucas Becerra** (Economista) — arquitectura, desarrollo, IA
-- **Lady** (Psicóloga) — marco teórico Kohlberg, calibración de rúbricas
+- **Lucas Becrod** (Economista) — arquitectura, desarrollo, IA
+- **Leidi Becrod** (Psicóloga) — marco teórico Kohlberg/Gert, calibración de rúbricas
