@@ -13,7 +13,7 @@ Para eso usamos dos marcos científicos con décadas de investigación:
 
 Cada puntaje viene con las citas exactas del candidato que lo respaldan. Nada se inventa. Todo se puede verificar.
 
-**Contexto:** Elecciones Generales del Perú 2026.
+**Contexto:** Elecciones Generales del Perú 2026. Proximante otras elecciones.
 
 ---
 
@@ -23,7 +23,7 @@ Cada puntaje viene con las citas exactas del candidato que lo respaldan. Nada se
 2. **La IA analiza** — El sistema lee el contenido y aplica los marcos Kohlberg y Gert de forma imparcial, sin importar el partido político.
 3. **El resultado es público** — Se publica un puntaje con las frases exactas del candidato que lo justifican. Cualquiera puede auditarlo.
 
-## La escala (simplificada)
+## La escala de Kohlberg (simplificada)
 
 | Puntaje | Qué significa | Ejemplo |
 |---------|--------------|---------|
@@ -59,7 +59,9 @@ npx tsx --env-file=.env.local scripts/reconcile-scores.ts   # recalcular scores
 
 ## Transparencia
 
-Todo es auditable: la metodología, los prompts de la IA, los criterios para aceptar o rechazar fuentes, y las rúbricas de evaluación están publicados en `/metodologia` y `/docs/*` dentro de la app. Código fuente abierto.
+Todo es auditable: la metodología, los prompts de la IA, los criterios para aceptar o rechazar fuentes, y las rúbricas de evaluación están publicados en `/metodologia` y `/docs/*` dentro de la app.
+
+El código fuente es abierto. Si quieres revisar cómo funciona el algoritmo por dentro, descarga este repositorio desde GitHub. Si encuentras algo que mejorar, abre un issue o envía un pull request. La transparencia no es un slogan — es una invitación.
 
 ## Autores
 
