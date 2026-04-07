@@ -1,7 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { KOHLBERG_STAGES, type KohlbergStage } from "@/shared/config/kohlberg-stages";
+import { getValidacionStatus, toggleValidacion } from "@/firebase/queries";
+import { trackMetric } from "@/shared/lib/track-metric";
+import { useAuthContext } from "@/shared/providers/AuthProvider";
 
 interface Cita {
   texto: string;
@@ -10,6 +13,7 @@ interface Cita {
 }
 
 interface FuenteCardProps {
+  evaluacionId: string;
   estadio: number;
   titulo: string;
   url?: string;
@@ -19,7 +23,9 @@ interface FuenteCardProps {
   justificacion: string;
   citas: Cita[];
   imagen?: string;
+  validacionesCiudadanas?: number;
   onExpand?: () => void;
+  onRequestAuth?: () => void;
 }
 
 const ZONE_STYLES = {
@@ -65,6 +71,7 @@ function getFavicon(url?: string): string | null {
 }
 
 export default function FuenteCard({
+  evaluacionId,
   estadio,
   titulo,
   url,
@@ -74,9 +81,34 @@ export default function FuenteCard({
   justificacion,
   citas,
   imagen,
+  validacionesCiudadanas = 0,
   onExpand,
+  onRequestAuth,
 }: FuenteCardProps) {
   const [expanded, setExpanded] = useState(false);
+  const [validated, setValidated] = useState(false);
+  const [validCount, setValidCount] = useState(validacionesCiudadanas);
+  const [statusLoaded, setStatusLoaded] = useState(false);
+  const { user } = useAuthContext();
+
+  // Lazy load: solo consultar estado de validación al expandir
+  useEffect(() => {
+    if (expanded && user && !statusLoaded) {
+      getValidacionStatus(user.uid, evaluacionId).then((v) => {
+        setValidated(v);
+        setStatusLoaded(true);
+      });
+    }
+  }, [expanded, user, evaluacionId, statusLoaded]);
+
+  async function handleValidate(e: React.MouseEvent) {
+    e.stopPropagation();
+    if (!user) { onRequestAuth?.(); return; }
+    const nowValidated = await toggleValidacion(user.uid, evaluacionId);
+    setValidated(nowValidated);
+    setValidCount((c) => c + (nowValidated ? 1 : -1));
+    trackMetric(nowValidated ? "validaciones_dadas" : "validaciones_quitadas");
+  }
   const stage = KOHLBERG_STAGES[estadio as KohlbergStage];
   const color = stage?.color ?? "#6B7280";
   const zone = getZoneStyle(estadio);
@@ -184,17 +216,35 @@ export default function FuenteCard({
             </div>
           )}
 
-          {url && (
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs text-blue-400 hover:text-blue-300 transition-colors"
-              onClick={(e) => e.stopPropagation()}
+          {/* Actions row: source link + validate button */}
+          <div className="flex items-center justify-between">
+            {url && (
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs text-blue-400 hover:text-blue-300 transition-colors"
+                onClick={(e) => e.stopPropagation()}
+              >
+                Ver fuente original &rarr;
+              </a>
+            )}
+            <button
+              type="button"
+              onClick={handleValidate}
+              className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors ${
+                validated
+                  ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
+                  : "border-zinc-700 text-zinc-400 hover:bg-zinc-800 hover:text-white"
+              }`}
             >
-              Ver fuente original &rarr;
-            </a>
-          )}
+              <svg className={`h-3.5 w-3.5 ${validated ? "fill-emerald-400" : "fill-none"}`} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+              {validated ? "Validado" : "Validar análisis"}
+              {validCount > 0 && <span className="tabular-nums">({validCount})</span>}
+            </button>
+          </div>
         </div>
       )}
     </div>

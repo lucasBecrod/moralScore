@@ -12,6 +12,7 @@ interface Evaluacion {
   confianza: "alta" | "media" | "baja";
   justificacion: string;
   citas: Cita[];
+  validacionesCiudadanas?: number;
   fuente: {
     titulo: string;
     url?: string;
@@ -24,9 +25,10 @@ interface Evaluacion {
 interface HistorialEvaluacionesProps {
   evaluaciones: Evaluacion[];
   onFuenteExpanded?: () => void;
+  onRequestAuth?: () => void;
 }
 
-export default function HistorialEvaluaciones({ evaluaciones, onFuenteExpanded }: HistorialEvaluacionesProps) {
+export default function HistorialEvaluaciones({ evaluaciones, onFuenteExpanded, onRequestAuth }: HistorialEvaluacionesProps) {
   return (
     <section>
       <h2 className="text-lg font-semibold text-zinc-100 mb-4">
@@ -41,6 +43,7 @@ export default function HistorialEvaluaciones({ evaluaciones, onFuenteExpanded }
           {evaluaciones.map((ev) => (
             <FuenteCard
               key={ev.id}
+              evaluacionId={ev.id}
               estadio={ev.estadio}
               titulo={ev.fuente.titulo}
               url={ev.fuente.url}
@@ -50,7 +53,9 @@ export default function HistorialEvaluaciones({ evaluaciones, onFuenteExpanded }
               justificacion={ev.justificacion}
               citas={ev.citas}
               imagen={ev.fuente.imagen}
+              validacionesCiudadanas={ev.validacionesCiudadanas}
               onExpand={onFuenteExpanded}
+              onRequestAuth={onRequestAuth}
             />
           ))}
         </div>

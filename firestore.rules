@@ -19,10 +19,13 @@ service cloud.firestore {
       allow delete: if false;
     }
 
-    // Evaluaciones: lectura publica, escritura solo admin/scripts
+    // Evaluaciones: lectura publica, creacion solo admin/scripts, update de validacionesCiudadanas autenticado
     match /evaluaciones/{evaluacionId} {
       allow read: if true;
-      allow write: if false;
+      allow create: if false;
+      allow update: if request.auth != null
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(["validacionesCiudadanas"]);
+      allow delete: if false;
     }
 
     // Candidaturas: lectura publica, escritura solo autenticados
@@ -38,12 +41,12 @@ service cloud.firestore {
       allow write: if false;
     }
 
-    // Likes: lectura publica, create/delete solo el propio usuario
-    match /likes/{likeId} {
+    // Validaciones ciudadanas: create/delete solo el propio usuario
+    match /validaciones/{validacionId} {
       allow read: if true;
       allow create: if request.auth != null
         && request.resource.data.userId == request.auth.uid
-        && likeId.matches(request.auth.uid + '_.*');
+        && validacionId.matches(request.auth.uid + '_.*');
       allow delete: if request.auth != null
         && resource.data.userId == request.auth.uid;
       allow update: if false;
