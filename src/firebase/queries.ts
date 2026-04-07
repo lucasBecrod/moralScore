@@ -5,6 +5,7 @@ import {
   getDocs,
   addDoc,
   setDoc,
+  updateDoc,
   query,
   where,
   orderBy,
@@ -117,4 +118,37 @@ export async function getEvaluacionesByEntidad(
   return snap.docs
     .map((d) => ({ id: d.id, ...d.data() }) as Evaluacion)
     .sort((a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));
+}
+
+// --- Reconciliación ---
+
+/** Recalcula scoreActual y totalEvaluaciones para una entidad */
+export async function reconcileEntidad(entidadId: string): Promise<void> {
+  if (!isFirebaseConfigured()) return;
+
+  const evals = await getEvaluacionesByEntidad(entidadId);
+  const total = evals.length;
+  const score = total > 0
+    ? Math.round((evals.reduce((sum, e) => sum + e.estadio, 0) / total) * 10) / 10
+    : null;
+
+  await updateDoc(doc(db, "entidades", entidadId), {
+    totalEvaluaciones: total,
+    scoreActual: score,
+  });
+}
+
+/** Recalcula scoreActual y totalEvaluaciones para TODAS las entidades */
+export async function reconcileAll(): Promise<{ updated: number }> {
+  if (!isFirebaseConfigured()) return { updated: 0 };
+
+  const entidades = await getEntidades();
+  let updated = 0;
+
+  for (const entidad of entidades) {
+    await reconcileEntidad(entidad.id);
+    updated++;
+  }
+
+  return { updated };
 }

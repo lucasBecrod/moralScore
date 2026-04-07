@@ -75,8 +75,9 @@ src/firebase/      — client SDK + queries
 ## Comandos
 
 ```
-pnpm dev                              # desarrollo
-pnpm build                            # build producción
-npx tsx scripts/seed-candidatos.ts     # seed/actualizar candidatos
-npx tsx scripts/cache-images.ts        # descargar fotos del JNE
+pnpm dev                                                    # desarrollo
+pnpm build                                                  # build producción
+npx tsx scripts/seed-candidatos.ts                          # seed/actualizar candidatos
+npx tsx scripts/cache-images.ts                             # descargar fotos del JNE
+npx tsx --env-file=.env.local scripts/reconcile-scores.ts   # reconciliar scores (CORRER DESPUÉS DE CADA SEED)
 ```
