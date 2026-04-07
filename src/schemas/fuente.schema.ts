@@ -1,6 +1,6 @@
 import { z } from "zod/v4";
 
-export const FuenteTipo = z.enum(["youtube", "articulo", "entrevista", "debate", "mitin", "conferencia"]);
+export const FuenteTipo = z.enum(["youtube", "articulo", "entrevista", "debate", "mitin", "conferencia", "columna"]);
 export type FuenteTipo = z.infer<typeof FuenteTipo>;
 
 export const FuenteEstado = z.enum(["pendiente", "aprobada", "rechazada", "evaluada"]);
@@ -12,7 +12,7 @@ export const FuenteSchema = z.object({
   tipo: FuenteTipo.describe("Tipo de contenido"),
   titulo: z.string().describe("Título de la fuente para mostrar"),
   medio: z.string().optional().describe("Medio de comunicación (ej: RPP, Canal N)"),
-  fechaFuente: z.string().optional().describe("Fecha del contenido original"),
+  fechaEvento: z.string().describe("Fecha del acto/declaración evaluado (ISO 8601)"),
   entidadId: z.string().describe("FK a la entidad evaluada"),
   estado: FuenteEstado.describe("Estado en el pipeline de revisión"),
   calidadIA: z

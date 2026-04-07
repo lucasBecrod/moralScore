@@ -5,9 +5,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 25/03 — Fujimori vs Nieto vs Vizcarra",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-25",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "keiko-sofia-fujimori-higuchi-2026-03-31-el-comercio",
@@ -15,9 +15,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 31/03 — Fujimori vs López Aliaga vs Pérez Tello",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-31",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "keiko-sofia-fujimori-higuchi-2026-03-25-la-republica",
@@ -25,9 +25,9 @@
     "tipo": "debate",
     "titulo": "\"Las leyes son papeles, el fujimorismo no ha gobernado\"",
     "medio": "La República",
-    "fechaFuente": "2026-03-25",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "keiko-sofia-fujimori-higuchi-2026-03-31-rpp",
@@ -35,9 +35,9 @@
     "tipo": "debate",
     "titulo": "Cruces entre Fujimori, Guevara y Sánchez",
     "medio": "RPP",
-    "fechaFuente": "2026-03-31",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "rafael-bernardo-lopez-aliaga-cazorla-2026-03-23-el-comercio",
@@ -45,9 +45,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 23/03 — López Aliaga primera fecha",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-23",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "rafael-bernardo-lopez-aliaga-cazorla-2026-03-31-el-comercio",
@@ -55,9 +55,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 31/03 — López Aliaga propone 6 ministerios",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-31",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "rafael-bernardo-lopez-aliaga-cazorla-2026-04-01-la-republica",
@@ -65,9 +65,9 @@
     "tipo": "entrevista",
     "titulo": "López Aliaga amenaza contra jefe de la ONPE",
     "medio": "La República",
-    "fechaFuente": "2026-04-01",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "george-patrick-forsyth-sommer-2026-03-30-el-comercio",
@@ -75,9 +75,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 30/03 — Forsyth sobre educación e infraestructura",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-30",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "george-patrick-forsyth-sommer-2026-03-24-el-comercio",
@@ -85,9 +85,9 @@
     "tipo": "debate",
     "titulo": "Forsyth propone \"jurado popular\" anticorrupción",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-24",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "george-patrick-forsyth-sommer-2026-03-23-rpp",
@@ -95,9 +95,9 @@
     "tipo": "debate",
     "titulo": "Forsyth: control militar de penales desde el primer día",
     "medio": "RPP",
-    "fechaFuente": "2026-03-23",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "cesar-acuna-peralta-2026-03-23-el-comercio",
@@ -105,9 +105,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 23/03 — Acuña primera fecha",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-23",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "cesar-acuna-peralta-2026-04-01-la-republica",
@@ -115,9 +115,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 01/04 — Acuña vs López Chau vs Nieto (última jornada)",
     "medio": "La República",
-    "fechaFuente": "2026-04-01",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "jorge-nieto-montesinos-2026-03-25-el-comercio",
@@ -125,9 +125,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 25/03 — Nieto vs Fujimori vs Vizcarra",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-25",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "jorge-nieto-montesinos-2026-04-01-la-republica",
@@ -135,9 +135,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 01/04 — Nieto vs Acuña vs López Chau",
     "medio": "La República",
-    "fechaFuente": "2026-04-01",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "pablo-alfonso-lopez-chau-nava-2026-04-01-la-republica",
@@ -145,9 +145,9 @@
     "tipo": "debate",
     "titulo": "Debate JNE 01/04 — López Chau vs Acuña vs Nieto",
     "medio": "La República",
-    "fechaFuente": "2026-04-01",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "aprobada"
+    "estado": "aprobada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "fuente-keiko-tc-cocteles",
@@ -155,9 +155,9 @@
     "tipo": "articulo",
     "titulo": "Ojo Público: Es falso que el TC absolvió a Keiko del caso Cócteles",
     "medio": "Ojo Público",
-    "fechaFuente": "2025-10-30",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-10-30"
   },
   {
     "id": "fuente-rla-gestion-lima",
@@ -165,9 +165,9 @@
     "tipo": "articulo",
     "titulo": "López Aliaga dejaría alcaldía sin cumplir 25 promesas",
     "medio": "La República",
-    "fechaFuente": "2025-10-12",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-10-12"
   },
   {
     "id": "fuente-rla-endeudamiento-mml",
@@ -175,9 +175,9 @@
     "tipo": "articulo",
     "titulo": "López Aliaga investigado por endeudamiento de S/4 mil millones en MML",
     "medio": "La República",
-    "fechaFuente": "2026-03-22",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-22"
   },
   {
     "id": "fuente-forsyth-renuncia-victoria",
@@ -185,9 +185,9 @@
     "tipo": "entrevista",
     "titulo": "Forsyth: 'Podía ser 10 años alcalde y no cambiarla más'",
     "medio": "El Comercio",
-    "fechaFuente": "2021-02-01",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2021-02-01"
   },
   {
     "id": "fuente-acuna-plagio-tesis",
@@ -195,9 +195,9 @@
     "tipo": "entrevista",
     "titulo": "Acuña: 'La originalidad de mi tesis la demostró la Comisión Jurídica'",
     "medio": "RPP",
-    "fechaFuente": "2020-01-15",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2020-01-15"
   },
   {
     "id": "fuente-acuna-equipo-redaccion",
@@ -205,9 +205,9 @@
     "tipo": "entrevista",
     "titulo": "Acuña: 'Tuve un equipo de redacción' para mi tesis",
     "medio": "El Comercio",
-    "fechaFuente": "2019-08-01",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2019-08-01"
   },
   {
     "id": "fuente-lopez-chau-5abril",
@@ -215,9 +215,9 @@
     "tipo": "articulo",
     "titulo": "López Chau: 'El fujimorismo quebró la democracia e inició 8 años de dictadura'",
     "medio": "La República",
-    "fechaFuente": "2026-04-05",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-05"
   },
   {
     "id": "fuente-nieto-seguridad-impunidad",
@@ -225,9 +225,9 @@
     "tipo": "debate",
     "titulo": "Nieto: 'Lo principal es derrotar la coalición por la impunidad'",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-25",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-keiko-reinfo",
@@ -235,9 +235,9 @@
     "tipo": "entrevista",
     "titulo": "Keiko sobre Reinfo: 'hay que escuchar a los mineros pequeños'",
     "medio": "RPP",
-    "fechaFuente": "2026-03-23",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-keiko-rechazo",
@@ -245,9 +245,9 @@
     "tipo": "entrevista",
     "titulo": "Keiko reconoce su alto rechazo ciudadano",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-15",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-rla-corte-idh",
@@ -255,9 +255,9 @@
     "tipo": "entrevista",
     "titulo": "López Aliaga: retiro de Corte IDH y jueces sin rostro",
     "medio": "El Comercio",
-    "fechaFuente": "2026-02-01",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-01"
   },
   {
     "id": "f-rla-carceles-selva",
@@ -265,9 +265,9 @@
     "tipo": "articulo",
     "titulo": "López Aliaga miente sobre serpientes como guardianes de cárceles",
     "medio": "La República",
-    "fechaFuente": "2026-03-23",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-forsyth-educacion-debate",
@@ -275,9 +275,9 @@
     "tipo": "debate",
     "titulo": "Forsyth: reparar 10 mil colegios y Starlink para escuelas",
     "medio": "RPP",
-    "fechaFuente": "2026-03-30",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-forsyth-energia",
@@ -285,9 +285,9 @@
     "tipo": "debate",
     "titulo": "Forsyth: 'Si no diversificamos la matriz energética, entraremos en crisis'",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-30",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-acuna-procompite",
@@ -295,9 +295,9 @@
     "tipo": "articulo",
     "titulo": "Anulan concursos Procompite de Acuña por cobros ilegales (S/58M)",
     "medio": "RPP",
-    "fechaFuente": "2025-08-10",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-08-10"
   },
   {
     "id": "f-acuna-contratos",
@@ -305,9 +305,9 @@
     "tipo": "articulo",
     "titulo": "Acuña firmó contratos por S/315M a empresaria denunciada por estafa",
     "medio": "La República",
-    "fechaFuente": "2025-07-31",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-07-31"
   },
   {
     "id": "f-nieto-salud-extorsion",
@@ -315,9 +315,9 @@
     "tipo": "entrevista",
     "titulo": "Nieto: sistema único de salud + unidad policial anti-extorsión",
     "medio": "RPP",
-    "fechaFuente": "2026-03-10",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-nieto-criminalidad",
@@ -325,9 +325,9 @@
     "tipo": "entrevista",
     "titulo": "Nieto: 'No damos la respuesta adecuada para detener la criminalidad'",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-05",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-05"
   },
   {
     "id": "f-nieto-congreso-electorales",
@@ -335,9 +335,9 @@
     "tipo": "entrevista",
     "titulo": "Nieto: 'El Congreso quiere apropiarse de los organismos electorales'",
     "medio": "RPP",
-    "fechaFuente": "2024-06-01",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2024-06-01"
   },
   {
     "id": "f-lopez-chau-anticorrupcion",
@@ -345,9 +345,9 @@
     "tipo": "debate",
     "titulo": "López Chau: sistema integral anticorrupción autónomo",
     "medio": "RPP",
-    "fechaFuente": "2026-03-23",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-lopez-chau-dcho-intl",
@@ -355,9 +355,9 @@
     "tipo": "entrevista",
     "titulo": "López Chau defiende derecho internacional vs acciones militares de EEUU",
     "medio": "RPP",
-    "fechaFuente": "2026-04-03",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-03"
   },
   {
     "id": "f-lopez-chau-gas",
@@ -365,9 +365,9 @@
     "tipo": "debate",
     "titulo": "López Chau: masificación del gas con tarifa única",
     "medio": "El Comercio",
-    "fechaFuente": "2026-04-01",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-keiko-disculpa-saavedra",
@@ -375,9 +375,9 @@
     "tipo": "entrevista",
     "titulo": "Keiko: 'Tengo que pedir disculpas a Saavedra y Zavala'",
     "medio": "RPP",
-    "fechaFuente": "2021-05-15",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2021-05-15"
   },
   {
     "id": "f-keiko-energia-ministro",
@@ -385,9 +385,9 @@
     "tipo": "articulo",
     "titulo": "Keiko sobre ministro de Energía: 'no debe ejercer el cargo'",
     "medio": "La República",
-    "fechaFuente": "2026-03-19",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-19"
   },
   {
     "id": "f-rla-potencia-mundial",
@@ -395,9 +395,9 @@
     "tipo": "articulo",
     "titulo": "López Aliaga: de 'Lima potencia mundial' a 'Perú potencia turística'",
     "medio": "La República",
-    "fechaFuente": "2026-02-24",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-24"
   },
   {
     "id": "f-rla-neutralidad",
@@ -405,9 +405,9 @@
     "tipo": "articulo",
     "titulo": "López Aliaga cerró gestión con investigación por vulnerar neutralidad",
     "medio": "RPP",
-    "fechaFuente": "2025-12-01",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-12-01"
   },
   {
     "id": "f-forsyth-chatgpt-plan",
@@ -415,9 +415,9 @@
     "tipo": "entrevista",
     "titulo": "ChatGPT cuestiona plan de Forsyth: 'No está bien elaborado'",
     "medio": "La República",
-    "fechaFuente": "2026-02-09",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-09"
   },
   {
     "id": "f-forsyth-regiones-congreso",
@@ -425,9 +425,9 @@
     "tipo": "entrevista",
     "titulo": "Forsyth: gobernar desde regiones, cuestiona al Congreso",
     "medio": "La República",
-    "fechaFuente": "2026-03-14",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-14"
   },
   {
     "id": "f-acuna-vallejo-baja",
@@ -435,9 +435,9 @@
     "tipo": "entrevista",
     "titulo": "Acuña bromea: 'La región está como la Vallejo, en baja'",
     "medio": "RPP",
-    "fechaFuente": "2024-08-25",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2024-08-25"
   },
   {
     "id": "f-acuna-olivera-difamacion",
@@ -445,9 +445,9 @@
     "tipo": "debate",
     "titulo": "Acuña rechaza acusaciones de Olivera, anuncia denuncia",
     "medio": "RPP",
-    "fechaFuente": "2026-03-23",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-acuna-china-viaje",
@@ -455,9 +455,9 @@
     "tipo": "entrevista",
     "titulo": "Acuña: 'Fui invitado a China como gobernador, no como rector'",
     "medio": "El Comercio",
-    "fechaFuente": "2025-02-01",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-02-01"
   },
   {
     "id": "f-nieto-villaran-defensa",
@@ -465,9 +465,9 @@
     "tipo": "entrevista",
     "titulo": "Nieto: 'Las acusaciones son falsas en el caso OAS'",
     "medio": "La República",
-    "fechaFuente": "2023-06-09",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2023-06-09"
   },
   {
     "id": "f-nieto-calumnia-castro",
@@ -475,9 +475,9 @@
     "tipo": "entrevista",
     "titulo": "Nieto: 'Lo que señala Castro es una calumnia'",
     "medio": "RPP",
-    "fechaFuente": "2020-07-14",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2020-07-14"
   },
   {
     "id": "f-lopez-chau-formato-debate",
@@ -485,9 +485,9 @@
     "tipo": "entrevista",
     "titulo": "López Chau cuestiona formato de debates del JNE",
     "medio": "El Comercio",
-    "fechaFuente": "2026-04-02",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-lopez-chau-rector-mistica",
@@ -495,9 +495,9 @@
     "tipo": "entrevista",
     "titulo": "López Chau: 'Llegué a ser rector sin plata, creo en la mística'",
     "medio": "Ojo Público",
-    "fechaFuente": "2026-03-01",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-01"
   },
   {
     "id": "f-keiko-autoritarismo-padre",
@@ -505,9 +505,9 @@
     "tipo": "entrevista",
     "titulo": "Keiko: 'Dictadura no, pero por momentos fue un gobierno autoritario'",
     "medio": "El Comercio",
-    "fechaFuente": "2021-04-01",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2021-04-01"
   },
   {
     "id": "f-keiko-perdon-confrontacion",
@@ -515,9 +515,9 @@
     "tipo": "entrevista",
     "titulo": "Keiko pide perdón a padre, hermano y fujimoristas por confrontación",
     "medio": "El Comercio",
-    "fechaFuente": "2021-05-01",
     "entidadId": "keiko-sofia-fujimori-higuchi",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2021-05-01"
   },
   {
     "id": "f-rla-dni-fetos",
@@ -525,9 +525,9 @@
     "tipo": "articulo",
     "titulo": "López Aliaga: DNI para no nacidos 'son ciudadanos desde el vientre'",
     "medio": "La República",
-    "fechaFuente": "2026-02-01",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-01"
   },
   {
     "id": "f-rla-genero-exterminar",
@@ -535,9 +535,9 @@
     "tipo": "entrevista",
     "titulo": "López Aliaga: 'La doctrina de género va a ser exterminada'",
     "medio": "El Comercio",
-    "fechaFuente": "2021-03-01",
     "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2021-03-01"
   },
   {
     "id": "f-forsyth-patricia-li",
@@ -545,9 +545,9 @@
     "tipo": "entrevista",
     "titulo": "Forsyth: 'Patricia Li no tendrá función en el gobierno'",
     "medio": "La República",
-    "fechaFuente": "2026-03-28",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-28"
   },
   {
     "id": "f-forsyth-keiko-saavedra",
@@ -555,9 +555,9 @@
     "tipo": "debate",
     "titulo": "Forsyth: 'No permitiré que el Congreso interfiera en educación como Keiko'",
     "medio": "La República",
-    "fechaFuente": "2026-03-30",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-forsyth-corrupcion-investigacion",
@@ -565,9 +565,9 @@
     "tipo": "articulo",
     "titulo": "PJ amplía investigación contra Forsyth por presunta corrupción",
     "medio": "El Comercio",
-    "fechaFuente": "2026-02-01",
     "entidadId": "george-patrick-forsyth-sommer",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-01"
   },
   {
     "id": "f-acuna-campana-financiamiento",
@@ -575,9 +575,9 @@
     "tipo": "articulo",
     "titulo": "Es falso que campaña de Acuña sea financiada solo por él",
     "medio": "RPP",
-    "fechaFuente": "2026-03-20",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-acuna-contraloria-s116m",
@@ -585,9 +585,9 @@
     "tipo": "articulo",
     "titulo": "Contraloría acusa a 6 exfuncionarios de Acuña por S/116 millones",
     "medio": "La República",
-    "fechaFuente": "2026-03-20",
     "entidadId": "cesar-acuna-peralta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-nieto-democracia-congreso",
@@ -595,9 +595,9 @@
     "tipo": "entrevista",
     "titulo": "Nieto: 'Un gobierno con poder necesita mayoría del Congreso'",
     "medio": "La República",
-    "fechaFuente": "2026-02-17",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-17"
   },
   {
     "id": "f-nieto-nino-costero",
@@ -605,9 +605,9 @@
     "tipo": "articulo",
     "titulo": "Nieto: coordinó respuesta al Niño Costero como ministro de Defensa",
     "medio": "La República",
-    "fechaFuente": "2026-03-04",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-04"
   },
   {
     "id": "f-nieto-fujimori-rechaza",
@@ -615,9 +615,9 @@
     "tipo": "entrevista",
     "titulo": "Nieto rechaza vínculos con favores del gobierno de Fujimori",
     "medio": "RPP",
-    "fechaFuente": "2026-03-25",
     "entidadId": "jorge-nieto-montesinos",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-lopez-chau-descentralizacion",
@@ -625,9 +625,9 @@
     "tipo": "conferencia",
     "titulo": "López Chau expone propuestas en Juliaca: descentralización profunda",
     "medio": "RPP",
-    "fechaFuente": "2026-01-15",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-01-15"
   },
   {
     "id": "f-lopez-chau-economia-mercado",
@@ -635,9 +635,9 @@
     "tipo": "entrevista",
     "titulo": "López Chau: 'economía nacional de mercado' como modelo",
     "medio": "La República",
-    "fechaFuente": "2025-05-12",
     "entidadId": "pablo-alfonso-lopez-chau-nava",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-05-12"
   },
   {
     "id": "f-oleada1-ronald-darwin-atencio-sotomayor",
@@ -645,9 +645,9 @@
     "tipo": "debate",
     "titulo": "Atencio: critica al neoliberalismo y defensa de mineros artesanales",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "entidadId": "ronald-darwin-atencio-sotomayor",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada1-jose-daniel-williams-zapata",
@@ -655,9 +655,9 @@
     "tipo": "debate",
     "titulo": "Williams propone estado de guerra contra la delincuencia",
     "medio": "Gestion",
-    "fechaFuente": "2026-03-23",
     "entidadId": "jose-daniel-williams-zapata",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada1-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -665,9 +665,9 @@
     "tipo": "debate",
     "titulo": "Paz de la Barra: corrupto y criminal no tiene debido proceso",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada1-fiorella-giannina-molinelli-aristondo",
@@ -675,9 +675,9 @@
     "tipo": "debate",
     "titulo": "Molinelli confronta a Sanchez sobre Cerron",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "entidadId": "fiorella-giannina-molinelli-aristondo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada1-roberto-helbert-sanchez-palomino",
@@ -685,9 +685,9 @@
     "tipo": "debate",
     "titulo": "Sanchez pide nueva Constitucion y defiende a Castillo",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "entidadId": "roberto-helbert-sanchez-palomino",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada1-rafael-jorge-belaunde-llosa",
@@ -695,9 +695,9 @@
     "tipo": "debate",
     "titulo": "Belaunde: 50,000 becas con canon minero, inversion privada",
     "medio": "Gestion",
-    "fechaFuente": "2026-03-30",
     "entidadId": "rafael-jorge-belaunde-llosa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada1-pitter-enrique-valderrama-pena",
@@ -705,9 +705,9 @@
     "tipo": "debate",
     "titulo": "Valderrama (APRA): cadena perpetua para funcionarios corruptos",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-26",
     "entidadId": "pitter-enrique-valderrama-pena",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-26"
   },
   {
     "id": "f-oleada1-ricardo-pablo-belmont-cassinelli",
@@ -715,9 +715,9 @@
     "tipo": "debate",
     "titulo": "Belmont: educacion como prioridad y ultima batalla politica",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-31",
     "entidadId": "ricardo-pablo-belmont-cassinelli",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada1-charlie-carrasco-salazar",
@@ -725,9 +725,9 @@
     "tipo": "debate",
     "titulo": "Carrasco: gobernar con principios biblicos, expulsar migrantes en 48h",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-24",
     "entidadId": "charlie-carrasco-salazar",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "f-oleada1-alex-gonzales-castillo",
@@ -735,9 +735,9 @@
     "tipo": "debate",
     "titulo": "Gonzales increpa a Lopez Aliaga por inseguridad en Lima",
     "medio": "La Republica",
-    "fechaFuente": "2026-03-23",
     "entidadId": "alex-gonzales-castillo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada1-armando-joaquin-masse-fernandez",
@@ -745,9 +745,9 @@
     "tipo": "articulo",
     "titulo": "Masse: conciertos gratuitos impulsados por el Estado",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-02",
     "entidadId": "armando-joaquin-masse-fernandez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada1-luis-fernando-olivera-vega",
@@ -755,9 +755,9 @@
     "tipo": "debate",
     "titulo": "Olivera: polemica frase descalificadora en debate",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-31",
     "entidadId": "luis-fernando-olivera-vega",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada1-mesias-antonio-guevara-amasifuen",
@@ -765,9 +765,9 @@
     "tipo": "entrevista",
     "titulo": "Guevara: si el Congreso es obstaculo, no tendre reparos en cerrarlo",
     "medio": "Ojo Publico",
-    "fechaFuente": "2026-03-18",
     "entidadId": "mesias-antonio-guevara-amasifuen",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-18"
   },
   {
     "id": "f-oleada1-carlos-gonzalo-alvarez-loayza",
@@ -775,9 +775,9 @@
     "tipo": "entrevista",
     "titulo": "Alvarez: recuperar la dignidad de la institucion presidencial",
     "medio": "El Comercio",
-    "fechaFuente": "2026-04-01",
     "entidadId": "carlos-gonzalo-alvarez-loayza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada1-herbert-caller-gutierrez",
@@ -785,9 +785,9 @@
     "tipo": "debate",
     "titulo": "Caller: FFAA al mando de la Policia Nacional",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-25",
     "entidadId": "herbert-caller-gutierrez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada1-yonhy-lescano-ancieta",
@@ -795,9 +795,9 @@
     "tipo": "debate",
     "titulo": "Lescano llama telonero de Fujimori a Carlos Alvarez",
     "medio": "La Republica",
-    "fechaFuente": "2026-03-30",
     "entidadId": "yonhy-lescano-ancieta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada1-wolfgang-mario-grozo-costa",
@@ -805,9 +805,9 @@
     "tipo": "entrevista",
     "titulo": "Grozo: el problema no es que faltan leyes, sino que sobran malas leyes",
     "medio": "La Republica",
-    "fechaFuente": "2026-03-18",
     "entidadId": "wolfgang-mario-grozo-costa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-18"
   },
   {
     "id": "f-oleada1-vladimir-roy-cerron-rojas",
@@ -815,9 +815,9 @@
     "tipo": "articulo",
     "titulo": "Cerron: ganar elecciones desde clandestinidad, disciplinar golpistas",
     "medio": "Infobae",
-    "fechaFuente": "2025-12-07",
     "entidadId": "vladimir-roy-cerron-rojas",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-12-07"
   },
   {
     "id": "f-oleada1-francisco-ernesto-diez-canseco-tavara",
@@ -825,9 +825,9 @@
     "tipo": "entrevista",
     "titulo": "Diez-Canseco: crear Consejo Nacional de Moral Publica",
     "medio": "Andina",
-    "fechaFuente": "2026-03-10",
     "entidadId": "francisco-ernesto-diez-canseco-tavara",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-oleada1-mario-enrique-vizcarra-cornejo",
@@ -835,9 +835,9 @@
     "tipo": "debate",
     "titulo": "Vizcarra Cornejo: presos a la selva para que se arrepientan",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-26",
     "entidadId": "mario-enrique-vizcarra-cornejo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-26"
   },
   {
     "id": "f-oleada1-walter-gilmer-chirinos-purizaga",
@@ -845,9 +845,9 @@
     "tipo": "debate",
     "titulo": "Chirinos: estado de excepcion con control policial y militar",
     "medio": "Andina",
-    "fechaFuente": "2026-03-24",
     "entidadId": "walter-gilmer-chirinos-purizaga",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "f-oleada1-alfonso-carlos-espa-y-garces-alvear",
@@ -855,9 +855,9 @@
     "tipo": "debate",
     "titulo": "Espa: romper el pacto infame de corrupcion",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-30",
     "entidadId": "alfonso-carlos-espa-y-garces-alvear",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada1-carlos-ernesto-jaico-carranza",
@@ -865,9 +865,9 @@
     "tipo": "debate",
     "titulo": "Jaico: reforma policial total y muerte civil para corruptos",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-17",
     "entidadId": "carlos-ernesto-jaico-carranza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-17"
   },
   {
     "id": "f-oleada1-jose-leon-luna-galvez",
@@ -875,9 +875,9 @@
     "tipo": "debate",
     "titulo": "Luna Galvez: en 6 meses se acaba la extorsion y sicariato",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-17",
     "entidadId": "jose-leon-luna-galvez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-17"
   },
   {
     "id": "f-oleada1-maria-soledad-perez-tello-de-rodriguez",
@@ -885,9 +885,9 @@
     "tipo": "entrevista",
     "titulo": "Perez Tello: mi candidatura es un incidente, defiendo principios",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-23",
     "entidadId": "maria-soledad-perez-tello-de-rodriguez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada1-paul-davis-jaimes-blanco",
@@ -895,9 +895,9 @@
     "tipo": "entrevista",
     "titulo": "Jaimes: pena de muerte y salida de Corte IDH",
     "medio": "RPP",
-    "fechaFuente": "2026-03-25",
     "entidadId": "paul-davis-jaimes-blanco",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada1-antonio-ortiz-villano",
@@ -905,9 +905,9 @@
     "tipo": "debate",
     "titulo": "Ortiz Villano: Reactiva para todas las mypes",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-17",
     "entidadId": "antonio-ortiz-villano",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-17"
   },
   {
     "id": "f-oleada1-rosario-del-pilar-fernandez-bazan",
@@ -915,9 +915,9 @@
     "tipo": "entrevista",
     "titulo": "Fernandez admite que postula para autovacarse y dar poder a su hermano",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-09",
     "entidadId": "rosario-del-pilar-fernandez-bazan",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-09"
   },
   {
     "id": "f-oleada1-roberto-enrique-chiabra-leon",
@@ -925,9 +925,9 @@
     "tipo": "entrevista",
     "titulo": "Chiabra: Comando Conjunto contra criminalidad, rechaza pena de muerte",
     "medio": "RPP",
-    "fechaFuente": "2026-03-25",
     "entidadId": "roberto-enrique-chiabra-leon",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada2-ronald-darwin-atencio-sotomayor",
@@ -935,9 +935,9 @@
     "tipo": "debate",
     "titulo": "Atencio propone impuestos a grandes fortunas para financiar educacion",
     "medio": "RPP",
-    "fechaFuente": "2026-03-30",
     "entidadId": "ronald-darwin-atencio-sotomayor",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada2-jose-daniel-williams-zapata",
@@ -945,9 +945,9 @@
     "tipo": "debate",
     "titulo": "Williams plantea educacion rural con conectividad, becas y bonos a docentes",
     "medio": "Gestion",
-    "fechaFuente": "2026-04-01",
     "entidadId": "jose-daniel-williams-zapata",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada2-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -955,9 +955,9 @@
     "tipo": "debate",
     "titulo": "Paz de la Barra propone subvencion de S/1500 por seis meses ante desempleo",
     "medio": "Gestion",
-    "fechaFuente": "2026-03-30",
     "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada2-fiorella-giannina-molinelli-aristondo",
@@ -965,9 +965,9 @@
     "tipo": "debate",
     "titulo": "Molinelli propone incrementar sueldo de docentes y reforzar Senati",
     "medio": "Gestion",
-    "fechaFuente": "2026-03-30",
     "entidadId": "fiorella-giannina-molinelli-aristondo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada2-roberto-helbert-sanchez-palomino",
@@ -975,9 +975,9 @@
     "tipo": "articulo",
     "titulo": "Sanchez apuesta por ingreso libre a universidades y continuar agenda de Castillo",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-01",
     "entidadId": "roberto-helbert-sanchez-palomino",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada2-rafael-jorge-belaunde-llosa",
@@ -985,9 +985,9 @@
     "tipo": "entrevista",
     "titulo": "Belaunde: salirse de la Corte IDH es un disparate",
     "medio": "Ojo Publico",
-    "fechaFuente": "2026-03-15",
     "entidadId": "rafael-jorge-belaunde-llosa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada2-pitter-enrique-valderrama-pena",
@@ -995,9 +995,9 @@
     "tipo": "debate",
     "titulo": "Valderrama propone duplicar presupuesto de salud mental y psicologos en colegios",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-26",
     "entidadId": "pitter-enrique-valderrama-pena",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-26"
   },
   {
     "id": "f-oleada2-ricardo-pablo-belmont-cassinelli",
@@ -1005,9 +1005,9 @@
     "tipo": "articulo",
     "titulo": "Belmont: el candidato de las propuestas vagas — analisis fact-check",
     "medio": "Ojo Publico",
-    "fechaFuente": "2026-03-28",
     "entidadId": "ricardo-pablo-belmont-cassinelli",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-28"
   },
   {
     "id": "f-oleada2-charlie-carrasco-salazar",
@@ -1015,9 +1015,9 @@
     "tipo": "debate",
     "titulo": "Carrasco: servicio militar obligatorio, expulsion de extranjeros y eliminacion de ATU",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "entidadId": "charlie-carrasco-salazar",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada2-alex-gonzales-castillo",
@@ -1025,9 +1025,9 @@
     "tipo": "debate",
     "titulo": "Gonzales propone fusionar Ministerio de Interior con Defensa contra delincuencia",
     "medio": "Gestion",
-    "fechaFuente": "2026-03-23",
     "entidadId": "alex-gonzales-castillo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada2-armando-joaquin-masse-fernandez",
@@ -1035,9 +1035,9 @@
     "tipo": "entrevista",
     "titulo": "Masse propone sistema de gobierno federal para acercar el Estado a las regiones",
     "medio": "RPP",
-    "fechaFuente": "2026-03-15",
     "entidadId": "armando-joaquin-masse-fernandez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada2-luis-fernando-olivera-vega",
@@ -1045,9 +1045,9 @@
     "tipo": "debate",
     "titulo": "Olivera: Expulsare a todos los generales y coroneles comprometidos con el crimen",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-23",
     "entidadId": "luis-fernando-olivera-vega",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada2-mesias-antonio-guevara-amasifuen",
@@ -1055,9 +1055,9 @@
     "tipo": "debate",
     "titulo": "Guevara a Lopez Aliaga: Ha dejado endeudada a Lima por mas de S/4 mil millones",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-01",
     "entidadId": "mesias-antonio-guevara-amasifuen",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada2-carlos-gonzalo-alvarez-loayza",
@@ -1065,9 +1065,9 @@
     "tipo": "debate",
     "titulo": "Alvarez propone pena de muerte para sicarios en flagrancia",
     "medio": "RPP",
-    "fechaFuente": "2026-03-23",
     "entidadId": "carlos-gonzalo-alvarez-loayza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada2-herbert-caller-gutierrez",
@@ -1075,9 +1075,9 @@
     "tipo": "entrevista",
     "titulo": "Caller plantea trasladar cinco ministerios a regiones",
     "medio": "RPP",
-    "fechaFuente": "2026-03-10",
     "entidadId": "herbert-caller-gutierrez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-oleada2-yonhy-lescano-ancieta",
@@ -1085,9 +1085,9 @@
     "tipo": "debate",
     "titulo": "Lescano: Voy a comprar un satelite para internet gratuito a estudiantes y profesores",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-30",
     "entidadId": "yonhy-lescano-ancieta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada2-wolfgang-mario-grozo-costa",
@@ -1095,9 +1095,9 @@
     "tipo": "entrevista",
     "titulo": "Grozo: Los estados de emergencia no sirven para la lucha contra la criminalidad",
     "medio": "Ojo Publico",
-    "fechaFuente": "2026-03-20",
     "entidadId": "wolfgang-mario-grozo-costa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada2-vladimir-roy-cerron-rojas",
@@ -1105,9 +1105,9 @@
     "tipo": "entrevista",
     "titulo": "Cerron da entrevista desde clandestinidad: permanece en Peru, pide asamblea constituyente",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-28",
     "entidadId": "vladimir-roy-cerron-rojas",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-28"
   },
   {
     "id": "f-oleada2-francisco-ernesto-diez-canseco-tavara",
@@ -1115,9 +1115,9 @@
     "tipo": "debate",
     "titulo": "Diez Canseco propone plan Mano de Hierro para botar corruptos de Policia, PJ y fiscalia",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-24",
     "entidadId": "francisco-ernesto-diez-canseco-tavara",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "f-oleada2-mario-enrique-vizcarra-cornejo",
@@ -1125,9 +1125,9 @@
     "tipo": "debate",
     "titulo": "Vizcarra vs Chiabra: propuestas sobre empleo, Bono Emprendedor y meritocracia estatal",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-01",
     "entidadId": "mario-enrique-vizcarra-cornejo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada2-walter-gilmer-chirinos-purizaga",
@@ -1135,9 +1135,9 @@
     "tipo": "entrevista",
     "titulo": "Chirinos: modelo Bukele para combatir criminalidad con justicia",
     "medio": "RPP",
-    "fechaFuente": "2026-02-09",
     "entidadId": "walter-gilmer-chirinos-purizaga",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-09"
   },
   {
     "id": "f-oleada2-alfonso-carlos-espa-y-garces-alvear",
@@ -1145,9 +1145,9 @@
     "tipo": "debate",
     "titulo": "Espa: 6 penales de maxima seguridad sin visitas para cabecillas",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "entidadId": "alfonso-carlos-espa-y-garces-alvear",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada2-carlos-ernesto-jaico-carranza",
@@ -1155,9 +1155,9 @@
     "tipo": "debate",
     "titulo": "Jaico: escudo tributario para mypes y crecimiento 6-7%",
     "medio": "RPP",
-    "fechaFuente": "2026-04-02",
     "entidadId": "carlos-ernesto-jaico-carranza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada2-jose-leon-luna-galvez",
@@ -1165,9 +1165,9 @@
     "tipo": "debate",
     "titulo": "Luna Galvez: Estado asume 30% planilla joven, 100 mil empleos/ano",
     "medio": "RPP",
-    "fechaFuente": "2026-04-02",
     "entidadId": "jose-leon-luna-galvez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada2-maria-soledad-perez-tello-de-rodriguez",
@@ -1175,9 +1175,9 @@
     "tipo": "entrevista",
     "titulo": "Perez Tello: el Congreso se cargo la legislacion contra crimen organizado",
     "medio": "Ojo Publico",
-    "fechaFuente": "2025-03-23",
     "entidadId": "maria-soledad-perez-tello-de-rodriguez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-03-23"
   },
   {
     "id": "f-oleada2-paul-davis-jaimes-blanco",
@@ -1185,9 +1185,9 @@
     "tipo": "debate",
     "titulo": "Jaimes: delincuentes no merecen vivir, recompensa por capturas",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "entidadId": "paul-davis-jaimes-blanco",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada2-antonio-ortiz-villano",
@@ -1195,9 +1195,9 @@
     "tipo": "debate",
     "titulo": "Ortiz Villano: referendum para pena de muerte, cortar dinero al crimen",
     "medio": "RPP",
-    "fechaFuente": "2026-03-26",
     "entidadId": "antonio-ortiz-villano",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-26"
   },
   {
     "id": "f-oleada2-rosario-del-pilar-fernandez-bazan",
@@ -1205,9 +1205,9 @@
     "tipo": "debate",
     "titulo": "Fernandez: reforma sistema justicia, purga Contraloria, disolver camaras",
     "medio": "RPP",
-    "fechaFuente": "2026-03-25",
     "entidadId": "rosario-del-pilar-fernandez-bazan",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada2-roberto-enrique-chiabra-leon",
@@ -1215,9 +1215,9 @@
     "tipo": "debate",
     "titulo": "Chiabra: construccion y equipamiento educativo para cerrar brechas",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-01",
     "entidadId": "roberto-enrique-chiabra-leon",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada3-ronald-darwin-atencio-sotomayor",
@@ -1225,9 +1225,9 @@
     "tipo": "debate",
     "titulo": "Atencio: comando de 500 policias contra inseguridad ciudadana",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-17",
     "entidadId": "ronald-darwin-atencio-sotomayor",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-17"
   },
   {
     "id": "f-oleada3-jose-daniel-williams-zapata",
@@ -1235,9 +1235,9 @@
     "tipo": "articulo",
     "titulo": "Williams promete formalizar 1.3 millones de trabajadores: es viable?",
     "medio": "RPP",
-    "fechaFuente": "2026-04-02",
     "entidadId": "jose-daniel-williams-zapata",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada3-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -1245,9 +1245,9 @@
     "tipo": "entrevista",
     "titulo": "Paz de la Barra: referendum constitucional en 90 dias y estado de excepcion",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-10",
     "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-oleada3-fiorella-giannina-molinelli-aristondo",
@@ -1255,9 +1255,9 @@
     "tipo": "debate",
     "titulo": "Molinelli: modernizar 3 mil centros de salud en el primer ano",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-17",
     "entidadId": "fiorella-giannina-molinelli-aristondo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-17"
   },
   {
     "id": "f-oleada3-roberto-helbert-sanchez-palomino",
@@ -1265,9 +1265,9 @@
     "tipo": "entrevista",
     "titulo": "Sanchez: cadena perpetua para corruptos y FFAA en apoyo a seguridad",
     "medio": "La Republica",
-    "fechaFuente": "2026-03-18",
     "entidadId": "roberto-helbert-sanchez-palomino",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-18"
   },
   {
     "id": "f-oleada3-rafael-jorge-belaunde-llosa",
@@ -1275,9 +1275,9 @@
     "tipo": "entrevista",
     "titulo": "Belaunde: el Congreso ha sido un aliado de la extorsion y el sicariato",
     "medio": "RPP",
-    "fechaFuente": "2026-03-04",
     "entidadId": "rafael-jorge-belaunde-llosa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-04"
   },
   {
     "id": "f-oleada3-pitter-enrique-valderrama-pena",
@@ -1285,9 +1285,9 @@
     "tipo": "entrevista",
     "titulo": "APRA/Valderrama: Reactiva Peru 2.0, credito a mypes y trenes regionales",
     "medio": "Gestion",
-    "fechaFuente": "2026-03-15",
     "entidadId": "pitter-enrique-valderrama-pena",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada3-ricardo-pablo-belmont-cassinelli",
@@ -1295,9 +1295,9 @@
     "tipo": "entrevista",
     "titulo": "Belmont: jueces y fiscales elegidos por voto popular",
     "medio": "RPP",
-    "fechaFuente": "2026-03-09",
     "entidadId": "ricardo-pablo-belmont-cassinelli",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-09"
   },
   {
     "id": "f-oleada3-charlie-carrasco-salazar",
@@ -1305,9 +1305,9 @@
     "tipo": "debate",
     "titulo": "Carrasco: Fronteras Vivas, shock de inversion y Banco de Mypes",
     "medio": "RPP",
-    "fechaFuente": "2026-03-31",
     "entidadId": "charlie-carrasco-salazar",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada3-alex-gonzales-castillo",
@@ -1315,9 +1315,9 @@
     "tipo": "debate",
     "titulo": "Gonzales denuncia esclavitud laboral por tercerizacion",
     "medio": "RPP",
-    "fechaFuente": "2026-03-30",
     "entidadId": "alex-gonzales-castillo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada3-armando-joaquin-masse-fernandez",
@@ -1325,9 +1325,9 @@
     "tipo": "entrevista",
     "titulo": "Massé: impulsar crecimiento mediante industrialización",
     "medio": "Andina",
-    "fechaFuente": "2026-03-10",
     "entidadId": "armando-joaquin-masse-fernandez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-oleada3-luis-fernando-olivera-vega",
@@ -1335,9 +1335,9 @@
     "tipo": "entrevista",
     "titulo": "Olivera: revocatoria directa y Plan Patriota",
     "medio": "RPP",
-    "fechaFuente": "2026-03-05",
     "entidadId": "luis-fernando-olivera-vega",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-05"
   },
   {
     "id": "f-oleada3-mesias-antonio-guevara-amasifuen",
@@ -1345,9 +1345,9 @@
     "tipo": "debate",
     "titulo": "Guevara: Beca 18 y créditos para jóvenes indígenas",
     "medio": "Correo",
-    "fechaFuente": "2026-04-02",
     "entidadId": "mesias-antonio-guevara-amasifuen",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada3-carlos-gonzalo-alvarez-loayza",
@@ -1355,9 +1355,9 @@
     "tipo": "entrevista",
     "titulo": "Álvarez: seguridad-nutrición-educación como cadena causal",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-20",
     "entidadId": "carlos-gonzalo-alvarez-loayza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada3-herbert-caller-gutierrez",
@@ -1365,9 +1365,9 @@
     "tipo": "entrevista",
     "titulo": "Caller: revolución educativa con superaprendizaje",
     "medio": "Andina",
-    "fechaFuente": "2026-03-12",
     "entidadId": "herbert-caller-gutierrez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-12"
   },
   {
     "id": "f-oleada3-yonhy-lescano-ancieta",
@@ -1375,9 +1375,9 @@
     "tipo": "entrevista",
     "titulo": "Lescano: lo importante es la conducta de la gente",
     "medio": "Correo",
-    "fechaFuente": "2026-04-01",
     "entidadId": "yonhy-lescano-ancieta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada3-wolfgang-mario-grozo-costa",
@@ -1385,9 +1385,9 @@
     "tipo": "debate",
     "titulo": "Grozo: 3 megacárceles y sistema de inteligencia",
     "medio": "Gestión",
-    "fechaFuente": "2026-03-23",
     "entidadId": "wolfgang-mario-grozo-costa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada3-vladimir-roy-cerron-rojas",
@@ -1395,9 +1395,9 @@
     "tipo": "entrevista",
     "titulo": "Cerrón: Módulo 24 — capturar, juzgar, sentenciar en 24h",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-18",
     "entidadId": "vladimir-roy-cerron-rojas",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-18"
   },
   {
     "id": "f-oleada3-francisco-ernesto-diez-canseco-tavara",
@@ -1405,9 +1405,9 @@
     "tipo": "articulo",
     "titulo": "Diez-Canseco: reducir IGV a 16%, fusionar ministerios",
     "medio": "El Peruano",
-    "fechaFuente": "2026-04-03",
     "entidadId": "francisco-ernesto-diez-canseco-tavara",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-03"
   },
   {
     "id": "f-oleada3-mario-enrique-vizcarra-cornejo",
@@ -1415,9 +1415,9 @@
     "tipo": "debate",
     "titulo": "Vizcarra: ataque a Keiko y reforma constitucional",
     "medio": "Caretas",
-    "fechaFuente": "2026-04-01",
     "entidadId": "mario-enrique-vizcarra-cornejo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada3-walter-gilmer-chirinos-purizaga",
@@ -1425,9 +1425,9 @@
     "tipo": "debate",
     "titulo": "Chirinos: eliminar bicameralidad",
     "medio": "Correo",
-    "fechaFuente": "2026-03-30",
     "entidadId": "walter-gilmer-chirinos-purizaga",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada3-alfonso-carlos-espa-y-garces-alvear",
@@ -1435,9 +1435,9 @@
     "tipo": "debate",
     "titulo": "Espá: bono educativo S/7000",
     "medio": "Gestión",
-    "fechaFuente": "2026-03-30",
     "entidadId": "alfonso-carlos-espa-y-garces-alvear",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada3-carlos-ernesto-jaico-carranza",
@@ -1445,9 +1445,9 @@
     "tipo": "entrevista",
     "titulo": "Jaico: restablecer Guardia Civil y Republicana",
     "medio": "Andina",
-    "fechaFuente": "2026-03-22",
     "entidadId": "carlos-ernesto-jaico-carranza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-22"
   },
   {
     "id": "f-oleada3-jose-leon-luna-galvez",
@@ -1455,9 +1455,9 @@
     "tipo": "entrevista",
     "titulo": "Luna Gálvez: plan Urresti, limpiar PNP",
     "medio": "TVPerú",
-    "fechaFuente": "2026-02-27",
     "entidadId": "jose-leon-luna-galvez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-27"
   },
   {
     "id": "f-oleada3-maria-soledad-perez-tello-de-rodriguez",
@@ -1465,9 +1465,9 @@
     "tipo": "debate",
     "titulo": "Pérez Tello: Estado castiga al informal",
     "medio": "Caretas",
-    "fechaFuente": "2026-04-02",
     "entidadId": "maria-soledad-perez-tello-de-rodriguez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada3-paul-davis-jaimes-blanco",
@@ -1475,9 +1475,9 @@
     "tipo": "debate",
     "titulo": "Jaimes: zonas francas y exoneración 3 años",
     "medio": "Correo",
-    "fechaFuente": "2026-03-31",
     "entidadId": "paul-davis-jaimes-blanco",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada3-antonio-ortiz-villano",
@@ -1485,9 +1485,9 @@
     "tipo": "debate",
     "titulo": "Ortiz: seguimiento digital del gasto, Contraloría con dientes",
     "medio": "Correo",
-    "fechaFuente": "2026-04-01",
     "entidadId": "antonio-ortiz-villano",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada3-rosario-del-pilar-fernandez-bazan",
@@ -1495,9 +1495,9 @@
     "tipo": "debate",
     "titulo": "Fernández: bachilleratos automáticos, innovación 0.2% a 2%",
     "medio": "Correo",
-    "fechaFuente": "2026-04-01",
     "entidadId": "rosario-del-pilar-fernandez-bazan",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada3-roberto-enrique-chiabra-leon",
@@ -1505,9 +1505,9 @@
     "tipo": "debate",
     "titulo": "Chiabra: control médico anual por distritos",
     "medio": "Correo",
-    "fechaFuente": "2026-03-31",
     "entidadId": "roberto-enrique-chiabra-leon",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada4-ronald-darwin-atencio-sotomayor",
@@ -1515,9 +1515,9 @@
     "tipo": "articulo",
     "titulo": "Atencio condiciona actividad minera a licencia social y proteccion hidrica",
     "medio": "Caretas",
-    "fechaFuente": "2026-03-20",
     "entidadId": "ronald-darwin-atencio-sotomayor",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada4-jose-daniel-williams-zapata",
@@ -1525,9 +1525,9 @@
     "tipo": "debate",
     "titulo": "Williams: modernizar salud con telemedicina y bonos para medicos",
     "medio": "Correo",
-    "fechaFuente": "2026-04-01",
     "entidadId": "jose-daniel-williams-zapata",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada4-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -1535,9 +1535,9 @@
     "tipo": "debate",
     "titulo": "Paz de la Barra: descentralizar y desconcentrar en Lima absolutamente todo",
     "medio": "Correo",
-    "fechaFuente": "2026-03-30",
     "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada4-fiorella-giannina-molinelli-aristondo",
@@ -1545,9 +1545,9 @@
     "tipo": "entrevista",
     "titulo": "Molinelli: destrabe de inversiones y empleo formal",
     "medio": "Caretas",
-    "fechaFuente": "2026-03-25",
     "entidadId": "fiorella-giannina-molinelli-aristondo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada4-roberto-helbert-sanchez-palomino",
@@ -1555,9 +1555,9 @@
     "tipo": "entrevista",
     "titulo": "Sanchez ofrece en Puno apoyo a agricultura y ganaderia",
     "medio": "Andina",
-    "fechaFuente": "2026-04-03",
     "entidadId": "roberto-helbert-sanchez-palomino",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-03"
   },
   {
     "id": "f-oleada4-rafael-jorge-belaunde-llosa",
@@ -1565,9 +1565,9 @@
     "tipo": "entrevista",
     "titulo": "Belaunde: impulso a inversiones e infraestructura para crear empleo",
     "medio": "Andina",
-    "fechaFuente": "2026-04-02",
     "entidadId": "rafael-jorge-belaunde-llosa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada4-pitter-enrique-valderrama-pena",
@@ -1575,9 +1575,9 @@
     "tipo": "entrevista",
     "titulo": "Valderrama: creditos agrarios e inversion en educacion",
     "medio": "Andina",
-    "fechaFuente": "2026-03-28",
     "entidadId": "pitter-enrique-valderrama-pena",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-28"
   },
   {
     "id": "f-oleada4-ricardo-pablo-belmont-cassinelli",
@@ -1585,9 +1585,9 @@
     "tipo": "debate",
     "titulo": "Belmont destaca inversion privada y apoyo a Mypes",
     "medio": "Correo",
-    "fechaFuente": "2026-04-01",
     "entidadId": "ricardo-pablo-belmont-cassinelli",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada4-charlie-carrasco-salazar",
@@ -1595,9 +1595,9 @@
     "tipo": "debate",
     "titulo": "Carrasco: brecha sanitaria requiere decision y voluntad politica",
     "medio": "Correo",
-    "fechaFuente": "2026-03-30",
     "entidadId": "charlie-carrasco-salazar",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada4-alex-gonzales-castillo",
@@ -1605,9 +1605,9 @@
     "tipo": "debate",
     "titulo": "Gonzales: aumentar presupuesto a universidades publicas",
     "medio": "Correo",
-    "fechaFuente": "2026-03-30",
     "entidadId": "alex-gonzales-castillo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada4-armando-joaquin-masse-fernandez",
@@ -1615,9 +1615,9 @@
     "tipo": "debate",
     "titulo": "Masse: acabar con anemia infantil y erradicar ceguera por cataratas",
     "medio": "El Comercio",
-    "fechaFuente": "2026-04-01",
     "entidadId": "armando-joaquin-masse-fernandez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada4-luis-fernando-olivera-vega",
@@ -1625,9 +1625,9 @@
     "tipo": "entrevista",
     "titulo": "Olivera: reformas economicas, mineria de primer mundo y salud al 7% PBI",
     "medio": "Andina",
-    "fechaFuente": "2026-03-10",
     "entidadId": "luis-fernando-olivera-vega",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-oleada4-mesias-antonio-guevara-amasifuen",
@@ -1635,9 +1635,9 @@
     "tipo": "debate",
     "titulo": "Guevara: bases permanentes en Amazonia contra mineria ilegal",
     "medio": "Caretas",
-    "fechaFuente": "2026-03-31",
     "entidadId": "mesias-antonio-guevara-amasifuen",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada4-carlos-gonzalo-alvarez-loayza",
@@ -1645,9 +1645,9 @@
     "tipo": "debate",
     "titulo": "Alvarez: cerrar brechas hospitalarias y atencion a salud mental",
     "medio": "RPP",
-    "fechaFuente": "2026-04-02",
     "entidadId": "carlos-gonzalo-alvarez-loayza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada4-herbert-caller-gutierrez",
@@ -1655,9 +1655,9 @@
     "tipo": "entrevista",
     "titulo": "Caller: hospitales modulares y descentralizacion de ministerios ambientales",
     "medio": "TVPeru",
-    "fechaFuente": "2026-03-05",
     "entidadId": "herbert-caller-gutierrez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-05"
   },
   {
     "id": "f-oleada4-yonhy-lescano-ancieta",
@@ -1665,9 +1665,9 @@
     "tipo": "debate",
     "titulo": "Lescano: reconstruir 22 mil colegios y formalizar microempresas sin sancionarlas",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-23",
     "entidadId": "yonhy-lescano-ancieta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada4-wolfgang-mario-grozo-costa",
@@ -1675,9 +1675,9 @@
     "tipo": "debate",
     "titulo": "Grozo: duplicar Beca 18, Becas por Impuestos, data centers educativos",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-02",
     "entidadId": "wolfgang-mario-grozo-costa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada4-vladimir-roy-cerron-rojas",
@@ -1685,9 +1685,9 @@
     "tipo": "articulo",
     "titulo": "Plan de gobierno Cerron: sistema unico de salud universal y gratuito",
     "medio": "Andina",
-    "fechaFuente": "2026-04-01",
     "entidadId": "vladimir-roy-cerron-rojas",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada4-francisco-ernesto-diez-canseco-tavara",
@@ -1695,9 +1695,9 @@
     "tipo": "debate",
     "titulo": "Diez Canseco: Agrobanco sin corrupcion y educacion tecnica con becas",
     "medio": "RPP",
-    "fechaFuente": "2026-04-01",
     "entidadId": "francisco-ernesto-diez-canseco-tavara",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada4-mario-enrique-vizcarra-cornejo",
@@ -1705,9 +1705,9 @@
     "tipo": "debate",
     "titulo": "Vizcarra: reconocer deuda social docentes y llenar Peru de postas medicas",
     "medio": "Correo",
-    "fechaFuente": "2026-03-31",
     "entidadId": "mario-enrique-vizcarra-cornejo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada4-walter-gilmer-chirinos-purizaga",
@@ -1715,9 +1715,9 @@
     "tipo": "debate",
     "titulo": "Chirinos: revolucion educativa, institutos tecnicos regionales",
     "medio": "RPP",
-    "fechaFuente": "2026-03-30",
     "entidadId": "walter-gilmer-chirinos-purizaga",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada4-alfonso-carlos-espa-y-garces-alvear",
@@ -1725,9 +1725,9 @@
     "tipo": "debate",
     "titulo": "Espa: cerrar brecha agua potable, revisar regionalizacion",
     "medio": "Correo",
-    "fechaFuente": "2026-03-30",
     "entidadId": "alfonso-carlos-espa-y-garces-alvear",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada4-carlos-ernesto-jaico-carranza",
@@ -1735,9 +1735,9 @@
     "tipo": "debate",
     "titulo": "Jaico: triplicar SENATI, banco del emprendedor, formacion tecnica en escuelas",
     "medio": "RPP",
-    "fechaFuente": "2026-03-30",
     "entidadId": "carlos-ernesto-jaico-carranza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada4-jose-leon-luna-galvez",
@@ -1745,9 +1745,9 @@
     "tipo": "debate",
     "titulo": "Luna Galvez: duplicar vacantes universitarias, triplicar Beca 18, crear Beca 25",
     "medio": "RPP",
-    "fechaFuente": "2026-04-01",
     "entidadId": "jose-leon-luna-galvez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada4-maria-soledad-perez-tello-de-rodriguez",
@@ -1755,9 +1755,9 @@
     "tipo": "debate",
     "titulo": "Perez Tello: erradicar anemia y desnutricion en primera infancia",
     "medio": "Correo",
-    "fechaFuente": "2026-04-01",
     "entidadId": "maria-soledad-perez-tello-de-rodriguez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada4-paul-davis-jaimes-blanco",
@@ -1765,9 +1765,9 @@
     "tipo": "debate",
     "titulo": "Jaimes: ampliar Beca 18, carrera tecnica a nombre de la nacion en secundaria",
     "medio": "Correo",
-    "fechaFuente": "2026-03-31",
     "entidadId": "paul-davis-jaimes-blanco",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada4-antonio-ortiz-villano",
@@ -1775,9 +1775,9 @@
     "tipo": "debate",
     "titulo": "Ortiz: educacion conectada a industria, parques industriales regionales",
     "medio": "Correo",
-    "fechaFuente": "2026-04-01",
     "entidadId": "antonio-ortiz-villano",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "f-oleada4-rosario-del-pilar-fernandez-bazan",
@@ -1785,9 +1785,9 @@
     "tipo": "entrevista",
     "titulo": "Fernandez: salud preventiva, unificar EsSalud-Minsa, 4 ambulancias por posta",
     "medio": "Andina",
-    "fechaFuente": "2026-03-15",
     "entidadId": "rosario-del-pilar-fernandez-bazan",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada4-roberto-enrique-chiabra-leon",
@@ -1795,9 +1795,9 @@
     "tipo": "debate",
     "titulo": "Chiabra: eliminar brecha salarial genero, empleo juvenil, cadenas productivas regionales",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-31",
     "entidadId": "roberto-enrique-chiabra-leon",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "f-oleada5-ronald-darwin-atencio-sotomayor",
@@ -1805,9 +1805,9 @@
     "tipo": "entrevista",
     "titulo": "Atencio: pensiones solidarias, vivienda popular y Nueva Constitución plurinacional",
     "medio": "RPP",
-    "fechaFuente": "2026-02-15",
     "entidadId": "ronald-darwin-atencio-sotomayor",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-15"
   },
   {
     "id": "f-oleada5-jose-daniel-williams-zapata",
@@ -1815,9 +1815,9 @@
     "tipo": "articulo",
     "titulo": "Williams: plan de gobierno — modernización del Estado y seguridad jurídica",
     "medio": "El Peruano",
-    "fechaFuente": "2026-04-03",
     "entidadId": "jose-daniel-williams-zapata",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-03"
   },
   {
     "id": "f-oleada5-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -1825,9 +1825,9 @@
     "tipo": "entrevista",
     "titulo": "Paz de la Barra: digitalización 100% compras estatales y bono tecnológico juvenil",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-15",
     "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada5-fiorella-giannina-molinelli-aristondo",
@@ -1835,9 +1835,9 @@
     "tipo": "debate",
     "titulo": "Molinelli: reforma judicial integral — jueces titulares, IA, comités independientes",
     "medio": "Canal N",
-    "fechaFuente": "2026-04-02",
     "entidadId": "fiorella-giannina-molinelli-aristondo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada5-roberto-helbert-sanchez-palomino",
@@ -1845,9 +1845,9 @@
     "tipo": "articulo",
     "titulo": "Sánchez: derecho a vivienda en nueva Constitución y créditos Banco de la Nación",
     "medio": "Trujillo en Línea",
-    "fechaFuente": "2026-03-13",
     "entidadId": "roberto-helbert-sanchez-palomino",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-13"
   },
   {
     "id": "f-oleada5-rafael-jorge-belaunde-llosa",
@@ -1855,9 +1855,9 @@
     "tipo": "columna",
     "titulo": "Belaúnde: ¿Reforma pensiones o retorno del Tributo Indígena?",
     "medio": "La República",
-    "fechaFuente": "2025-09-16",
     "entidadId": "rafael-jorge-belaunde-llosa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2025-09-16"
   },
   {
     "id": "f-oleada5-pitter-enrique-valderrama-pena",
@@ -1865,9 +1865,9 @@
     "tipo": "entrevista",
     "titulo": "Valderrama: reforma integral justicia con IA y nueva legislatura",
     "medio": "Andina",
-    "fechaFuente": "2026-03-12",
     "entidadId": "pitter-enrique-valderrama-pena",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-12"
   },
   {
     "id": "f-oleada5-ricardo-pablo-belmont-cassinelli",
@@ -1875,9 +1875,9 @@
     "tipo": "articulo",
     "titulo": "Belmont: eliminar ATU y plan choque 1500 obras paralizadas",
     "medio": "Caretas",
-    "fechaFuente": "2026-03-28",
     "entidadId": "ricardo-pablo-belmont-cassinelli",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-28"
   },
   {
     "id": "f-oleada5-charlie-carrasco-salazar",
@@ -1885,9 +1885,9 @@
     "tipo": "articulo",
     "titulo": "Carrasco: reducir gasto público al 20% del PBI",
     "medio": "Andina",
-    "fechaFuente": "2026-03-05",
     "entidadId": "charlie-carrasco-salazar",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-05"
   },
   {
     "id": "f-oleada5-alex-gonzales-castillo",
@@ -1895,9 +1895,9 @@
     "tipo": "articulo",
     "titulo": "Gonzales: Plan Verde 2030, 120 mil viviendas y pensión dignificada",
     "medio": "Andina",
-    "fechaFuente": "2026-03-05",
     "entidadId": "alex-gonzales-castillo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-05"
   },
   {
     "id": "f-oleada5-armando-joaquin-masse-fernandez",
@@ -1905,9 +1905,9 @@
     "tipo": "articulo",
     "titulo": "Massé: 1 millón viviendas, 30 parques industriales, Estado Federal",
     "medio": "Perú Hoy",
-    "fechaFuente": "2026-03-20",
     "entidadId": "armando-joaquin-masse-fernandez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada5-luis-fernando-olivera-vega",
@@ -1915,9 +1915,9 @@
     "tipo": "entrevista",
     "titulo": "Olivera: Ley Patriota — referéndum y jubilación anticipada jueces supremos",
     "medio": "Inforegión",
-    "fechaFuente": "2026-01-20",
     "entidadId": "luis-fernando-olivera-vega",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-01-20"
   },
   {
     "id": "f-oleada5-mesias-antonio-guevara-amasifuen",
@@ -1925,9 +1925,9 @@
     "tipo": "debate",
     "titulo": "Guevara: créditos jóvenes indígenas y Beca 18",
     "medio": "Correo",
-    "fechaFuente": "2026-04-02",
     "entidadId": "mesias-antonio-guevara-amasifuen",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-02"
   },
   {
     "id": "f-oleada5-carlos-gonzalo-alvarez-loayza",
@@ -1935,9 +1935,9 @@
     "tipo": "articulo",
     "titulo": "Álvarez: gestión activa riesgo climático y desarrollo territorial sostenible",
     "medio": "Andina",
-    "fechaFuente": "2026-03-05",
     "entidadId": "carlos-gonzalo-alvarez-loayza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-05"
   },
   {
     "id": "f-oleada5-herbert-caller-gutierrez",
@@ -1945,9 +1945,9 @@
     "tipo": "entrevista",
     "titulo": "Caller: Chamba 65 pensiones S/550, oro artesanal, diplomáticos bilingües",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-10",
     "entidadId": "herbert-caller-gutierrez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-oleada5-yonhy-lescano-ancieta",
@@ -1955,9 +1955,9 @@
     "tipo": "debate",
     "titulo": "Lescano: industrializar el campo y Cooperación Popular para jóvenes",
     "medio": "Correo",
-    "fechaFuente": "2026-03-24",
     "entidadId": "yonhy-lescano-ancieta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "f-oleada5-wolfgang-mario-grozo-costa",
@@ -1965,9 +1965,9 @@
     "tipo": "articulo",
     "titulo": "Grozo: política ferroviaria nacional, micro-contribuciones pensiones, polígrafos",
     "medio": "Perú Hoy",
-    "fechaFuente": "2026-03-20",
     "entidadId": "wolfgang-mario-grozo-costa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada5-vladimir-roy-cerron-rojas",
@@ -1975,9 +1975,9 @@
     "tipo": "entrevista",
     "titulo": "Cerrón: asamblea constituyente, soberanía recursos, antimonopolios",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-18",
     "entidadId": "vladimir-roy-cerron-rojas",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-18"
   },
   {
     "id": "f-oleada5-francisco-ernesto-diez-canseco-tavara",
@@ -1985,9 +1985,9 @@
     "tipo": "entrevista",
     "titulo": "Diez Canseco: Pensión 65 a S/500, Chamba Z, guerra minería ilegal",
     "medio": "Andina",
-    "fechaFuente": "2026-03-10",
     "entidadId": "francisco-ernesto-diez-canseco-tavara",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-oleada5-mario-enrique-vizcarra-cornejo",
@@ -1995,9 +1995,9 @@
     "tipo": "articulo",
     "titulo": "Vizcarra: Fondo Adaptación cambio climático y reforma policial con tecnología",
     "medio": "La República",
-    "fechaFuente": "2026-03-20",
     "entidadId": "mario-enrique-vizcarra-cornejo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada5-walter-gilmer-chirinos-purizaga",
@@ -2005,9 +2005,9 @@
     "tipo": "articulo",
     "titulo": "Chirinos: presupuesto directo regiones, infraestructura y conectividad",
     "medio": "Tu Cambista",
-    "fechaFuente": "2026-03-15",
     "entidadId": "walter-gilmer-chirinos-purizaga",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada5-alfonso-carlos-espa-y-garces-alvear",
@@ -2015,9 +2015,9 @@
     "tipo": "entrevista",
     "titulo": "Espá: judicialización de la política — reforma fiscal y Zar Anticorrupción",
     "medio": "Gestión",
-    "fechaFuente": "2026-03-20",
     "entidadId": "alfonso-carlos-espa-y-garces-alvear",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada5-carlos-ernesto-jaico-carranza",
@@ -2025,9 +2025,9 @@
     "tipo": "entrevista",
     "titulo": "Jaico: tren transandino 1800km, pensiones campesinas, control minería",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-15",
     "entidadId": "carlos-ernesto-jaico-carranza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada5-jose-leon-luna-galvez",
@@ -2035,9 +2035,9 @@
     "tipo": "entrevista",
     "titulo": "Luna Gálvez: pensión mínima universal, vivienda popular, shock inversión",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-10",
     "entidadId": "jose-leon-luna-galvez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "f-oleada5-maria-soledad-perez-tello-de-rodriguez",
@@ -2045,9 +2045,9 @@
     "tipo": "articulo",
     "titulo": "Pérez Tello: Las 5 Fijas — reforma judicial meritocrática, 35% sentencias firmes",
     "medio": "Perú Hoy",
-    "fechaFuente": "2026-03-20",
     "entidadId": "maria-soledad-perez-tello-de-rodriguez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada5-paul-davis-jaimes-blanco",
@@ -2055,9 +2055,9 @@
     "tipo": "entrevista",
     "titulo": "Jaimes: titulación automática posesionarios y protección medioambiental",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-15",
     "entidadId": "paul-davis-jaimes-blanco",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada5-antonio-ortiz-villano",
@@ -2065,9 +2065,9 @@
     "tipo": "articulo",
     "titulo": "Ortiz: trenes alta velocidad y parques industriales — vacíos de ejecución",
     "medio": "La República",
-    "fechaFuente": "2026-03-20",
     "entidadId": "antonio-ortiz-villano",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "f-oleada5-rosario-del-pilar-fernandez-bazan",
@@ -2075,9 +2075,9 @@
     "tipo": "articulo",
     "titulo": "Fernández: cerrar mineras contaminantes, créditos 2% vivienda, 8 ministerios",
     "medio": "Andina",
-    "fechaFuente": "2026-03-05",
     "entidadId": "rosario-del-pilar-fernandez-bazan",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-05"
   },
   {
     "id": "f-oleada5-roberto-enrique-chiabra-leon",
@@ -2085,9 +2085,9 @@
     "tipo": "entrevista",
     "titulo": "Chiabra: Chamba 65 pensiones S/550, inclusión financiera mujeres, shock inversión",
     "medio": "TVPerú",
-    "fechaFuente": "2026-03-15",
     "entidadId": "roberto-enrique-chiabra-leon",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada6-jose-daniel-williams-zapata",
@@ -2095,9 +2095,9 @@
     "tipo": "debate",
     "titulo": "Williams: propuestas contra corrupción - Debate JNE",
     "medio": "Diario Correo",
-    "fechaFuente": "2026-03-23",
     "entidadId": "jose-daniel-williams-zapata",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada6-ronald-darwin-atencio-sotomayor",
@@ -2105,9 +2105,9 @@
     "tipo": "debate",
     "titulo": "Atencio: corrupción se escribe con K — Debate JNE",
     "medio": "La República",
-    "fechaFuente": "2026-03-25",
     "entidadId": "ronald-darwin-atencio-sotomayor",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada6-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -2115,9 +2115,9 @@
     "tipo": "debate",
     "titulo": "Paz de la Barra: reforma judicial sin debido proceso",
     "medio": "La República",
-    "fechaFuente": "2026-03-25",
     "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada6-fiorella-giannina-molinelli-aristondo",
@@ -2125,9 +2125,9 @@
     "tipo": "articulo",
     "titulo": "Molinelli: plan de gobierno reforma judicial",
     "medio": "El Peruano",
-    "fechaFuente": "2026-02-14",
     "entidadId": "fiorella-giannina-molinelli-aristondo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-14"
   },
   {
     "id": "f-oleada6-roberto-helbert-sanchez-palomino",
@@ -2135,9 +2135,9 @@
     "tipo": "entrevista",
     "titulo": "Sánchez: jueces elegidos por voto popular",
     "medio": "RPP",
-    "fechaFuente": "2026-03-25",
     "entidadId": "roberto-helbert-sanchez-palomino",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada6-rafael-jorge-belaunde-llosa",
@@ -2145,9 +2145,9 @@
     "tipo": "articulo",
     "titulo": "Belaúnde: la propiedad privada comienza por casa",
     "medio": "La República",
-    "fechaFuente": "2024-08-01",
     "entidadId": "rafael-jorge-belaunde-llosa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2024-08-01"
   },
   {
     "id": "f-oleada6-pitter-enrique-valderrama-pena",
@@ -2155,9 +2155,9 @@
     "tipo": "entrevista",
     "titulo": "Valderrama: expandir metro a regiones",
     "medio": "Andina",
-    "fechaFuente": "2026-02-03",
     "entidadId": "pitter-enrique-valderrama-pena",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-03"
   },
   {
     "id": "f-oleada6-ricardo-pablo-belmont-cassinelli",
@@ -2165,9 +2165,9 @@
     "tipo": "articulo",
     "titulo": "Belmont: plan anticorrupción partido Cívico Obras",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-06",
     "entidadId": "ricardo-pablo-belmont-cassinelli",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-06"
   },
   {
     "id": "f-oleada6-charlie-carrasco-salazar",
@@ -2175,9 +2175,9 @@
     "tipo": "articulo",
     "titulo": "Carrasco: jueces sin rostro y sentencias en 48h",
     "medio": "Caretas",
-    "fechaFuente": "2026-04-03",
     "entidadId": "charlie-carrasco-salazar",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-03"
   },
   {
     "id": "f-oleada6-alex-gonzales-castillo",
@@ -2185,9 +2185,9 @@
     "tipo": "debate",
     "titulo": "Gonzales: reingeniería sistema seguridad",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-23",
     "entidadId": "alex-gonzales-castillo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "f-oleada6-mesias-antonio-guevara-amasifuen",
@@ -2195,9 +2195,9 @@
     "tipo": "entrevista",
     "titulo": "Guevara: facultades legislativas para eliminar leyes procrimen",
     "medio": "RPP",
-    "fechaFuente": "2026-02-15",
     "entidadId": "mesias-antonio-guevara-amasifuen",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-15"
   },
   {
     "id": "f-oleada6-carlos-gonzalo-alvarez-loayza",
@@ -2205,9 +2205,9 @@
     "tipo": "articulo",
     "titulo": "Álvarez: plan anticorrupción País para Todos",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-06",
     "entidadId": "carlos-gonzalo-alvarez-loayza",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-06"
   },
   {
     "id": "f-oleada6-herbert-caller-gutierrez",
@@ -2215,9 +2215,9 @@
     "tipo": "entrevista",
     "titulo": "Caller: incentivos para denunciar corrupción",
     "medio": "Exitosa",
-    "fechaFuente": "2026-03-26",
     "entidadId": "herbert-caller-gutierrez",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-26"
   },
   {
     "id": "f-oleada6-yonhy-lescano-ancieta",
@@ -2225,9 +2225,9 @@
     "tipo": "entrevista",
     "titulo": "Lescano: Pérez como ministro de Justicia",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-26",
     "entidadId": "yonhy-lescano-ancieta",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-26"
   },
   {
     "id": "f-oleada6-wolfgang-mario-grozo-costa",
@@ -2235,9 +2235,9 @@
     "tipo": "articulo",
     "titulo": "Grozo: cadena perpetua para corrupción como traición",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-08",
     "entidadId": "wolfgang-mario-grozo-costa",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-08"
   },
   {
     "id": "f-oleada6-francisco-ernesto-diez-canseco-tavara",
@@ -2245,9 +2245,9 @@
     "tipo": "articulo",
     "titulo": "Diez-Canseco: disolver ATU, reducir ministerios",
     "medio": "Correo",
-    "fechaFuente": "2026-03-25",
     "entidadId": "francisco-ernesto-diez-canseco-tavara",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada6-mario-enrique-vizcarra-cornejo",
@@ -2255,9 +2255,9 @@
     "tipo": "articulo",
     "titulo": "Vizcarra: condenado por peculado, excluido del Senado",
     "medio": "Infobae",
-    "fechaFuente": "2026-02-04",
     "entidadId": "mario-enrique-vizcarra-cornejo",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-02-04"
   },
   {
     "id": "f-oleada6-walter-gilmer-chirinos-purizaga",
@@ -2265,9 +2265,9 @@
     "tipo": "entrevista",
     "titulo": "Chirinos justifica cercanía a Montesinos",
     "medio": "RPP",
-    "fechaFuente": "2026-03-25",
     "entidadId": "walter-gilmer-chirinos-purizaga",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada6-alfonso-carlos-espa-y-garces-alvear",
@@ -2275,9 +2275,9 @@
     "tipo": "entrevista",
     "titulo": "Espá: gobierno de virtud y zar anticorrupción",
     "medio": "Gestión",
-    "fechaFuente": "2026-03-30",
     "entidadId": "alfonso-carlos-espa-y-garces-alvear",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "f-oleada6-paul-davis-jaimes-blanco",
@@ -2285,9 +2285,9 @@
     "tipo": "articulo",
     "titulo": "Jaimes: proceso judicial por corrupción Midagri",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-15",
     "entidadId": "paul-davis-jaimes-blanco",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "f-oleada6-antonio-ortiz-villano",
@@ -2295,9 +2295,9 @@
     "tipo": "debate",
     "titulo": "Ortiz: muerte civil y democratizar PJ",
     "medio": "RPP",
-    "fechaFuente": "2026-03-25",
     "entidadId": "antonio-ortiz-villano",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "f-oleada6-rosario-del-pilar-fernandez-bazan",
@@ -2305,9 +2305,9 @@
     "tipo": "articulo",
     "titulo": "Fernández: democratizar justicia, rechaza pacto ético",
     "medio": "RCR Perú",
-    "fechaFuente": "2026-04-05",
     "entidadId": "rosario-del-pilar-fernandez-bazan",
-    "estado": "evaluada"
+    "estado": "evaluada",
+    "fechaEvento": "2026-04-05"
   },
   {
     "id": "armando-joaquin-masse-fernandez-2026-03-25-infobae",
@@ -2316,9 +2316,9 @@
     "entidadId": "armando-joaquin-masse-fernandez",
     "titulo": "Propuestas de seguridad y reforma policial de Armando Massé",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "luis-fernando-olivera-vega-2026-04-06-andina",
@@ -2327,9 +2327,9 @@
     "entidadId": "luis-fernando-olivera-vega",
     "titulo": "Olivera propone mayor presupuesto para educación",
     "medio": "Andina",
-    "fechaFuente": "2026-04-06",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-06"
   },
   {
     "id": "vladimir-roy-cerron-rojas-2026-01-04-sinfronteras",
@@ -2338,9 +2338,9 @@
     "entidadId": "vladimir-roy-cerron-rojas",
     "titulo": "Cerrón condena ataque de EE.UU. a Venezuela",
     "medio": "Diario Sin Fronteras",
-    "fechaFuente": "2026-01-04",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-01-04"
   },
   {
     "id": "carlos-ernesto-jaico-carranza-2026-03-10-correo",
@@ -2349,9 +2349,9 @@
     "entidadId": "carlos-ernesto-jaico-carranza",
     "titulo": "Jaico: primer nivel de atención para prevención de cáncer",
     "medio": "Diario Correo",
-    "fechaFuente": "2026-03-10",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-10"
   },
   {
     "id": "jose-leon-luna-galvez-2025-12-17-correo",
@@ -2360,9 +2360,9 @@
     "entidadId": "jose-leon-luna-galvez",
     "titulo": "Luna Gálvez sobre REINFO: es un engaña muchachos",
     "medio": "Diario Correo",
-    "fechaFuente": "2025-12-17",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2025-12-17"
   },
   {
     "id": "maria-soledad-perez-tello-de-rodriguez-2025-12-14-larepublica",
@@ -2371,9 +2371,9 @@
     "entidadId": "maria-soledad-perez-tello-de-rodriguez",
     "titulo": "Pérez Tello: No trato con dictadores, ni de derecha ni de izquierda",
     "medio": "La República",
-    "fechaFuente": "2025-12-14",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2025-12-14"
   },
   {
     "id": "roberto-enrique-chiabra-leon-2026-04-01-infobae",
@@ -2382,9 +2382,9 @@
     "entidadId": "roberto-enrique-chiabra-leon",
     "titulo": "Chiabra propone construcción y equipamiento educativo",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-01",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "ronald-darwin-atencio-sotomayor-2026-03-25-debate-salud",
@@ -2393,9 +2393,9 @@
     "entidadId": "ronald-darwin-atencio-sotomayor",
     "titulo": "Atencio propone eliminar seguros privados del Estado para financiar salud pública",
     "medio": "Diario Correo",
-    "fechaFuente": "2026-03-25",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "jose-daniel-williams-zapata-2026-04-03-caretas",
@@ -2404,9 +2404,9 @@
     "entidadId": "jose-daniel-williams-zapata",
     "titulo": "Williams propone autonomía institucional para entes de control",
     "medio": "Caretas",
-    "fechaFuente": "2026-04-03",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-03"
   },
   {
     "id": "alvaro-gonzalo-paz-de-la-barra-freigeiro-2026-03-25-infobae",
@@ -2415,9 +2415,9 @@
     "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
     "titulo": "Paz de la Barra: expulsión migrantes 48h, chapa tu corrupto",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "fiorella-giannina-molinelli-aristondo-2026-03-24-larepublica",
@@ -2426,9 +2426,9 @@
     "entidadId": "fiorella-giannina-molinelli-aristondo",
     "titulo": "Molinelli: propuestas anticorrupción en debate",
     "medio": "La República",
-    "fechaFuente": "2026-03-24",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "roberto-helbert-sanchez-palomino-2026-03-18-larepublica",
@@ -2437,9 +2437,9 @@
     "entidadId": "roberto-helbert-sanchez-palomino",
     "titulo": "Sánchez propone nueva Constitución y cadena perpetua para corruptos",
     "medio": "La República",
-    "fechaFuente": "2026-03-18",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-18"
   },
   {
     "id": "rafael-jorge-belaunde-llosa-2026-03-15-infobae",
@@ -2448,9 +2448,9 @@
     "entidadId": "rafael-jorge-belaunde-llosa",
     "titulo": "Belaúnde: consensos en Congreso y muerte cruzada",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-15",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "pitter-enrique-valderrama-pena-2026-03-26-infobae",
@@ -2459,9 +2459,9 @@
     "entidadId": "pitter-enrique-valderrama-pena",
     "titulo": "Valderrama propone cadena perpetua para corruptos institucionales",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-26",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-26"
   },
   {
     "id": "ricardo-pablo-belmont-cassinelli-2026-03-24-elcomercio",
@@ -2470,9 +2470,9 @@
     "entidadId": "ricardo-pablo-belmont-cassinelli",
     "titulo": "Belmont: elegir jueces y fiscales por voto popular",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-24",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "charlie-carrasco-salazar-2026-04-03-infobae",
@@ -2481,9 +2481,9 @@
     "entidadId": "charlie-carrasco-salazar",
     "titulo": "Carrasco: expulsión 48h y principios bíblicos",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-03",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-03"
   },
   {
     "id": "alex-gonzales-castillo-2026-03-23-debate-jne",
@@ -2492,9 +2492,9 @@
     "entidadId": "alex-gonzales-castillo",
     "titulo": "Gonzales: cárcel o cementerio para criminales",
     "medio": "Infobae / JNE",
-    "fechaFuente": "2026-03-23",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-23"
   },
   {
     "id": "mesias-antonio-guevara-amasifuen-2026-03-31-andina",
@@ -2503,9 +2503,9 @@
     "entidadId": "mesias-antonio-guevara-amasifuen",
     "titulo": "Guevara plantea endurecer estrategia contra crimen",
     "medio": "Andina",
-    "fechaFuente": "2026-03-31",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "carlos-gonzalo-alvarez-loayza-2026-04-06-infobae",
@@ -2514,9 +2514,9 @@
     "entidadId": "carlos-gonzalo-alvarez-loayza",
     "titulo": "Álvarez cierra campaña sin ataques ni bajezas",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-06",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-06"
   },
   {
     "id": "herbert-caller-gutierrez-2026-03-20-andina",
@@ -2525,9 +2525,9 @@
     "entidadId": "herbert-caller-gutierrez",
     "titulo": "Caller propone transformar cárceles en centros productivos",
     "medio": "Andina",
-    "fechaFuente": "2026-03-20",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-20"
   },
   {
     "id": "yonhy-lescano-ancieta-2026-04-06-sinfronteras",
@@ -2536,9 +2536,9 @@
     "entidadId": "yonhy-lescano-ancieta",
     "titulo": "Lescano no descarta indulto a Castillo si pide perdón",
     "medio": "Diario Sin Fronteras",
-    "fechaFuente": "2026-04-06",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-06"
   },
   {
     "id": "wolfgang-mario-grozo-costa-2026-03-07-larepublica",
@@ -2547,9 +2547,9 @@
     "entidadId": "wolfgang-mario-grozo-costa",
     "titulo": "Grozo llamó violentistas a manifestantes contra Boluarte",
     "medio": "La República",
-    "fechaFuente": "2026-03-07",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-07"
   },
   {
     "id": "francisco-ernesto-diez-canseco-tavara-2026-03-25-infobae",
@@ -2558,9 +2558,9 @@
     "entidadId": "francisco-ernesto-diez-canseco-tavara",
     "titulo": "Diez Canseco propone Consejo Nacional de Moral Pública",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "mario-enrique-vizcarra-cornejo-2026-03-08-larepublica",
@@ -2569,9 +2569,9 @@
     "entidadId": "mario-enrique-vizcarra-cornejo",
     "titulo": "Mario Vizcarra anuncia que indultará a Martín Vizcarra",
     "medio": "La República",
-    "fechaFuente": "2026-03-08",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-08"
   },
   {
     "id": "walter-gilmer-chirinos-purizaga-2026-03-30-elcomercio",
@@ -2580,9 +2580,9 @@
     "entidadId": "walter-gilmer-chirinos-purizaga",
     "titulo": "Chirinos propone método Bukele y estado de excepción auditado",
     "medio": "El Comercio",
-    "fechaFuente": "2026-03-30",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-30"
   },
   {
     "id": "alfonso-carlos-espa-y-garces-alvear-2026-02-17-elperuano",
@@ -2591,9 +2591,9 @@
     "entidadId": "alfonso-carlos-espa-y-garces-alvear",
     "titulo": "Espá: crecimiento de abajo hacia arriba, zar anticorrupción",
     "medio": "El Peruano",
-    "fechaFuente": "2026-02-17",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-02-17"
   },
   {
     "id": "paul-davis-jaimes-blanco-2026-03-15-rpp",
@@ -2602,9 +2602,9 @@
     "entidadId": "paul-davis-jaimes-blanco",
     "titulo": "Jaimes propone salida de Corte IDH y pena de muerte",
     "medio": "RPP",
-    "fechaFuente": "2026-03-15",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-15"
   },
   {
     "id": "antonio-ortiz-villano-2026-03-25-debate-jne",
@@ -2613,9 +2613,9 @@
     "entidadId": "antonio-ortiz-villano",
     "titulo": "Ortiz propone muerte civil para corruptos",
     "medio": "JNE",
-    "fechaFuente": "2026-03-25",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "rosario-del-pilar-fernandez-bazan-2025-12-19-infobae",
@@ -2624,9 +2624,9 @@
     "entidadId": "rosario-del-pilar-fernandez-bazan",
     "titulo": "Fernández rechaza Pacto Ético: la ética se practica, no se firma",
     "medio": "Infobae",
-    "fechaFuente": "2025-12-19",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2025-12-19"
   },
   {
     "id": "armando-joaquin-masse-fernandez-2026-03-24-correo",
@@ -2635,9 +2635,9 @@
     "entidadId": "armando-joaquin-masse-fernandez",
     "titulo": "Massé: propuestas para erradicar corrupción",
     "medio": "Diario Correo",
-    "fechaFuente": "2026-03-24",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "luis-fernando-olivera-vega-2026-03-25-infobae",
@@ -2646,9 +2646,9 @@
     "entidadId": "luis-fernando-olivera-vega",
     "titulo": "APP formaliza querella contra Fernando Olivera",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "vladimir-roy-cerron-rojas-2026-04-01-infobae",
@@ -2657,9 +2657,9 @@
     "entidadId": "vladimir-roy-cerron-rojas",
     "titulo": "Cerrón cuestiona renovación de orden de captura",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-01",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-01"
   },
   {
     "id": "carlos-ernesto-jaico-carranza-2026-03-24-correo",
@@ -2668,9 +2668,9 @@
     "entidadId": "carlos-ernesto-jaico-carranza",
     "titulo": "Jaico: protección denunciantes y muerte civil corruptos",
     "medio": "Diario Correo",
-    "fechaFuente": "2026-03-24",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-24"
   },
   {
     "id": "jose-leon-luna-galvez-2025-08-07-infobae",
@@ -2679,9 +2679,9 @@
     "entidadId": "jose-leon-luna-galvez",
     "titulo": "Luna Gálvez acusado de encabezar organización criminal",
     "medio": "Infobae",
-    "fechaFuente": "2025-08-07",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2025-08-07"
   },
   {
     "id": "maria-soledad-perez-tello-de-rodriguez-2026-03-31-caretas",
@@ -2690,9 +2690,9 @@
     "entidadId": "maria-soledad-perez-tello-de-rodriguez",
     "titulo": "Pérez Tello: posición principista democracia y derechos",
     "medio": "Caretas",
-    "fechaFuente": "2026-03-31",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "roberto-enrique-chiabra-leon-2026-02-08-andina",
@@ -2701,9 +2701,9 @@
     "entidadId": "roberto-enrique-chiabra-leon",
     "titulo": "Chiabra: reducir burocracia para combatir corrupción",
     "medio": "Andina",
-    "fechaFuente": "2026-02-08",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-02-08"
   },
   {
     "id": "ronald-darwin-atencio-sotomayor-2026-01-12-infobae",
@@ -2712,9 +2712,9 @@
     "entidadId": "ronald-darwin-atencio-sotomayor",
     "titulo": "Atencio vinculado a red de venta ilegal de tesis",
     "medio": "Infobae",
-    "fechaFuente": "2026-01-12",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-01-12"
   },
   {
     "id": "jose-daniel-williams-zapata-2026-04-03-infobae",
@@ -2723,9 +2723,9 @@
     "entidadId": "jose-daniel-williams-zapata",
     "titulo": "Williams: muerte civil y transparencia total",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-03",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-03"
   },
   {
     "id": "alvaro-gonzalo-paz-de-la-barra-freigeiro-2026-03-25-disculpa",
@@ -2734,9 +2734,9 @@
     "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
     "titulo": "Paz de la Barra pide perdón a Sofía Franco en debate",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-25",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-25"
   },
   {
     "id": "fiorella-giannina-molinelli-aristondo-2021-08-essalud",
@@ -2745,9 +2745,9 @@
     "entidadId": "fiorella-giannina-molinelli-aristondo",
     "titulo": "Club de las Farmacéuticas: organización criminal en EsSalud",
     "medio": "Salud con Lupa",
-    "fechaFuente": "2021-08-01",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2021-08-01"
   },
   {
     "id": "roberto-helbert-sanchez-palomino-2025-08-12-elcomercio",
@@ -2756,9 +2756,9 @@
     "entidadId": "roberto-helbert-sanchez-palomino",
     "titulo": "Sánchez: carpetas fiscales y red familiar",
     "medio": "El Comercio",
-    "fechaFuente": "2025-08-12",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2025-08-12"
   },
   {
     "id": "rafael-jorge-belaunde-llosa-2026-04-06-ojopublico",
@@ -2767,9 +2767,9 @@
     "entidadId": "rafael-jorge-belaunde-llosa",
     "titulo": "Belaúnde: salirse de la Corte IDH es un disparate",
     "medio": "Ojo Público",
-    "fechaFuente": "2026-04-06",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-06"
   },
   {
     "id": "pitter-enrique-valderrama-pena-2026-03-31-infobae",
@@ -2778,9 +2778,9 @@
     "entidadId": "pitter-enrique-valderrama-pena",
     "titulo": "Cruce Valderrama-Olivera en debate presidencial",
     "medio": "Infobae",
-    "fechaFuente": "2026-03-31",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-03-31"
   },
   {
     "id": "ricardo-pablo-belmont-cassinelli-2026-04-06-infobae",
@@ -2789,9 +2789,9 @@
     "entidadId": "ricardo-pablo-belmont-cassinelli",
     "titulo": "Plan de Gobierno Partido Cívico Obras 2026-2031",
     "medio": "Infobae",
-    "fechaFuente": "2026-04-06",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-06"
   },
   {
     "id": "charlie-carrasco-salazar-2026-04-06-elperuano",
@@ -2800,8 +2800,8 @@
     "entidadId": "charlie-carrasco-salazar",
     "titulo": "Carrasco: reorganizar Estado y ofensiva anticrimen",
     "medio": "El Peruano",
-    "fechaFuente": "2026-04-06",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot"
+    "creadaPor": "moralscore-bot",
+    "fechaEvento": "2026-04-06"
   }
 ]

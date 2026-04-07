@@ -1,0 +1,9 @@
+[
+  {
+    "id": "presidenciales-2026",
+    "nombre": "Elecciones Generales 2026",
+    "tipo": "nacional",
+    "activa": true,
+    "fechaCorte": "2026-04-13"
+  }
+]

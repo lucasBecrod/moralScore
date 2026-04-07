@@ -3,7 +3,7 @@
 import { useEffect, useLayoutEffect, useMemo, useState, useRef } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEntidades } from "@/shared/hooks/useEntidades";
+import { useCandidaturas } from "@/shared/hooks/useCandidaturas";
 import { useAuthContext } from "@/shared/providers/AuthProvider";
 import { AuthModal } from "@/shared/ui/AuthModal";
 import { EntidadCard } from "./EntidadCard";
@@ -17,7 +17,7 @@ const SORT_OPTIONS = [
 const SCROLL_KEY = "ranking-scroll-y";
 
 export function RankingPage() {
-  const { entidades, loading } = useEntidades();
+  const { candidaturas, loading } = useCandidaturas("presidenciales-2026");
   const [shuffleKey, setShuffleKey] = useState(0);
   const [sortBy, setSortBy] = useState<"evidencia" | "score" | "az">("evidencia");
   const [authModalOpen, setAuthModalOpen] = useState(false);
@@ -37,36 +37,36 @@ export function RankingPage() {
 
   // Restaurar posición cuando los datos están listos
   useLayoutEffect(() => {
-    if (!loading && entidades.length > 0 && !restoredRef.current) {
+    if (!loading && candidaturas.length > 0 && !restoredRef.current) {
       const saved = sessionStorage.getItem(SCROLL_KEY);
       if (saved) {
         requestAnimationFrame(() => window.scrollTo(0, parseInt(saved, 10)));
       }
       restoredRef.current = true;
     }
-  }, [loading, entidades]);
+  }, [loading, candidaturas]);
 
   const sorted = useMemo(() => {
-    const list = [...entidades];
+    const list = [...candidaturas];
     switch (sortBy) {
       case "evidencia":
         return list.sort((a, b) => {
-          if (a.totalEvaluaciones > 0 && b.totalEvaluaciones === 0) return -1;
-          if (a.totalEvaluaciones === 0 && b.totalEvaluaciones > 0) return 1;
-          if (a.totalEvaluaciones !== b.totalEvaluaciones) return b.totalEvaluaciones - a.totalEvaluaciones;
+          if (a.evaluacionesCandidatura > 0 && b.evaluacionesCandidatura === 0) return -1;
+          if (a.evaluacionesCandidatura === 0 && b.evaluacionesCandidatura > 0) return 1;
+          if (a.evaluacionesCandidatura !== b.evaluacionesCandidatura) return b.evaluacionesCandidatura - a.evaluacionesCandidatura;
           return a.nombre.localeCompare(b.nombre);
         });
       case "score":
         return list.sort((a, b) => {
-          if (a.scoreActual !== null && b.scoreActual !== null) return b.scoreActual - a.scoreActual;
-          if (a.scoreActual !== null) return -1;
-          if (b.scoreActual !== null) return 1;
+          if (a.scoreCandidatura !== null && b.scoreCandidatura !== null) return b.scoreCandidatura - a.scoreCandidatura;
+          if (a.scoreCandidatura !== null) return -1;
+          if (b.scoreCandidatura !== null) return 1;
           return a.nombre.localeCompare(b.nombre);
         });
       case "az":
         return list.sort((a, b) => a.nombre.localeCompare(b.nombre));
     }
-  }, [entidades, sortBy]);
+  }, [candidaturas, sortBy]);
 
   // Rotar retratos del hero cada 20s
   useEffect(() => {
@@ -92,24 +92,24 @@ export function RankingPage() {
         </p>
 
         {/* Retratos solapados — formato vertical para fotos del JNE */}
-        {!loading && entidades.length > 0 && (
+        {!loading && candidaturas.length > 0 && (
           <div className="mx-auto mt-8 flex items-center justify-center gap-3">
             <div className="flex -space-x-2">
-              {[...entidades.filter((e) => e.foto)]
+              {[...candidaturas.filter((c) => c.foto)]
                 .sort(() => Math.random() - 0.5 + shuffleKey * 0)
                 .slice(0, 7)
-                .map((e) => (
+                .map((c) => (
                   <img
-                    key={e.id}
-                    src={e.foto!}
-                    alt={e.nombre}
-                    title={e.nombre}
+                    key={c.id}
+                    src={c.foto!}
+                    alt={c.nombre}
+                    title={c.nombre}
                     className="h-14 w-10 rounded-lg border-2 border-zinc-950 object-cover object-top shadow-md"
                   />
                 ))}
-              {entidades.length > 7 && (
+              {candidaturas.length > 7 && (
                 <span className="flex h-14 w-10 items-center justify-center rounded-lg border-2 border-zinc-950 bg-zinc-800 text-xs font-medium text-zinc-300">
-                  +{entidades.length - 7}
+                  +{candidaturas.length - 7}
                 </span>
               )}
             </div>
@@ -162,8 +162,8 @@ export function RankingPage() {
           <p className="text-center text-zinc-400">No hay registros a&uacute;n.</p>
         ) : (
           <div className="grid gap-5 sm:grid-cols-2">
-            {sorted.map((e) => (
-              <EntidadCard key={e.id} entidad={e} />
+            {sorted.map((c) => (
+              <EntidadCard key={c.id} candidatura={c} />
             ))}
           </div>
         )}
