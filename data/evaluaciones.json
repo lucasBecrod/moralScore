@@ -4881,5 +4881,383 @@
     "estadioAlternativo": null,
     "notas": "Corrección: haiku asignó 4. Previos: 2,1,2,2,2,2. E2 es consistente.",
     "evaluador": "haiku-7"
+  },
+  {
+    "id": "eval-masse-justicia-corrupcion",
+    "entidadId": "armando-joaquin-masse-fernandez",
+    "fuenteId": "armando-joaquin-masse-fernandez-2026-03-24-correo",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Massé propone muerte civil, blockchain y **recompensas económicas para denunciantes**. Soluciones técnico-transaccionales sin argumentación ética. Las comisarías inteligentes integran Policía-Fiscal-Juez como eficiencia administrativa.",
+    "citas": [
+      {
+        "texto": "**Muerte civil a funcionarios corruptos**, control ciudadano para vigilar proyectos, implementación del blockchain",
+        "ubicacion": "Debate JNE, 24 marzo 2026, bloque corrupción",
+        "indicador": "Soluciones técnicas sin reflexión ética — Estadio 2"
+      },
+      {
+        "texto": "Sistema de **recompensas económicas** para quienes brinden información sobre delincuentes",
+        "ubicacion": "Propuestas de seguridad, debate JNE 2026",
+        "indicador": "Incentivo transaccional — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Corrección: haiku asignó 3. Muerte civil y recompensas son transaccionales. Previos 6x2.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-olivera-querella-acuna",
+    "entidadId": "luis-fernando-olivera-vega",
+    "fuenteId": "luis-fernando-olivera-vega-2026-03-25-infobae",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "En respuesta a querellas de APP y Acuña por difamación, Olivera mantiene que Acuña **debe responder ante la justicia** por su **fortuna mal habida**. Razonamiento retributivo sin referencias a debido proceso o independencia judicial.",
+    "citas": [
+      {
+        "texto": "Que responda ante la justicia por sus **afirmaciones injuriosas**",
+        "ubicacion": "APP formaliza querella, Infobae 25-03-2026",
+        "indicador": "Demanda de justicia retributiva — Estadio 2"
+      },
+      {
+        "texto": "Su **origen mal habido de su fortuna** no se explica",
+        "ubicacion": "Respuesta de Olivera, Infobae 24-03-2026",
+        "indicador": "Acusación sin análisis sistémico — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos 6x2. Consistente.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-cerron-orden-captura",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "fuenteId": "vladimir-roy-cerron-rojas-2026-04-01-infobae",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Cerrón cuestiona renovación de orden de captura, acusa al sistema de **persecución coordinada**. No se entrega ni propone someterse al proceso. Busca indulto vía TC. Razonamiento preconvencional: evita castigo mediante evasión.",
+    "citas": [
+      {
+        "texto": "Asevera que la renovación de orden de captura es **el mismo caso** manteniéndolo prófugo por dos años y medio",
+        "ubicacion": "Infobae, 2026-04-01",
+        "indicador": "Niega obligatoriedad de orden judicial — Estadio 1"
+      },
+      {
+        "texto": "Critica al TC por **retardar el voto** en habeas corpus que lo liberaría",
+        "ubicacion": "Infobae, 2026-04-01",
+        "indicador": "Busca escapar al sistema legal, no reformarlo — Estadio 1"
+      },
+      {
+        "texto": "Denuncia que **múltiples instituciones trabajan juntas en esta persecución**",
+        "ubicacion": "Infobae, 2026-04-01",
+        "indicador": "Interpreta leyes como armas enemigas — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos 6x1. Consistente.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-jaico-denunciantes-corrupcion",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "fuenteId": "carlos-ernesto-jaico-carranza-2026-03-24-correo",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Jaico identifica problema estructural: **miedo a represalias inhibe denuncia interna**. Propone protección de denunciantes y muerte civil para corruptos. Solución procedimental dentro del marco legal.",
+    "citas": [
+      {
+        "texto": "Lo principal para combatir la corrupción es **proteger a los denunciantes**. Darles la mayor protección del Estado",
+        "ubicacion": "Debate JNE, 24 marzo 2026, bloque integridad pública",
+        "indicador": "Reconoce fallo sistémico, solución dentro del marco legal — Estadio 4"
+      },
+      {
+        "texto": "Para combatir la corrupción debemos declarar la **muerte civil de funcionarios condenados por delitos dolosos contra el Estado**",
+        "ubicacion": "Debate JNE, 24 marzo 2026",
+        "indicador": "Castigo retributivo como disuasión — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos 6x4. Consistente.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-luna-galvez-org-criminal",
+    "entidadId": "jose-leon-luna-galvez",
+    "fuenteId": "jose-leon-luna-galvez-2025-08-07-infobae",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Acusado formalmente por Fiscalía de encabezar organización criminal. Captura de instituciones judiciales: **colocó funcionarios afiliados en ONPE** vinculados a Telesup. Beneficios económicos a miembros del CNM como estrategia de favores.",
+    "citas": [
+      {
+        "texto": "Presuntamente colocó **funcionarios afiliados en posiciones estratégicas de ONPE**, vinculados a Telesup",
+        "ubicacion": "Infobae, agosto 2025, acusación Fiscalía",
+        "indicador": "Captura institucional para beneficio propio — Estadio 2"
+      },
+      {
+        "texto": "La Fiscalía describe **beneficios económicos a antiguos miembros del CNM** como estrategia de favores",
+        "ubicacion": "Infobae / Fiscalía",
+        "indicador": "Soborno y transacción institucional — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos 6x2. Consistente.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-perez-tello-educacion-empleo",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "fuenteId": "maria-soledad-perez-tello-de-rodriguez-2026-03-31-caretas",
+    "estadio": 5,
+    "confianza": "alta",
+    "justificacion": "Pérez Tello mantiene posición principista: **no trato con dictadores, ni de derecha ni de izquierda**. Fundamenta en principios democráticos universales. Acepta apertura solo a quien **respete nuestras reglas**. Radical pero en lo sensato.",
+    "citas": [
+      {
+        "texto": "No trato con dictadores, **ni de derecha ni de izquierda**",
+        "ubicacion": "La República, 14 diciembre 2025",
+        "indicador": "Rechazo universal a autoritarismo — Estadio 5"
+      },
+      {
+        "texto": "**Radical pero en lo sensato**",
+        "ubicacion": "La República, 14 diciembre 2025",
+        "indicador": "Equilibrio entre principios y pragmatismo institucional — Estadio 5"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos 6x5. Consistente. Fuente similar a oleada 7 pero con citas adicionales.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-chiabra-anticorrupcion-burocracia",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "fuenteId": "roberto-enrique-chiabra-leon-2026-02-08-andina",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Chiabra plantea combate a corrupción mediante mecanismos sistémicos: **reducción burocrática, estandarización de procesos**, muerte civil para funcionarios corruptos. Énfasis en eficiencia administrativa y aplicación de normas.",
+    "citas": [
+      {
+        "texto": "Cuando hay una **alta burocracia, baja la eficiencia y se genera una gran corrupción**",
+        "ubicacion": "Andina, plan anticorrupción",
+        "indicador": "Vincula corrupción a falta de sistema/orden — Estadio 4"
+      },
+      {
+        "texto": "Cuando usted **no tiene responsabilidad definida, tarea de todo es responsabilidad de nadie**",
+        "ubicacion": "Andina, propuesta reestructuración",
+        "indicador": "Énfasis en roles, responsabilidades y jerarquía — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos 6x4. Consistente.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-atencio-tesis-ilegales",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "fuenteId": "ronald-darwin-atencio-sotomayor-2026-01-12-infobae",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Atencio dirige Athena Legal Center, vinculado a **venta ilegal de tesis universitarias por S/5,900**. Aprovecha sistema para beneficio personal sin cuestionar fraude académico.",
+    "citas": [
+      {
+        "texto": "Candidato presidencial Ronald Atencio **vinculado a red de venta ilegal de tesis universitarias por S/5,900**",
+        "ubicacion": "Infobae, enero 2026",
+        "indicador": "Justificación instrumental del fraude — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 2,2,1,2,2,1,3. Consistente con mediana 2.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-williams-muerte-civil-transparencia",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "jose-daniel-williams-zapata-2026-04-03-infobae",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Williams propone **muerte civil** para corruptos, recuperación de activos y **transparencia total**. Renuncia voluntaria a pensión militar. Castigo proporcional sin reflexión sobre derechos procesales.",
+    "citas": [
+      {
+        "texto": "**Muerte civil** para quienes roben del país, prisión efectiva, **transparencia total** en gasto público",
+        "ubicacion": "Debate Presidencial JNE 2026",
+        "indicador": "Castigo/reprobación social + norma sistémica — Estadio 3"
+      },
+      {
+        "texto": "**Renunciaría a su propia pensión** si es elegido",
+        "ubicacion": "Debate Presidencial 2026",
+        "indicador": "Coherencia personal con normas, sacrificio voluntario — Estadio 3-4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 1,3,2,3,3,3,4. Consistente con mediana 3.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-paz-de-la-barra-disculpa-franco",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "fuenteId": "alvaro-gonzalo-paz-de-la-barra-freigeiro-2026-03-25-disculpa",
+    "estadio": 1,
+    "confianza": "media",
+    "justificacion": "Paz de la Barra se disculpa en debate por acusar a Sofía Franco de **alcoholismo, drogadicción y ludopatía** en 2021. Reconoce fue **abominable** pero no elabora sobre el daño. Perdón performativo sin reflexión.",
+    "citas": [
+      {
+        "texto": "Expresé cosas que no debería haber expresado. Fue un acto **abominable, feo**",
+        "ubicacion": "Debate Presidencial JNE, marzo 2026",
+        "indicador": "Reconocimiento tardío sin reflexión sobre daño — Estadio 1-2"
+      },
+      {
+        "texto": "En 2021: Que supere sus enfermedades de **drogadicción, alcoholismo, ludopatía**",
+        "ubicacion": "Declaraciones públicas, marzo 2021",
+        "indicador": "Insulto público en disputa familiar — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Corrección: haiku asignó 3. Previos: 1,2,1,2,2,1,1. E1 consistente.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-molinelli-farmaceuticas",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "fiorella-giannina-molinelli-aristondo-2021-08-essalud",
+    "estadio": 3,
+    "confianza": "alta",
+    "justificacion": "Investigación por Club de las Farmacéuticas: compras irregulares en EsSalud con **sobrecostos de S/18.2M en S/28.9M**. Justificación por emergencia COVID. Lealtad grupal: referida como **la tía** en interceptaciones.",
+    "citas": [
+      {
+        "texto": "Molinelli lidera organización criminal Club de las Farmacéuticas con **sobrecosto de S/18.2 millones**",
+        "ubicacion": "Salud con Lupa, Fiscalía",
+        "indicador": "Decisión unilateral sin transparencia — Estadio 3"
+      },
+      {
+        "texto": "En conversaciones intervenidas era referida como **la tía**, coordinando adquisiciones entre proveedores seleccionados",
+        "ubicacion": "Gestión PE, análisis wiretaps",
+        "indicador": "Lealtad grupal, evasión de fiscalización — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 3,4,4,4,4,4,4. Punto de dato bajo legítimo.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-sanchez-red-familiar",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "fuenteId": "roberto-helbert-sanchez-palomino-2025-08-12-elcomercio",
+    "estadio": 2,
+    "confianza": "alta",
+    "justificacion": "Beneficio familiar directo: hermano obtiene órdenes de servicio en municipios donde Sánchez hacía actividad congresista. Ley que favorece a esposa sin transparentar conflicto. Presunto **desvío de fondos partidarios a cuenta personal del hermano**.",
+    "citas": [
+      {
+        "texto": "Hermano obtuvo órdenes de servicio con municipalidades donde **Roberto Sánchez realizaba actividades congresales**",
+        "ubicacion": "El Comercio, carpetas fiscales",
+        "indicador": "Beneficio familiar directo sin transparencia — Estadio 2"
+      },
+      {
+        "texto": "No transparentó que ley Nº 32568 impactaba directamente en su **esposa, técnico CAS del MINSA**",
+        "ubicacion": "El Comercio",
+        "indicador": "Legislación sin divulgación de conflicto de interés — Estadio 1-2"
+      },
+      {
+        "texto": "Fiscalía investiga **depósitos irregulares a cuenta personal del hermano**, no a cuentas del partido",
+        "ubicacion": "El Comercio",
+        "indicador": "Presunto desvío de fondos — Estadio 1"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Previos: 3,2,2,2,2,3,2. Consistente con mediana 2.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-belaunde-corte-idh",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "fuenteId": "rafael-jorge-belaunde-llosa-2026-04-06-ojopublico",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Belaúnde defiende permanencia en Corte IDH: **salirse es un disparate**. Fundamenta desde utilidad práctica: **la Corte es una garantía cuando el Estado comete abuso**. Rechaza pena de muerte por ineficacia, no por dignidad.",
+    "citas": [
+      {
+        "texto": "**Salirse de la Corte IDH me parece que es un disparate**",
+        "ubicacion": "Ojo Público, entrevista",
+        "indicador": "Rechazo pragmático a salida — Estadio 4"
+      },
+      {
+        "texto": "En un país con récord de transgresiones a derechos individuales, **la Corte es una garantía a la que pueden recurrir los peruanos**",
+        "ubicacion": "Ojo Público",
+        "indicador": "Utilidad institucional, no principio — Estadio 4"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 4,5,4,4,5,4,4. Consistente.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-valderrama-rehabilitacion-debate",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "pitter-enrique-valderrama-pena-2026-03-31-infobae",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Valderrama propone cadena perpetua para corruptos institucionales pero **rehabilitación en vez de prisión** para otros. Conecta **criminalidad con hambre y falta de oportunidades**. Razonamiento de expectativas sociales.",
+    "citas": [
+      {
+        "texto": "A todo juez, policía o militar que se coluda con organizaciones criminales le aplicaremos **cadena perpetua**",
+        "ubicacion": "Debate Presidencial 2026, Infobae",
+        "indicador": "Castigo extremo a transgresión institucional — Estadio 2-3"
+      },
+      {
+        "texto": "Una nueva justicia no te enviará a prisión, pero sí a un **centro de rehabilitación**",
+        "ubicacion": "Cruce con Olivera, debate 31-03-2026",
+        "indicador": "Rehabilitación como control estatal — Estadio 3"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Previos: 2,3,2,2,3,3,3. Consistente con mediana 3.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-belmont-plan-anticorrupcion",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "fuenteId": "ricardo-pablo-belmont-cassinelli-2026-04-06-infobae",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Belmont propone **pena de muerte para quien toque el dinero de la gente** y plataforma digital anticorrupción. Solución personalista: confía en liderazgo competente. **Cero papel, cero sobornos**.",
+    "citas": [
+      {
+        "texto": "**Cero papel, cero sobornos**. Limpieza total de malos funcionarios, **pena de muerte para quien toque el dinero de la gente**",
+        "ubicacion": "Debate Presidencial 2026",
+        "indicador": "Retribución extrema disfrazada de sistema — Estadio 2"
+      },
+      {
+        "texto": "**Tenemos convicciones, porque hemos gobernado Lima**... es cuestión de multiplicarlo por dos",
+        "ubicacion": "Exitosa Noticias",
+        "indicador": "Validación por éxito previo, no principios — Estadio 2-3"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Corrección: haiku asignó 4. Pena de muerte es E1-2. Previos: 3,2,2,2,2,3,2.",
+    "evaluador": "haiku-8"
+  },
+  {
+    "id": "eval-carrasco-megacarceles-ofensiva",
+    "entidadId": "charlie-carrasco-salazar",
+    "fuenteId": "charlie-carrasco-salazar-2026-04-06-elperuano",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Carrasco propone **megacárceles para 130,000 internos**, **cadena perpetua** y expulsión de extranjeros en 48h. Jueces penales en comisarías para justicia en 48h. Reorganización estatal con enfoque punitivo extremo.",
+    "citas": [
+      {
+        "texto": "Vamos a cerrar todas las cárceles urbanas y construir **megacárceles en las zonas más altas para 130,000 internos** que trabajarán para su sustento",
+        "ubicacion": "El Peruano",
+        "indicador": "Trabajo forzado como castigo — Estadio 2"
+      },
+      {
+        "texto": "Los extranjeros indocumentados van a tener **48 horas para retirarse de nuestra patria**",
+        "ubicacion": "El Peruano",
+        "indicador": "Aplicación rígida sin consideración contextual — Estadio 1-2"
+      },
+      {
+        "texto": "**Con corruptos y delincuentes no negociamos**",
+        "ubicacion": "El Peruano",
+        "indicador": "Postura inflexible sin análisis — Estadio 2"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Corrección: haiku asignó 4. Megacárceles/trabajo forzado es E1-2. Previos: 1,1,2,2,1,2,2.",
+    "evaluador": "haiku-8"
   }
 ]
