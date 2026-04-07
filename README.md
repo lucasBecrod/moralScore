@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MoralScore
 
-## Getting Started
+> Razonamiento moral verificable. Democracia basada en evidencia.
 
-First, run the development server:
+Plataforma web pública que asigna un **score de razonamiento moral** (estadios 1-6 de Kohlberg) a candidatos políticos peruanos. Cada puntuación es verificable: el usuario clickea el score y accede a las fuentes originales con las citas exactas que lo sustentan.
+
+**Contexto:** Elecciones Generales del Perú 2026.
+
+## Qué evalúa
+
+Se evalúa la **justificación** que da el candidato, no su posición ideológica. Dos candidatos pueden defender la misma política pero uno razona en estadio 2 (transaccional) y otro en estadio 5 (contrato social).
+
+| Nivel | Estadios | Ejemplo |
+|-------|----------|---------|
+| Pre-convencional | 1-2 | "Si me apoyas, te doy obras para tu distrito" |
+| Convencional | 3-4 | "Debemos respetar la Constitución y fortalecer las instituciones" |
+| Post-convencional | 5-6 | "Los derechos fundamentales están por encima de cualquier mayoría coyuntural" |
+
+## Stack
+
+- **Next.js 15** + TypeScript + Tailwind CSS 4
+- **Firebase** (Firestore + App Hosting)
+- **Arquitectura VSA** (features/ como slices autónomos)
+
+## Desarrollo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts útiles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npx tsx scripts/sync-firestore.ts                          # sincronizar data/*.json → Firestore
+npx tsx --env-file=.env.local scripts/reconcile-scores.ts   # recalcular scores
+npx tsx scripts/seed-candidatos.ts                          # seed candidatos desde JNE
+npx tsx scripts/cache-images.ts                             # descargar fotos del JNE
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Metodología
 
-## Learn More
+La metodología completa, prompts de evaluación y criterios de calidad de fuentes están publicados en `/metodologia` y `/docs/*` dentro de la app.
 
-To learn more about Next.js, take a look at the following resources:
+## Autores
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Lucas Becerra** (Economista) — arquitectura, desarrollo, IA
+- **Lady** (Psicóloga) — marco teórico Kohlberg, calibración de rúbricas
