@@ -2148,5 +2148,45 @@
     "fechaFuente": "2024-08-01",
     "entidadId": "rafael-jorge-belaunde-llosa",
     "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-pitter-enrique-valderrama-pena",
+    "url": "https://andina.pe/agencia/noticia-elecciones-2026-enrique-valderrama-plantea-expandir-lineas-metro-a-las-regiones-1061154.aspx",
+    "tipo": "entrevista",
+    "titulo": "Valderrama: expandir metro a regiones",
+    "medio": "Andina",
+    "fechaFuente": "2026-02-03",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-ricardo-pablo-belmont-cassinelli",
+    "url": "https://www.infobae.com/peru/2026/04/06/plan-de-gobierno-del-partido-civico-obras-2026-2031-eje-en-obras-paralizadas-lucha-anticorrupcion-y-apuesta-por-la-formalizacion/",
+    "tipo": "articulo",
+    "titulo": "Belmont: plan anticorrupción partido Cívico Obras",
+    "medio": "Infobae",
+    "fechaFuente": "2026-04-06",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-charlie-carrasco-salazar",
+    "url": "https://caretas.pe/politica/debate-presidencial-2026-conoce-las-propuestas-de-charlie-carrasco-contra-la-inseguridad-y-la-corrupcion/",
+    "tipo": "articulo",
+    "titulo": "Carrasco: jueces sin rostro y sentencias en 48h",
+    "medio": "Caretas",
+    "fechaFuente": "2026-04-03",
+    "entidadId": "charlie-carrasco-salazar",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-alex-gonzales-castillo",
+    "url": "https://www.infobae.com/peru/2026/03/23/debate-presidencial-2026-del-jne-alex-gonzales-del-partido-democrata-verde-participa-en-la-primera-jornada-de-hoy-lunes-23-de-marzo/",
+    "tipo": "debate",
+    "titulo": "Gonzales: reingeniería sistema seguridad",
+    "medio": "Infobae",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "alex-gonzales-castillo",
+    "estado": "evaluada"
   }
 ]

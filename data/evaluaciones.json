@@ -3886,5 +3886,82 @@
     "estadioAlternativo": null,
     "notas": "Tema: vivienda. Patrón: 4,5,4,4,4.",
     "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-pitter-enrique-valderrama-pena",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "f-oleada6-pitter-enrique-valderrama-pena",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Promete Línea 3,4 y metros regionales sin detalle financiero. Mitin=techo 3.",
+    "citas": [
+      {
+        "texto": "Vamos a hacer la Línea 3 y 4 en cuatro años, sin ningún problema",
+        "ubicacion": "Andina, feb 2026",
+        "indicador": "Estadio 3: promesa institucional sin sustento"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: transporte. Patrón: 2,3,2,2,3.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-ricardo-pablo-belmont-cassinelli",
+    "entidadId": "ricardo-pablo-belmont-cassinelli",
+    "fuenteId": "f-oleada6-ricardo-pablo-belmont-cassinelli",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone mecanismos anticorrupción pero marco moral es populista: decentes vs corruptos.",
+    "citas": [
+      {
+        "texto": "Los verdaderos criminales están en el congreso. Hay que cambiar las reglas para que entren personas decentes",
+        "ubicacion": "Debate presidencial 2026",
+        "indicador": "Estadio 3: retórica populista anticorrupción"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: corrupción. Patrón: 3,2,2,2,2,3.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-charlie-carrasco-salazar",
+    "entidadId": "charlie-carrasco-salazar",
+    "fuenteId": "f-oleada6-charlie-carrasco-salazar",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Jueces sin rostro y sentencias en 48h destruyen garantías procesales. Anti-ventriloquismo: haiku sugirió 4 pero es estadio 2.",
+    "citas": [
+      {
+        "texto": "juzgados de ejecución penal que permitan sentencias en un plazo de 48 horas",
+        "ubicacion": "Caretas debate 2026",
+        "indicador": "Estadio 1-2: justicia express sin garantías"
+      },
+      {
+        "texto": "jueces sin rostro",
+        "ubicacion": "Caretas debate 2026",
+        "indicador": "Estadio 1: retorno a prácticas dictatoriales"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema: reforma judicial. Patrón: 1,1,2,2,1,2. Anti-ventriloquismo aplicado.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-alex-gonzales-castillo",
+    "entidadId": "alex-gonzales-castillo",
+    "fuenteId": "f-oleada6-alex-gonzales-castillo",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone reingeniería seguridad integrando Fiscalía-Contraloría-PNP. Institucional pero con retórica punitiva. Anti-ventriloquismo: bajo de 4 a 3.",
+    "citas": [
+      {
+        "texto": "Reingeniería total del sistema de seguridad, articulando Ministerio Público, Contraloría y Policía",
+        "ubicacion": "Debate JNE 23/03",
+        "indicador": "Estadio 3-4: institucional con retórica punitiva"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema: justicia/corrupción. Patrón: 2,2,3,2,3,3.",
+    "evaluador": "lucas"
   }
 ]
