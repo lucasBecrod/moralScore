@@ -3,9 +3,14 @@
 ## Secuencia obligatoria
 
 ```
-Implementación → Tests → Commits locales → [Checkpoint seguridad] → Push → PR
-     A,B,C     →  tests  →  /cicd-github  →    orquestador revisa  → push  → PR
+Implementación → PURGADO → Tests → Commits locales → [Checkpoint seguridad] → Push → PR
+     A,B,C     → Musk P2 →  tests  →  /cicd-github  →    orquestador revisa  → push  → PR
 ```
+
+> **PURGADO**: Después de implementar y antes de tests, cada agente aplica el Paso 2 del
+> [Algoritmo de Musk](../references/algoritmo-musk.md) — eliminar abstracciones de 1 uso,
+> estados intermedios innecesarios, código defensivo para escenarios imposibles.
+> Métrica: si no tuviste que re-agregar nada, no fuiste agresivo.
 
 El orquestador **nunca ejecuta** tests, commits ni push — genera prompts para agentes externos.
 

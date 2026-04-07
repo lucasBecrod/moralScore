@@ -204,6 +204,22 @@ Ver mapa completo de skills en SKILL.md → sección "Mapa de skills".
 
 ---
 
+## PURGADO — Algoritmo de Musk, Paso 2
+
+Antes de validar, aplica el Paso 2 (Eliminar):
+1. Revisa lo que escribiste. Identifica:
+   - Abstracciones que solo se usan 1 vez
+   - Estados intermedios que pueden eliminarse
+   - Validaciones redundantes con lo que ya existe
+   - Código defensivo para escenarios imposibles
+2. Elimina al menos 1 elemento concreto
+3. Si algún archivo supera 200 LOC (150 .tsx), divídelo ahora
+4. Verifica que sigue funcionando después de podar
+
+> Métrica del 10%: si no tuviste que re-agregar nada, no fuiste agresivo.
+
+---
+
 ## VALIDACIÓN (Verificar antes de reportar completado)
 
 1. `[comando test]` → todos pasan
