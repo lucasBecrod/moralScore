@@ -71,10 +71,9 @@ muere. **La migración a Vercel es misión separada.**
 
 ## Dependencia
 
-> **BLOQUEANTE**: Esta misión depende de que la misión `migracion-candidaturas`
-> (reestructuración de colecciones Firestore) se complete primero.
-> Los schemas y reglas de esta misión se construyen sobre la estructura
-> resultante de esa migración.
+> ~~**BLOQUEANTE**: Esta misión depende de que la misión `migracion-candidaturas` se complete primero.~~
+> **RESUELTA** (7 abril 2026): Migración completada, deployada a prod. Modelo actual:
+> `entidades` (scoreHistorico), `candidaturas` (partido, scoreCandidatura), `procesos`, `fuentes` (fechaEvento), `evaluaciones` (fechaEvento).
 
 ---
 

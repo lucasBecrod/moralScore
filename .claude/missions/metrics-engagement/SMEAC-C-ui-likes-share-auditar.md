@@ -178,14 +178,14 @@ function getShareUrl(): string {
 }
 
 function shareWhatsApp() {
-  const text = `${entidad.nombre} tiene un score Kohlberg de ${entidad.scoreActual?.toFixed(1) ?? "?"}/6. Audita la evidencia:`;
+  const text = `${entidad.nombre} tiene un score Kohlberg de ${entidad.scoreHistorico?.toFixed(1) ?? "?"}/6. Audita la evidencia:`;
   const url = `${getShareUrl()}?ref=share_wa`;
   window.open(`https://wa.me/?text=${encodeURIComponent(text + " " + url)}`, "_blank");
   trackMetric("shares_wa");
 }
 
 function shareTwitter() {
-  const text = `${entidad.nombre}: score Kohlberg ${entidad.scoreActual?.toFixed(1) ?? "?"}/6. Sin ideología, solo evidencia.`;
+  const text = `${entidad.nombre}: score Kohlberg ${entidad.scoreHistorico?.toFixed(1) ?? "?"}/6. Sin ideología, solo evidencia.`;
   const url = `${getShareUrl()}?ref=share_tw`;
   window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, "_blank");
   trackMetric("shares_tw");
@@ -345,3 +345,19 @@ Agregar a imports permitidos:
 - WhatsApp es el canal #1 en Perú. El botón de WhatsApp debe ser visualmente el más prominente.
 - El diseño debe ser mobile-first. Los botones de share deben ser usables con el pulgar.
 - `SITE_CONFIG.url` es "https://moralscore.pe" — usado para construir las URLs de share.
+- **Modelo post-migración**: `partido` y `logoPartido` viven en candidaturas, no en entidades. EntidadDetallePage ya obtiene candidaturas — usar `candidaturaPrincipal?.partido` para los textos de share.
+
+---
+
+## PURGADO — Algoritmo de Musk, Paso 2
+
+Antes de validar, aplica el Paso 2 (Eliminar):
+1. Revisa lo que escribiste. Identifica:
+   - Props que se pasan pero no se usan
+   - Estados intermedios innecesarios
+   - Código defensivo para escenarios imposibles
+2. Elimina al menos 1 elemento concreto
+3. Si algún componente supera 150 LOC, extraer sub-componente
+4. Verifica que `pnpm build` sigue pasando después de podar
+
+> Métrica del 10%: si no tuviste que re-agregar nada, no fuiste agresivo.
