@@ -12,6 +12,10 @@ description: Planificar trabajo complejo y coordinar agentes especializados. Flu
 > 4. **Ejecución**: N órdenes SMEAC → agentes en paralelo
 > 5. **Post-impl**: tests + checkpoint seguridad + commits + push
 
+## Referencia obligatoria
+
+Antes de redactar cualquier misión SMEAC, leer [`references/algoritmo-musk.md`](../references/algoritmo-musk.md) — los 5 pasos del Algoritmo de Musk se aplican en cada etapa de la orquestación.
+
 ## Principio rector: Espejo mental del CTO, no ejecutor
 
 Claude como orquestador es el **reflejo mental global** de lo que el usuario quiere lograr: mantiene el objetivo estratégico, detecta dependencias, prioriza por riesgo, y genera las órdenes que los agentes ejecutan.
