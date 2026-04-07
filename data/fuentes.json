@@ -2088,5 +2088,65 @@
     "fechaFuente": "2026-03-15",
     "entidadId": "roberto-enrique-chiabra-leon",
     "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-jose-daniel-williams-zapata",
+    "url": "https://diariocorreo.pe/politica/debate-presidencial-2026-lopez-chau-gonzales-y-williams-presentaron-sus-propuestas-contra-la-corrupcion-noticia/",
+    "tipo": "debate",
+    "titulo": "Williams: propuestas contra corrupción - Debate JNE",
+    "medio": "Diario Correo",
+    "fechaFuente": "2026-03-23",
+    "entidadId": "jose-daniel-williams-zapata",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-ronald-darwin-atencio-sotomayor",
+    "url": "https://larepublica.pe/politica/2026/03/25/ronald-atencio-al-cierre-del-debate-presidencial-corrupcion-se-escribe-con-k-de-la-senora-keiko-fujimori-hnews-958725",
+    "tipo": "debate",
+    "titulo": "Atencio: corrupción se escribe con K — Debate JNE",
+    "medio": "La República",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "url": "https://larepublica.pe/politica/2026/03/25/candidatos-coinciden-en-que-el-congreso-es-responsable-de-la-crisis-actual-hnews-1684275",
+    "tipo": "debate",
+    "titulo": "Paz de la Barra: reforma judicial sin debido proceso",
+    "medio": "La República",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-fiorella-giannina-molinelli-aristondo",
+    "url": "https://elperuano.pe/noticia/290953-elecciones-2026-conoce-el-plan-de-gobierno-de-fiorella-molinelli-aristondo",
+    "tipo": "articulo",
+    "titulo": "Molinelli: plan de gobierno reforma judicial",
+    "medio": "El Peruano",
+    "fechaFuente": "2026-02-14",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-roberto-helbert-sanchez-palomino",
+    "url": "https://rpp.pe/politica/elecciones/roberto-sanchez-plantea-que-jueces-y-fiscales-sean-elegidos-via-eleccion-popular-noticia-1681565",
+    "tipo": "entrevista",
+    "titulo": "Sánchez: jueces elegidos por voto popular",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-rafael-jorge-belaunde-llosa",
+    "url": "https://larepublica.pe/opinion/2024/08/01/la-propiedad-privada-comienza-por-casa-por-rafael-belaunde-llosa-columna-palabras-libres-61172",
+    "tipo": "articulo",
+    "titulo": "Belaúnde: la propiedad privada comienza por casa",
+    "medio": "La República",
+    "fechaFuente": "2024-08-01",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "estado": "evaluada"
   }
 ]

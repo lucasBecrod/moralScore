@@ -3768,5 +3768,123 @@
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (pensiones/género). Patrón (4,4,4,4,4).",
     "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-jose-daniel-williams-zapata",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "f-oleada6-jose-daniel-williams-zapata",
+    "estadio": 3,
+    "confianza": "alta",
+    "justificacion": "Propone castigo severo (muerte civil, cárcel) y recuperación de activos. Enfoque punitivo sobre reforma sistémica. Menciona juzgados especializados pero el énfasis es castigo ejemplar.",
+    "citas": [
+      {
+        "texto": "muerte civil para quienes le roban al país, cárcel efectiva para los corruptos y recuperación inmediata de activos",
+        "ubicacion": "Debate JNE 23/03, bloque integridad",
+        "indicador": "Estadio 2-3: castigo transaccional"
+      },
+      {
+        "texto": "crear juzgados y salas especializadas con recursos exclusivos",
+        "ubicacion": "Debate JNE 23/03",
+        "indicador": "Estadio 4: referencia institucional"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema: corrupción. Propuesta híbrida castigo+instituciones.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-ronald-darwin-atencio-sotomayor",
+    "entidadId": "ronald-darwin-atencio-sotomayor",
+    "fuenteId": "f-oleada6-ronald-darwin-atencio-sotomayor",
+    "estadio": 1,
+    "confianza": "baja",
+    "justificacion": "Castigos extremos (cadena perpetua, muerte civil) sin reforma institucional. Vinculado a venta ilegal de tesis.",
+    "citas": [
+      {
+        "texto": "Corrupción se escribe con K de la señora Keiko Fujimori. Cadena perpetua para los corruptos",
+        "ubicacion": "Debate JNE 25/03",
+        "indicador": "Castigo/fuerza retributivo"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Tema: corrupción. Inconsistencia ética personal.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "fuenteId": "f-oleada6-alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Propone eliminar debido proceso para corruptos con castigo en 72h. Autoritarismo jurídico.",
+    "citas": [
+      {
+        "texto": "la persona corrupta es corrupta cuando duerme, cuando respira... en 72 horas, cadena perpetua",
+        "ubicacion": "Debate JNE marzo 2026",
+        "indicador": "Estadio 1: castigo/fuerza, negación derechos"
+      },
+      {
+        "texto": "doy siete días útiles a los corruptos para renunciar",
+        "ubicacion": "Entrevista marzo 2026",
+        "indicador": "Estadio 1: uso coercitivo del poder"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: reforma judicial. Consistente con patrón autoritario.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-fiorella-giannina-molinelli-aristondo",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "f-oleada6-fiorella-giannina-molinelli-aristondo",
+    "estadio": 4,
+    "confianza": "alta",
+    "justificacion": "Propone jueces de tiempo completo y eliminación de arbitrariedad judicial. Énfasis institucional.",
+    "citas": [
+      {
+        "texto": "jueces de tiempo completo en lugar de jueces seleccionados arbitrariamente",
+        "ubicacion": "Plan de gobierno 2026, reforma judicial",
+        "indicador": "Estadio 4: instituciones formales, rechazo arbitrariedad"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: reforma judicial. Consistente con patrón institucional (3,4,4,4,4).",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-roberto-helbert-sanchez-palomino",
+    "entidadId": "roberto-helbert-sanchez-palomino",
+    "fuenteId": "f-oleada6-roberto-helbert-sanchez-palomino",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Propone elección popular de jueces. Suena a reforma institucional pero expertos señalan que politiza la justicia. Motivación populista.",
+    "citas": [
+      {
+        "texto": "Los fiscales, los jueces, deben ser elegidos no en la componenda del Congreso",
+        "ubicacion": "Entrevista RPP 25/03",
+        "indicador": "Estadio 3-4: reforma institucional con motivación populista"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema: reforma judicial. Anti-ventriloquismo: baja de 4 a 3 por riesgo populista.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-rafael-jorge-belaunde-llosa",
+    "entidadId": "rafael-jorge-belaunde-llosa",
+    "fuenteId": "f-oleada6-rafael-jorge-belaunde-llosa",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Propone sociedad de propietarios con 500k lotes urbanos. Enfoque institucional con diagnóstico cuantificado.",
+    "citas": [
+      {
+        "texto": "La Economía Popular de Mercado pasa por construir una sociedad de propietarios",
+        "ubicacion": "Columna La República",
+        "indicador": "Estadio 4: institucional con datos"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: vivienda. Patrón: 4,5,4,4,4.",
+    "evaluador": "lucas"
   }
 ]
