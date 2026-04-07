@@ -23,9 +23,10 @@ interface Evaluacion {
 
 interface HistorialEvaluacionesProps {
   evaluaciones: Evaluacion[];
+  onFuenteExpanded?: () => void;
 }
 
-export default function HistorialEvaluaciones({ evaluaciones }: HistorialEvaluacionesProps) {
+export default function HistorialEvaluaciones({ evaluaciones, onFuenteExpanded }: HistorialEvaluacionesProps) {
   return (
     <section>
       <h2 className="text-lg font-semibold text-zinc-100 mb-4">
@@ -49,6 +50,7 @@ export default function HistorialEvaluaciones({ evaluaciones }: HistorialEvaluac
               justificacion={ev.justificacion}
               citas={ev.citas}
               imagen={ev.fuente.imagen}
+              onExpand={onFuenteExpanded}
             />
           ))}
         </div>

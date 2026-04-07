@@ -8,6 +8,10 @@ Página de perfil de la entidad: score desglosado, fuentes evaluadas, botón [+]
 - Listar fuentes evaluadas como FuenteCard (cita + link + estadio)
 - Botón [+] que abre el modal de subir-fuente
 - Mostrar fuentes pendientes/aprobadas sin score aún
+- Likes: toggle like (requires viewing at least one fuente first, auth-gated)
+- Share: WhatsApp, X (Twitter), copy link with tracking refs
+- Auditar: link to /metodologia for algorithm transparency
+- Metric tracking: likes_dados, likes_quitados, shares_wa, shares_tw, shares_copy
 
 ## Imports permitidos
 - `@/schemas/*`

@@ -19,6 +19,7 @@ interface FuenteCardProps {
   justificacion: string;
   citas: Cita[];
   imagen?: string;
+  onExpand?: () => void;
 }
 
 const ZONE_STYLES = {
@@ -73,6 +74,7 @@ export default function FuenteCard({
   justificacion,
   citas,
   imagen,
+  onExpand,
 }: FuenteCardProps) {
   const [expanded, setExpanded] = useState(false);
   const stage = KOHLBERG_STAGES[estadio as KohlbergStage];
@@ -86,11 +88,19 @@ export default function FuenteCard({
   return (
     <div
       className="overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 cursor-pointer transition-colors hover:border-zinc-700"
-      onClick={() => setExpanded(!expanded)}
+      onClick={() => {
+        const willExpand = !expanded;
+        setExpanded(willExpand);
+        if (willExpand) onExpand?.();
+      }}
       role="button"
       tabIndex={0}
       onKeyDown={(e) => {
-        if (e.key === "Enter" || e.key === " ") setExpanded(!expanded);
+        if (e.key === "Enter" || e.key === " ") {
+          const willExpand = !expanded;
+          setExpanded(willExpand);
+          if (willExpand) onExpand?.();
+        }
       }}
     >
       {/* Colapsado */}
