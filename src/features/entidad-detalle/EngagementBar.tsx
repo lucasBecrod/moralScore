@@ -102,7 +102,7 @@ export default function EngagementBar({
         href="/metodologia"
         className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-300"
       >
-        El algoritmo es ciego.{" "}
+        El algoritmo es imparcial.{" "}
         <span className="underline">Audita el c&oacute;digo y los prompts</span>{" "}
         &rarr;
       </Link>
