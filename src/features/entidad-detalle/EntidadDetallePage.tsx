@@ -2,11 +2,12 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { getEntidadById, getEvaluacionesByEntidad, getFuentesByEntidad } from "@/firebase/queries";
+import { getEntidadById, getEvaluacionesByEntidad, getFuentesByEntidad, getCandidaturasByEntidad } from "@/firebase/queries";
 import { getPublicLabel } from "@/shared/config/kohlberg-stages";
 import HistorialEvaluaciones from "./HistorialEvaluaciones";
 import SubirFuenteModal from "@/features/subir-fuente/SubirFuenteModal";
 import type { Entidad } from "@/schemas/entidad.schema";
+import type { Candidatura } from "@/schemas/candidatura.schema";
 import type { Evaluacion } from "@/schemas/evaluacion.schema";
 import type { Fuente } from "@/schemas/fuente.schema";
 
@@ -81,17 +82,20 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   const [entidad, setEntidad] = useState<Entidad | null>(null);
   const [evaluaciones, setEvaluaciones] = useState<Evaluacion[]>([]);
   const [fuentes, setFuentes] = useState<Fuente[]>([]);
+  const [candidaturas, setCandidaturas] = useState<Candidatura[]>([]);
 
   useEffect(() => {
     Promise.all([
       getEntidadById(id),
       getEvaluacionesByEntidad(id),
       getFuentesByEntidad(id),
+      getCandidaturasByEntidad(id),
     ])
-      .then(([ent, evals, fts]) => {
+      .then(([ent, evals, fts, cands]) => {
         setEntidad(ent);
         setEvaluaciones(evals);
         setFuentes(fts);
+        setCandidaturas(cands);
       })
       .finally(() => setLoading(false));
   }, [id]);
@@ -114,6 +118,8 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
     );
   }
 
+  const candidaturaPrincipal = candidaturas[0] || null;
+
   const fuenteMap = new Map(fuentes.map((f) => [f.id, f]));
 
   const evalsForHistorial = evaluaciones.map((ev) => {
@@ -128,7 +134,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
         titulo: fuente?.titulo ?? "Fuente desconocida",
         url: fuente?.url,
         medio: fuente?.medio,
-        fechaFuente: fuente?.fechaFuente,
+        fechaFuente: fuente?.fechaEvento,
       },
     };
   });
@@ -137,8 +143,8 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   const fuentesRechazadas = fuentes.filter((f) => f.estado === "rechazada");
 
   const realEvalCount = evaluaciones.length;
-  const zone = entidad.scoreActual !== null ? getZoneStyle(entidad.scoreActual) : null;
-  const filledSegments = entidad.scoreActual !== null ? Math.round(entidad.scoreActual) : 0;
+  const zone = entidad.scoreHistorico !== null ? getZoneStyle(entidad.scoreHistorico) : null;
+  const filledSegments = entidad.scoreHistorico !== null ? Math.round(entidad.scoreHistorico) : 0;
   const confident = realEvalCount >= 5;
 
   return (
@@ -165,10 +171,10 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
               <span className="text-zinc-500 text-2xl">?</span>
             </div>
           )}
-          {entidad.logoPartido && (
+          {candidaturaPrincipal?.logoPartido && (
             <img
-              src={entidad.logoPartido}
-              alt={entidad.partido || ""}
+              src={candidaturaPrincipal.logoPartido}
+              alt={candidaturaPrincipal?.partido || ""}
               className="absolute -bottom-2 -right-2 h-8 w-8 rounded-full border-2 border-zinc-950 bg-white object-contain"
             />
           )}
@@ -179,20 +185,20 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
           {/* Identidad */}
           <div>
             <h1 className="text-2xl font-bold text-zinc-100">{entidad.nombre}</h1>
-            {entidad.partido && (
-              <p className="mt-0.5 text-sm text-zinc-400">{entidad.partido}</p>
+            {candidaturaPrincipal?.partido && (
+              <p className="mt-0.5 text-sm text-zinc-400">{candidaturaPrincipal.partido}</p>
             )}
           </div>
 
           {/* Barra segmentada (consistente con las tarjetas) */}
-          {entidad.scoreActual !== null && zone ? (
+          {entidad.scoreHistorico !== null && zone ? (
             <div className={`flex flex-col gap-1 ${confident ? "" : "opacity-40"}`}>
               <span className="text-xs text-zinc-500">
-                {getPublicLabel(entidad.scoreActual!)} ({realEvalCount} evaluaciones)
+                {getPublicLabel(entidad.scoreHistorico!)} ({realEvalCount} evaluaciones)
               </span>
               <div className="flex items-center gap-3">
                 <span className={`text-xl font-bold tabular-nums ${zone.text}`}>
-                  {entidad.scoreActual.toFixed(1)}
+                  {entidad.scoreHistorico.toFixed(1)}
                 </span>
                 <div className="flex max-w-36 flex-1 gap-1">
                   {Array.from({ length: 6 }, (_, i) => (
@@ -246,7 +252,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
                       </p>
                       <p className="text-xs text-zinc-500">
                         {domain}
-                        {f.fechaFuente && <> &middot; {f.fechaFuente}</>}
+                        {f.fechaEvento && <> &middot; {f.fechaEvento}</>}
                         <> &middot; {f.tipo}</>
                       </p>
                     </div>

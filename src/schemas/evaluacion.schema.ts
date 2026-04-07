@@ -24,7 +24,8 @@ export const EvaluacionSchema = z.object({
     .nullable()
     .describe("Estadio alternativo si hay ambigüedad"),
   notas: z.string().nullable().describe("Observaciones adicionales"),
-  evaluador: z.enum(["lucas", "lady"]).describe("Quién realizó la evaluación"),
+  fechaEvento: z.string().describe("ISO 8601 date del acto evaluado — heredado de la fuente"),
+  evaluador: z.string().describe("Quién realizó la evaluación"),
   validadoPor: z
     .enum(["lucas", "lady"])
     .nullable()

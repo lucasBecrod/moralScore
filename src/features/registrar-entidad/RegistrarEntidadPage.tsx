@@ -22,7 +22,6 @@ interface FormData {
   nombre: string;
   partido: string;
   rol: Rol;
-  cargo: string;
 }
 
 function toSlug(name: string): string {
@@ -41,7 +40,6 @@ export default function RegistrarEntidadPage() {
     nombre: "",
     partido: "",
     rol: "presidente",
-    cargo: "",
   });
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [imagePreview, setImagePreview] = useState<string | undefined>();
@@ -88,7 +86,6 @@ export default function RegistrarEntidadPage() {
           tipo: "persona",
           rol: form.rol,
           partido: form.partido.trim() || undefined,
-          cargo: form.cargo.trim() || undefined,
         }),
       });
 
@@ -149,7 +146,7 @@ export default function RegistrarEntidadPage() {
           <button
             onClick={() => {
               setCreatedId(null);
-              setForm({ nombre: "", partido: form.partido, rol: form.rol, cargo: "" });
+              setForm({ nombre: "", partido: form.partido, rol: form.rol });
               setImageFile(null);
               setImagePreview(undefined);
             }}
@@ -243,22 +240,6 @@ export default function RegistrarEntidadPage() {
               ))}
             </select>
           </div>
-        </div>
-
-        {/* Cargo */}
-        <div>
-          <label htmlFor="cargo" className="block text-sm font-medium text-zinc-300 mb-1">
-            Cargo actual (opcional)
-          </label>
-          <input
-            id="cargo"
-            name="cargo"
-            type="text"
-            value={form.cargo}
-            onChange={handleChange}
-            placeholder="Cargo o actividad actual"
-            className="w-full rounded-lg border border-zinc-600 bg-zinc-800 text-zinc-100 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-          />
         </div>
 
         {error && <p className="text-sm text-red-600">{error}</p>}
