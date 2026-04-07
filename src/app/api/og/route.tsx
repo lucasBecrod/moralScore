@@ -309,7 +309,7 @@ export async function GET(request: NextRequest) {
                 color: "#52525b",
               }}
             >
-              moralscore.pe
+              MoralScore
             </span>
           </div>
         </div>

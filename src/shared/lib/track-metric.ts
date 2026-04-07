@@ -1,7 +1,7 @@
 import { doc, setDoc, increment } from "firebase/firestore";
 import { db } from "@/firebase/client";
 
-type MetricField = "shares_wa" | "shares_tw" | "shares_copy" | "likes_dados" | "likes_quitados" | "fuentes_subidas";
+type MetricField = "shares_wa" | "shares_tw" | "shares_fb" | "shares_copy" | "validaciones_dadas" | "validaciones_quitadas" | "fuentes_subidas";
 
 function todayDocId(): string {
   const d = new Date();
