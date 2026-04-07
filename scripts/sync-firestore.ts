@@ -83,6 +83,7 @@ async function syncCollection(
 
     if (snap.exists) {
       const existing = snap.data() || {};
+      const createdAt = existing.createdAt;
       const compareKeys = Object.keys(data).filter(k => !ignoreFieldsOnCompare.includes(k));
       const relevantExisting: Record<string, unknown> = {};
       const relevantNew: Record<string, unknown> = {};
@@ -96,7 +97,7 @@ async function syncCollection(
         continue;
       }
 
-      await ref.set(data, { merge: true });
+      await ref.set({ ...data, ...(createdAt ? { createdAt } : {}) });
       updated++;
     } else {
       await ref.set({ ...data, createdAt: new Date().toISOString() });
@@ -112,7 +113,7 @@ async function main() {
   // 1. Sync candidatos
   console.log("📋 Candidatos...");
   const candidatos = loadJson<Record<string, unknown>>("candidatos.json");
-  const candResult = await syncCollection("entidades", candidatos, "id", ["scoreActual", "totalEvaluaciones"]);
+  const candResult = await syncCollection("entidades", candidatos, "id", ["scoreHistorico", "totalEvaluacionesHistoricas"]);
   console.log(`   ${candResult.created} nuevos, ${candResult.updated} actualizados, ${candResult.skipped} sin cambios`);
 
   // 2. Sync fuentes
@@ -135,7 +136,19 @@ async function main() {
   })), "id", ["createdAt"]);
   console.log(`   ${evalResult.created} nuevas, ${evalResult.updated} actualizadas, ${evalResult.skipped} sin cambios`);
 
-  // 4. Recalcular scores
+  // 4. Sync procesos
+  console.log("🗳️ Procesos...");
+  const procesos = loadJson<Record<string, unknown>>("procesos.json");
+  const procResult = await syncCollection("procesos", procesos);
+  console.log(`   ${procResult.created} nuevos, ${procResult.updated} actualizados, ${procResult.skipped} sin cambios`);
+
+  // 5. Sync candidaturas
+  console.log("🎯 Candidaturas...");
+  const candidaturas = loadJson<Record<string, unknown>>("candidaturas.json");
+  const candResult2 = await syncCollection("candidaturas", candidaturas, "id", ["scoreCandidatura", "evaluacionesCandidatura"]);
+  console.log(`   ${candResult2.created} nuevas, ${candResult2.updated} actualizadas, ${candResult2.skipped} sin cambios`);
+
+  // 6. Recalcular scores
   if (evalResult.created > 0 || evalResult.updated > 0) {
     console.log("\n📊 Recalculando scores...");
     const evalSnap = await db.collection("evaluaciones").get();
@@ -154,13 +167,41 @@ async function main() {
       const snap = await ref.get();
       const current = snap.data();
 
-      if (current?.scoreActual !== score || current?.totalEvaluaciones !== estadios.length) {
-        await ref.set({ scoreActual: score, totalEvaluaciones: estadios.length }, { merge: true });
+      if (current?.scoreHistorico !== score || current?.totalEvaluacionesHistoricas !== estadios.length) {
+        await ref.set({ scoreHistorico: score, totalEvaluacionesHistoricas: estadios.length }, { merge: true });
         console.log(`   ${id} → ${score} (${estadios.length} evals)`);
       }
     }
   } else {
     console.log("\n📊 Sin cambios en evaluaciones, scores intactos.");
+  }
+
+  // Recalculate candidatura scores (time-bounded)
+  console.log("\n🎯 Recalculando scores de candidaturas...");
+  const activeProcesos = await db.collection("procesos").where("activa", "==", true).get();
+
+  for (const procDoc of activeProcesos.docs) {
+    const fechaCorte = procDoc.data().fechaCorte;
+    const candSnap = await db.collection("candidaturas").where("procesoId", "==", procDoc.id).get();
+
+    for (const candDoc of candSnap.docs) {
+      const cand = candDoc.data();
+      const evalSnap2 = await db.collection("evaluaciones")
+        .where("entidadId", "==", cand.entidadId).get();
+      const filtered = evalSnap2.docs
+        .map(d => d.data())
+        .filter(e => e.fechaEvento && e.fechaEvento <= fechaCorte);
+      const estadios = filtered.map(e => e.estadio).sort((a, b) => a - b);
+      const score = estadios.length > 0 ? median(estadios) : null;
+
+      if (cand.scoreCandidatura !== score || cand.evaluacionesCandidatura !== estadios.length) {
+        await db.collection("candidaturas").doc(candDoc.id).update({
+          scoreCandidatura: score,
+          evaluacionesCandidatura: estadios.length,
+        });
+        console.log(`   ${candDoc.id} → ${score} (${estadios.length} evals, corte: ${fechaCorte})`);
+      }
+    }
   }
 
   console.log("\n✅ Sync completado.\n");

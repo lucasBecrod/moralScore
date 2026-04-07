@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { getPublicLabel } from "@/shared/config/kohlberg-stages";
-import type { Entidad } from "@/schemas/entidad.schema";
+import type { Candidatura } from "@/schemas/candidatura.schema";
 
 interface EntidadCardProps {
-  entidad: Entidad;
+  candidatura: Candidatura;
 }
 
 // Color unificado por zona — un solo color por candidato
@@ -19,16 +19,16 @@ function getZoneStyle(score: number) {
   return ZONE_STYLES.pre;
 }
 
-export function EntidadCard({ entidad }: EntidadCardProps) {
-  const { id, nombre, partido, foto, logoPartido, scoreActual, totalEvaluaciones } = entidad;
+export function EntidadCard({ candidatura }: EntidadCardProps) {
+  const { entidadId, nombre, partido, foto, logoPartido, scoreCandidatura, evaluacionesCandidatura } = candidatura;
 
-  const zone = scoreActual !== null ? getZoneStyle(scoreActual) : null;
-  const filledSegments = scoreActual !== null ? Math.round(scoreActual) : 0;
-  const confident = totalEvaluaciones >= 5;
+  const zone = scoreCandidatura !== null ? getZoneStyle(scoreCandidatura) : null;
+  const filledSegments = scoreCandidatura !== null ? Math.round(scoreCandidatura) : 0;
+  const confident = evaluacionesCandidatura >= 5;
 
   return (
     <Link
-      href={`/entidad/${id}`}
+      href={`/entidad/${entidadId}`}
       className="group flex gap-3 rounded-xl border border-zinc-800 bg-zinc-900 p-3 transition-all hover:border-zinc-600 hover:shadow-lg"
     >
       {/* Retrato + logo partido */}
@@ -66,14 +66,14 @@ export function EntidadCard({ entidad }: EntidadCardProps) {
         </div>
 
         {/* Grupo 2: Métricas (apretado internamente) */}
-        {scoreActual !== null && zone ? (
+        {scoreCandidatura !== null && zone ? (
           <div className={`flex flex-col gap-0.5 ${confident ? "" : "opacity-40"}`}>
             <span className="text-[11px] text-zinc-500">
-              {getPublicLabel(scoreActual)}{totalEvaluaciones > 0 && <> ({totalEvaluaciones} evaluaciones)</>}
+              {getPublicLabel(scoreCandidatura)}{evaluacionesCandidatura > 0 && <> ({evaluacionesCandidatura} evaluaciones)</>}
             </span>
             <div className="flex items-center gap-2">
               <span className={`text-sm font-bold tabular-nums ${zone.text}`}>
-                {scoreActual.toFixed(1)}
+                {scoreCandidatura.toFixed(1)}
               </span>
               <div className="flex max-w-32 flex-1 gap-0.5">
                 {Array.from({ length: 6 }, (_, i) => (

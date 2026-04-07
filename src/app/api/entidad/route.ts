@@ -1,8 +1,10 @@
 import { NextResponse } from "next/server";
 import { z } from "zod/v4";
-import { createEntidad } from "@/firebase/queries";
+import { createEntidad, getProcesoActivo } from "@/firebase/queries";
 import { EntidadTipo } from "@/schemas/entidad.schema";
 import { checkRateLimit, getClientIP } from "@/shared/lib/rate-limit";
+import { setDoc, doc } from "firebase/firestore";
+import { db } from "@/firebase/client";
 
 const CrearEntidadInput = z.object({
   nombre: z.string().min(1).describe("Nombre público de la entidad"),
@@ -10,13 +12,11 @@ const CrearEntidadInput = z.object({
   tipo: EntidadTipo.optional(),
   nombreLegal: z.string().optional(),
   dniRuc: z.string().optional(),
-  partido: z.string().optional(),
-  cargo: z.string().optional(),
   region: z.string().optional(),
-  intencionVoto: z.string().optional(),
-  planGobierno: z.string().optional(),
   bio: z.string().optional(),
-  links: z.array(z.string()).optional(),
+  // Electoral fields — for candidatura, not stored in entidad
+  partido: z.string().optional(),
+  rol: z.string().optional(),
 });
 
 function toSlug(name: string): string {
@@ -48,14 +48,28 @@ export async function POST(request: Request) {
       );
     }
 
-    const id = toSlug(parsed.data.nombre);
+    const { partido, rol, ...entidadFields } = parsed.data;
+    const id = toSlug(entidadFields.nombre);
 
-    const entidadData = {
-      id,
-      ...parsed.data,
-    };
+    await createEntidad({ id, ...entidadFields });
 
-    await createEntidad(entidadData);
+    // Create candidatura if electoral fields present
+    if (partido || rol) {
+      const procesoActivo = await getProcesoActivo();
+      if (procesoActivo) {
+        const candidaturaId = `${id}_${procesoActivo.id}`;
+        await setDoc(doc(db, "candidaturas", candidaturaId), {
+          entidadId: id,
+          procesoId: procesoActivo.id,
+          partido: partido || undefined,
+          rol: rol || undefined,
+          nombre: entidadFields.nombre,
+          foto: entidadFields.foto,
+          scoreCandidatura: null,
+          evaluacionesCandidatura: 0,
+        });
+      }
+    }
 
     return NextResponse.json(
       { id, message: "Entidad registrada" },

@@ -14,6 +14,8 @@ import { db } from "@/firebase/client";
 import type { Entidad } from "@/schemas/entidad.schema";
 import type { Fuente, SubirFuenteInput } from "@/schemas/fuente.schema";
 import type { Evaluacion } from "@/schemas/evaluacion.schema";
+import type { Candidatura } from "@/schemas/candidatura.schema";
+import type { Proceso } from "@/schemas/proceso.schema";
 
 // Verifica si Firebase está configurado (env vars presentes)
 function isFirebaseConfigured(): boolean {
@@ -41,7 +43,7 @@ export async function getEntidadById(
 }
 
 export async function createEntidad(
-  data: Omit<Entidad, "scoreActual" | "totalEvaluaciones">
+  data: Omit<Entidad, "scoreHistorico" | "totalEvaluacionesHistoricas">
 ): Promise<string> {
   if (!isFirebaseConfigured()) {
     return "mock-entidad-" + Date.now();
@@ -50,8 +52,8 @@ export async function createEntidad(
   const ref = doc(db, "entidades", data.id);
   await setDoc(ref, {
     ...data,
-    scoreActual: null,
-    totalEvaluaciones: 0,
+    scoreHistorico: null,
+    totalEvaluacionesHistoricas: 0,
   });
   return data.id;
 }
@@ -93,6 +95,7 @@ export async function createFuente(
     entidadId: input.entidadId,
     titulo: input.titulo || input.url,
     medio: input.medio,
+    fechaEvento: now.slice(0, 10),
     estado: "pendiente",
     calidadIA: null,
     creadaPor: "publico",
@@ -120,9 +123,47 @@ export async function getEvaluacionesByEntidad(
     .sort((a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));
 }
 
+// --- Candidaturas ---
+
+export async function getCandidaturas(procesoId?: string): Promise<Candidatura[]> {
+  if (!isFirebaseConfigured()) return [];
+  const ref = collection(db, "candidaturas");
+  const q = procesoId
+    ? query(ref, where("procesoId", "==", procesoId))
+    : ref;
+  const snap = await getDocs(q);
+  return snap.docs.map((d) => ({ id: d.id, ...d.data() }) as Candidatura);
+}
+
+export async function getCandidaturaById(id: string): Promise<Candidatura | null> {
+  if (!isFirebaseConfigured()) return null;
+  const ref = doc(db, "candidaturas", id);
+  const snap = await getDoc(ref);
+  if (!snap.exists()) return null;
+  return { id: snap.id, ...snap.data() } as Candidatura;
+}
+
+export async function getCandidaturasByEntidad(entidadId: string): Promise<Candidatura[]> {
+  if (!isFirebaseConfigured()) return [];
+  const q = query(collection(db, "candidaturas"), where("entidadId", "==", entidadId));
+  const snap = await getDocs(q);
+  return snap.docs.map((d) => ({ id: d.id, ...d.data() }) as Candidatura);
+}
+
+// --- Procesos ---
+
+export async function getProcesoActivo(): Promise<Proceso | null> {
+  if (!isFirebaseConfigured()) return null;
+  const q = query(collection(db, "procesos"), where("activa", "==", true));
+  const snap = await getDocs(q);
+  if (snap.empty) return null;
+  const d = snap.docs[0];
+  return { id: d.id, ...d.data() } as Proceso;
+}
+
 // --- Reconciliación ---
 
-/** Recalcula scoreActual y totalEvaluaciones para una entidad */
+/** Recalcula scoreHistorico y totalEvaluacionesHistoricas para una entidad */
 export async function reconcileEntidad(entidadId: string): Promise<void> {
   if (!isFirebaseConfigured()) return;
 
@@ -133,12 +174,12 @@ export async function reconcileEntidad(entidadId: string): Promise<void> {
     : null;
 
   await updateDoc(doc(db, "entidades", entidadId), {
-    totalEvaluaciones: total,
-    scoreActual: score,
+    totalEvaluacionesHistoricas: total,
+    scoreHistorico: score,
   });
 }
 
-/** Recalcula scoreActual y totalEvaluaciones para TODAS las entidades */
+/** Recalcula scoreHistorico y totalEvaluacionesHistoricas para TODAS las entidades */
 export async function reconcileAll(): Promise<{ updated: number }> {
   if (!isFirebaseConfigured()) return { updated: 0 };
 
