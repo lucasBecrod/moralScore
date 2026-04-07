@@ -2238,5 +2238,75 @@
     "fechaFuente": "2026-03-08",
     "entidadId": "wolfgang-mario-grozo-costa",
     "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-francisco-ernesto-diez-canseco-tavara",
+    "url": "https://diariocorreo.pe/politica/francisco-diez-canseco-plantea-disolver-la-atu-y-reducir-ministerios-para-mejorar-gasto-publico-noticia/",
+    "tipo": "articulo",
+    "titulo": "Diez-Canseco: disolver ATU, reducir ministerios",
+    "medio": "Correo",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-mario-enrique-vizcarra-cornejo",
+    "url": "https://www.infobae.com/peru/2026/02/04/quien-es-mario-vizcarra-perfil-formacion-academica-y-trayectoria-del-candidato-presidencial-de-peru-primero-para-el-2026/",
+    "tipo": "articulo",
+    "titulo": "Vizcarra: condenado por peculado, excluido del Senado",
+    "medio": "Infobae",
+    "fechaFuente": "2026-02-04",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-walter-gilmer-chirinos-purizaga",
+    "url": "https://rpp.pe/politica/actualidad/walter-chirinos-del-prin-justifico-cercania-a-vladimiro-montesinos-es-un-experto-combatiendo-criminalidad-noticia-1679337",
+    "tipo": "entrevista",
+    "titulo": "Chirinos justifica cercanía a Montesinos",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-alfonso-carlos-espa-y-garces-alvear",
+    "url": "https://gestion.pe/peru/carlos-espa-hay-una-judicializacion-y-farandulizacion-de-la-politica-noticia/",
+    "tipo": "entrevista",
+    "titulo": "Espá: gobierno de virtud y zar anticorrupción",
+    "medio": "Gestión",
+    "fechaFuente": "2026-03-30",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-paul-davis-jaimes-blanco",
+    "url": "https://elcomercio.pe/politica/paul-jaimes-cual-es-el-proceso-judicial-que-se-le-sigue-al-candidato-presidencial-y-por-que-el-pj-admitio-una-reparacion-provisional-de-la-procuraduria-por-s50-mil-tlcnota-noticia/",
+    "tipo": "articulo",
+    "titulo": "Jaimes: proceso judicial por corrupción Midagri",
+    "medio": "El Comercio",
+    "fechaFuente": "2026-03-15",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-antonio-ortiz-villano",
+    "url": "https://rpp.pe/politica/elecciones/debate-presidencial-cuales-fueron-las-propuestas-de-los-candidatos-en-lucha-contra-la-corrupcion-noticia-1681705",
+    "tipo": "debate",
+    "titulo": "Ortiz: muerte civil y democratizar PJ",
+    "medio": "RPP",
+    "fechaFuente": "2026-03-25",
+    "entidadId": "antonio-ortiz-villano",
+    "estado": "evaluada"
+  },
+  {
+    "id": "f-oleada6-rosario-del-pilar-fernandez-bazan",
+    "url": "https://www.rcrperu.com/candidata-rosario-del-pilar-fernandez-de-un-camino-diferente-propone-democratizar-la-justicia-y-una-lucha-frontal-contra-la-corrupcion/",
+    "tipo": "articulo",
+    "titulo": "Fernández: democratizar justicia, rechaza pacto ético",
+    "medio": "RCR Perú",
+    "fechaFuente": "2026-04-05",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "estado": "evaluada"
   }
 ]

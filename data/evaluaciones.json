@@ -4053,5 +4053,131 @@
     "estadioAlternativo": 4,
     "notas": "Tema: corrupción. Patrón: 4,4,3,4,4,3. Mediana: 4.",
     "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-francisco-ernesto-diez-canseco-tavara",
+    "entidadId": "francisco-ernesto-diez-canseco-tavara",
+    "fuenteId": "f-oleada6-francisco-ernesto-diez-canseco-tavara",
+    "estadio": 4,
+    "confianza": "media",
+    "justificacion": "Disolver ATU y reducir ministerios de 19 a 10. Reforma institucional.",
+    "citas": [
+      {
+        "texto": "Disolver la ATU, fuente de corrupción, y reducir ministerios para mejorar gasto público",
+        "ubicacion": "Diario Correo mar 2026",
+        "indicador": "Estadio 4: reforma institucional"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: transporte. Patrón: 4,3,4,3,4,4.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-mario-enrique-vizcarra-cornejo",
+    "entidadId": "mario-enrique-vizcarra-cornejo",
+    "fuenteId": "f-oleada6-mario-enrique-vizcarra-cornejo",
+    "estadio": 2,
+    "confianza": "baja",
+    "justificacion": "Condenado por peculado. Estado de excepción sin reforma institucional.",
+    "citas": [
+      {
+        "texto": "JEE declaró improcedente candidatura al Senado por condena por peculado",
+        "ubicacion": "Infobae ene 2026",
+        "indicador": "Estadio 2: transaccional con antecedente penal"
+      }
+    ],
+    "estadioAlternativo": null,
+    "notas": "Tema: corrupción personal. Patrón: 1,2,2,2,2,2.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-walter-gilmer-chirinos-purizaga",
+    "entidadId": "walter-gilmer-chirinos-purizaga",
+    "fuenteId": "f-oleada6-walter-gilmer-chirinos-purizaga",
+    "estadio": 1,
+    "confianza": "alta",
+    "justificacion": "Justifica cercanía a Montesinos (condenado por homicidio): el fin justifica los medios.",
+    "citas": [
+      {
+        "texto": "No importa de qué color sea el gato, lo importante es que cace ratones",
+        "ubicacion": "RPP sobre asesoría Montesinos",
+        "indicador": "Estadio 1: pragmatismo amoral, fin justifica medios"
+      }
+    ],
+    "estadioAlternativo": 2,
+    "notas": "Tema: corrupción/Montesinos. Patrón: 1,1,1,2,2,1.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-alfonso-carlos-espa-y-garces-alvear",
+    "entidadId": "alfonso-carlos-espa-y-garces-alvear",
+    "fuenteId": "f-oleada6-alfonso-carlos-espa-y-garces-alvear",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Zar anticorrupción y gobierno de virtud. Busca imagen de pureza más que reforma institucional.",
+    "citas": [
+      {
+        "texto": "Promoveremos un gobierno de la virtud y la austeridad",
+        "ubicacion": "Propuesta SíCreo",
+        "indicador": "Estadio 3: imagen de pureza moral"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema: corrupción. Patrón: 3,2,3,3,3,3.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-paul-davis-jaimes-blanco",
+    "entidadId": "paul-davis-jaimes-blanco",
+    "fuenteId": "f-oleada6-paul-davis-jaimes-blanco",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Investigado por corrupción en Midagri. Propone cadena perpetua y salida de CIDH. Transaccional.",
+    "citas": [
+      {
+        "texto": "Intercedió con funcionarios de Agroideas para colocar personas que no cumplían requisitos",
+        "ubicacion": "Investigación El Comercio",
+        "indicador": "Estadio 2: negociación incompatible"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema: corrupción personal. Patrón: 1,1,2,2,2,2.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-antonio-ortiz-villano",
+    "entidadId": "antonio-ortiz-villano",
+    "fuenteId": "f-oleada6-antonio-ortiz-villano",
+    "estadio": 3,
+    "confianza": "media",
+    "justificacion": "Muerte civil para corruptos + PJ por voto popular. Populista con barniz institucional.",
+    "citas": [
+      {
+        "texto": "Muerte civil para corruptos y democratizar el Poder Judicial por voto popular",
+        "ubicacion": "Debate JNE anticorrupción",
+        "indicador": "Estadio 3: populismo con barniz institucional"
+      }
+    ],
+    "estadioAlternativo": 4,
+    "notas": "Tema: reforma judicial. Patrón: 2,2,3,3,2,3.",
+    "evaluador": "lucas"
+  },
+  {
+    "id": "eval-oleada6-rosario-del-pilar-fernandez-bazan",
+    "entidadId": "rosario-del-pilar-fernandez-bazan",
+    "fuenteId": "f-oleada6-rosario-del-pilar-fernandez-bazan",
+    "estadio": 2,
+    "confianza": "media",
+    "justificacion": "Jueces por voto popular + rechaza pacto ético + protesta contra sede judicial. Transaccional.",
+    "citas": [
+      {
+        "texto": "Se negó a firmar Pacto Ético Electoral argumentando que la ética no se firma, se practica",
+        "ubicacion": "Infobae",
+        "indicador": "Estadio 2: rechazo a acuerdos institucionales"
+      }
+    ],
+    "estadioAlternativo": 1,
+    "notas": "Tema: reforma judicial. Patrón: 2,1,2,2,2,2.",
+    "evaluador": "lucas"
   }
 ]
