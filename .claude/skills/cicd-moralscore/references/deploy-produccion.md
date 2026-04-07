@@ -19,12 +19,21 @@ Push a `main` dispara build automatico en Firebase App Hosting.
 No requiere accion manual. Monitorear en:
 https://console.firebase.google.com/project/moral-score/apphosting
 
-## Deploy manual (rules)
+## Deploy manual de rules (CRITICO)
 
-Cuando cambian `firestore.rules` o `storage.rules`:
+**Disparador obligatorio:** Cuando cambian `firestore.rules`, `storage.rules`, O se agrega/renombra una coleccion en Firestore.
+
+App Hosting NO despliega rules automaticamente. Si no se hace deploy manual, prod muestra "Missing or insufficient permissions" y la app se rompe silenciosamente.
+
 ```bash
+# Verificar cuenta correcta
+firebase login:use lucasbecrod@gmail.com
+
+# Deploy rules
 firebase deploy --only firestore:rules,storage --project moral-score
 ```
+
+**Gotcha conocido:** Si `firebase deploy` falla con 403, es porque la CLI esta usando otra cuenta (ej: projectskepler@gmail.com). Verificar con `firebase login:list` y cambiar con `firebase login:use`.
 
 ## Seed de datos
 
@@ -73,3 +82,5 @@ Estas son variables PUBLICAS del client SDK. Las variables ADMIN (service accoun
 | PERMISSION_DENIED en seed | Rules bloquean escritura sin auth | Usar Admin SDK (sync-firestore.ts ya lo usa) |
 | Invalid JWT Signature | Service account key rotada/invalida | Usar ADC: `gcloud auth application-default login` |
 | "Cargando..." permanente | Emulador flag activo en prod | Verificar NEXT_PUBLIC_USE_FIREBASE_EMULATOR |
+| Missing or insufficient permissions | Rules no desplegadas tras agregar coleccion | `firebase deploy --only firestore:rules,storage` |
+| 403 en firebase deploy | CLI usando cuenta equivocada | `firebase login:use lucasbecrod@gmail.com` |

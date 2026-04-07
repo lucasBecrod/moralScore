@@ -62,9 +62,14 @@ Ver [references/deploy-produccion.md](references/deploy-produccion.md) para coma
 
 1. `pnpm build` pasa sin errores
 2. Variables en `apphosting.yaml` actualizadas
-3. Rules desplegadas si cambiaron
+3. **CRITICO: Si se toco `firestore.rules`, `storage.rules`, o se agrego nueva coleccion** → deploy manual obligatorio:
+   ```bash
+   firebase deploy --only firestore:rules,storage --project moral-score
+   ```
+   Sin esto, prod rechaza lecturas/escrituras con "Missing or insufficient permissions".
 4. Datos sincronizados si cambiaron data/*.json
 5. Imagenes en Storage si hubo candidatos nuevos
+6. Cuenta Firebase CLI correcta: `firebase login:use lucasbecrod@gmail.com`
 
 ## Archivos clave
 

@@ -163,45 +163,46 @@ export async function getProcesoActivo(): Promise<Proceso | null> {
   return { id: d.id, ...d.data() } as Proceso;
 }
 
-// --- Likes ---
+// --- Validaciones ciudadanas ---
 
-function likeDocId(userId: string, entidadId: string): string {
-  return `${userId}_${entidadId}`;
+function validacionDocId(userId: string, evaluacionId: string): string {
+  return `${userId}_${evaluacionId}`;
 }
 
-export async function getLikeStatus(
+/** Verifica si el usuario ya validó una evaluación — llamar solo al expandir FuenteCard */
+export async function getValidacionStatus(
   userId: string,
-  entidadId: string
+  evaluacionId: string
 ): Promise<boolean> {
   if (!isFirebaseConfigured()) return false;
-
-  const ref = doc(db, "likes", likeDocId(userId, entidadId));
+  const ref = doc(db, "validaciones", validacionDocId(userId, evaluacionId));
   const snap = await getDoc(ref);
   return snap.exists();
 }
 
-export async function toggleLike(
+/** Toggle validación ciudadana. Retorna nuevo estado (true = validado) */
+export async function toggleValidacion(
   userId: string,
-  entidadId: string
+  evaluacionId: string
 ): Promise<boolean> {
   if (!isFirebaseConfigured()) return false;
 
-  const id = likeDocId(userId, entidadId);
-  const ref = doc(db, "likes", id);
+  const id = validacionDocId(userId, evaluacionId);
+  const ref = doc(db, "validaciones", id);
   const snap = await getDoc(ref);
-  const entidadRef = doc(db, "entidades", entidadId);
+  const evalRef = doc(db, "evaluaciones", evaluacionId);
 
   if (snap.exists()) {
     await deleteDoc(ref);
-    await updateDoc(entidadRef, { totalLikes: increment(-1) });
+    await updateDoc(evalRef, { validacionesCiudadanas: increment(-1) });
     return false;
   } else {
     await setDoc(ref, {
       userId,
-      entidadId,
+      evaluacionId,
       createdAt: new Date().toISOString(),
     });
-    await updateDoc(entidadRef, { totalLikes: increment(1) });
+    await updateDoc(evalRef, { validacionesCiudadanas: increment(1) });
     return true;
   }
 }

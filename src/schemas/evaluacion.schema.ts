@@ -30,6 +30,7 @@ export const EvaluacionSchema = z.object({
     .enum(["lucas", "lady"])
     .nullable()
     .describe("Quién validó (segunda revisión), null si no validada"),
+  validacionesCiudadanas: z.number().int().min(0).optional().describe("Cantidad de ciudadanos que validaron esta evaluación"),
   createdAt: z.string().describe("ISO 8601 timestamp"),
 });
 
