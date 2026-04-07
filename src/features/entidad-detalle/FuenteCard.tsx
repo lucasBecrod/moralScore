@@ -151,52 +151,63 @@ export default function FuenteCard({
           </p>
         </div>
 
-        {/* Chevron */}
-        <svg
-          className={`h-4 w-4 shrink-0 text-zinc-500 transition-transform ${expanded ? "rotate-180" : ""}`}
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-        </svg>
+        {/* Micro-badge validaciones (colapsado) + chevron */}
+        <div className="flex shrink-0 items-center gap-2">
+          {validCount > 0 && (
+            <span className="flex items-center gap-1 text-[11px] text-zinc-600">
+              <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+              {validCount}
+            </span>
+          )}
+          <svg
+            className={`h-4 w-4 text-zinc-500 transition-transform ${expanded ? "rotate-180" : ""}`}
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
       </div>
 
       {/* Expandido */}
       {expanded && (
         <div className="border-t border-zinc-800 bg-white/[0.02] px-4 pb-4 pt-3 space-y-4">
-          <p className="text-sm leading-relaxed text-zinc-300">{parseInlineMd(justificacion)}</p>
-
+          {/* 1. Citas del candidato — evidencia primero */}
           {citas.length > 0 && (
             <div className="space-y-3">
-              <h4 className="text-[10px] font-medium uppercase tracking-wider text-white/30">
-                Radiograf&iacute;a del discurso
-              </h4>
               {citas.map((cita, i) => (
                 <div key={i} className="border-l-2 pl-3 space-y-1" style={{ borderColor: color }}>
                   <p className="text-sm italic leading-relaxed text-zinc-200">
                     &ldquo;{parseInlineMd(cita.texto, color)}&rdquo;
                   </p>
                   <p className="text-[11px] text-zinc-500">{cita.ubicacion}</p>
-                  <span
-                    className="inline-block rounded-full px-2 py-0.5 text-[10px] font-medium"
-                    style={{ backgroundColor: color + "15", color }}
-                  >
-                    {cita.indicador}
-                  </span>
                 </div>
               ))}
             </div>
           )}
 
-          {/* Actions row: source link + validate button */}
+          {/* 2. Verdict Box — análisis de la IA */}
+          <div className="rounded-lg bg-white/5 p-3 space-y-2">
+            <span
+              className="inline-block rounded-full px-2.5 py-1 text-[11px] font-semibold"
+              style={{ backgroundColor: color + "20", color }}
+            >
+              Estadio {estadio}: {stage?.nombre ?? "Sin clasificar"}
+            </span>
+            <p className="text-sm leading-relaxed text-zinc-400">{parseInlineMd(justificacion)}</p>
+          </div>
+
+          {/* 3. Actions: source link + validate button */}
           <div className="flex items-center justify-between">
             {url && (
               <a
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs text-blue-400 hover:text-blue-300 transition-colors"
+                className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
                 onClick={(e) => e.stopPropagation()}
               >
                 Ver fuente original &rarr;
