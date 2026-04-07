@@ -47,6 +47,8 @@ export async function generateMetadata({
       images: [
         {
           url: entidad.foto,
+          width: 400,
+          height: 400,
           alt: entidad.nombre,
         },
       ],
