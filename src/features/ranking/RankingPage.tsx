@@ -78,10 +78,8 @@ export function RankingPage() {
     <div>
       {/* Hero section */}
       <section className="border-b border-zinc-800 bg-zinc-950 px-4 py-20 text-center">
-        <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-          El fin de la amnesia
-          <br className="hidden sm:block" />
-          pol&iacute;tica.
+        <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          El fin de la amnesia política.
         </h1>
         <p className="mx-auto mt-5 max-w-lg text-balance text-lg leading-relaxed text-zinc-400">
           Un algoritmo que procesa la vida p&uacute;blica de los candidatos
@@ -93,25 +91,41 @@ export function RankingPage() {
 
         {/* Retratos solapados — formato vertical para fotos del JNE */}
         {!loading && candidaturas.length > 0 && (
-          <div className="mx-auto mt-8 flex items-center justify-center gap-3">
+          <div className="mx-auto mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <div className="flex -space-x-2">
-              {[...candidaturas.filter((c) => c.foto)]
-                .sort(() => Math.random() - 0.5 + shuffleKey * 0)
-                .slice(0, 7)
-                .map((c) => (
-                  <img
-                    key={c.id}
-                    src={c.foto!}
-                    alt={c.nombre}
-                    title={c.nombre}
-                    className="h-14 w-10 rounded-lg border-2 border-zinc-950 object-cover object-top shadow-md"
-                  />
-                ))}
-              {candidaturas.length > 7 && (
-                <span className="flex h-14 w-10 items-center justify-center rounded-lg border-2 border-zinc-950 bg-zinc-800 text-xs font-medium text-zinc-300">
-                  +{candidaturas.length - 7}
-                </span>
-              )}
+              {(() => {
+                const withFoto = [...candidaturas.filter((c) => c.foto)]
+                  .sort(() => Math.random() - 0.5 + shuffleKey * 0);
+                const main = withFoto.slice(0, 7);
+                const logos = [...new Set(withFoto.map((c) => c.logoPartido).filter(Boolean))]
+                  .sort(() => Math.random() - 0.5 + shuffleKey * 0)
+                  .slice(0, 2);
+                return (
+                  <>
+                    {main.map((c) => (
+                      <img
+                        key={c.id}
+                        src={c.foto!}
+                        alt={c.nombre}
+                        title={c.nombre}
+                        className="h-14 w-10 rounded-lg border-2 border-zinc-950 object-cover object-top shadow-md"
+                      />
+                    ))}
+                    {logos.length > 0 && (
+                      <div className="grid h-14 w-10 grid-cols-1 grid-rows-2 gap-px overflow-hidden rounded-lg border-2 border-zinc-950 bg-zinc-800 shadow-md">
+                        {logos.map((logo) => (
+                          <img
+                            key={logo}
+                            src={logo!}
+                            alt="Partido"
+                            className="h-full w-full object-contain bg-white p-px"
+                          />
+                        ))}
+                      </div>
+                    )}
+                  </>
+                );
+              })()}
             </div>
             <a href="#ranking" className="text-sm font-medium text-zinc-400 transition-colors hover:text-white">
               Ver candidatos &darr;
