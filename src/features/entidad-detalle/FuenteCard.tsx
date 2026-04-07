@@ -28,18 +28,6 @@ interface FuenteCardProps {
   onRequestAuth?: () => void;
 }
 
-const ZONE_STYLES = {
-  post: { bar: "bg-violet-500", text: "text-violet-300", label: "Post-convencional" },
-  conv: { bar: "bg-blue-500", text: "text-blue-300", label: "Convencional" },
-  pre:  { bar: "bg-red-500", text: "text-red-300", label: "Pre-convencional" },
-} as const;
-
-function getZoneStyle(score: number) {
-  if (score >= 4.5) return ZONE_STYLES.post;
-  if (score >= 2.5) return ZONE_STYLES.conv;
-  return ZONE_STYLES.pre;
-}
-
 // Parsea **negritas** en texto → <strong> con resaltado del color del estadio
 function parseInlineMd(text: string, highlightColor?: string) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g);
@@ -111,8 +99,6 @@ export default function FuenteCard({
   }
   const stage = KOHLBERG_STAGES[estadio as KohlbergStage];
   const color = stage?.color ?? "#6B7280";
-  const zone = getZoneStyle(estadio);
-  const filledSegments = Math.round(estadio);
 
   const favicon = getFavicon(url);
   const thumbSrc = imagen || favicon;
@@ -137,45 +123,32 @@ export default function FuenteCard({
     >
       {/* Colapsado */}
       <div className="flex items-center gap-3 p-4">
-        {/* Thumbnail izquierdo */}
-        {thumbSrc ? (
-          <img
-            src={thumbSrc}
-            alt={medio || ""}
-            className="h-10 w-10 shrink-0 rounded-lg bg-zinc-800 object-cover"
-            onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-          />
-        ) : (
-          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-zinc-800 text-sm font-medium text-zinc-500">
-            {(medio || "?")[0].toUpperCase()}
-          </span>
-        )}
+        {/* Score circle — ancla visual izquierda */}
+        <span
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-sm font-bold text-white"
+          style={{ backgroundColor: color }}
+        >
+          {estadio}
+        </span>
 
         {/* Contenido central */}
         <div className="min-w-0 flex-1">
           <p className="font-medium text-zinc-100 line-clamp-2">{titulo}</p>
-          <p className="mt-0.5 text-xs text-zinc-500">
+          <p className="mt-0.5 flex items-center gap-1.5 text-xs text-zinc-500">
+            {thumbSrc && (
+              <img
+                src={thumbSrc}
+                alt={medio || ""}
+                className="h-4 w-4 shrink-0 rounded-full bg-zinc-800 object-cover"
+                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+              />
+            )}
             {medio}
             {medio && fechaFuente && " \u00b7 "}
             {fechaFuente}
             {" \u00b7 "}
             <span className="uppercase">{confianza}</span>
           </p>
-
-          {/* Barra segmentada inline — mismo componente que EntidadCard */}
-          <div className="mt-1.5 flex items-center gap-2">
-            <span className={`text-xs font-bold tabular-nums ${zone.text}`}>
-              {estadio.toFixed(1)}
-            </span>
-            <div className="flex max-w-32 flex-1 gap-0.5">
-              {Array.from({ length: 6 }, (_, i) => (
-                <div
-                  key={i}
-                  className={`h-1.5 flex-1 rounded-sm ${i < filledSegments ? zone.bar : "bg-zinc-800"}`}
-                />
-              ))}
-            </div>
-          </div>
         </div>
 
         {/* Chevron */}
@@ -196,7 +169,7 @@ export default function FuenteCard({
 
           {citas.length > 0 && (
             <div className="space-y-3">
-              <h4 className="text-[11px] font-semibold uppercase tracking-wider text-zinc-600">
+              <h4 className="text-[10px] font-medium uppercase tracking-wider text-white/30">
                 Radiograf&iacute;a del discurso
               </h4>
               {citas.map((cita, i) => (
