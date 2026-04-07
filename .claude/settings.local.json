@@ -16,7 +16,9 @@
       "Bash(pnpm add:*)",
       "Bash(rm -rf node_modules)",
       "Bash(pnpm install:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(git push:*)",
+      "Bash(git commit -m ':*)"
     ]
   }
 }

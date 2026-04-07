@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MoralScore
 
-## Getting Started
+> El fin de la amnesia política.
 
-First, run the development server:
+Cada elección los políticos se reinventan: promesas nuevas, pasado borrado. Y ningún ciudadano tiene tiempo de revisar cientos de entrevistas y debates para saber quién dice la verdad y quién manipula.
+
+**MoralScore hace ese trabajo por ti.** Usamos inteligencia artificial para analizar lo que los candidatos dicen en entrevistas, debates y declaraciones públicas. No evaluamos si son de izquierda o derecha — evaluamos *cómo justifican sus decisiones*: si razonan con principios o con clientelismo, si respetan las reglas básicas de convivencia o las rompen cuando les conviene.
+
+Para eso usamos dos marcos científicos con décadas de investigación:
+
+- **Kohlberg** (psicología moral) — clasifica el nivel de razonamiento del candidato, desde el más básico ("te doy obras si me apoyas") hasta el más elevado ("defiendo este derecho aunque me cueste votos").
+- **Gert** (filosofía moral) — detecta si el candidato viola reglas éticas fundamentales: no engañar, cumplir promesas, respetar la ley, proteger la vida.
+
+Cada puntaje viene con las citas exactas del candidato que lo respaldan. Nada se inventa. Todo se puede verificar.
+
+**Contexto:** Elecciones Generales del Perú 2026. Proximante otras elecciones.
+
+---
+
+## Cómo funciona
+
+1. **Tú subes la evidencia** — Cualquier ciudadano puede enviar un link a una entrevista, debate o nota de prensa.
+2. **La IA analiza** — El sistema lee el contenido y aplica los marcos Kohlberg y Gert de forma imparcial, sin importar el partido político.
+3. **El resultado es público** — Se publica un puntaje con las frases exactas del candidato que lo justifican. Cualquiera puede auditarlo.
+
+## La escala de Kohlberg (simplificada)
+
+| Puntaje | Qué significa | Ejemplo |
+|---------|--------------|---------|
+| 1-2 | Opera por interés propio, intercambia favores | "Si me apoyas, te doy obras para tu distrito." |
+| 3-4 | Sigue normas y busca aprobación popular | "Es lo que el pueblo me pide que haga." |
+| 5-6 | Se guía por principios, aunque le cueste | "Asumo el costo político porque es lo correcto." |
+
+---
+
+## Stack técnico
+
+- **Next.js 15** (App Router) + TypeScript + Tailwind CSS 4
+- **Firebase** (Firestore + App Hosting)
+- **Motor IA** — LLMs con rúbrica Kohlberg/Gert (prompts públicos en `/docs`)
+- **Arquitectura VSA** — features/ como slices autónomos
+- **Zod** — contratos de datos estrictos
+
+## Desarrollo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npx tsx scripts/seed-candidatos.ts                          # seed candidatos desde JNE
+npx tsx scripts/cache-images.ts                             # descargar fotos del JNE
+npx tsx scripts/sync-firestore.ts                          # sincronizar data/*.json → Firestore
+npx tsx --env-file=.env.local scripts/reconcile-scores.ts   # recalcular scores
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Transparencia
 
-## Learn More
+Todo es auditable: la metodología, los prompts de la IA, los criterios para aceptar o rechazar fuentes, y las rúbricas de evaluación están publicados en `/metodologia` y `/docs/*` dentro de la app.
 
-To learn more about Next.js, take a look at the following resources:
+El código fuente es abierto. Si quieres revisar cómo funciona el algoritmo por dentro, descarga este repositorio desde GitHub. Si encuentras algo que mejorar, abre un issue o envía un pull request. La transparencia no es un slogan — es una invitación.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Autores
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Lucas Becrod** (Economista) — arquitectura, desarrollo, IA
+- **Leidi Becrod** (Psicóloga) — marco teórico Kohlberg/Gert, calibración de rúbricas

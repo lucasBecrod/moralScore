@@ -69,7 +69,7 @@ export function EntidadCard({ entidad }: EntidadCardProps) {
         {scoreActual !== null && zone ? (
           <div className={`flex flex-col gap-0.5 ${confident ? "" : "opacity-40"}`}>
             <span className="text-[11px] text-zinc-500">
-              {getPublicLabel(scoreActual)}{totalEvaluaciones > 0 && <> ({totalEvaluaciones} eval.)</>}
+              {getPublicLabel(scoreActual)}{totalEvaluaciones > 0 && <> ({totalEvaluaciones} evaluaciones)</>}
             </span>
             <div className="flex items-center gap-2">
               <span className={`text-sm font-bold tabular-nums ${zone.text}`}>
