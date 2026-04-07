@@ -40,8 +40,9 @@ yarn-error.log*
 service-account*.json
 
 # cached images (regenerate with: npx tsx scripts/cache-images.ts)
-public/img/entidades/
-public/img/partidos/
+# Commiteadas al repo para que estén disponibles en deploy
+# public/img/entidades/
+# public/img/partidos/
 
 # generated docs — NO ignorar, se necesitan en deploy
 # public/docs/
