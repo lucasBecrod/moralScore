@@ -67,11 +67,23 @@ Proteger el flujo de subir fuente con Google Auth. Mover el botón "Sugerir fuen
 
 ## EJECUCIÓN (Método)
 
-### Paso 0: Mover botón "Sugerir fuente" arriba + ordenar evaluaciones
+### Paso 0: Reorganizar layout de EntidadDetallePage
 
-En `EntidadDetallePage.tsx`:
-1. Mover el botón "Sugerir fuente" de abajo de todo a **debajo del header/score, antes de las evaluaciones**. Es el CTA del Growth Loop — si está al fondo nadie lo ve.
-2. Ordenar `evalsForHistorial` con sort compuesto:
+En `EntidadDetallePage.tsx`, el orden de renderizado debe ser:
+
+```
+[Header + Score + Logo partido]
+[Botón "Sugerir fuente" + Share buttons]    ← CTA arriba, antes de todo
+[Fuentes PENDIENTES]                         ← gratificación inmediata
+[Evaluaciones completas]                     ← sort compuesto
+[Fuentes rechazadas (colapsado)]             ← cementerio al fondo
+```
+
+**Botón arriba**: Mover "Sugerir fuente" de abajo de todo a debajo del score, junto a los share buttons. Es el CTA del Growth Loop.
+
+**Pendientes arriba**: Las fuentes sin evaluar (`estado === "pendiente" || "aprobada"`) van SIEMPRE antes de las evaluaciones completas. Ordenadas por `createdAt` desc (la más reciente primero — el usuario que acaba de subir la ve de inmediato).
+
+**Evaluaciones**: Sort compuesto:
 ```typescript
 const sortedEvals = [...evalsForHistorial].sort((a, b) => {
   // Primario: validaciones ciudadanas desc
