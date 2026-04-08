@@ -5554,5 +5554,59 @@
     "gertCumplida": false,
     "fechaEvento": "2022-04-28",
     "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-nieto-lavado-activos-odebrecht",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "jorge-nieto-montesinos-2024-11-15-el-comercio",
+    "estadio": 2,
+    "justificacion": "**Investigación formalizada por lavado de activos.** La Fiscalía formalizó investigación preparatoria contra Nieto en el caso Odebrecht/OAS \"Las Chalinas Verdes\". Un colaborador eficaz declaró que recibió **US$120,000 de OAS** (dos pagos de US$60,000) por asesoría política en la campaña del \"No\" al referéndum de revocatoria de Villarán (2013). Nieto niega los pagos pero la investigación está formalizada. Recibir dinero de constructora brasileña investigada por corrupción sistémica para trabajo político — razonamiento transaccional (Estadio 2).",
+    "citas": [
+      {
+        "texto": "Colaborador eficaz declaró que Nieto **recibió US$120,000 de OAS** en dos pagos de US$60,000 por asesoría en campaña contra revocatoria de Villarán",
+        "ubicacion": "Fiscalía, investigación preparatoria caso Odebrecht/OAS, 2024",
+        "indicador": "Recibir pagos de empresa investigada por corrupción sistémica -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2024-11-15",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-perez-tello-omision-djhv",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "fuenteId": "maria-soledad-perez-tello-de-rodriguez-2026-03-08-la-republica",
+    "estadio": 3,
+    "justificacion": "**Omisión en Declaración Jurada de Hoja de Vida.** El JEE Lima Centro 1 detectó que Pérez Tello **no declaró una sentencia laboral consentida** (6 nov 2023) que la obliga a pagar S/746.23 a Profuturo AFP. El JEE declaró **improcedente su candidatura en primera instancia** y advirtió posible multa de 1-10 UIT + derivación al Ministerio Público. Una candidata que predica Estadio 5 (derechos universales) pero omite información jurada ante el Estado opera en la práctica como Estadio 3 — busca aprobación evitando escrutinio.",
+    "citas": [
+      {
+        "texto": "JEE detectó que **no declaró sentencia laboral consentida** del 6 de noviembre de 2023 que la obliga a pagar S/746.23 a Profuturo AFP",
+        "ubicacion": "JEE Lima Centro 1, alerta de omisión DJHV, marzo 2026",
+        "indicador": "Omitir información jurada para evitar escrutinio electoral -- Estadio 3"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-03-08",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-lopez-chau-omision-djhv-empresa",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "pablo-alfonso-lopez-chau-nava-2026-02-27-infobae",
+    "estadio": 3,
+    "justificacion": "**Omisión de empresa en Declaración Jurada de Hoja de Vida.** El JEE inició proceso sancionador contra López Chau por **no declarar ser fundador de Centro Médico Gestión & Salud S.A.C.** (100 acciones). Protegido de exclusión solo por la Ley 32058 (aprobada en 2024) que impide exclusión por omisión de activos. Un candidato que articula discurso de Estadio 5 pero oculta patrimonio ante el JNE demuestra que su transparencia es selectiva — razonamiento de Estadio 3 (gestión de imagen).",
+    "citas": [
+      {
+        "texto": "López Chau **no declaró ser fundador de Centro Médico Gestión & Salud S.A.C.** con 100 acciones en su Declaración Jurada de Hoja de Vida",
+        "ubicacion": "JEE, proceso sancionador, febrero 2026",
+        "indicador": "Ocultar patrimonio empresarial en declaración jurada electoral -- Estadio 3"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-02-27",
+    "userId": "lucasbecrod"
   }
 ]

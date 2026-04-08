@@ -2814,5 +2814,38 @@
     "fechaEvento": "2022-04-28",
     "estado": "evaluada",
     "userId": "lucasbecrod"
+  },
+  {
+    "id": "jorge-nieto-montesinos-2024-11-15-el-comercio",
+    "url": "https://elcomercio.pe/politica/justicia/caso-odebrecht-y-oas-fiscalia-formaliza-investigacion-contra-susana-villaran-marisa-glave-y-jorge-nieto-montesinos-ministerio-publico-jaime-salinas-municipalidad-de-lima-mml-ultimas-noticia/",
+    "tipo": "sentencia-judicial",
+    "entidadId": "jorge-nieto-montesinos",
+    "titulo": "Fiscalía formaliza investigación contra Nieto por lavado de activos — caso Odebrecht/OAS (US$120K)",
+    "medio": "El Comercio",
+    "fechaEvento": "2024-11-15",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "maria-soledad-perez-tello-de-rodriguez-2026-03-08-la-republica",
+    "url": "https://larepublica.pe/politica/2026/03/08/marisol-perez-tello-habria-omitido-informacion-sobre-sentencia-laboral-alerta-el-jee-hnews-214376",
+    "tipo": "declaracion-jurada",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "titulo": "JEE alerta: Pérez Tello omitió sentencia laboral consentida en DJHV — candidatura improcedente en 1ra instancia",
+    "medio": "La República",
+    "fechaEvento": "2026-03-08",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "pablo-alfonso-lopez-chau-nava-2026-02-27-infobae",
+    "url": "https://www.infobae.com/peru/2026/02/27/alfonso-lopez-chau-habria-dado-informacion-falsa-en-su-hoja-de-vida/",
+    "tipo": "declaracion-jurada",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "titulo": "JEE inicia proceso sancionador: López Chau no declaró ser fundador de empresa en DJHV",
+    "medio": "Infobae",
+    "fechaEvento": "2026-02-27",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
   }
 ]
