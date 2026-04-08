@@ -15,6 +15,7 @@ import { join } from "path";
 import { initializeApp, applicationDefault, cert, getApps } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
 import { createHash } from "crypto";
+import { PESO_FRICCION, TECHO_GERT, UMBRAL_EVIDENCIA_MATERIAL } from "../src/shared/config/kohlberg-stages";
 
 // --- Detección de entorno ---
 const isEmulator = Boolean(process.env.FIRESTORE_EMULATOR_HOST);
@@ -66,63 +67,68 @@ function loadJson<T>(filename: string): T[] {
 async function syncCollection(
   collectionName: string,
   items: Record<string, unknown>[],
-  idField: string = "id",
+  idField = "id",
   ignoreFieldsOnCompare: string[] = [],
 ) {
   let created = 0, updated = 0, skipped = 0;
-
   for (const item of items) {
     const id = item[idField] as string;
     if (!id) continue;
-
     const ref = db.collection(collectionName).doc(id);
     const snap = await ref.get();
-
     const data = { ...item };
     delete data[idField];
-
     if (snap.exists) {
       const existing = snap.data() || {};
-      const createdAt = existing.createdAt;
       const compareKeys = Object.keys(data).filter(k => !ignoreFieldsOnCompare.includes(k));
-      const relevantExisting: Record<string, unknown> = {};
-      const relevantNew: Record<string, unknown> = {};
-      for (const key of compareKeys) {
-        relevantExisting[key] = existing[key];
-        relevantNew[key] = (data as Record<string, unknown>)[key];
-      }
-
-      if (hash(relevantExisting) === hash(relevantNew)) {
-        skipped++;
-        continue;
-      }
-
-      await ref.set({ ...data, ...(createdAt ? { createdAt } : {}) });
+      const pick = (src: Record<string, unknown>) => Object.fromEntries(compareKeys.map(k => [k, src[k]]));
+      if (hash(pick(existing)) === hash(pick(data))) { skipped++; continue; }
+      await ref.set({ ...data, ...(existing.createdAt ? { createdAt: existing.createdAt } : {}) });
       updated++;
     } else {
       await ref.set({ ...data, createdAt: new Date().toISOString() });
       created++;
     }
   }
-
   return { created, updated, skipped };
+}
+
+type EvalForScore = { estadio: number; reglaGert?: string; gertCumplida?: boolean; fuenteId: string };
+
+/** V2 Colapso de Techo: mediana retórica limitada por techo Gert en evidencia dura. */
+function scoreV2(
+  evaluaciones: EvalForScore[],
+  fuentes: Array<{ id: string; tipo: string }>
+): { score: number; medianaRetorica: number; techoMaterial: number; reglaColapsada?: string } | null {
+  if (evaluaciones.length === 0) return null;
+  const fuenteMap = Object.fromEntries(fuentes.map(f => [f.id, f]));
+  const medianaRetorica = median(evaluaciones.map(e => e.estadio));
+  let techoMaterial = 6.0;
+  let reglaColapsada: string | undefined;
+  for (const ev of evaluaciones) {
+    if (!ev.reglaGert || ev.reglaGert === "ninguna" || ev.gertCumplida !== false) continue;
+    const peso = PESO_FRICCION[fuenteMap[ev.fuenteId]?.tipo ?? ""] ?? 0.3;
+    if (peso >= UMBRAL_EVIDENCIA_MATERIAL) {
+      const techo = TECHO_GERT[ev.reglaGert] ?? 6.0;
+      if (techo < techoMaterial) { techoMaterial = techo; reglaColapsada = ev.reglaGert; }
+    }
+  }
+  const score = Number(Math.min(medianaRetorica, techoMaterial).toFixed(2));
+  return { score, medianaRetorica, techoMaterial, reglaColapsada };
 }
 
 // --- Main ---
 async function main() {
-  // 0. Sync usuarios (before other collections that reference them)
   console.log("👤 Usuarios...");
   const usuarios = loadJson<Record<string, unknown>>("usuarios.json");
   const userResult = await syncCollection("usuarios", usuarios, "id");
   console.log(`   ${userResult.created} nuevos, ${userResult.updated} actualizados, ${userResult.skipped} sin cambios`);
 
-  // 1. Sync candidatos
   console.log("📋 Candidatos...");
   const candidatos = loadJson<Record<string, unknown>>("candidatos.json");
   const candResult = await syncCollection("entidades", candidatos, "id", ["scoreHistorico", "totalEvaluacionesHistoricas"]);
   console.log(`   ${candResult.created} nuevos, ${candResult.updated} actualizados, ${candResult.skipped} sin cambios`);
 
-  // 2. Sync fuentes
   console.log("📰 Fuentes...");
   const fuentes = loadJson<Record<string, unknown>>("fuentes.json");
   const fuenteResult = await syncCollection("fuentes", fuentes.map(f => ({
@@ -132,7 +138,6 @@ async function main() {
   })), "id", ["createdAt"]);
   console.log(`   ${fuenteResult.created} nuevas, ${fuenteResult.updated} actualizadas, ${fuenteResult.skipped} sin cambios`);
 
-  // 3. Sync evaluaciones
   console.log("🧠 Evaluaciones...");
   const evaluaciones = loadJson<Record<string, unknown>>("evaluaciones.json");
   const evalResult = await syncCollection("evaluaciones", evaluaciones.map(e => ({
@@ -142,47 +147,57 @@ async function main() {
   })), "id", ["createdAt"]);
   console.log(`   ${evalResult.created} nuevas, ${evalResult.updated} actualizadas, ${evalResult.skipped} sin cambios`);
 
-  // 4. Sync procesos
   console.log("🗳️ Procesos...");
-  const procesos = loadJson<Record<string, unknown>>("procesos.json");
-  const procResult = await syncCollection("procesos", procesos);
+  const procResult = await syncCollection("procesos", loadJson("procesos.json"));
   console.log(`   ${procResult.created} nuevos, ${procResult.updated} actualizados, ${procResult.skipped} sin cambios`);
 
-  // 5. Sync candidaturas
   console.log("🎯 Candidaturas...");
-  const candidaturas = loadJson<Record<string, unknown>>("candidaturas.json");
-  const candResult2 = await syncCollection("candidaturas", candidaturas, "id", ["scoreCandidatura", "evaluacionesCandidatura"]);
+  const candResult2 = await syncCollection("candidaturas", loadJson("candidaturas.json"), "id", ["scoreCandidatura", "evaluacionesCandidatura"]);
   console.log(`   ${candResult2.created} nuevas, ${candResult2.updated} actualizadas, ${candResult2.skipped} sin cambios`);
 
-  // 6. Recalcular scores
+  // 6. Recalcular scores — fuentes leídas una vez, reutilizadas en candidaturas
+  const fuenteSnap = await db.collection("fuentes").get();
+  const allFuentes = fuenteSnap.docs.map(d => ({ id: d.id, tipo: (d.data().tipo as string) ?? "" }));
+
   if (evalResult.created > 0 || evalResult.updated > 0) {
-    console.log("\n📊 Recalculando scores...");
+    console.log("\n📊 Recalculando scores (V2 Colapso de Techo)...");
     const evalSnap = await db.collection("evaluaciones").get();
-    const byEntidad: Record<string, number[]> = {};
+    const byEntidad: Record<string, EvalForScore[]> = {};
     evalSnap.forEach((d) => {
       const data = d.data();
       if (data.entidadId && data.estadio) {
         if (!byEntidad[data.entidadId]) byEntidad[data.entidadId] = [];
-        byEntidad[data.entidadId].push(data.estadio);
+        byEntidad[data.entidadId].push({
+          estadio: data.estadio,
+          reglaGert: data.reglaGert,
+          gertCumplida: data.gertCumplida,
+          fuenteId: data.fuenteId ?? "",
+        });
       }
     });
 
-    for (const [id, estadios] of Object.entries(byEntidad)) {
-      const score = median(estadios);
+    for (const [id, evals] of Object.entries(byEntidad)) {
+      const result = scoreV2(evals, allFuentes);
+      if (!result) continue;
+      const { score, medianaRetorica, techoMaterial, reglaColapsada } = result;
       const ref = db.collection("entidades").doc(id);
       const snap = await ref.get();
       const current = snap.data();
 
-      if (current?.scoreHistorico !== score || current?.totalEvaluacionesHistoricas !== estadios.length) {
-        await ref.set({ scoreHistorico: score, totalEvaluacionesHistoricas: estadios.length }, { merge: true });
-        console.log(`   ${id} → ${score} (${estadios.length} evals)`);
+      if (current?.scoreHistorico !== score || current?.totalEvaluacionesHistoricas !== evals.length) {
+        await ref.set({ scoreHistorico: score, totalEvaluacionesHistoricas: evals.length }, { merge: true });
+        if (techoMaterial < medianaRetorica) {
+          console.log(`   ${id} → ${score} (mediana: ${medianaRetorica}, techo Gert: ${techoMaterial} — ${reglaColapsada}) (${evals.length} evals)`);
+        } else {
+          console.log(`   ${id} → ${score} (${evals.length} evals)`);
+        }
       }
     }
   } else {
     console.log("\n📊 Sin cambios en evaluaciones, scores intactos.");
   }
 
-  // Recalculate candidatura scores (time-bounded)
+  // Recalculate candidatura scores (time-bounded, V2 Colapso de Techo)
   console.log("\n🎯 Recalculando scores de candidaturas...");
   const activeProcesos = await db.collection("procesos").where("activa", "==", true).get();
 
@@ -194,18 +209,30 @@ async function main() {
       const cand = candDoc.data();
       const evalSnap2 = await db.collection("evaluaciones")
         .where("entidadId", "==", cand.entidadId).get();
-      const filtered = evalSnap2.docs
+      const filtered: EvalForScore[] = evalSnap2.docs
         .map(d => d.data())
-        .filter(e => e.fechaEvento && e.fechaEvento <= fechaCorte);
-      const estadios = filtered.map(e => e.estadio).sort((a, b) => a - b);
-      const score = estadios.length > 0 ? median(estadios) : null;
+        .filter(e => e.fechaEvento && e.fechaEvento <= fechaCorte)
+        .map(e => ({
+          estadio: e.estadio,
+          reglaGert: e.reglaGert,
+          gertCumplida: e.gertCumplida,
+          fuenteId: e.fuenteId ?? "",
+        }));
 
-      if (cand.scoreCandidatura !== score || cand.evaluacionesCandidatura !== estadios.length) {
+      const result = scoreV2(filtered, allFuentes);
+      const score = result?.score ?? null;
+      const count = filtered.length;
+
+      if (cand.scoreCandidatura !== score || cand.evaluacionesCandidatura !== count) {
         await db.collection("candidaturas").doc(candDoc.id).update({
           scoreCandidatura: score,
-          evaluacionesCandidatura: estadios.length,
+          evaluacionesCandidatura: count,
         });
-        console.log(`   ${candDoc.id} → ${score} (${estadios.length} evals, corte: ${fechaCorte})`);
+        if (result && result.techoMaterial < result.medianaRetorica) {
+          console.log(`   ${candDoc.id} → ${score} (mediana: ${result.medianaRetorica}, techo Gert: ${result.techoMaterial} — ${result.reglaColapsada}) (${count} evals, corte: ${fechaCorte})`);
+        } else {
+          console.log(`   ${candDoc.id} → ${score} (${count} evals, corte: ${fechaCorte})`);
+        }
       }
     }
   }

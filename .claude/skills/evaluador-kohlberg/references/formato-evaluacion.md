@@ -8,7 +8,6 @@
   "entidadId": "nombre-completo-del-candidato-slug",
   "fuenteId": "nombre-completo-YYYY-MM-DD-medio",
   "estadio": 3,
-  "confianza": "alta",
   "justificacion": "Texto con **resaltado inline** en frases clave...",
   "citas": [
     {
@@ -17,8 +16,8 @@
       "indicador": "Descripcion del mecanismo en lenguaje ciudadano -- Estadio N"
     }
   ],
-  "estadioAlternativo": null,
-  "notas": "Observaciones sobre congruencia, anti-ventriloquismo, etc.",
+  "reglaGert": "ninguna",
+  "gertCumplida": true,
   "evaluador": "haiku-{oleada}"
 }
 ```
@@ -29,13 +28,13 @@
 {
   "id": "nombre-completo-YYYY-MM-DD-medio",
   "url": "https://url-real-verificada.com/articulo",
-  "tipo": "entrevista|articulo|debate|youtube|mitin|conferencia",
+  "tipo": "entrevista|articulo|debate|youtube|mitin|conferencia|columna|voto-congreso|ejecucion-presupuestal|sentencia-judicial|declaracion-jurada",
   "entidadId": "nombre-completo-del-candidato-slug",
   "titulo": "Titulo descriptivo de la fuente",
   "medio": "Nombre del medio (Infobae, La Republica, etc.)",
-  "fechaFuente": "YYYY-MM-DD",
+  "fechaEvento": "YYYY-MM-DD",
   "estado": "evaluada",
-  "creadaPor": "moralscore-bot"
+  "userId": "bot-moralscore"
 }
 ```
 
@@ -47,7 +46,6 @@
   "entidadId": "jose-leon-luna-galvez",
   "fuenteId": "jose-leon-luna-galvez-2025-12-17-correo",
   "estadio": 2,
-  "confianza": "alta",
   "justificacion": "Luna Galvez reconoce que **REINFO es un engana muchachos**, pero su conducta revela transaccionalismo: propone extender REINFO y coloca al minero ilegal Torrealva en Comision de Energia. Justifica con amenaza: **si no ampliamos, un millon de ciudadanos van a incendiar el Peru**.",
   "citas": [
     {
@@ -61,8 +59,8 @@
       "indicador": "Usa amenaza de violencia colectiva para justificar beneficios a mineria ilegal -- Estadio 2"
     }
   ],
-  "estadioAlternativo": null,
-  "notas": "Doble discurso REINFO: critica publica + extension simultanea.",
+  "reglaGert": "no-hacer-trampa",
+  "gertCumplida": false,
   "evaluador": "haiku-7"
 }
 ```
