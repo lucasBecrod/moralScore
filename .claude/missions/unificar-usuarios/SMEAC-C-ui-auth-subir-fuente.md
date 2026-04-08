@@ -29,14 +29,16 @@ SubirFuenteModal, EntidadDetallePage (integración del auth gate). Nada más.
 ## MISIÓN (Objetivo)
 
 ### Tarea asignada
-Proteger el flujo de subir fuente con Google Auth. Si el usuario no está logueado, mostrar AuthModal antes del form. Al subir, enviar `userId` en el body. Registrar usuario en Firestore al autenticarse.
+Proteger el flujo de subir fuente con Google Auth. Mover el botón "Sugerir fuente" arriba (debajo del score). Ordenar evaluaciones por validaciones desc + fechaEvento desc.
 
 ### Criterio de éxito
 - `pnpm build` pasa sin errores
+- Botón "Sugerir fuente" está debajo del score, antes de las evaluaciones
 - Click en "Sugerir fuente" sin auth → abre AuthModal
 - Después de login → se abre SubirFuenteModal
 - Al enviar fuente, el body incluye `userId` del usuario autenticado
-- El usuario queda registrado en `usuarios/{uid}` automáticamente
+- Evaluaciones ordenadas: validacionesCiudadanas desc, luego fechaEvento desc
+- El usuario queda registrado en `usuarios/{id}` automáticamente
 
 ---
 
@@ -64,6 +66,22 @@ Proteger el flujo de subir fuente con Google Auth. Si el usuario no está loguea
 ---
 
 ## EJECUCIÓN (Método)
+
+### Paso 0: Mover botón "Sugerir fuente" arriba + ordenar evaluaciones
+
+En `EntidadDetallePage.tsx`:
+1. Mover el botón "Sugerir fuente" de abajo de todo a **debajo del header/score, antes de las evaluaciones**. Es el CTA del Growth Loop — si está al fondo nadie lo ve.
+2. Ordenar `evalsForHistorial` con sort compuesto:
+```typescript
+const sortedEvals = [...evalsForHistorial].sort((a, b) => {
+  // Primario: validaciones ciudadanas desc
+  const vDiff = (b.validacionesCiudadanas ?? 0) - (a.validacionesCiudadanas ?? 0);
+  if (vDiff !== 0) return vDiff;
+  // Fallback: fechaEvento desc (más reciente primero)
+  return (b.fuente.fechaFuente ?? "").localeCompare(a.fuente.fechaFuente ?? "");
+});
+```
+Hoy todas tienen 0 validaciones → se verán por fecha desc. Cuando la comunidad valide, las más verificadas suben.
 
 ### Paso 1: Editar `SubirFuenteModal.tsx`
 
