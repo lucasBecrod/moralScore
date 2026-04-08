@@ -5240,30 +5240,6 @@
     "userId": "bot-moralscore"
   },
   {
-    "id": "eval-luna-galvez-org-criminal",
-    "entidadId": "jose-leon-luna-galvez",
-    "fuenteId": "jose-leon-luna-galvez-2025-08-07-infobae",
-    "estadio": 2,
-    "confianza": "alta",
-    "justificacion": "Acusado formalmente por Fiscalía de encabezar organización criminal. Captura de instituciones judiciales: **colocó funcionarios afiliados en ONPE** vinculados a Telesup. Beneficios económicos a miembros del CNM como estrategia de favores.",
-    "citas": [
-      {
-        "texto": "Presuntamente colocó **funcionarios afiliados en posiciones estratégicas de ONPE**, vinculados a Telesup",
-        "ubicacion": "Infobae, agosto 2025, acusación Fiscalía",
-        "indicador": "Captura institucional para beneficio propio — Estadio 2"
-      },
-      {
-        "texto": "La Fiscalía describe **beneficios económicos a antiguos miembros del CNM** como estrategia de favores",
-        "ubicacion": "Infobae / Fiscalía",
-        "indicador": "Soborno y transacción institucional — Estadio 2"
-      }
-    ],
-    "estadioAlternativo": null,
-    "notas": "Previos 6x2. Consistente.",
-    "fechaEvento": "2025-08-07",
-    "userId": "bot-moralscore"
-  },
-  {
     "id": "eval-perez-tello-educacion-empleo",
     "entidadId": "maria-soledad-perez-tello-de-rodriguez",
     "fuenteId": "maria-soledad-perez-tello-de-rodriguez-2026-03-31-caretas",
@@ -5697,6 +5673,150 @@
     "reglaGert": "no-engañar",
     "gertCumplida": false,
     "fechaEvento": "2026-01-15",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-forsyth-colusion-alcaldia-victoria",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "george-patrick-forsyth-sommer-2025-11-15-el-comercio",
+    "estadio": 2,
+    "justificacion": "Investigacion preparatoria formalizada por colusion agravada como alcalde de La Victoria (2018-2020). PJ extendio el plazo hasta mayo 2026. 13 coimputados incluyendo empresarios y ex-funcionarios. Ademas, JEE inicio procedimiento sancionador por dato falso en DJHV 2026: declaro experiencia en Alianza Lima que el club niega. Ejecucion presupuestal de solo 12.6% en obras, desmentido por fact-checkers cuando afirmo ser el distrito de mayor ejecucion.",
+    "citas": [
+      {
+        "texto": "PJ extiende investigacion contra Forsyth por presunta colusion agravada con 13 coimputados durante su gestion como alcalde de La Victoria",
+        "ubicacion": "Juzgado de Investigacion Preparatoria, resolucion noviembre 2025, El Comercio",
+        "indicador": "Favorecimiento a proveedores vinculados como alcalde -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2025-11-15",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-valderrama-omision-djhv-empresa",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "pitter-enrique-valderrama-pena-2026-03-01-la-republica",
+    "estadio": 2,
+    "justificacion": "Omision societaria en DJHV 2026. El JEE detecto via Sunarp que Valderrama no declaro ser socio fundador de Centro de Capacitacion y Soluciones Integrales S.A.C. con 1,000 acciones suscritas. El JEE inicio expediente sancionador. Su partido argumento que la empresa no tuvo actividad economica, lo cual no exime de la obligacion de declarar.",
+    "citas": [
+      {
+        "texto": "JEE detecto que Valderrama no declaro ser socio fundador de empresa con 1,000 acciones suscritas, verificado por Sunarp",
+        "ubicacion": "JEE, expediente sancionador, marzo 2026, La Republica",
+        "indicador": "Ocultar patrimonio empresarial en declaracion jurada electoral -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-03-01",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-cerron-sentencia-profugo",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "fuenteId": "vladimir-roy-cerron-rojas-2023-10-01-el-comercio",
+    "estadio": 1,
+    "justificacion": "Sentencia firme de 4 años 6 meses por negociación incompatible como gobernador de Junín. Prófugo desde octubre 2023 con orden de captura y recompensa S/500,000. Prisión preventiva 24 meses activa. Cuentas por S/1.6M confiscadas.",
+    "citas": [
+      {
+        "texto": "Sentencia firme de 4 años 6 meses. Prófugo desde octubre 2023 con recompensa de S/500,000",
+        "ubicacion": "Corte Suprema + PJ, marzo 2026",
+        "indicador": "Sentenciado prófugo que evade la justicia -- Estadio 1"
+      }
+    ],
+    "reglaGert": "no-privar-libertad",
+    "gertCumplida": false,
+    "fechaEvento": "2023-10-01",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-lopez-aliaga-panama-papers-mml",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "fuenteId": "rafael-bernardo-lopez-aliaga-cazorla-2025-10-21-infobae",
+    "estadio": 1,
+    "justificacion": "Investigación preparatoria ampliada 24 meses por lavado de activos (Panama Papers, estructura offshore). Nueva investigación por endeudamiento irregular MML en S/4,000 millones. Denunciado por pago de S/97M al estudio de amigo personal.",
+    "citas": [
+      {
+        "texto": "PJ amplia a 24 meses investigación por lavado de activos caso Panama Papers. Fiscalía investiga endeudamiento de S/4,000 millones de la MML",
+        "ubicacion": "Infobae octubre 2025 + Fiscalía Anticorrupción marzo 2026",
+        "indicador": "Estructura offshore para lavado + endeudamiento irregular masivo -- Estadio 1"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2025-10-21",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-acuna-plagio-violencia",
+    "entidadId": "cesar-acuna-peralta",
+    "fuenteId": "cesar-acuna-peralta-2016-03-01-rpp",
+    "estadio": 1,
+    "justificacion": "INDECOPI multó a Acuña (~S/80,000) por plagio comprobado de tesis doctoral. Medidas de protección por violencia familiar (2018) no declaradas en DJHV. Sentencia firme por alimentos (2022). Patrón sistémico de plagios en su familia.",
+    "citas": [
+      {
+        "texto": "INDECOPI multó por plagio comprobado de tesis doctoral. Medidas de protección por violencia familiar no declaradas en DJHV",
+        "ubicacion": "INDECOPI resolución firme + Juzgado de Familia SJL 2018",
+        "indicador": "Plagio sistémico + violencia familiar ocultada -- Estadio 1"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2016-03-01",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-paz-de-la-barra-contraloria",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "fuenteId": "alvaro-gonzalo-paz-de-la-barra-freigeiro-2022-02-22-la-republica",
+    "estadio": 1,
+    "justificacion": "Contraloría halló irregularidades en contrataciones como alcalde de La Molina. Fiscalía intervino por uso de drones y serenazgo para asuntos personales. Medidas de protección por violencia familiar. Proceso de vacancia por proselitismo con bienes municipales.",
+    "citas": [
+      {
+        "texto": "Contraloría halló contrataciones a precio más alto sin justificación. Fiscalía intervino por uso de recursos municipales para fines personales",
+        "ubicacion": "Informe de Control Contraloría 2022, La República",
+        "indicador": "Irregularidades en contrataciones y uso indebido de recursos -- Estadio 1"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2022-02-22",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-luna-galvez-org-criminal",
+    "entidadId": "jose-leon-luna-galvez",
+    "fuenteId": "jose-leon-luna-galvez-2025-08-07-infobae-fiscal",
+    "estadio": 1,
+    "justificacion": "Fiscalía acusó formalmente a Luna Gálvez de liderar organización criminal Los Gánsteres de la Política que capturó ONPE y CNM. Pide 22 años 8 meses. PJ rechazó anular la acusación.",
+    "citas": [
+      {
+        "texto": "Fiscalía acusa: Luna Gálvez líder de organización criminal que capturó ONPE y CNM. Pide 22 años 8 meses de prisión",
+        "ubicacion": "Fiscalía Supraprovincial, agosto 2025, Infobae",
+        "indicador": "Líder de organización criminal que capturó instituciones electorales -- Estadio 1"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2025-08-07",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-lescano-acoso-suspension",
+    "entidadId": "yonhy-lescano-ancieta",
+    "fuenteId": "yonhy-lescano-ancieta-2019-03-01-ojo-publico",
+    "estadio": 1,
+    "justificacion": "Suspendido 120 días por el Pleno del Congreso por acoso sexual a periodista. Juez confirmó en 2022 que la denuncia no constituyó difamación. Fiscalía archivó pero desmintió la versión de Lescano sobre falsificación de mensajes.",
+    "citas": [
+      {
+        "texto": "Pleno del Congreso suspendió a Lescano 120 días por acoso sexual. Juez confirmó que denuncia no fue difamación",
+        "ubicacion": "Congreso + Juzgado Civil 2022, Ojo Público",
+        "indicador": "Sanción institucional por acoso sexual -- Estadio 1"
+      }
+    ],
+    "reglaGert": "no-causar-dolor",
+    "gertCumplida": false,
+    "fechaEvento": "2019-03-01",
     "userId": "lucasbecrod"
   }
 ]
