@@ -26,12 +26,13 @@ export function MetodologiaPage() {
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-12">
       {/* Capa 1: Hero + Motor Visual */}
       <h1 className="font-serif text-3xl font-bold tracking-tight text-zinc-100">
-        Ret&oacute;rica vs. Realidad
+        Coherencia bajo evidencia
       </h1>
       <p className="mt-2 max-w-xl text-sm leading-relaxed text-zinc-400">
         El discurso define el potencial (Kohlberg). La evidencia material
-        fija el l&iacute;mite (Gert). Si un candidato habla como estadista pero
-        tiene sentencias o votos pol&eacute;micos, su score colapsa.
+        fija el l&iacute;mite (Gert). Cuando existe contradicci&oacute;n documentada
+        entre lo que un candidato dice y lo que hace, el puntaje
+        ret&oacute;rico queda limitado por el registro f&aacute;ctico.
         Algoritmo, prompts y fuentes son p&uacute;blicos.
       </p>
 
