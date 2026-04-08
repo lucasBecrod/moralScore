@@ -110,6 +110,12 @@ async function syncCollection(
 
 // --- Main ---
 async function main() {
+  // 0. Sync usuarios (before other collections that reference them)
+  console.log("👤 Usuarios...");
+  const usuarios = loadJson<Record<string, unknown>>("usuarios.json");
+  const userResult = await syncCollection("usuarios", usuarios, "id");
+  console.log(`   ${userResult.created} nuevos, ${userResult.updated} actualizados, ${userResult.skipped} sin cambios`);
+
   // 1. Sync candidatos
   console.log("📋 Candidatos...");
   const candidatos = loadJson<Record<string, unknown>>("candidatos.json");
@@ -122,7 +128,7 @@ async function main() {
   const fuenteResult = await syncCollection("fuentes", fuentes.map(f => ({
     ...f,
     calidadIA: null,
-    creadaPor: (f as Record<string, unknown>).creadaPor || "moralscore-bot",
+    userId: (f as Record<string, unknown>).userId || "bot-moralscore",
   })), "id", ["createdAt"]);
   console.log(`   ${fuenteResult.created} nuevas, ${fuenteResult.updated} actualizadas, ${fuenteResult.skipped} sin cambios`);
 
@@ -131,7 +137,7 @@ async function main() {
   const evaluaciones = loadJson<Record<string, unknown>>("evaluaciones.json");
   const evalResult = await syncCollection("evaluaciones", evaluaciones.map(e => ({
     ...e,
-    evaluador: (e as Record<string, unknown>).evaluador || "lucas",
+    userId: (e as Record<string, unknown>).userId || "lucasbecrod",
     validadoPor: null,
   })), "id", ["createdAt"]);
   console.log(`   ${evalResult.created} nuevas, ${evalResult.updated} actualizadas, ${evalResult.skipped} sin cambios`);

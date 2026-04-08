@@ -18,6 +18,7 @@ import type { Fuente, SubirFuenteInput } from "@/schemas/fuente.schema";
 import type { Evaluacion } from "@/schemas/evaluacion.schema";
 import type { Candidatura } from "@/schemas/candidatura.schema";
 import type { Proceso } from "@/schemas/proceso.schema";
+import type { Usuario } from "@/schemas/usuario.schema";
 
 // Verifica si Firebase está configurado (env vars presentes)
 function isFirebaseConfigured(): boolean {
@@ -78,6 +79,7 @@ export async function getFuentesByEntidad(
 }
 
 interface CreateFuenteInput extends SubirFuenteInput {
+  userId: string;
   titulo?: string;
   medio?: string;
   imagen?: string;
@@ -100,7 +102,7 @@ export async function createFuente(
     fechaEvento: now.slice(0, 10),
     estado: "pendiente",
     calidadIA: null,
-    creadaPor: "publico",
+    userId: input.userId,
     createdAt: now,
   };
 
@@ -204,6 +206,28 @@ export async function toggleValidacion(
     });
     await updateDoc(evalRef, { validacionesCiudadanas: increment(1) });
     return true;
+  }
+}
+
+// --- Usuarios ---
+
+export async function getOrCreateUsuario(
+  uid: string,
+  nombre: string,
+  email: string | null,
+  foto: string | null,
+): Promise<void> {
+  if (!isFirebaseConfigured()) return;
+  const ref = doc(db, "usuarios", uid);
+  const snap = await getDoc(ref);
+  if (!snap.exists()) {
+    await setDoc(ref, {
+      id: uid,
+      nombre,
+      email,
+      foto,
+      createdAt: new Date().toISOString(),
+    });
   }
 }
 
