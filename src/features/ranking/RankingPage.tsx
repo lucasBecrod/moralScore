@@ -8,6 +8,7 @@ import { useAuthContext } from "@/shared/providers/AuthProvider";
 import { AuthModal } from "@/shared/ui/AuthModal";
 import { OpenSourceCTA } from "@/shared/ui/OpenSourceCTA";
 import { EntidadCard } from "./EntidadCard";
+import { HeroMetrics } from "./HeroMetrics";
 
 const SORT_OPTIONS = [
   { value: "evidencia" as const, label: "M\u00e1s evidencia" },
@@ -89,6 +90,8 @@ export function RankingPage() {
         <p className="mt-2 text-sm tracking-wide text-zinc-500">
           La ret&oacute;rica propone. La evidencia f&aacute;ctica decide.
         </p>
+
+        <HeroMetrics />
 
         {/* Retratos solapados — formato vertical para fotos del JNE */}
         {!loading && candidaturas.length > 0 && (

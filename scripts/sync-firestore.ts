@@ -237,6 +237,23 @@ async function main() {
     }
   }
 
+  // 7. Escribir métricas globales → metricas/global
+  console.log("\n📈 Actualizando métricas globales...");
+  const totalFuentes = fuenteSnap.size;
+  const evalSnapGlobal = await db.collection("evaluaciones").get();
+  const totalEvaluaciones = evalSnapGlobal.size;
+  const totalCandidatos = (await db.collection("candidaturas").get()).size;
+  const totalProcesos = (await db.collection("procesos").get()).size;
+
+  await db.collection("metricas").doc("global").set({
+    totalFuentes,
+    totalEvaluaciones,
+    totalCandidatos,
+    totalProcesos,
+    updatedAt: new Date().toISOString(),
+  });
+  console.log(`   fuentes: ${totalFuentes}, evaluaciones: ${totalEvaluaciones}, candidatos: ${totalCandidatos}, procesos: ${totalProcesos}`);
+
   console.log("\n✅ Sync completado.\n");
 }
 
