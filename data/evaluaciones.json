@@ -5698,5 +5698,41 @@
     "gertCumplida": false,
     "fechaEvento": "2026-01-15",
     "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-forsyth-colusion-alcaldia-victoria",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "fuenteId": "george-patrick-forsyth-sommer-2025-11-15-el-comercio",
+    "estadio": 2,
+    "justificacion": "Investigacion preparatoria formalizada por colusion agravada como alcalde de La Victoria (2018-2020). PJ extendio el plazo hasta mayo 2026. 13 coimputados incluyendo empresarios y ex-funcionarios. Ademas, JEE inicio procedimiento sancionador por dato falso en DJHV 2026: declaro experiencia en Alianza Lima que el club niega. Ejecucion presupuestal de solo 12.6% en obras, desmentido por fact-checkers cuando afirmo ser el distrito de mayor ejecucion.",
+    "citas": [
+      {
+        "texto": "PJ extiende investigacion contra Forsyth por presunta colusion agravada con 13 coimputados durante su gestion como alcalde de La Victoria",
+        "ubicacion": "Juzgado de Investigacion Preparatoria, resolucion noviembre 2025, El Comercio",
+        "indicador": "Favorecimiento a proveedores vinculados como alcalde -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2025-11-15",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-valderrama-omision-djhv-empresa",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "fuenteId": "pitter-enrique-valderrama-pena-2026-03-01-la-republica",
+    "estadio": 2,
+    "justificacion": "Omision societaria en DJHV 2026. El JEE detecto via Sunarp que Valderrama no declaro ser socio fundador de Centro de Capacitacion y Soluciones Integrales S.A.C. con 1,000 acciones suscritas. El JEE inicio expediente sancionador. Su partido argumento que la empresa no tuvo actividad economica, lo cual no exime de la obligacion de declarar.",
+    "citas": [
+      {
+        "texto": "JEE detecto que Valderrama no declaro ser socio fundador de empresa con 1,000 acciones suscritas, verificado por Sunarp",
+        "ubicacion": "JEE, expediente sancionador, marzo 2026, La Republica",
+        "indicador": "Ocultar patrimonio empresarial en declaracion jurada electoral -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-03-01",
+    "userId": "lucasbecrod"
   }
 ]
