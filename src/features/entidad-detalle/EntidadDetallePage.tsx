@@ -11,6 +11,7 @@ import { getPublicLabel } from "@/shared/config/kohlberg-stages";
 import HistorialEvaluaciones from "./HistorialEvaluaciones";
 import EngagementBar from "./EngagementBar";
 import FuentesPendientes from "./FuentesPendientes";
+import { OpenSourceCTA } from "@/shared/ui/OpenSourceCTA";
 import SubirFuenteModal from "@/features/subir-fuente/SubirFuenteModal";
 import type { Entidad } from "@/schemas/entidad.schema";
 import type { Candidatura } from "@/schemas/candidatura.schema";
@@ -304,6 +305,8 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
       {fuentesRechazadas.length > 0 && (
         <FuentesRechazadas fuentes={fuentesRechazadas} />
       )}
+
+      <OpenSourceCTA />
 
       {showModal && user && (
         <SubirFuenteModal

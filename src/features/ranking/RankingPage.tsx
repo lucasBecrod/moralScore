@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useCandidaturas } from "@/shared/hooks/useCandidaturas";
 import { useAuthContext } from "@/shared/providers/AuthProvider";
 import { AuthModal } from "@/shared/ui/AuthModal";
+import { OpenSourceCTA } from "@/shared/ui/OpenSourceCTA";
 import { EntidadCard } from "./EntidadCard";
 
 const SORT_OPTIONS = [
@@ -206,6 +207,8 @@ export function RankingPage() {
           />
         </div>
       </section>
+
+      <OpenSourceCTA />
     </div>
   );
 }
