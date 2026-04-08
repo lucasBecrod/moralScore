@@ -7,7 +7,7 @@ import { trackMetric } from "@/shared/lib/track-metric";
 import { useAuthContext } from "@/shared/providers/AuthProvider";
 import { AuthModal } from "@/shared/ui/AuthModal";
 import { SITE_CONFIG } from "@/shared/config/site";
-import { getPublicLabel } from "@/shared/config/kohlberg-stages";
+import { getPublicLabel, PESO_FRICCION, UMBRAL_EVIDENCIA_MATERIAL } from "@/shared/config/kohlberg-stages";
 import HistorialEvaluaciones from "./HistorialEvaluaciones";
 import EngagementBar from "./EngagementBar";
 import FuentesPendientes from "./FuentesPendientes";
@@ -125,6 +125,22 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
   const candidaturaPrincipal = candidaturas[0] || null;
 
   const fuenteMap = new Map(fuentes.map((f) => [f.id, f]));
+
+  // Transgresión dominante: moda de reglaGert en evaluaciones con evidencia dura
+  const transgresionDominante = (() => {
+    const reglas = evaluaciones
+      .filter((ev) => {
+        if (!ev.reglaGert || ev.reglaGert === "ninguna" || ev.gertCumplida !== false) return false;
+        const fuente = fuenteMap.get(ev.fuenteId);
+        const peso = PESO_FRICCION[fuente?.tipo ?? ""] ?? 0.3;
+        return peso >= UMBRAL_EVIDENCIA_MATERIAL;
+      })
+      .map((ev) => ev.reglaGert);
+    if (reglas.length === 0) return null;
+    const counts: Record<string, number> = {};
+    for (const r of reglas) counts[r] = (counts[r] || 0) + 1;
+    return Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+  })();
 
   const evalsForHistorial = evaluaciones.map((ev) => {
     const fuente = fuenteMap.get(ev.fuenteId);
@@ -277,7 +293,7 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
       </div>
 
       {entidad.scoreHistorico !== null && (
-        <RetoEvolutivo score={entidad.scoreHistorico} />
+        <RetoEvolutivo score={entidad.scoreHistorico} transgresionDominante={transgresionDominante} />
       )}
 
       <EngagementBar
