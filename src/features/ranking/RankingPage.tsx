@@ -80,14 +80,14 @@ export function RankingPage() {
       {/* Hero section */}
       <section className="border-b border-zinc-800 bg-zinc-950 px-4 py-20 text-center">
         <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-5xl">
-          El fin de la hipocres&iacute;a pol&iacute;tica.
+          El peso de la evidencia.
         </h1>
         <p className="mx-auto mt-5 max-w-lg text-balance text-lg leading-relaxed text-zinc-400">
-          Un algoritmo de c&oacute;digo abierto que audita el discurso
-          de los candidatos y lo estrella contra su historial material.
+          Un sistema de c&oacute;digo abierto que audita la coherencia entre
+          el discurso pol&iacute;tico y el historial material del candidato.
         </p>
         <p className="mt-2 text-sm tracking-wide text-zinc-500">
-          La ret&oacute;rica define su potencial. Sus actos fijan su l&iacute;mite.
+          La ret&oacute;rica propone. La evidencia f&aacute;ctica decide.
         </p>
 
         {/* Retratos solapados — formato vertical para fotos del JNE */}
@@ -151,8 +151,8 @@ export function RankingPage() {
           Auditor&iacute;a P&uacute;blica de Candidatos
         </h2>
         <p className="mb-4 text-center text-sm text-zinc-500">
-          El discurso define la mediana. La evidencia dura activa el colapso.
-          &iquest;Conoces un voto pol&eacute;mico o una sentencia? S&uacute;bela.
+          El puntaje refleja la ret&oacute;rica p&uacute;blica. La realidad exige contraste.
+          &iquest;Conoces sentencias, actas o conflictos documentados? Corrige el registro.
         </p>
 
         {/* Sort chips */}
