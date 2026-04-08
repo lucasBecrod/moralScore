@@ -1,15 +1,15 @@
-// Carril 1: Redención — candidato colapsado por transgresión Gert
+// Carril 1: Contraste material — evidencia fáctica limita el puntaje retórico
 const RETOS_REDENCION: Record<string, string> = {
   "no-enga\u00f1ar":
-    "Tu puntaje colaps\u00f3 por ocultar informaci\u00f3n o mentir en documentos oficiales. Para recuperar credibilidad, debes transparentar p\u00fablicamente lo oculto y someterte a las consecuencias legales.",
+    "El puntaje ret\u00f3rico de este candidato est\u00e1 limitado por evidencia de omisi\u00f3n o falsedad en documentos oficiales. Para que el l\u00edmite se levante, debe transparentar lo oculto y someterse al proceso correspondiente.",
   "no-hacer-trampa":
-    "Tu puntaje colaps\u00f3 por usar el poder para beneficio propio. Para reconstruir confianza, debes renunciar al beneficio obtenido e impulsar leyes que eliminen los vac\u00edos legales que usaste.",
+    "El puntaje ret\u00f3rico de este candidato est\u00e1 limitado por evidencia de conflicto de inter\u00e9s o beneficio propio desde el cargo. Para que el l\u00edmite se levante, debe renunciar al beneficio obtenido e impulsar la correcci\u00f3n normativa.",
   "no-privar-libertad":
-    "Tu puntaje colaps\u00f3 por avalar leyes o acciones que protegen la impunidad. Para salir de este fondo, debes impulsar la derogaci\u00f3n de las normas que blindan a los transgresores.",
+    "El puntaje ret\u00f3rico de este candidato est\u00e1 limitado por evidencia de respaldo a normas que protegen la impunidad. Para que el l\u00edmite se levante, debe impulsar la derogaci\u00f3n de esas normas.",
   "no-causar-dolor":
-    "Tu puntaje colaps\u00f3 porque tu negligencia tuvo consecuencias humanas graves. El \u00fanico camino es proponer reparaci\u00f3n concreta, con plazos y presupuesto auditables.",
+    "El puntaje ret\u00f3rico de este candidato est\u00e1 limitado por evidencia de negligencia con consecuencias humanas documentadas. Para que el l\u00edmite se levante, debe proponer reparaci\u00f3n concreta con plazos y presupuesto auditables.",
   "cumplir-deber":
-    "Tu puntaje est\u00e1 limitado por tu incapacidad documentada para ejecutar presupuesto. Menos promesas, m\u00e1s actas: demuestra ejecuci\u00f3n superior al 80% en tu pr\u00f3ximo cargo.",
+    "El puntaje ret\u00f3rico de este candidato est\u00e1 limitado por evidencia de baja ejecuci\u00f3n presupuestal en gestiones previas. Para que el l\u00edmite se levante, debe demostrar ejecuci\u00f3n superior al 80% con indicadores p\u00fablicos.",
 };
 
 // Carril 2: Evolutivo vertical — sin transgresión, empuje N+1
@@ -50,7 +50,7 @@ export function RetoEvolutivo({ score, transgresionDominante }: RetoEvolutivoPro
     return (
       <div className="mb-6 rounded-lg border border-red-900/50 bg-red-950/20 px-4 py-3">
         <p className="text-xs font-medium text-red-400">
-          Ruta de redenci&oacute;n &mdash; transgres&iacute;on: {transgresionDominante}
+          L&iacute;mite material activo &mdash; {transgresionDominante}
         </p>
         <p className="mt-1 text-sm leading-relaxed text-zinc-400">
           {RETOS_REDENCION[transgresionDominante]}
