@@ -1,8 +1,17 @@
 import { NextResponse } from "next/server";
 import { SubirFuenteInput } from "@/schemas/fuente.schema";
 import { createFuente } from "@/firebase/queries";
+import { checkRateLimit, getClientIP } from "@/shared/lib/rate-limit";
 
 export async function POST(request: Request) {
+  const ip = getClientIP(request.headers);
+  if (!checkRateLimit(ip)) {
+    return NextResponse.json(
+      { error: "Demasiadas solicitudes. Intenta en un minuto." },
+      { status: 429 },
+    );
+  }
+
   try {
     const body = await request.json();
 

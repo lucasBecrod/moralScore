@@ -16,6 +16,29 @@ description: Planificar trabajo complejo y coordinar agentes especializados. Flu
 
 Antes de redactar cualquier misión SMEAC, leer [`references/algoritmo-musk.md`](../references/algoritmo-musk.md) — los 5 pasos del Algoritmo de Musk se aplican en cada etapa de la orquestación.
 
+## Política de modelos — Preservar Opus para el orquestador
+
+El modelo Opus se reserva **exclusivamente** para el orquestador (esta sesión).
+Los agentes delegados SIEMPRE se lanzan con un modelo menor.
+
+| Tipo de tarea del agente | Modelo | Cuándo |
+|--------------------------|--------|--------|
+| Auditoría, exploración, búsqueda, lectura | **haiku** | Solo lee y reporta, sin decisiones complejas |
+| Ejecución puntual, refactor pequeño (<3 archivos) | **haiku** | Scope reducido, patrón claro |
+| Ejecución SMEAC, feature, migración, refactor mediano+ | **sonnet** | Requiere juicio, múltiples archivos, decisiones de diseño |
+| Planificación compleja delegada (sub-orquestación, análisis arquitectónico profundo) | **opus** | Excepcional — cuando el agente necesita razonar sobre dependencias sistémicas o planificar a largo plazo |
+| Sesión orquestadora principal | **opus** | Esta sesión — el default, no se especifica en prompts |
+
+**En cada prompt de agente**, incluir al inicio:
+
+```
+> **Modelo**: sonnet | haiku | opus  ← (el orquestador elige según tabla)
+```
+
+**Regla por defecto**: si dudas entre haiku y sonnet, usa **sonnet**. Opus solo para agentes que necesitan planificación compleja propia (no mera ejecución). El ahorro de contexto en la sesión principal vale más que el ahorro de costo en los agentes.
+
+---
+
 ## Principio rector: Espejo mental del CTO, no ejecutor
 
 Claude como orquestador es el **reflejo mental global** de lo que el usuario quiere lograr: mantiene el objetivo estratégico, detecta dependencias, prioriza por riesgo, y genera las órdenes que los agentes ejecutan.
