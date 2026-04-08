@@ -19,7 +19,7 @@ import type { Evaluacion } from "@/schemas/evaluacion.schema";
 import type { Candidatura } from "@/schemas/candidatura.schema";
 import type { Proceso } from "@/schemas/proceso.schema";
 import type { Usuario } from "@/schemas/usuario.schema";
-import type { MetricasGlobales } from "@/schemas/metrica.schema";
+
 
 // Verifica si Firebase está configurado (env vars presentes)
 function isFirebaseConfigured(): boolean {
@@ -164,16 +164,6 @@ export async function getProcesoActivo(): Promise<Proceso | null> {
   if (snap.empty) return null;
   const d = snap.docs[0];
   return { id: d.id, ...d.data() } as Proceso;
-}
-
-// --- Métricas globales ---
-
-export async function getMetricasGlobales(): Promise<MetricasGlobales | null> {
-  if (!isFirebaseConfigured()) return null;
-  const ref = doc(db, "metricas", "global");
-  const snap = await getDoc(ref);
-  if (!snap.exists()) return null;
-  return snap.data() as MetricasGlobales;
 }
 
 // --- Validaciones ciudadanas ---
