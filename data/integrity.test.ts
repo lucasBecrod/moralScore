@@ -117,7 +117,7 @@ procErrors.length === 0
 // --- Fuentes ---
 console.log(`\n📰 Fuentes: ${fuentes.length}`);
 
-try { assert.equal(fuentes.length, 287); pass("Count: 287"); }
+try { assert.equal(fuentes.length, 293); pass("Count: 293"); }
 catch { fail("Count != 276"); }
 
 const fErrors: string[] = [];
@@ -146,7 +146,7 @@ withOldFecha.length === 0
 // --- Evaluaciones ---
 console.log(`\n🧠 Evaluaciones: ${evaluaciones.length}`);
 
-try { assert.equal(evaluaciones.length, 283); pass("Count: 283"); }
+try { assert.equal(evaluaciones.length, 288); pass("Count: 288"); }
 catch { fail("Count != 272"); }
 
 const eErrors: string[] = [];
