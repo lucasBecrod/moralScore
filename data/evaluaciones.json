@@ -5608,5 +5608,95 @@
     "gertCumplida": false,
     "fechaEvento": "2026-02-27",
     "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-molinelli-juicio-chinchero-colusion",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "fiorella-giannina-molinelli-aristondo-2026-03-24-la-republica",
+    "estadio": 2,
+    "justificacion": "Juicio oral por colusion agravada. Fiscalia pide 10 anios de carcel y USD 268M de reparacion. Simultaneamente tiene impedimento de salida por caso Farmaceuticas. Dos procesos penales activos por acuerdos contra el Estado.",
+    "citas": [
+      {
+        "texto": "PJ ordena juicio oral contra Molinelli por colusion agravada en adenda Chinchero. Fiscalia pide 10 anios de carcel y USD 268 millones",
+        "ubicacion": "30 Juzgado de Investigacion Preparatoria de Lima, marzo 2026",
+        "indicador": "Acuerdo clandestino contra intereses del Estado en megaobra publica -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2026-03-24",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-williams-voto-doble-sueldo",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "jose-daniel-williams-zapata-2022-04-28-infobae",
+    "estadio": 2,
+    "justificacion": "Negociacion incompatible comprobada. Williams impulso y voto a favor de Ley 19846 mod. que le permitio cobrar doble remuneracion. Fiscalia formalizo denuncia constitucional. La Subcomision la archivo -- el Congreso se blindo.",
+    "citas": [
+      {
+        "texto": "Williams voto a favor siendo beneficiario directo de la modificacion que elimino el tope de ingresos para militares retirados",
+        "ubicacion": "Acta de votacion del Pleno, 28 abril 2022, Proyecto de Ley 319/2021-CR",
+        "indicador": "Legislar en beneficio propio, negociacion incompatible -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2022-04-28",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-keiko-proceso-falsedad-odebrecht",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "keiko-sofia-fujimori-higuchi-2024-07-01-infobae",
+    "estadio": 2,
+    "justificacion": "Proceso penal vigente por falsedad. USD 1.2 millones de Odebrecht en campanas 2011 y 2016 confirmados. Fiscal Perez apelo anulacion del TC. Recibir dinero de empresa corrupta y negar conocimiento.",
+    "citas": [
+      {
+        "texto": "Aportes de campana de USD 1.2 millones de Odebrecht en 2011 y 2016 confirmados en investigacion. Fiscal Perez apelo anulacion del TC",
+        "ubicacion": "Investigacion Convoca.pe + Infobae, proceso Caso Cocteles",
+        "indicador": "Recibir financiamiento ilegal de empresa corrupta y negar conocimiento -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2024-07-01",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-alvarez-omision-djhv-peculado",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "fuenteId": "carlos-gonzalo-alvarez-loayza-2026-01-10-rpp",
+    "estadio": 2,
+    "justificacion": "Omision de sentencia judicial en DJHV. JEE detecto que no declaro sentencia por peculado (expediente 031-2002-SPE-CSJL). Aunque fue absuelto por Corte Suprema en 2007, la obligacion de declarar es independiente del resultado.",
+    "citas": [
+      {
+        "texto": "JEE identifico que Alvarez omitio sentencia judicial por peculado (expediente 031-2002) en su DJHV",
+        "ubicacion": "Informe JEE, enero 2026, RPP",
+        "indicador": "Ocultar antecedentes judiciales en declaracion jurada electoral -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-01-10",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-jaico-omision-djhv-empresas",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "fuenteId": "carlos-ernesto-jaico-carranza-2026-01-15-gestion",
+    "estadio": 2,
+    "justificacion": "Omision societaria en DJHV + antecedente fiscal. JEE abrio expediente por no declarar participacion en 3 empresas de consultoria. En 2022 fue investigado por peculado de uso como Secretario General de Palacio bajo Castillo.",
+    "citas": [
+      {
+        "texto": "JEE abrio expediente por omitir participacion en 3 empresas de consultoria activas a su nombre en su DJHV",
+        "ubicacion": "JEE, expediente abierto, enero 2026, Gestion",
+        "indicador": "Ocultar patrimonio empresarial en declaracion jurada electoral -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-01-15",
+    "userId": "lucasbecrod"
   }
 ]

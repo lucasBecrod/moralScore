@@ -2847,5 +2847,60 @@
     "fechaEvento": "2026-02-27",
     "estado": "evaluada",
     "userId": "lucasbecrod"
+  },
+  {
+    "id": "fiorella-giannina-molinelli-aristondo-2026-03-24-la-republica",
+    "url": "https://larepublica.pe/politica/2026/03/24/fiorella-molinelli-ira-a-juicio-oral-por-caso-chinchero-fiscalia-pide-10-anos-de-carcel-por-el-presunto-delito-de-colusion-955776",
+    "tipo": "sentencia-judicial",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "titulo": "PJ ordena juicio oral contra Molinelli por colusion agravada en Aeropuerto Chinchero",
+    "medio": "La Republica",
+    "fechaEvento": "2026-03-24",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "jose-daniel-williams-zapata-2022-04-28-infobae",
+    "url": "https://www.infobae.com/peru/2025/01/22/fiscalia-presenta-denuncia-contra-once-congresistas-por-impulsar-ley-que-permitio-doble-sueldo-a-exmilitares-en-el-parlamento/",
+    "tipo": "voto-congreso",
+    "entidadId": "jose-daniel-williams-zapata",
+    "titulo": "Fiscalia denuncia a Williams y 10 congresistas por ley de doble sueldo militar",
+    "medio": "Infobae",
+    "fechaEvento": "2022-04-28",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "keiko-sofia-fujimori-higuchi-2024-07-01-infobae",
+    "url": "https://www.infobae.com/peru/2025/01/18/fiscal-jose-domingo-perez-apela-fallo-que-anulo-el-juicio-oral-contra-keiko-fujimori-en-el-caso-cocteles/",
+    "tipo": "sentencia-judicial",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "titulo": "Keiko: proceso vigente por falsedad generica + USD 1.2M de Odebrecht confirmados",
+    "medio": "Infobae",
+    "fechaEvento": "2024-07-01",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "carlos-gonzalo-alvarez-loayza-2026-01-10-rpp",
+    "url": "https://rpp.pe/politica/elecciones/informe-del-jee-identifico-que-carlos-alvarez-habria-omitido-informacion-en-su-hoja-de-vida-sobre-una-sentencia-judicial-noticia-1672077",
+    "tipo": "declaracion-jurada",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "titulo": "JEE identifica que Alvarez Loayza omitio sentencia por peculado en DJHV",
+    "medio": "RPP",
+    "fechaEvento": "2026-01-10",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "carlos-ernesto-jaico-carranza-2026-01-15-gestion",
+    "url": "https://gestion.pe/peru/politica/elecciones-2026-abren-expedientes-a-15-candidatos-presidenciales-por-su-hoja-de-vida-noticia/",
+    "tipo": "declaracion-jurada",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "titulo": "JEE abre expediente a Jaico por omitir participacion en 3 empresas en DJHV",
+    "medio": "Gestion",
+    "fechaEvento": "2026-01-15",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
   }
 ]
