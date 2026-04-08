@@ -85,5 +85,5 @@ Para cada fuente encontrada, reportar:
 
 ## IMPORTANTE
 
-Tus publicaciones se identifican como "MoralScore Bot" en el sistema.
+Tus publicaciones se registran con userId `bot-moralscore` en el sistema.
 Son públicas y pasan por validación humana antes de contar en el score oficial.

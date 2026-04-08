@@ -96,3 +96,31 @@ const ZONE_LABELS: Record<string, string> = {
 export function getZonePublicLabel(nivel: string): string {
   return ZONE_LABELS[nivel] ?? nivel;
 }
+
+/** Peso de fricción por tipo de fuente. Determinista — nunca lo asigna el LLM. */
+export const PESO_FRICCION: Record<string, number> = {
+  "voto-congreso":          1.0,
+  "ejecucion-presupuestal": 0.9,
+  "sentencia-judicial":     0.9,
+  "declaracion-jurada":     0.8,
+  "debate":                 0.7,
+  "entrevista":             0.4,
+  "conferencia":            0.4,
+  "youtube":                0.3,
+  "articulo":               0.3,
+  "columna":                0.3,
+  "mitin":                  0.2,
+};
+
+/** Techo máximo de score si se transgrede una regla de Gert con evidencia dura. */
+export const TECHO_GERT: Record<string, number> = {
+  "no-privar-libertad": 1.5,
+  "no-engañar":         2.0,
+  "no-hacer-trampa":    2.0,
+  "no-causar-dolor":    2.0,
+  "cumplir-deber":      3.0,
+  "ninguna":            6.0,
+};
+
+/** Solo fuentes con peso >= este umbral pueden activar el colapso de techo Gert. */
+export const UMBRAL_EVIDENCIA_MATERIAL = 0.7;

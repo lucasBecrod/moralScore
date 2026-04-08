@@ -108,11 +108,6 @@ npx tsx scripts/sync-firestore.ts
 
 Recalcula scores (mediana decimal) y solo escribe cambios.
 
-### 5d. Reconciliar (si se hizo seed directo)
-
-```bash
-npx tsx --env-file=.env.local scripts/reconcile-scores.ts
-```
 
 ## Convenciones
 

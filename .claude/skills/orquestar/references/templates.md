@@ -7,6 +7,8 @@ Usar cuando se necesita validar el estado real del código antes de construir.
 ```markdown
 # Auditoría — [Qué se está auditando]
 
+> **Modelo**: haiku
+
 Eres un agente explorador. Tu misión es auditar el estado actual del código para
 responder N preguntas concretas. NO modifiques nada. Solo lees y reportas.
 
@@ -49,6 +51,8 @@ Sé preciso y conciso. El orquestador usará tu reporte para planificar los agen
 ```markdown
 # Exploración — [Pregunta concreta]
 
+> **Modelo**: haiku
+
 ## Objetivo
 [Una pregunta específica que debe quedar respondida]
 
@@ -75,6 +79,8 @@ Usar `/[skill-name]` si aplica para el dominio explorado.
 
 ```markdown
 # Agente — [Título descriptivo]
+
+> **Modelo**: sonnet | haiku  ← (sonnet si requiere juicio/diseño, haiku si scope < 3 archivos y patrón claro)
 
 ## Skills
 Activa el skill `/[nombre]` antes de cualquier cambio en [dominio].
@@ -118,6 +124,8 @@ Estructura optimizada para LLMs (Lost in the Middle — info crítica al inicio 
 ```markdown
 # Agente N — [Título descriptivo]
 
+> **Modelo**: sonnet  ← (sonnet por defecto para SMEAC; haiku solo si scope < 3 archivos y patrón mecánico)
+>
 > Eres un agente autónomo. Cumples la misión usando tu juicio dentro de las restricciones.
 > Tu autonomía: elegir estructura, nombres, patrones de implementación.
 > Tu límite: no salir del alcance de la misión ni violar restricciones.

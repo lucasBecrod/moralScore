@@ -20,8 +20,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "El anti-ventriloquismo funciona: un LLM sin corrección podría inflar a Estadio 4 porque menciona 'leyes' e 'instituciones', pero la candidata las desestima en vez de defenderlas.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-aliaga-amenaza-onpe",
@@ -49,8 +49,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "El candidato tiene 90 mil personeros (Estadio 4 sería respetar el proceso). Pero su justificación no es institucional sino de fuerza y desconfianza personal.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-penales-militares",
@@ -78,8 +78,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "El discurso mezcla empatía genuina con soluciones autoritarias. La congruencia es baja: dice entender el sufrimiento pero propone fuerza militar sin articular por qué eso soluciona el problema de fondo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-coalicion-mal",
@@ -102,8 +102,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Evidencia insuficiente para una evaluación robusta. Solo dos citas de un debate completo. Se necesitan más fuentes. La confianza es media por falta de material, no por ambigüedad en el razonamiento.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-leyes-procrimen",
@@ -121,8 +121,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Consistente con evaluación anterior (debate 25/03). Patrón: evita responsabilidad del partido.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-extorsion-militares",
@@ -140,8 +140,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Similar a Forsyth en militarización. Pero Keiko al menos menciona una estrategia (zonas industriales), no solo fuerza bruta.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-aliaga-cade-seguridad-juridica",
@@ -169,8 +169,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Patrón consistente: discurso de fuerza personal, ataques ad hominem, sin articulación institucional. Score 2 por el intento de justificar con concepto de seguridad jurídica aunque lo aplica selectivamente.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-jurado-popular",
@@ -188,8 +188,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Si el jurado popular estuviera articulado con reforma constitucional y garantías procesales, podría ser Estadio 4-5. Pero la propuesta es un eslogan sin sustancia.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-crecimiento-6pct",
@@ -217,8 +217,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Acuña es consistentemente transaccional. Sus propuestas son numéricas sin articulación de principios. Estadio 2 claro.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-anemia-alimentacion",
@@ -236,8 +236,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Mejor que su discurso económico pero sigue sin articular derechos ni principios. Estadio 3 por el intento de razonamiento causal.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-seguridad-coalicion",
@@ -255,8 +255,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Podría ser Estadio 5 si articulara que la impunidad viola derechos previos al sistema legal. Pero se queda en Estadio 4: respetar las instituciones y el orden.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-constitucion",
@@ -289,8 +289,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "ALERTA VENTRILOQUISMO: el discurso suena sofisticado. Pero hay congruencia: el candidato ha sido rector, tiene formación académica, y su propuesta de nueva Constitución es coherente con su diagnóstico. Test de costo: proponer nueva Constitución tiene costo político alto (lo asocian con la izquierda radical). Lo asume. Score 5 sostenido.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-policia-pip",
@@ -313,8 +313,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Propuesta institucional concreta. Estadio 4 claro.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-tc-absolucio-falsa",
@@ -332,8 +332,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Transgresión directa a regla Gert #6. El TC no absolvió, anuló procedimientos. La candidata lo sabe y elige la versión que le beneficia.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-10-30"
+    "fechaEvento": "2025-10-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-rla-25-promesas-incumplidas",
@@ -351,8 +351,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "No hay cita directa del candidato porque no responde a estas acusaciones en la fuente. El historial habla por sí solo. Evaluación basada en hechos verificables, no en discurso.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-10-12"
+    "fechaEvento": "2025-10-12",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-rla-endeudamiento-4mil-millones",
@@ -370,8 +370,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Confianza media porque no hay cita directa del candidato. Pero los hechos son verificables y documentados por múltiples medios.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-22"
+    "fechaEvento": "2026-03-22",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-renuncia-alcaldia",
@@ -389,8 +389,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "El argumento tiene algo de verdad (límites del poder municipal). Pero renunciar a mitad de mandato para candidatear revela priorización del interés propio.",
-    "evaluador": "lucas",
-    "fechaEvento": "2021-02-01"
+    "fechaEvento": "2021-02-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-plagio-tesis",
@@ -413,8 +413,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "El candidato usa tecnicismos legales para evadir responsabilidad. La Complutense no lo 'absolvió', archivó el caso por falta de prueba suficiente para anular un título ya otorgado. Similar al caso Keiko con el TC.",
-    "evaluador": "lucas",
-    "fechaEvento": "2020-01-15"
+    "fechaEvento": "2020-01-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-5abril-democracia",
@@ -432,8 +432,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Podría ser Estadio 4 si solo apelara al orden constitucional. Pero va más allá: cuestiona un régimen que tuvo legalidad formal pero violó principios democráticos. Eso es Estadio 5.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-05"
+    "fechaEvento": "2026-04-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-reinfo-mineria",
@@ -451,8 +451,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Patrón: evita posición firme que le cueste votos.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-reconoce-rechazo",
@@ -470,8 +470,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Si articulara por qué tiene rechazo y qué cambiaría, podría ser Estadio 4+.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-rla-corte-idh",
@@ -489,8 +489,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Proponer jueces sin rostro es retroceder a prácticas dictatoriales de los 90.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-01"
+    "fechaEvento": "2026-02-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-rla-carceles-serpientes",
@@ -508,8 +508,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Patrón: propuestas espectaculares sin fundamento técnico ni ético.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-educacion",
@@ -527,8 +527,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "La mención de internet como derecho lo eleva a Estadio 3, pero falta articulación.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-energia",
@@ -546,8 +546,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Mejor intervención de Forsyth. Muestra capacidad de razonamiento sistémico cuando el tema lo permite.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-procompite",
@@ -565,8 +565,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Evaluación basada en hechos de gestión, no en discurso. La conducta real es el indicador más fuerte.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-08-10"
+    "fechaEvento": "2025-08-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-contratos-315m",
@@ -584,8 +584,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Evidencia de gestión más grave que el plagio. Manipuló indicadores de ejecución presupuestal para aparentar eficiencia.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-07-31"
+    "fechaEvento": "2025-07-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-salud-unico",
@@ -603,8 +603,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Consistente con evaluaciones anteriores. Nieto es el más institucionalista.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-congreso-electorales",
@@ -622,8 +622,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Esta es la evaluación más alta de Nieto. Asume costo político: critica al Congreso donde necesitaría aliados.",
-    "evaluador": "lucas",
-    "fechaEvento": "2024-06-01"
+    "fechaEvento": "2024-06-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-criminalidad",
@@ -641,8 +641,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "La autocrítica es rara en políticos peruanos. Indica razonamiento de Estadio 4+.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-05"
+    "fechaEvento": "2026-03-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-anticorrupcion",
@@ -660,8 +660,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Consistente con su diagnóstico de Estado capturado y propuesta de nueva Constitución.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-dcho-intl",
@@ -679,8 +679,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "López Chau es consistentemente post-convencional. Sus posiciones tienen costo político y las asume.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-gas-tarifa-unica",
@@ -698,8 +698,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Podría ser 5 si articulara el acceso a energía como derecho. Pero se queda en propuesta de política pública.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-disculpa-saavedra",
@@ -717,8 +717,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Mejor evaluación de Keiko. Pero fue 5 años después del hecho y en contexto de campaña (2021), lo que reduce la espontaneidad.",
-    "evaluador": "lucas",
-    "fechaEvento": "2021-05-15"
+    "fechaEvento": "2021-05-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-ministro-energia",
@@ -736,8 +736,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Coherente con Estadio 4, pero ironía: su propio partido tiene investigados. Congruencia cuestionable.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-19"
+    "fechaEvento": "2026-03-19",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-rla-potencia-cambio",
@@ -755,8 +755,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Ni siquiera intenta justificar el cambio.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-24"
+    "fechaEvento": "2026-02-24",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-rla-neutralidad-electoral",
@@ -774,8 +774,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Patrón consistente de instrumentalización del poder.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-12-01"
+    "fechaEvento": "2025-12-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-chatgpt-plan",
@@ -793,8 +793,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Oportunidad perdida: podría haber reconocido debilidades y propuesto mejoras (Estadio 4).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-09"
+    "fechaEvento": "2026-02-09",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-regiones",
@@ -812,8 +812,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Mejor propuesta de Forsyth. Si articulara por qué la descentralización es un derecho, sería Estadio 5.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-14"
+    "fechaEvento": "2026-03-14",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-vallejo-baja",
@@ -831,8 +831,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Gastó menos del 10% del presupuesto de seguridad y se ríe. Estadio 1 claro.",
-    "evaluador": "lucas",
-    "fechaEvento": "2024-08-25"
+    "fechaEvento": "2024-08-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-olivera",
@@ -850,8 +850,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Patrón: cuando lo confrontan, amenaza con demandas en vez de argumentar.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-china",
@@ -869,8 +869,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "La distinción es formalmente correcta pero sustancialmente débil.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-02-01"
+    "fechaEvento": "2025-02-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-oas-defensa",
@@ -888,8 +888,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Si las acusaciones resultan ciertas, este Estadio 4 se convierte en Estadio 2 (manipulación).",
-    "evaluador": "lucas",
-    "fechaEvento": "2023-06-09"
+    "fechaEvento": "2023-06-09",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-castro-calumnia",
@@ -912,8 +912,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Similar a su defensa en el caso OAS. Consistente: confía en instituciones.",
-    "evaluador": "lucas",
-    "fechaEvento": "2020-07-14"
+    "fechaEvento": "2020-07-14",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-formato-debate",
@@ -931,8 +931,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Evaluación moderada de López Chau. No todas sus intervenciones son Estadio 5.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-mistica-rector",
@@ -950,8 +950,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Coherente con su perfil académico. La 'mística' como principio vs el 'dinero' como instrumento.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-01"
+    "fechaEvento": "2026-03-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-autoritarismo",
@@ -969,8 +969,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "La minimización ('por momentos') limita la autocrítica. Pero es más de lo que la mayoría de fujimoristas admiten.",
-    "evaluador": "lucas",
-    "fechaEvento": "2021-04-01"
+    "fechaEvento": "2021-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-keiko-perdon-confrontacion",
@@ -988,8 +988,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Pide perdón a los suyos pero no a los afectados por las acciones del fujimorismo en el Congreso.",
-    "evaluador": "lucas",
-    "fechaEvento": "2021-05-01"
+    "fechaEvento": "2021-05-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-rla-dni-fetos",
@@ -1007,8 +1007,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Podría ser Estadio 3 si articulara con coherencia. Pero es transaccional: busca el voto conservador.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-01"
+    "fechaEvento": "2026-02-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-rla-genero-exterminar",
@@ -1026,8 +1026,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "El uso de 'exterminar' revela razonamiento de fuerza bruta aplicado a política social.",
-    "evaluador": "lucas",
-    "fechaEvento": "2021-03-01"
+    "fechaEvento": "2021-03-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-li-gobierno",
@@ -1045,8 +1045,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Buena señal institucional, aunque podría ser oportunismo ante las críticas.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-28"
+    "fechaEvento": "2026-03-28",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-educacion-congreso",
@@ -1064,8 +1064,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Forsyth mejora cuando habla de instituciones. Su debilidad es la propuesta de fuerza en seguridad.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-forsyth-investigacion-corrupcion",
@@ -1083,8 +1083,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Contratos de S/107 mil a amigo sin estudios ni experiencia pública.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-01"
+    "fechaEvento": "2026-02-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-financiamiento-falso",
@@ -1102,8 +1102,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Patrón consistente con plagio de tesis: manipula la verdad para beneficio de imagen.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-acuna-contraloria-116m",
@@ -1121,8 +1121,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Acuña acumula irregularidades: S/58M + S/315M + S/116M = S/489M en programas cuestionados.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-democracia-mayoria",
@@ -1140,8 +1140,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Podría ser controversial (implica que sin mayoría no se puede gobernar). Pero es un diagnóstico honesto.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-17"
+    "fechaEvento": "2026-02-17",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-nino-costero",
@@ -1159,8 +1159,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Nieto es el candidato con mejor balance entre discurso y gestión real.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-04"
+    "fechaEvento": "2026-03-04",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-nieto-rechaza-fujimori",
@@ -1178,8 +1178,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Consistente con su patrón: confía en instituciones para reivindicarse.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-juliaca",
@@ -1197,8 +1197,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Evaluación basada en coherencia entre discurso y acción.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-01-15"
+    "fechaEvento": "2026-01-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-lopez-chau-economia",
@@ -1216,8 +1216,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Sin más detalle es difícil evaluar la profundidad. Pero la articulación es post-convencional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-05-12"
+    "fechaEvento": "2025-05-12",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-ronald-darwin-atencio-sotomayor",
@@ -1235,8 +1235,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-jose-daniel-williams-zapata",
@@ -1254,8 +1254,8 @@
     ],
     "estadioAlternativo": null,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -1273,8 +1273,8 @@
     ],
     "estadioAlternativo": null,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-fiorella-giannina-molinelli-aristondo",
@@ -1292,8 +1292,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-roberto-helbert-sanchez-palomino",
@@ -1311,8 +1311,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-rafael-jorge-belaunde-llosa",
@@ -1330,8 +1330,8 @@
     ],
     "estadioAlternativo": null,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-pitter-enrique-valderrama-pena",
@@ -1349,8 +1349,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-26"
+    "fechaEvento": "2026-03-26",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-ricardo-pablo-belmont-cassinelli",
@@ -1368,8 +1368,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-charlie-carrasco-salazar",
@@ -1387,8 +1387,8 @@
     ],
     "estadioAlternativo": null,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-alex-gonzales-castillo",
@@ -1406,8 +1406,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-armando-joaquin-masse-fernandez",
@@ -1425,8 +1425,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-luis-fernando-olivera-vega",
@@ -1444,8 +1444,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-mesias-antonio-guevara-amasifuen",
@@ -1463,8 +1463,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-18"
+    "fechaEvento": "2026-03-18",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-carlos-gonzalo-alvarez-loayza",
@@ -1482,8 +1482,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-herbert-caller-gutierrez",
@@ -1501,8 +1501,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-yonhy-lescano-ancieta",
@@ -1520,8 +1520,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-wolfgang-mario-grozo-costa",
@@ -1539,8 +1539,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-18"
+    "fechaEvento": "2026-03-18",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-vladimir-roy-cerron-rojas",
@@ -1558,8 +1558,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2025-12-07"
+    "fechaEvento": "2025-12-07",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-francisco-ernesto-diez-canseco-tavara",
@@ -1577,8 +1577,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-mario-enrique-vizcarra-cornejo",
@@ -1596,8 +1596,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-26"
+    "fechaEvento": "2026-03-26",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-walter-gilmer-chirinos-purizaga",
@@ -1615,8 +1615,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-alfonso-carlos-espa-y-garces-alvear",
@@ -1634,8 +1634,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-carlos-ernesto-jaico-carranza",
@@ -1653,8 +1653,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-17"
+    "fechaEvento": "2026-03-17",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-jose-leon-luna-galvez",
@@ -1672,8 +1672,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-17"
+    "fechaEvento": "2026-03-17",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-maria-soledad-perez-tello-de-rodriguez",
@@ -1691,8 +1691,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-paul-davis-jaimes-blanco",
@@ -1710,8 +1710,8 @@
     ],
     "estadioAlternativo": null,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-antonio-ortiz-villano",
@@ -1729,8 +1729,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-17"
+    "fechaEvento": "2026-03-17",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-rosario-del-pilar-fernandez-bazan",
@@ -1748,8 +1748,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-09"
+    "fechaEvento": "2026-03-09",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada1-roberto-enrique-chiabra-leon",
@@ -1767,8 +1767,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": null,
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-ronald-darwin-atencio-sotomayor",
@@ -1786,8 +1786,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleada 1 (mineros). Mismo patron transaccional: Estado extrae de ricos, da a pueblo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-jose-daniel-williams-zapata",
@@ -1805,8 +1805,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema diferente a oleada 1 (estado de guerra). Sube de estadio 1 a 3: en educacion no recurre a fuerza sino a paternalismo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -1824,8 +1824,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleada 1 (sin debido proceso). Mejora relativa pero sigue pre-convencional: promesas de dinero sin marco de derechos.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-fiorella-giannina-molinelli-aristondo",
@@ -1843,8 +1843,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleada 1 (confronta a Sanchez). Sube de estadio 3 a 4: en educacion articula marco institucional con datos.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-roberto-helbert-sanchez-palomino",
@@ -1862,8 +1862,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleada 1 (nueva constitucion). Baja de 3 a 2: promesas inviables y lealtad personal a Castillo revelan instrumentalismo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-rafael-jorge-belaunde-llosa",
@@ -1881,8 +1881,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema diferente a oleada 1 (becas con canon). Sube de 4 a 5: explicita defensa de derechos supranacionales como principio superior a soberania.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-pitter-enrique-valderrama-pena",
@@ -1900,8 +1900,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema diferente a oleada 1 (cadena perpetua). Sube de 2 a 3: en salud mental no recurre a castigo pero sigue buscando aprobacion sin plan viable.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-26"
+    "fechaEvento": "2026-03-26",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-ricardo-pablo-belmont-cassinelli",
@@ -1919,8 +1919,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema diferente a oleada 1 (educacion emotivo). Baja de 3 a 2: evidencia de fact-check muestra instrumentalidad pura, no solo paternalismo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-28"
+    "fechaEvento": "2026-03-28",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-charlie-carrasco-salazar",
@@ -1938,8 +1938,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema diferente a oleada 1 (principios biblicos). Se mantiene en estadio 1: patron autoritario consistente en todos los temas.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-alex-gonzales-castillo",
@@ -1957,8 +1957,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema diferente a oleada 1 (increpa a Lopez Aliaga). Se mantiene en estadio 2: logica cuantitativa instrumental.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-armando-joaquin-masse-fernandez",
@@ -1976,8 +1976,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Podria ser estadio 3 si se interpreta como busqueda de aprobacion regional, pero el framing es transaccional",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-luis-fernando-olivera-vega",
@@ -1995,8 +1995,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tambien propone desaparecer SUNAT y crear Banco del Emprendedor — todo transaccional",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-mesias-antonio-guevara-amasifuen",
@@ -2014,8 +2014,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "La critica a Lopez Aliaga por deuda de Lima podria ser oportunismo politico (estadio 3), pero se sustenta en datos fiscales",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-carlos-gonzalo-alvarez-loayza",
@@ -2033,8 +2033,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Caida notable vs oleada 1 (estadio 4). Anti-ventriloquismo: esta propuesta es pre-convencional pura",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-herbert-caller-gutierrez",
@@ -2052,8 +2052,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Mejora respecto a oleada 1 (estadio 1), pero sigue siendo instrumental",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-yonhy-lescano-ancieta",
@@ -2071,8 +2071,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Propuesta repetida de ciclos anteriores. Anti-ventriloquismo: estadio 2 por logica de intercambio",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-wolfgang-mario-grozo-costa",
@@ -2090,8 +2090,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Consistente con oleada 1 (estadio 4). Podria ser 5 por critica a leyes vigentes como ineficaces",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-vladimir-roy-cerron-rojas",
@@ -2109,8 +2109,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Consistente con oleada 1 (estadio 1). La evasion de la justicia refuerza el pre-convencionalismo",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-28"
+    "fechaEvento": "2026-03-28",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-francisco-ernesto-diez-canseco-tavara",
@@ -2128,8 +2128,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Baja respecto a oleada 1 (estadio 4). El tono confrontacional y la retorica del paredon bajan el estadio",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-mario-enrique-vizcarra-cornejo",
@@ -2147,8 +2147,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Mejora respecto a oleada 1 (estadio 1) por el discurso de meritocracia, pero el Bono Emprendedor es instrumental",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-walter-gilmer-chirinos-purizaga",
@@ -2166,8 +2166,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Consistente con oleada 1. Ahora con barniz tecnico pero misma logica punitiva.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-09"
+    "fechaEvento": "2026-02-09",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-alfonso-carlos-espa-y-garces-alvear",
@@ -2185,8 +2185,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Baja de estadio 3 (oleada 1) a 2. Fuente mas concreta revela logica transaccional, no solo busqueda de aprobacion.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-carlos-ernesto-jaico-carranza",
@@ -2204,8 +2204,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Consistente con oleada 1 (estadio 4). Marco institucional sostenido en ambas fuentes.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-jose-leon-luna-galvez",
@@ -2223,8 +2223,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Consistente con oleada 1 (estadio 2). Patron de promesas grandilocuentes sin sustento.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-maria-soledad-perez-tello-de-rodriguez",
@@ -2242,8 +2242,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Consistente con oleada 1 (estadio 5). Refuerza con denuncia concreta de leyes procrimen.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-03-23"
+    "fechaEvento": "2025-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-paul-davis-jaimes-blanco",
@@ -2261,8 +2261,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Consistente con oleada 1 (estadio 1). Refuerza con cita mas explicita.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-antonio-ortiz-villano",
@@ -2280,8 +2280,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Consistente con oleada 1 (estadio 2). En seguridad baja hacia estadio 1 (pena de muerte).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-26"
+    "fechaEvento": "2026-03-26",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-rosario-del-pilar-fernandez-bazan",
@@ -2299,8 +2299,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Baja de estadio 2 (oleada 1) a 1. Fuente revela logica destructiva mas que transaccional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada2-roberto-enrique-chiabra-leon",
@@ -2318,8 +2318,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Consistente con oleada 1 (estadio 4). Ambas fuentes muestran razonamiento institucional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-ronald-darwin-atencio-sotomayor",
@@ -2337,8 +2337,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema diferente a oleadas 1 y 2. Baja de 2 a 1: el lenguaje de aniquilamiento es pre-convencional puro. Anti-ventriloquismo: no importa que diga 'no sera un Colina', la estructura propuesta es identica.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-17"
+    "fechaEvento": "2026-03-17",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-jose-daniel-williams-zapata",
@@ -2356,8 +2356,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleadas 1 y 2. Baja de 3 a 2: en economia revela logica transaccional pura. RPP cuestiona viabilidad de la promesa.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -2375,8 +2375,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema diferente a oleadas 1 y 2. Se mantiene en estadio 1: patron de concentracion de poder y plazos arbitrarios sin marco institucional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-fiorella-giannina-molinelli-aristondo",
@@ -2394,8 +2394,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleadas 1 y 2. Se mantiene en estadio 4: en salud articula propuesta desde conocimiento institucional. REGLA DE MITIN no aplica (es foro, no mitin).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-17"
+    "fechaEvento": "2026-03-17",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-roberto-helbert-sanchez-palomino",
@@ -2413,8 +2413,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleadas 1 y 2. Se mantiene en estadio 2: la cadena perpetua como solucion revela instrumentalismo punitivo. No distingue entre disuasion y venganza.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-18"
+    "fechaEvento": "2026-03-18",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-rafael-jorge-belaunde-llosa",
@@ -2432,8 +2432,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Tema diferente a oleadas 1 y 2. Baja de 5 a 4: en seguridad Belaunde es institucionalista (propone contrapesos) pero no llega a principios universales como con la Corte IDH. Estadio 4 solido.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-04"
+    "fechaEvento": "2026-03-04",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-pitter-enrique-valderrama-pena",
@@ -2451,8 +2451,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleadas 1 y 2. Baja de 3 a 2: en economia Valderrama es puramente transaccional. Promete numeros sin articular principios ni mecanismos institucionales.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-ricardo-pablo-belmont-cassinelli",
@@ -2470,8 +2470,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema diferente a oleadas 1 y 2. Se mantiene en estadio 2: patron constante de diagnosticos correctos con soluciones que instrumentalizan al pueblo sin proteger instituciones.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-09"
+    "fechaEvento": "2026-03-09",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-charlie-carrasco-salazar",
@@ -2489,8 +2489,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema diferente a oleadas 1 y 2. Sube de 1 a 2: cuando habla de economia en vez de seguridad, Carrasco abandona el castigo y articula logica transaccional. Mejora relativa pero sigue pre-convencional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-alex-gonzales-castillo",
@@ -2508,8 +2508,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema diferente a oleadas 1 y 2. Sube de 2 a 3: cuando habla de derechos laborales en vez de seguridad, Gonzales articula injusticia. Techo Estadio 3 por ser debate (no mitin, pero formato similar).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-armando-joaquin-masse-fernandez",
@@ -2527,8 +2527,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en entrevista en Andina.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-luis-fernando-olivera-vega",
@@ -2546,8 +2546,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en entrevista en RPP.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-05"
+    "fechaEvento": "2026-03-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-mesias-antonio-guevara-amasifuen",
@@ -2565,8 +2565,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Oleada 3, evaluación basada en debate en Correo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-carlos-gonzalo-alvarez-loayza",
@@ -2584,8 +2584,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en entrevista en TVPerú.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-herbert-caller-gutierrez",
@@ -2603,8 +2603,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en entrevista en Andina.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-12"
+    "fechaEvento": "2026-03-12",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-yonhy-lescano-ancieta",
@@ -2622,8 +2622,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Oleada 3, evaluación basada en entrevista en Correo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-wolfgang-mario-grozo-costa",
@@ -2641,8 +2641,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Oleada 3, evaluación basada en debate en Gestión.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-vladimir-roy-cerron-rojas",
@@ -2660,8 +2660,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Oleada 3, evaluación basada en entrevista en TVPerú.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-18"
+    "fechaEvento": "2026-03-18",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-francisco-ernesto-diez-canseco-tavara",
@@ -2679,8 +2679,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en articulo en El Peruano.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-mario-enrique-vizcarra-cornejo",
@@ -2698,8 +2698,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en debate en Caretas.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-walter-gilmer-chirinos-purizaga",
@@ -2717,8 +2717,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Oleada 3, evaluación basada en debate en Correo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-alfonso-carlos-espa-y-garces-alvear",
@@ -2736,8 +2736,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Oleada 3, evaluación basada en debate en Gestión.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-carlos-ernesto-jaico-carranza",
@@ -2755,8 +2755,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en entrevista en Andina.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-22"
+    "fechaEvento": "2026-03-22",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-jose-leon-luna-galvez",
@@ -2774,8 +2774,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Oleada 3, evaluación basada en entrevista en TVPerú.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-27"
+    "fechaEvento": "2026-02-27",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-maria-soledad-perez-tello-de-rodriguez",
@@ -2793,8 +2793,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Oleada 3, evaluación basada en debate en Caretas.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-paul-davis-jaimes-blanco",
@@ -2812,8 +2812,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Oleada 3, evaluación basada en debate en Correo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-antonio-ortiz-villano",
@@ -2831,8 +2831,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Oleada 3, evaluación basada en debate en Correo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-rosario-del-pilar-fernandez-bazan",
@@ -2850,8 +2850,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Oleada 3, evaluación basada en debate en Correo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada3-roberto-enrique-chiabra-leon",
@@ -2869,8 +2869,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Oleada 3, evaluación basada en debate en Correo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-ronald-darwin-atencio-sotomayor",
@@ -2888,8 +2888,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (medio ambiente). El discurso de derechos hidricos podria ser estadio 3 si se interpreta como apelacion a dignidad comunitaria. Pero anti-ventriloquismo: decir derecho no basta si el mecanismo es transaccional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-jose-daniel-williams-zapata",
@@ -2907,8 +2907,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (salud). Sube de 2 a 3: en salud Williams articula mejor que en economia. El CENS (Consejo Estrategico Nacional de Salud) podria ser estadio 4 pero falta desarrollo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -2926,8 +2926,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (salud). Se mantiene en estadio 1-2: patron de diagnosticos correctos con soluciones grandilocuentes sin sustento.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-fiorella-giannina-molinelli-aristondo",
@@ -2945,8 +2945,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (economia/empleo). Se mantiene en estadio 4: consistente con oleadas 2 y 3. La critica al asistencialismo es principio articulado.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-roberto-helbert-sanchez-palomino",
@@ -2964,8 +2964,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (agricultura). REGLA MITIN aplica. Se mantiene en estadio 2: patron de promesas sin sustento institucional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-rafael-jorge-belaunde-llosa",
@@ -2983,8 +2983,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Tema nuevo (economia/mypes). Se mantiene en estadio 4: consistente con oleadas 1 y 3. No sube a 5 porque no articula principios universales, solo eficiencia institucional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-pitter-enrique-valderrama-pena",
@@ -3002,8 +3002,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (educacion + agricultura). Se mantiene en estadio 2: patron de promesas cuantitativas sin principio articulado.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-28"
+    "fechaEvento": "2026-03-28",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-ricardo-pablo-belmont-cassinelli",
@@ -3021,8 +3021,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (economia/Mypes). Se mantiene en estadio 2: patron de propuestas vagas confirmado en oleada 2.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-charlie-carrasco-salazar",
@@ -3040,8 +3040,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema nuevo (salud). Se mantiene en estadio 2: mejora relativa vs estadio 1 pero sigue pre-convencional. El voluntarismo roza estadio 1.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-alex-gonzales-castillo",
@@ -3059,8 +3059,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (educacion universitaria). Baja de 3 a 2: en educacion Gonzales no articula la injusticia como en tercerizacion. Logica puramente cuantitativa.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-armando-joaquin-masse-fernandez",
@@ -3078,8 +3078,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (salud infantil). Consistente con oleadas previas (2,2,2). Cuatro evaluaciones confirman patron transaccional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-luis-fernando-olivera-vega",
@@ -3097,8 +3097,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (economia/mineria). Consistente con oleadas previas (2,2,2). Cuatro evaluaciones confirman patron transaccional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-mesias-antonio-guevara-amasifuen",
@@ -3116,8 +3116,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (medio ambiente/Amazonia). Sube de 3 a 4: en defensa ambiental articula propuesta institucional con mecanismos concretos. Techo debate no aplica porque la propuesta es especifica y operativa.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-carlos-gonzalo-alvarez-loayza",
@@ -3135,8 +3135,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (salud). Se mantiene en estadio 4: consistente con oleadas 1 y 3. Tres de cuatro evaluaciones dan estadio 4.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-herbert-caller-gutierrez",
@@ -3154,8 +3154,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (salud/infraestructura modular). Consistente con oleadas previas (1,2,2). Patron de soluciones magicas importadas.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-05"
+    "fechaEvento": "2026-03-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-yonhy-lescano-ancieta",
@@ -3173,8 +3173,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (educacion/formalizacion). Se mantiene en estadio 2: consistente con oleadas 1 y 2. La cifra de 22 mil colegios es inviable en un quinquenio.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-wolfgang-mario-grozo-costa",
@@ -3192,8 +3192,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (educacion). Sube de 3 a 4: en educacion Grozo articula mecanismos institucionales (Becas por Impuestos). Debate pero propuesta especifica, no eslogan.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-vladimir-roy-cerron-rojas",
@@ -3211,8 +3211,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema nuevo (salud). Consistente con oleadas previas (1,1,1). Anti-ventriloquismo: el lenguaje de universalidad oculta concentracion de poder. Cuatro evaluaciones confirman estadio 1.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-francisco-ernesto-diez-canseco-tavara",
@@ -3230,8 +3230,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (agricultura). Baja de 4 a 3: en agricultura Diez Canseco apela a moralidad personal (sin corrupcion) en vez de reforma institucional. Consistente con oleada 2 (Mano de Hierro = estadio 3).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-mario-enrique-vizcarra-cornejo",
@@ -3249,8 +3249,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (educacion + salud). Consistente con oleadas 2 y 3 (estadio 2). La deuda social podria ser estadio 3 si se enmarca en justicia laboral.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-walter-gilmer-chirinos-purizaga",
@@ -3268,8 +3268,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (educacion). Mejora relativa vs estadio 1 pero sigue siendo pre-convencional. Cuatro evaluaciones: 1,1,1,2.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-alfonso-carlos-espa-y-garces-alvear",
@@ -3287,8 +3287,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (agua/descentralizacion). Se mantiene en estadio 3: critica a regionalizacion es buena pero la solucion es re-centralizar, no reformar. Anti-ventriloquismo: compromiso personal no es mecanismo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-carlos-ernesto-jaico-carranza",
@@ -3306,8 +3306,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (educacion tecnica). Consistente con oleadas 1, 2 y 3 (estadio 4). Cuatro evaluaciones confirman razonamiento institucional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-jose-leon-luna-galvez",
@@ -3325,8 +3325,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema nuevo (educacion). Consistente con oleadas previas (2,2,2). Cuatro evaluaciones confirman patron transaccional en todo tema.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-maria-soledad-perez-tello-de-rodriguez",
@@ -3344,8 +3344,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (primera infancia). Consistente con oleadas previas (5,5,5). Cuatro evaluaciones confirman razonamiento de principios universales.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-paul-davis-jaimes-blanco",
@@ -3363,8 +3363,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (educacion). Se mantiene en estadio 1-2: patron de promesas transaccionales. Mejora relativa vs pena de muerte pero misma logica.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-antonio-ortiz-villano",
@@ -3382,8 +3382,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (educacion/industria). Se mantiene en estadio 3: sube de 2 (oleadas 1-2) a 3 en educacion. La vision productiva es articulada pero parques industriales por region es grandilocuente.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-rosario-del-pilar-fernandez-bazan",
@@ -3401,8 +3401,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (salud). Consistente con oleadas previas (2,1,2). Patron de propuestas autoritarias sin marco institucional.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada4-roberto-enrique-chiabra-leon",
@@ -3420,8 +3420,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (genero/empleo). Consistente con oleadas previas (4,4,4). Cuatro evaluaciones confirman razonamiento institucional en todo tema.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-ronald-darwin-atencio-sotomayor",
@@ -3439,8 +3439,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (pensiones/vivienda). Consistente con patrón (2,2,1,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-15"
+    "fechaEvento": "2026-02-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-jose-daniel-williams-zapata",
@@ -3458,8 +3458,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (modernización Estado). Patrón (1,3,2,3,3).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -3477,8 +3477,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (digitalización). Consistente con patrón (1,2,1,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-fiorella-giannina-molinelli-aristondo",
@@ -3496,8 +3496,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Tema nuevo (reforma judicial). Consistente con patrón (3,4,4,4).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-roberto-helbert-sanchez-palomino",
@@ -3515,8 +3515,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (vivienda). Consistente con patrón (3,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-13"
+    "fechaEvento": "2026-03-13",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-rafael-jorge-belaunde-llosa",
@@ -3534,8 +3534,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (pensiones/AFP). Patrón (4,5,4,4,5) — sube cuando escribe.",
-    "evaluador": "lucas",
-    "fechaEvento": "2025-09-16"
+    "fechaEvento": "2025-09-16",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-pitter-enrique-valderrama-pena",
@@ -3553,8 +3553,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (reforma judicial). Patrón (2,3,2,2,3).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-12"
+    "fechaEvento": "2026-03-12",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-ricardo-pablo-belmont-cassinelli",
@@ -3572,8 +3572,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema nuevo (transporte). Consistente con patrón (3,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-28"
+    "fechaEvento": "2026-03-28",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-charlie-carrasco-salazar",
@@ -3591,8 +3591,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema nuevo (reforma del Estado). Patrón (1,1,2,2,1).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-05"
+    "fechaEvento": "2026-03-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-alex-gonzales-castillo",
@@ -3610,8 +3610,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (medio ambiente/pensiones). Patrón (2,2,3,2,3).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-05"
+    "fechaEvento": "2026-03-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-armando-joaquin-masse-fernandez",
@@ -3629,8 +3629,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (vivienda). Consistente patrón (2,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-luis-fernando-olivera-vega",
@@ -3648,8 +3648,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema nuevo (reforma constitucional). Consistente patrón (2,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-01-20"
+    "fechaEvento": "2026-01-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-mesias-antonio-guevara-amasifuen",
@@ -3667,8 +3667,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (pueblos indígenas). Patrón (3,4,3,4,3).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-02"
+    "fechaEvento": "2026-04-02",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-carlos-gonzalo-alvarez-loayza",
@@ -3686,8 +3686,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (medio ambiente/clima). Patrón (4,1,4,4,4).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-05"
+    "fechaEvento": "2026-03-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-herbert-caller-gutierrez",
@@ -3705,8 +3705,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (pensiones/política exterior). Patrón (1,2,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-yonhy-lescano-ancieta",
@@ -3724,8 +3724,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (industrialización). Patrón (2,2,3,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-wolfgang-mario-grozo-costa",
@@ -3743,8 +3743,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (transporte/pensiones). Patrón (4,4,3,4,4).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-vladimir-roy-cerron-rojas",
@@ -3762,8 +3762,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema nuevo (reforma constitucional). Patrón (1,1,1,1,1).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-18"
+    "fechaEvento": "2026-03-18",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-francisco-ernesto-diez-canseco-tavara",
@@ -3781,8 +3781,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (pensiones/medio ambiente). Patrón (4,3,4,3,4).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-mario-enrique-vizcarra-cornejo",
@@ -3800,8 +3800,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (cambio climático). Patrón (1,2,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-walter-gilmer-chirinos-purizaga",
@@ -3819,8 +3819,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (descentralización). Patrón (1,1,1,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-alfonso-carlos-espa-y-garces-alvear",
@@ -3838,8 +3838,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (reforma política). Patrón (3,2,3,3,3).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-carlos-ernesto-jaico-carranza",
@@ -3857,8 +3857,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (transporte/pensiones). Patrón (4,4,4,4,4).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-jose-leon-luna-galvez",
@@ -3876,8 +3876,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema nuevo (pensiones/vivienda). Patrón (2,2,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-maria-soledad-perez-tello-de-rodriguez",
@@ -3895,8 +3895,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema nuevo (reforma judicial). Patrón (5,5,5,5,5).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-paul-davis-jaimes-blanco",
@@ -3914,8 +3914,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (vivienda/medio ambiente). Patrón (1,1,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-antonio-ortiz-villano",
@@ -3933,8 +3933,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (transporte). Patrón (2,2,3,3,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-rosario-del-pilar-fernandez-bazan",
@@ -3952,8 +3952,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema nuevo (medio ambiente/vivienda). Patrón (2,1,2,2,2).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-05"
+    "fechaEvento": "2026-03-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada5-roberto-enrique-chiabra-leon",
@@ -3971,8 +3971,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema nuevo (pensiones/género). Patrón (4,4,4,4,4).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-jose-daniel-williams-zapata",
@@ -3995,8 +3995,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema: corrupción. Propuesta híbrida castigo+instituciones.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-ronald-darwin-atencio-sotomayor",
@@ -4014,8 +4014,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema: corrupción. Inconsistencia ética personal.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-alvaro-gonzalo-paz-de-la-barra-freigeiro",
@@ -4038,8 +4038,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: reforma judicial. Consistente con patrón autoritario.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-fiorella-giannina-molinelli-aristondo",
@@ -4057,8 +4057,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: reforma judicial. Consistente con patrón institucional (3,4,4,4,4).",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-14"
+    "fechaEvento": "2026-02-14",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-roberto-helbert-sanchez-palomino",
@@ -4076,8 +4076,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema: reforma judicial. Anti-ventriloquismo: baja de 4 a 3 por riesgo populista.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-rafael-jorge-belaunde-llosa",
@@ -4095,8 +4095,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: vivienda. Patrón: 4,5,4,4,4.",
-    "evaluador": "lucas",
-    "fechaEvento": "2024-08-01"
+    "fechaEvento": "2024-08-01",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-pitter-enrique-valderrama-pena",
@@ -4114,8 +4114,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: transporte. Patrón: 2,3,2,2,3.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-03"
+    "fechaEvento": "2026-02-03",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-ricardo-pablo-belmont-cassinelli",
@@ -4133,8 +4133,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: corrupción. Patrón: 3,2,2,2,2,3.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-charlie-carrasco-salazar",
@@ -4157,8 +4157,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema: reforma judicial. Patrón: 1,1,2,2,1,2. Anti-ventriloquismo aplicado.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-alex-gonzales-castillo",
@@ -4176,8 +4176,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema: justicia/corrupción. Patrón: 2,2,3,2,3,3.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-mesias-antonio-guevara-amasifuen",
@@ -4195,8 +4195,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: reforma judicial. Patrón: 3,4,3,4,3,4. Mediana sube a 3.5.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-15"
+    "fechaEvento": "2026-02-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-carlos-gonzalo-alvarez-loayza",
@@ -4214,8 +4214,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: reforma judicial/corrupción. Patrón: 4,1,4,4,4,4. Mediana: 4.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-herbert-caller-gutierrez",
@@ -4233,8 +4233,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Tema: corrupción. Patrón: 1,2,2,2,2,2.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-26"
+    "fechaEvento": "2026-03-26",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-yonhy-lescano-ancieta",
@@ -4252,8 +4252,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema: reforma judicial. Patrón: 2,2,3,2,2,3. Anti-ventriloquismo.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-26"
+    "fechaEvento": "2026-03-26",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-wolfgang-mario-grozo-costa",
@@ -4271,8 +4271,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema: corrupción. Patrón: 4,4,3,4,4,3. Mediana: 4.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-08"
+    "fechaEvento": "2026-03-08",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-francisco-ernesto-diez-canseco-tavara",
@@ -4290,8 +4290,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: transporte. Patrón: 4,3,4,3,4,4.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-mario-enrique-vizcarra-cornejo",
@@ -4309,8 +4309,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Tema: corrupción personal. Patrón: 1,2,2,2,2,2.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-02-04"
+    "fechaEvento": "2026-02-04",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-walter-gilmer-chirinos-purizaga",
@@ -4328,8 +4328,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Tema: corrupción/Montesinos. Patrón: 1,1,1,2,2,1.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-alfonso-carlos-espa-y-garces-alvear",
@@ -4347,8 +4347,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema: corrupción. Patrón: 3,2,3,3,3,3.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-paul-davis-jaimes-blanco",
@@ -4366,8 +4366,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema: corrupción personal. Patrón: 1,1,2,2,2,2.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-antonio-ortiz-villano",
@@ -4385,8 +4385,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Tema: reforma judicial. Patrón: 2,2,3,3,2,3.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-oleada6-rosario-del-pilar-fernandez-bazan",
@@ -4404,8 +4404,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Tema: reforma judicial. Patrón: 2,1,2,2,2,2.",
-    "evaluador": "lucas",
-    "fechaEvento": "2026-04-05"
+    "fechaEvento": "2026-04-05",
+    "userId": "lucasbecrod"
   },
   {
     "id": "eval-masse-seguridad-reforma-policial",
@@ -4433,8 +4433,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Consistente con patrón: promesas de eficiencia administrativa sin argumentación ética de fondo.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-olivera-educacion-presupuesto",
@@ -4452,8 +4452,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Primera fuente sobre educación. Mantiene consistencia Estadio 2.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-cerron-imperialismo-venezuela",
@@ -4481,8 +4481,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Consistente con 5 evaluaciones previas (todas Estadio 1). Marco binario imperialismo vs. resistencia.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-01-04"
+    "fechaEvento": "2026-01-04",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-jaico-salud-cancer",
@@ -4505,8 +4505,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Consistente con 5 evaluaciones previas (todas Estadio 4).",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-luna-galvez-mineria-reinfo",
@@ -4529,8 +4529,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Consistente con 5 evaluaciones previas (todas Estadio 2). Doble discurso REINFO.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2025-12-17"
+    "fechaEvento": "2025-12-17",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-perez-tello-dictadores",
@@ -4558,8 +4558,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Consistente con 5 evaluaciones previas (todas Estadio 5). Principismo genuino.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2025-12-14"
+    "fechaEvento": "2025-12-14",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-chiabra-educacion-tecnica",
@@ -4587,8 +4587,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Consistente con 5 evaluaciones previas (todas Estadio 4). Militar institucionalista.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-atencio-salud-seguros",
@@ -4611,8 +4611,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Previos: 2,2,1,2,2,1. Este 3 es razonable por el tema de justicia de acceso.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-williams-autonomia-institucional",
@@ -4635,8 +4635,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 1,3,2,3,3,3. Un 4 es alto pero justificado por el enfoque institucional.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-paz-de-la-barra-debido-proceso",
@@ -4664,8 +4664,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 1,2,1,2,2,1. Consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-molinelli-anticorrupcion",
@@ -4693,8 +4693,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 3,4,4,4,4,4. Consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-sanchez-constitucion-cadena",
@@ -4717,8 +4717,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Corrección anti-ventriloquismo: haiku asignó 3 pero cadena perpetua es punitivo y banco minero es transaccional. Previos: 3,2,2,2,2,3.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-18"
+    "fechaEvento": "2026-03-18",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-belaunde-muerte-cruzada",
@@ -4741,8 +4741,8 @@
     ],
     "estadioAlternativo": 5,
     "notas": "Previos: 4,5,4,4,5,4. Consistente con mediana 4.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-valderrama-cadena-perpetua-corruptos",
@@ -4765,8 +4765,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Corrección: haiku asignó 4 pero cadena perpetua es punitivo y la conexión criminalidad→pobreza es E3.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-26"
+    "fechaEvento": "2026-03-26",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-belmont-jueces-voto-popular",
@@ -4789,8 +4789,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 3,2,2,2,2,3. Consistente con mediana 2.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-carrasco-expulsion-biblia",
@@ -4813,8 +4813,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 1,1,2,2,1,2. Consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-gonzales-carcel-cementerio",
@@ -4842,8 +4842,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 2,2,3,2,3,3. Consistente con rango bajo.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-guevara-seguridad-endurecer",
@@ -4871,8 +4871,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Corrección: haiku asignó 4 pero enforcement sin derechos es E3. Previos: 3,4,3,4,3,4.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-alvarez-campana-limpia",
@@ -4895,8 +4895,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 4,1,4,4,4,4. Consistente con mediana 4.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-caller-carceles-productivas",
@@ -4919,8 +4919,8 @@
     ],
     "estadioAlternativo": 3,
     "notas": "Previos: 1,2,2,2,2,2. Consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-lescano-indulto-castillo",
@@ -4943,8 +4943,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 2,2,3,2,2,3. Consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-grozo-violentistas-represion",
@@ -4967,8 +4967,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Corrección: haiku asignó 4 pero justificar represión letal como lealtad es E3. Previos: 4,4,3,4,4,3.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-07"
+    "fechaEvento": "2026-03-07",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-diez-canseco-consejo-moral",
@@ -4991,8 +4991,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 4,3,4,3,4,4. Consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-vizcarra-indulto-hermano",
@@ -5015,8 +5015,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Corrección anti-ventriloquismo: haiku asignó 4. Previos: 1,2,2,2,2,2. E2 es consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-08"
+    "fechaEvento": "2026-03-08",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-chirinos-bukele-montesinos",
@@ -5044,8 +5044,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 1,1,1,2,2,1. Consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-espa-anticorrupcion-redistribucion",
@@ -5068,8 +5068,8 @@
     ],
     "estadioAlternativo": 4,
     "notas": "Corrección: haiku asignó 4. Previos: 3,2,3,3,3,3. E3 consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-02-17"
+    "fechaEvento": "2026-02-17",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-jaimes-pena-muerte-corte-idh",
@@ -5092,8 +5092,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 1,1,2,2,2,2. Consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-ortiz-muerte-civil",
@@ -5111,8 +5111,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 2,2,3,3,2,3. Consistente con rango bajo.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-fernandez-pacto-etico",
@@ -5135,8 +5135,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Corrección: haiku asignó 4. Previos: 2,1,2,2,2,2. E2 es consistente.",
-    "evaluador": "haiku-7",
-    "fechaEvento": "2025-12-19"
+    "fechaEvento": "2025-12-19",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-masse-justicia-corrupcion",
@@ -5159,8 +5159,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Corrección: haiku asignó 3. Muerte civil y recompensas son transaccionales. Previos 6x2.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-olivera-querella-acuna",
@@ -5183,8 +5183,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos 6x2. Consistente.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-cerron-orden-captura",
@@ -5212,8 +5212,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos 6x1. Consistente.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-jaico-denunciantes-corrupcion",
@@ -5236,8 +5236,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos 6x4. Consistente.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-luna-galvez-org-criminal",
@@ -5260,8 +5260,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos 6x2. Consistente.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2025-08-07"
+    "fechaEvento": "2025-08-07",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-perez-tello-educacion-empleo",
@@ -5284,8 +5284,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos 6x5. Consistente. Fuente similar a oleada 7 pero con citas adicionales.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-chiabra-anticorrupcion-burocracia",
@@ -5308,8 +5308,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos 6x4. Consistente.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-02-08"
+    "fechaEvento": "2026-02-08",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-atencio-tesis-ilegales",
@@ -5327,8 +5327,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 2,2,1,2,2,1,3. Consistente con mediana 2.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-01-12"
+    "fechaEvento": "2026-01-12",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-williams-muerte-civil-transparencia",
@@ -5351,8 +5351,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 1,3,2,3,3,3,4. Consistente con mediana 3.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-paz-de-la-barra-disculpa-franco",
@@ -5375,8 +5375,8 @@
     ],
     "estadioAlternativo": 2,
     "notas": "Corrección: haiku asignó 3. Previos: 1,2,1,2,2,1,1. E1 consistente.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-molinelli-farmaceuticas",
@@ -5399,8 +5399,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 3,4,4,4,4,4,4. Punto de dato bajo legítimo.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2021-08-01"
+    "fechaEvento": "2021-08-01",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-sanchez-red-familiar",
@@ -5428,8 +5428,8 @@
     ],
     "estadioAlternativo": 1,
     "notas": "Previos: 3,2,2,2,2,3,2. Consistente con mediana 2.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2025-08-12"
+    "fechaEvento": "2025-08-12",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-belaunde-corte-idh",
@@ -5452,8 +5452,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 4,5,4,4,5,4,4. Consistente.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-valderrama-rehabilitacion-debate",
@@ -5476,8 +5476,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Previos: 2,3,2,2,3,3,3. Consistente con mediana 3.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-belmont-plan-anticorrupcion",
@@ -5500,8 +5500,8 @@
     ],
     "estadioAlternativo": null,
     "notas": "Corrección: haiku asignó 4. Pena de muerte es E1-2. Previos: 3,2,2,2,2,3,2.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "eval-carrasco-megacarceles-ofensiva",
@@ -5529,7 +5529,174 @@
     ],
     "estadioAlternativo": null,
     "notas": "Corrección: haiku asignó 4. Megacárceles/trabajo forzado es E1-2. Previos: 1,1,2,2,1,2,2.",
-    "evaluador": "haiku-8",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
+  },
+  {
+    "id": "eval-chiabra-voto-doble-sueldo",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "fuenteId": "roberto-enrique-chiabra-leon-2022-04-28-infobae",
+    "estadio": 2,
+    "justificacion": "**Negociación incompatible comprobada.** Chiabra, como miembro de la Comisión de Defensa, impulsó y votó a favor de modificaciones a la Ley 19846 (Proyecto 319/2021-CR) que le permitieron cobrar **S/34,500 mensuales** (pensión militar + dieta parlamentaria), superando el techo legal de S/15,600. La Fiscalía de la Nación formalizó denuncia constitucional contra él y 10 congresistas más por **negociación incompatible** contra el Estado. Usó su cargo legislativo para beneficio económico directo — razonamiento transaccional puro (Estadio 2).",
+    "citas": [
+      {
+        "texto": "**Votó a favor siendo beneficiario directo** de la modificación a la Ley 19846 que eliminó el tope de ingresos para militares retirados en el Congreso",
+        "ubicacion": "Acta de votación del Pleno, 28 abril 2022 — Proyecto de Ley 319/2021-CR",
+        "indicador": "Legislar en beneficio propio, negociación incompatible -- Estadio 2"
+      },
+      {
+        "texto": "Percibió **S/34,500 mensuales** combinando pensión militar (S/8,500) y dieta parlamentaria (S/26,000), superando el límite de S/15,600 del DU 038-2006",
+        "ubicacion": "Infobae, IDL-Reporteros, enero 2025",
+        "indicador": "Beneficio económico directo derivado de su propia legislación -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2022-04-28",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-nieto-lavado-activos-odebrecht",
+    "entidadId": "jorge-nieto-montesinos",
+    "fuenteId": "jorge-nieto-montesinos-2024-11-15-el-comercio",
+    "estadio": 2,
+    "justificacion": "**Investigación formalizada por lavado de activos.** La Fiscalía formalizó investigación preparatoria contra Nieto en el caso Odebrecht/OAS \"Las Chalinas Verdes\". Un colaborador eficaz declaró que recibió **US$120,000 de OAS** (dos pagos de US$60,000) por asesoría política en la campaña del \"No\" al referéndum de revocatoria de Villarán (2013). Nieto niega los pagos pero la investigación está formalizada. Recibir dinero de constructora brasileña investigada por corrupción sistémica para trabajo político — razonamiento transaccional (Estadio 2).",
+    "citas": [
+      {
+        "texto": "Colaborador eficaz declaró que Nieto **recibió US$120,000 de OAS** en dos pagos de US$60,000 por asesoría en campaña contra revocatoria de Villarán",
+        "ubicacion": "Fiscalía, investigación preparatoria caso Odebrecht/OAS, 2024",
+        "indicador": "Recibir pagos de empresa investigada por corrupción sistémica -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2024-11-15",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-perez-tello-omision-djhv",
+    "entidadId": "maria-soledad-perez-tello-de-rodriguez",
+    "fuenteId": "maria-soledad-perez-tello-de-rodriguez-2026-03-08-la-republica",
+    "estadio": 3,
+    "justificacion": "**Omisión en Declaración Jurada de Hoja de Vida.** El JEE Lima Centro 1 detectó que Pérez Tello **no declaró una sentencia laboral consentida** (6 nov 2023) que la obliga a pagar S/746.23 a Profuturo AFP. El JEE declaró **improcedente su candidatura en primera instancia** y advirtió posible multa de 1-10 UIT + derivación al Ministerio Público. Una candidata que predica Estadio 5 (derechos universales) pero omite información jurada ante el Estado opera en la práctica como Estadio 3 — busca aprobación evitando escrutinio.",
+    "citas": [
+      {
+        "texto": "JEE detectó que **no declaró sentencia laboral consentida** del 6 de noviembre de 2023 que la obliga a pagar S/746.23 a Profuturo AFP",
+        "ubicacion": "JEE Lima Centro 1, alerta de omisión DJHV, marzo 2026",
+        "indicador": "Omitir información jurada para evitar escrutinio electoral -- Estadio 3"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-03-08",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-lopez-chau-omision-djhv-empresa",
+    "entidadId": "pablo-alfonso-lopez-chau-nava",
+    "fuenteId": "pablo-alfonso-lopez-chau-nava-2026-02-27-infobae",
+    "estadio": 3,
+    "justificacion": "**Omisión de empresa en Declaración Jurada de Hoja de Vida.** El JEE inició proceso sancionador contra López Chau por **no declarar ser fundador de Centro Médico Gestión & Salud S.A.C.** (100 acciones). Protegido de exclusión solo por la Ley 32058 (aprobada en 2024) que impide exclusión por omisión de activos. Un candidato que articula discurso de Estadio 5 pero oculta patrimonio ante el JNE demuestra que su transparencia es selectiva — razonamiento de Estadio 3 (gestión de imagen).",
+    "citas": [
+      {
+        "texto": "López Chau **no declaró ser fundador de Centro Médico Gestión & Salud S.A.C.** con 100 acciones en su Declaración Jurada de Hoja de Vida",
+        "ubicacion": "JEE, proceso sancionador, febrero 2026",
+        "indicador": "Ocultar patrimonio empresarial en declaración jurada electoral -- Estadio 3"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-02-27",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-molinelli-juicio-chinchero-colusion",
+    "entidadId": "fiorella-giannina-molinelli-aristondo",
+    "fuenteId": "fiorella-giannina-molinelli-aristondo-2026-03-24-la-republica",
+    "estadio": 2,
+    "justificacion": "Juicio oral por colusion agravada. Fiscalia pide 10 anios de carcel y USD 268M de reparacion. Simultaneamente tiene impedimento de salida por caso Farmaceuticas. Dos procesos penales activos por acuerdos contra el Estado.",
+    "citas": [
+      {
+        "texto": "PJ ordena juicio oral contra Molinelli por colusion agravada en adenda Chinchero. Fiscalia pide 10 anios de carcel y USD 268 millones",
+        "ubicacion": "30 Juzgado de Investigacion Preparatoria de Lima, marzo 2026",
+        "indicador": "Acuerdo clandestino contra intereses del Estado en megaobra publica -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2026-03-24",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-williams-voto-doble-sueldo",
+    "entidadId": "jose-daniel-williams-zapata",
+    "fuenteId": "jose-daniel-williams-zapata-2022-04-28-infobae",
+    "estadio": 2,
+    "justificacion": "Negociacion incompatible comprobada. Williams impulso y voto a favor de Ley 19846 mod. que le permitio cobrar doble remuneracion. Fiscalia formalizo denuncia constitucional. La Subcomision la archivo -- el Congreso se blindo.",
+    "citas": [
+      {
+        "texto": "Williams voto a favor siendo beneficiario directo de la modificacion que elimino el tope de ingresos para militares retirados",
+        "ubicacion": "Acta de votacion del Pleno, 28 abril 2022, Proyecto de Ley 319/2021-CR",
+        "indicador": "Legislar en beneficio propio, negociacion incompatible -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2022-04-28",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-keiko-proceso-falsedad-odebrecht",
+    "entidadId": "keiko-sofia-fujimori-higuchi",
+    "fuenteId": "keiko-sofia-fujimori-higuchi-2024-07-01-infobae",
+    "estadio": 2,
+    "justificacion": "Proceso penal vigente por falsedad. USD 1.2 millones de Odebrecht en campanas 2011 y 2016 confirmados. Fiscal Perez apelo anulacion del TC. Recibir dinero de empresa corrupta y negar conocimiento.",
+    "citas": [
+      {
+        "texto": "Aportes de campana de USD 1.2 millones de Odebrecht en 2011 y 2016 confirmados en investigacion. Fiscal Perez apelo anulacion del TC",
+        "ubicacion": "Investigacion Convoca.pe + Infobae, proceso Caso Cocteles",
+        "indicador": "Recibir financiamiento ilegal de empresa corrupta y negar conocimiento -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2024-07-01",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-alvarez-omision-djhv-peculado",
+    "entidadId": "carlos-gonzalo-alvarez-loayza",
+    "fuenteId": "carlos-gonzalo-alvarez-loayza-2026-01-10-rpp",
+    "estadio": 2,
+    "justificacion": "Omision de sentencia judicial en DJHV. JEE detecto que no declaro sentencia por peculado (expediente 031-2002-SPE-CSJL). Aunque fue absuelto por Corte Suprema en 2007, la obligacion de declarar es independiente del resultado.",
+    "citas": [
+      {
+        "texto": "JEE identifico que Alvarez omitio sentencia judicial por peculado (expediente 031-2002) en su DJHV",
+        "ubicacion": "Informe JEE, enero 2026, RPP",
+        "indicador": "Ocultar antecedentes judiciales en declaracion jurada electoral -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-01-10",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "eval-jaico-omision-djhv-empresas",
+    "entidadId": "carlos-ernesto-jaico-carranza",
+    "fuenteId": "carlos-ernesto-jaico-carranza-2026-01-15-gestion",
+    "estadio": 2,
+    "justificacion": "Omision societaria en DJHV + antecedente fiscal. JEE abrio expediente por no declarar participacion en 3 empresas de consultoria. En 2022 fue investigado por peculado de uso como Secretario General de Palacio bajo Castillo.",
+    "citas": [
+      {
+        "texto": "JEE abrio expediente por omitir participacion en 3 empresas de consultoria activas a su nombre en su DJHV",
+        "ubicacion": "JEE, expediente abierto, enero 2026, Gestion",
+        "indicador": "Ocultar patrimonio empresarial en declaracion jurada electoral -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-engañar",
+    "gertCumplida": false,
+    "fechaEvento": "2026-01-15",
+    "userId": "lucasbecrod"
   }
 ]
