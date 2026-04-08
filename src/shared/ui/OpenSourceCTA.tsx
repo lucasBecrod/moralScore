@@ -4,12 +4,12 @@ export function OpenSourceCTA() {
   return (
     <section className="mx-auto mt-12 mb-16 max-w-md rounded-lg border border-zinc-800 bg-zinc-900/50 p-6 text-center">
       <h2 className="text-lg font-semibold text-zinc-100">
-        Audita a los falsos profetas
+        Auditor&iacute;a ciudadana descentralizada
       </h2>
       <p className="mx-auto mt-2 max-w-md text-sm text-zinc-400">
-        Algoritmo, prompts y r&uacute;bricas son p&uacute;blicos. Si un candidato tiene
-        sentencias, votos pol&eacute;micos o declaraciones juradas falsas, sube la evidencia
-        y derrumba su fachada.
+        Algoritmo, prompts y r&uacute;bricas son p&uacute;blicos. Si conoces sentencias,
+        actas de votaci&oacute;n o conflictos de inter&eacute;s documentados, sube la evidencia
+        y corrige el registro.
       </p>
       <a
         href={GITHUB_URL}

@@ -12,6 +12,14 @@ interface Cita {
   indicador: string;
 }
 
+const GERT_LABELS: Record<string, string> = {
+  "no-engañar": "Enga\u00f1o / Omisi\u00f3n",
+  "no-hacer-trampa": "Conflicto de inter\u00e9s",
+  "no-privar-libertad": "Impunidad / Represi\u00f3n",
+  "no-causar-dolor": "Negligencia con v\u00edctimas",
+  "cumplir-deber": "Incumplimiento de funci\u00f3n",
+};
+
 interface FuenteCardProps {
   evaluacionId: string;
   estadio: number;
@@ -22,6 +30,8 @@ interface FuenteCardProps {
   justificacion: string;
   citas: Cita[];
   imagen?: string;
+  reglaGert?: string;
+  gertCumplida?: boolean;
   validacionesCiudadanas?: number;
   onExpand?: () => void;
   onRequestAuth?: () => void;
@@ -67,10 +77,13 @@ export default function FuenteCard({
   justificacion,
   citas,
   imagen,
+  reglaGert,
+  gertCumplida,
   validacionesCiudadanas = 0,
   onExpand,
   onRequestAuth,
 }: FuenteCardProps) {
+  const isTransgresion = reglaGert && reglaGert !== "ninguna" && gertCumplida === false;
   const [expanded, setExpanded] = useState(false);
   const [validated, setValidated] = useState(false);
   const [validCount, setValidCount] = useState(validacionesCiudadanas);
@@ -103,7 +116,11 @@ export default function FuenteCard({
 
   return (
     <div
-      className="overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 cursor-pointer transition-colors hover:border-zinc-700"
+      className={`overflow-hidden rounded-lg border bg-zinc-900 cursor-pointer transition-colors ${
+        isTransgresion
+          ? "border-red-900/60 hover:border-red-800/80"
+          : "border-zinc-800 hover:border-zinc-700"
+      }`}
       onClick={() => {
         const willExpand = !expanded;
         setExpanded(willExpand);
@@ -132,6 +149,11 @@ export default function FuenteCard({
         {/* Contenido central */}
         <div className="min-w-0 flex-1">
           <p className="font-medium text-zinc-100 line-clamp-2">{titulo}</p>
+          {isTransgresion && (
+            <span className="mt-1 inline-block rounded-full bg-red-950/40 px-2 py-0.5 text-[10px] font-medium text-red-400">
+              Transgresi&oacute;n: {GERT_LABELS[reglaGert!] ?? reglaGert}
+            </span>
+          )}
           <p className="mt-0.5 flex items-center gap-1.5 text-xs text-zinc-500">
             {thumbSrc && (
               <img

@@ -149,6 +149,8 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
       estadio: ev.estadio,
       justificacion: ev.justificacion,
       citas: ev.citas,
+      reglaGert: ev.reglaGert,
+      gertCumplida: ev.gertCumplida,
       validacionesCiudadanas: ev.validacionesCiudadanas ?? 0,
       fuente: {
         titulo: fuente?.titulo ?? "Fuente desconocida",
@@ -204,8 +206,18 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
     setShowModal(true);
   }
 
-  // Sort evaluaciones: validacionesCiudadanas desc, then fechaFuente desc
+  // Check if candidate has been redeemed (any eval with same regla + gertCumplida=true)
+  const redeemed = new Set(
+    evalsForHistorial
+      .filter((e) => e.reglaGert && e.gertCumplida === true)
+      .map((e) => e.reglaGert),
+  );
+
+  // Sort: transgresiones no redimidas primero, luego validaciones desc, luego fecha desc
   const sortedEvalsForHistorial = [...evalsForHistorial].sort((a, b) => {
+    const aIsTransgresion = a.reglaGert && a.reglaGert !== "ninguna" && a.gertCumplida === false && !redeemed.has(a.reglaGert) ? 1 : 0;
+    const bIsTransgresion = b.reglaGert && b.reglaGert !== "ninguna" && b.gertCumplida === false && !redeemed.has(b.reglaGert) ? 1 : 0;
+    if (aIsTransgresion !== bIsTransgresion) return bIsTransgresion - aIsTransgresion;
     const vDiff = (b.validacionesCiudadanas ?? 0) - (a.validacionesCiudadanas ?? 0);
     if (vDiff !== 0) return vDiff;
     return (b.fuente.fechaFuente ?? "").localeCompare(a.fuente.fechaFuente ?? "");
