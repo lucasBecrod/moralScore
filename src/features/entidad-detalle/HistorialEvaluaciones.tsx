@@ -11,6 +11,8 @@ interface Evaluacion {
   estadio: number;
   justificacion: string;
   citas: Cita[];
+  reglaGert?: string;
+  gertCumplida?: boolean;
   validacionesCiudadanas?: number;
   fuente: {
     titulo: string;
@@ -48,6 +50,8 @@ export default function HistorialEvaluaciones({ evaluaciones, onFuenteExpanded, 
               justificacion={ev.justificacion}
               citas={ev.citas}
               imagen={ev.fuente.imagen}
+              reglaGert={ev.reglaGert}
+              gertCumplida={ev.gertCumplida}
               validacionesCiudadanas={ev.validacionesCiudadanas}
               onExpand={onFuenteExpanded}
               onRequestAuth={onRequestAuth}

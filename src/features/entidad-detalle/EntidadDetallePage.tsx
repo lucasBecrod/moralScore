@@ -149,6 +149,8 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
       estadio: ev.estadio,
       justificacion: ev.justificacion,
       citas: ev.citas,
+      reglaGert: ev.reglaGert,
+      gertCumplida: ev.gertCumplida,
       validacionesCiudadanas: ev.validacionesCiudadanas ?? 0,
       fuente: {
         titulo: fuente?.titulo ?? "Fuente desconocida",
