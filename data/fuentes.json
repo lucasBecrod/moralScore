@@ -2924,5 +2924,71 @@
     "fechaEvento": "2026-03-01",
     "estado": "evaluada",
     "userId": "lucasbecrod"
+  },
+  {
+    "id": "vladimir-roy-cerron-rojas-2023-10-01-el-comercio",
+    "url": "https://elcomercio.pe/politica/nuevo-reves-para-el-profugo-vladimir-cerron-las-razones-del-pj-para-confirmar-que-sus-cuentas-por-mas-de-s16-millones-seguiran-en-poder-del-estado-peru-libre-los-dinamicos-del-centro-tlcnota-noticia/",
+    "tipo": "sentencia-judicial",
+    "entidadId": "vladimir-roy-cerron-rojas",
+    "titulo": "Cerron: sentencia firme 4a6m por corrupcion + profugo desde oct 2023",
+    "medio": "El Comercio",
+    "fechaEvento": "2023-10-01",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "rafael-bernardo-lopez-aliaga-cazorla-2025-10-21-infobae",
+    "url": "https://www.infobae.com/peru/2025/10/21/rafael-lopez-aliaga-en-problemas-por-caso-panama-papers-pj-amplia-a-24-meses-investigacion-preparatoria-contra-lider-de-renovacion-popular/",
+    "tipo": "sentencia-judicial",
+    "entidadId": "rafael-bernardo-lopez-aliaga-cazorla",
+    "titulo": "PJ amplia investigacion lavado activos Panama Papers + Fiscalia investiga endeudamiento MML S/4B",
+    "medio": "Infobae",
+    "fechaEvento": "2025-10-21",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "cesar-acuna-peralta-2016-03-01-rpp",
+    "url": "https://rpp.pe/economia/economia/indecopi-multo-a-cesar-acuna-por-plagio-de-libro-y-tesis-doctoral-noticia-993039",
+    "tipo": "sentencia-judicial",
+    "entidadId": "cesar-acuna-peralta",
+    "titulo": "INDECOPI multo a Acuna por plagio tesis doctoral + violencia familiar no declarada",
+    "medio": "RPP",
+    "fechaEvento": "2016-03-01",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "alvaro-gonzalo-paz-de-la-barra-freigeiro-2022-02-22-la-republica",
+    "url": "https://larepublica.pe/politica/2022/02/22/contraloria-halla-irregularidades-en-contrataciones-dentro-de-la-gestion-de-paz-de-la-barra",
+    "tipo": "ejecucion-presupuestal",
+    "entidadId": "alvaro-gonzalo-paz-de-la-barra-freigeiro",
+    "titulo": "Contraloria halla irregularidades en contrataciones + intervencion fiscal por mal uso de recursos",
+    "medio": "La Republica",
+    "fechaEvento": "2022-02-22",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "jose-leon-luna-galvez-2025-08-07-infobae-fiscal",
+    "url": "https://www.infobae.com/peru/2025/08/07/jose-luna-acusado-de-encabezar-organizacion-criminal-fiscalia-formaliza-pedido-de-mas-de-22-anos-contra-el-lider-de-podemos-peru/",
+    "tipo": "sentencia-judicial",
+    "entidadId": "jose-leon-luna-galvez",
+    "titulo": "Fiscalia acusa a Luna Galvez de liderar org criminal y pide 22 anos 8 meses",
+    "medio": "Infobae",
+    "fechaEvento": "2025-08-07",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "yonhy-lescano-ancieta-2019-03-01-ojo-publico",
+    "url": "https://ojo-publico.com/politica/elecciones-2021/las-mentiras-detras-del-archivo-la-denuncia-acoso-contra-lescano",
+    "tipo": "sentencia-judicial",
+    "entidadId": "yonhy-lescano-ancieta",
+    "titulo": "Lescano suspendido 120 dias por acoso sexual + juez confirma que denuncia no fue difamacion",
+    "medio": "Ojo Publico",
+    "fechaEvento": "2019-03-01",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
   }
 ]
