@@ -25,11 +25,11 @@ export const EvaluacionSchema = z.object({
     .describe("Estadio alternativo si hay ambigüedad"),
   notas: z.string().nullable().describe("Observaciones adicionales"),
   fechaEvento: z.string().describe("ISO 8601 date del acto evaluado — heredado de la fuente"),
-  evaluador: z.string().describe("Quién realizó la evaluación"),
+  userId: z.string().describe("FK a usuarios/{uid} — quién realizó la evaluación"),
   validadoPor: z
-    .enum(["lucas", "lady"])
+    .string()
     .nullable()
-    .describe("Quién validó (segunda revisión), null si no validada"),
+    .describe("UID del usuario que validó, null si no validada"),
   validacionesCiudadanas: z.number().int().min(0).optional().describe("Cantidad de ciudadanos que validaron esta evaluación"),
   createdAt: z.string().describe("ISO 8601 timestamp"),
 });

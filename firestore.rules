@@ -52,6 +52,14 @@ service cloud.firestore {
       allow update: if false;
     }
 
+    // Usuarios: lectura publica, escritura solo el propio usuario
+    match /usuarios/{userId} {
+      allow read: if true;
+      allow create: if request.auth != null && request.auth.uid == userId;
+      allow update: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
     // Metricas: escritura publica (counters anonimos), sin lectura publica
     match /metricas/{docId} {
       allow read: if false;

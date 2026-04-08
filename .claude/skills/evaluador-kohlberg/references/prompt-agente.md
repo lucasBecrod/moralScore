@@ -11,7 +11,7 @@ REGLA DE EXTRACCION ESTRICTA: En el array de citas, SOLO puedes incluir palabras
 
 JSON:
 ```json
-{"evaluacion":{"entidadId":"{ENTIDAD_ID}","fuenteId":"{ENTIDAD_ID}-YYYY-MM-DD-medio","estadio":N,"confianza":"alta|media|baja","justificacion":"...","citas":[{"texto":"...","ubicacion":"...","indicador":"..."}],"estadioAlternativo":null,"notas":"...","evaluador":"haiku-{OLEADA}"},"fuente":{"id":"{ENTIDAD_ID}-YYYY-MM-DD-medio","url":"URL","tipo":"entrevista|articulo|debate|youtube","entidadId":"{ENTIDAD_ID}","titulo":"...","medio":"...","fechaFuente":"YYYY-MM-DD","estado":"evaluada","creadaPor":"moralscore-bot"}}
+{"evaluacion":{"entidadId":"{ENTIDAD_ID}","fuenteId":"{ENTIDAD_ID}-YYYY-MM-DD-medio","estadio":N,"confianza":"alta|media|baja","justificacion":"...","citas":[{"texto":"...","ubicacion":"...","indicador":"..."}],"estadioAlternativo":null,"notas":"...","userId":"bot-moralscore"},"fuente":{"id":"{ENTIDAD_ID}-YYYY-MM-DD-medio","url":"URL","tipo":"entrevista|articulo|debate|youtube","entidadId":"{ENTIDAD_ID}","titulo":"...","medio":"...","fechaEvento":"YYYY-MM-DD","estado":"evaluada","userId":"bot-moralscore"}}
 ```
 ```
 

@@ -22,7 +22,7 @@ export const FuenteSchema = z.object({
     })
     .nullable()
     .describe("Resultado del filtro IA de calidad, null si no procesada"),
-  creadaPor: z.enum(["publico", "lucas", "lady"]).describe("Quién subió la fuente"),
+  userId: z.string().describe("FK a usuarios/{uid} — quién subió la fuente"),
   createdAt: z.string().describe("ISO 8601 timestamp de creación"),
 });
 
