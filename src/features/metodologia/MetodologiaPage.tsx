@@ -26,11 +26,13 @@ export function MetodologiaPage() {
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-12">
       {/* Capa 1: Hero + Motor Visual */}
       <h1 className="font-serif text-3xl font-bold tracking-tight text-zinc-100">
-        Juicio &eacute;tico basado en evidencia
+        Ret&oacute;rica vs. Realidad
       </h1>
       <p className="mt-2 max-w-xl text-sm leading-relaxed text-zinc-400">
-        Analizamos c&oacute;mo razonan moralmente los candidatos usando IA
-        y marcos acad&eacute;micos. Prompts, r&uacute;bricas y fuentes son p&uacute;blicos.
+        El discurso define el potencial (Kohlberg). La evidencia material
+        fija el l&iacute;mite (Gert). Si un candidato habla como estadista pero
+        tiene sentencias o votos pol&eacute;micos, su score colapsa.
+        Algoritmo, prompts y fuentes son p&uacute;blicos.
       </p>
 
       {/* 3 pilares — clickeables con info expandible */}

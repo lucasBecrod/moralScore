@@ -4,11 +4,12 @@ export function OpenSourceCTA() {
   return (
     <section className="mx-auto mt-12 mb-16 max-w-md rounded-lg border border-zinc-800 bg-zinc-900/50 p-6 text-center">
       <h2 className="text-lg font-semibold text-zinc-100">
-        MoralScore es de c&oacute;digo abierto
+        Audita a los falsos profetas
       </h2>
       <p className="mx-auto mt-2 max-w-md text-sm text-zinc-400">
-        Los prompts, las r&uacute;bricas y los criterios de evaluaci&oacute;n son p&uacute;blicos.
-        Puedes auditar el c&oacute;digo y sugerir mejoras del sistema.
+        Algoritmo, prompts y r&uacute;bricas son p&uacute;blicos. Si un candidato tiene
+        sentencias, votos pol&eacute;micos o declaraciones juradas falsas, sube la evidencia
+        y derrumba su fachada.
       </p>
       <a
         href={GITHUB_URL}
