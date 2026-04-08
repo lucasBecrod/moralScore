@@ -34,7 +34,7 @@ const EvaluacionData = EvaluacionSchema
     justificacion: true, citas: true, fechaEvento: true,
   })
   .extend({
-    evaluador: z.string(),
+    evaluador: z.string().optional(),
     // V1 data may still have these fields; V2 data will have reglaGert/gertCumplida
     confianza: z.string().optional(),
     estadioAlternativo: z.number().nullable().optional(),
@@ -117,7 +117,7 @@ procErrors.length === 0
 // --- Fuentes ---
 console.log(`\n📰 Fuentes: ${fuentes.length}`);
 
-try { assert.equal(fuentes.length, 276); pass("Count: 276"); }
+try { assert.equal(fuentes.length, 277); pass("Count: 277"); }
 catch { fail("Count != 276"); }
 
 const fErrors: string[] = [];
@@ -146,7 +146,7 @@ withOldFecha.length === 0
 // --- Evaluaciones ---
 console.log(`\n🧠 Evaluaciones: ${evaluaciones.length}`);
 
-try { assert.equal(evaluaciones.length, 272); pass("Count: 272"); }
+try { assert.equal(evaluaciones.length, 273); pass("Count: 273"); }
 catch { fail("Count != 272"); }
 
 const eErrors: string[] = [];

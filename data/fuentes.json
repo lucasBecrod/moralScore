@@ -2803,5 +2803,16 @@
     "estado": "evaluada",
     "fechaEvento": "2026-04-06",
     "userId": "bot-moralscore"
+  },
+  {
+    "id": "roberto-enrique-chiabra-leon-2022-04-28-infobae",
+    "url": "https://www.infobae.com/peru/2025/01/22/fiscalia-presenta-denuncia-contra-once-congresistas-por-impulsar-ley-que-permitio-doble-sueldo-a-exmilitares-en-el-parlamento/",
+    "tipo": "voto-congreso",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "titulo": "Fiscalía denuncia a Chiabra y 10 congresistas por ley de doble sueldo militar (Proyecto 319/2021-CR)",
+    "medio": "Infobae",
+    "fechaEvento": "2022-04-28",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
   }
 ]

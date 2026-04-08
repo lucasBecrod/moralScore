@@ -5531,5 +5531,28 @@
     "notas": "Corrección: haiku asignó 4. Megacárceles/trabajo forzado es E1-2. Previos: 1,1,2,2,1,2,2.",
     "fechaEvento": "2026-04-06",
     "userId": "bot-moralscore"
+  },
+  {
+    "id": "eval-chiabra-voto-doble-sueldo",
+    "entidadId": "roberto-enrique-chiabra-leon",
+    "fuenteId": "roberto-enrique-chiabra-leon-2022-04-28-infobae",
+    "estadio": 2,
+    "justificacion": "**Negociación incompatible comprobada.** Chiabra, como miembro de la Comisión de Defensa, impulsó y votó a favor de modificaciones a la Ley 19846 (Proyecto 319/2021-CR) que le permitieron cobrar **S/34,500 mensuales** (pensión militar + dieta parlamentaria), superando el techo legal de S/15,600. La Fiscalía de la Nación formalizó denuncia constitucional contra él y 10 congresistas más por **negociación incompatible** contra el Estado. Usó su cargo legislativo para beneficio económico directo — razonamiento transaccional puro (Estadio 2).",
+    "citas": [
+      {
+        "texto": "**Votó a favor siendo beneficiario directo** de la modificación a la Ley 19846 que eliminó el tope de ingresos para militares retirados en el Congreso",
+        "ubicacion": "Acta de votación del Pleno, 28 abril 2022 — Proyecto de Ley 319/2021-CR",
+        "indicador": "Legislar en beneficio propio, negociación incompatible -- Estadio 2"
+      },
+      {
+        "texto": "Percibió **S/34,500 mensuales** combinando pensión militar (S/8,500) y dieta parlamentaria (S/26,000), superando el límite de S/15,600 del DU 038-2006",
+        "ubicacion": "Infobae, IDL-Reporteros, enero 2025",
+        "indicador": "Beneficio económico directo derivado de su propia legislación -- Estadio 2"
+      }
+    ],
+    "reglaGert": "no-hacer-trampa",
+    "gertCumplida": false,
+    "fechaEvento": "2022-04-28",
+    "userId": "lucasbecrod"
   }
 ]
