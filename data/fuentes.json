@@ -2902,5 +2902,27 @@
     "fechaEvento": "2026-01-15",
     "estado": "evaluada",
     "userId": "lucasbecrod"
+  },
+  {
+    "id": "george-patrick-forsyth-sommer-2025-11-15-el-comercio",
+    "url": "https://elcomercio.pe/politica/george-forsyth-los-detalles-de-la-decision-del-poder-judicial-que-amplio-la-investigacion-en-su-contra-por-presunta-corrupcion-tlcnota-noticia/",
+    "tipo": "sentencia-judicial",
+    "entidadId": "george-patrick-forsyth-sommer",
+    "titulo": "PJ extiende investigacion contra Forsyth por colusion agravada como alcalde de La Victoria",
+    "medio": "El Comercio",
+    "fechaEvento": "2025-11-15",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
+  },
+  {
+    "id": "pitter-enrique-valderrama-pena-2026-03-01-la-republica",
+    "url": "https://larepublica.pe/politica/2026/03/01/alfonso-lopez-chau-mario-vizcarra-y-enrique-valderrama-habrian-presentado-informacion-falsa-en-su-hoja-de-vida-alerta-jee-hnews-20206",
+    "tipo": "declaracion-jurada",
+    "entidadId": "pitter-enrique-valderrama-pena",
+    "titulo": "JEE alerta: Valderrama no declaro ser socio fundador de empresa con 1000 acciones en DJHV",
+    "medio": "La Republica",
+    "fechaEvento": "2026-03-01",
+    "estado": "evaluada",
+    "userId": "lucasbecrod"
   }
 ]
