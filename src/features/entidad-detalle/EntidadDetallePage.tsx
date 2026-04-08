@@ -2,13 +2,15 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { getEntidadById, getEvaluacionesByEntidad, getFuentesByEntidad, getCandidaturasByEntidad } from "@/firebase/queries";
+import { getEntidadById, getEvaluacionesByEntidad, getFuentesByEntidad, getCandidaturasByEntidad, getOrCreateUsuario } from "@/firebase/queries";
 import { trackMetric } from "@/shared/lib/track-metric";
+import { useAuthContext } from "@/shared/providers/AuthProvider";
 import { AuthModal } from "@/shared/ui/AuthModal";
 import { SITE_CONFIG } from "@/shared/config/site";
 import { getPublicLabel } from "@/shared/config/kohlberg-stages";
 import HistorialEvaluaciones from "./HistorialEvaluaciones";
 import EngagementBar from "./EngagementBar";
+import FuentesPendientes from "./FuentesPendientes";
 import SubirFuenteModal from "@/features/subir-fuente/SubirFuenteModal";
 import type { Entidad } from "@/schemas/entidad.schema";
 import type { Candidatura } from "@/schemas/candidatura.schema";
@@ -68,19 +70,12 @@ function getZoneStyle(score: number) {
   return ZONE_STYLES.pre;
 }
 
-function displayDomain(url: string): string {
-  try {
-    return new URL(url).hostname.replace(/^www\./, "");
-  } catch {
-    return "";
-  }
-}
-
 interface EntidadDetallePageProps {
   id: string;
 }
 
 export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
+  const { user } = useAuthContext();
   const [showModal, setShowModal] = useState(false);
   const [loading, setLoading] = useState(true);
   const [entidad, setEntidad] = useState<Entidad | null>(null);
@@ -183,6 +178,27 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
     trackMetric("shares_copy");
   }
 
+  async function handleSugerirFuente() {
+    if (!user) {
+      setAuthModalOpen(true);
+      return;
+    }
+    await getOrCreateUsuario(user.uid, user.displayName || "Ciudadano", user.email, user.photoURL);
+    setShowModal(true);
+  }
+
+  // Sort evaluaciones: validacionesCiudadanas desc, then fechaFuente desc
+  const sortedEvalsForHistorial = [...evalsForHistorial].sort((a, b) => {
+    const vDiff = (b.validacionesCiudadanas ?? 0) - (a.validacionesCiudadanas ?? 0);
+    if (vDiff !== 0) return vDiff;
+    return (b.fuente.fechaFuente ?? "").localeCompare(a.fuente.fechaFuente ?? "");
+  });
+
+  // Sort pending fuentes by createdAt desc
+  const sortedFuentesSinEvaluar = [...fuentesSinEvaluar].sort(
+    (a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""),
+  );
+
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -259,7 +275,6 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
         </div>
       </div>
 
-      {/* Engagement bar */}
       <EngagementBar
         copied={copied}
         onShareWhatsApp={shareWhatsApp}
@@ -268,48 +283,21 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
         onCopyLink={copyLink}
       />
 
-      {/* Evaluaciones */}
+      {/* Sugerir fuente */}
+      <div className="mb-6">
+        <button
+          onClick={handleSugerirFuente}
+          className="inline-flex items-center gap-2 rounded-lg border border-zinc-700 px-4 py-2 text-sm font-medium text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-white"
+        >
+          <span className="text-lg leading-none">+</span>
+          Sugerir fuente
+        </button>
+      </div>
+
+      <FuentesPendientes fuentes={sortedFuentesSinEvaluar} />
+
       <div className="mb-10">
-        <HistorialEvaluaciones evaluaciones={evalsForHistorial} onRequestAuth={() => setAuthModalOpen(true)} />
-
-        {/* Fuentes sin evaluar — inline con las evaluaciones */}
-        {fuentesSinEvaluar.length > 0 && (
-          <div className="mt-3 space-y-3">
-            {fuentesSinEvaluar.map((f) => {
-              const titulo = f.titulo !== f.url ? f.titulo : null;
-              const domain = f.medio || displayDomain(f.url);
-
-              return (
-                <a
-                  key={f.id}
-                  href={f.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block rounded-lg border border-dashed border-zinc-800 bg-zinc-900/50 p-4 transition-colors hover:border-zinc-700"
-                >
-                  <div className="flex items-center gap-3">
-                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-zinc-800 text-xs text-zinc-500">
-                      ?
-                    </span>
-                    <div className="min-w-0 flex-1">
-                      <p className="text-sm font-medium text-zinc-300 truncate">
-                        {titulo || domain}
-                      </p>
-                      <p className="text-xs text-zinc-500">
-                        {domain}
-                        {f.fechaEvento && <> &middot; {f.fechaEvento}</>}
-                        <> &middot; {f.tipo}</>
-                      </p>
-                    </div>
-                    <span className="shrink-0 rounded-full border border-yellow-500/30 bg-yellow-500/10 px-2.5 py-0.5 text-[11px] font-medium text-yellow-400">
-                      Pendiente
-                    </span>
-                  </div>
-                </a>
-              );
-            })}
-          </div>
-        )}
+        <HistorialEvaluaciones evaluaciones={sortedEvalsForHistorial} onRequestAuth={() => setAuthModalOpen(true)} />
       </div>
 
       {/* Fuentes rechazadas — cementerio colapsado */}
@@ -317,18 +305,10 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
         <FuentesRechazadas fuentes={fuentesRechazadas} />
       )}
 
-      {/* Botón sugerir fuente */}
-      <button
-        onClick={() => setShowModal(true)}
-        className="inline-flex items-center gap-2 rounded-lg border border-zinc-700 px-4 py-2 text-sm font-medium text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-white"
-      >
-        <span className="text-lg leading-none">+</span>
-        Sugerir fuente
-      </button>
-
-      {showModal && (
+      {showModal && user && (
         <SubirFuenteModal
           entidadId={id}
+          userId={user.uid}
           onClose={() => setShowModal(false)}
         />
       )}

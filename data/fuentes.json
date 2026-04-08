@@ -2317,8 +2317,8 @@
     "titulo": "Propuestas de seguridad y reforma policial de Armando Massé",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "luis-fernando-olivera-vega-2026-04-06-andina",
@@ -2328,8 +2328,8 @@
     "titulo": "Olivera propone mayor presupuesto para educación",
     "medio": "Andina",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "vladimir-roy-cerron-rojas-2026-01-04-sinfronteras",
@@ -2339,8 +2339,8 @@
     "titulo": "Cerrón condena ataque de EE.UU. a Venezuela",
     "medio": "Diario Sin Fronteras",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-01-04"
+    "fechaEvento": "2026-01-04",
+    "userId": "bot-moralscore"
   },
   {
     "id": "carlos-ernesto-jaico-carranza-2026-03-10-correo",
@@ -2350,8 +2350,8 @@
     "titulo": "Jaico: primer nivel de atención para prevención de cáncer",
     "medio": "Diario Correo",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-10"
+    "fechaEvento": "2026-03-10",
+    "userId": "bot-moralscore"
   },
   {
     "id": "jose-leon-luna-galvez-2025-12-17-correo",
@@ -2361,8 +2361,8 @@
     "titulo": "Luna Gálvez sobre REINFO: es un engaña muchachos",
     "medio": "Diario Correo",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2025-12-17"
+    "fechaEvento": "2025-12-17",
+    "userId": "bot-moralscore"
   },
   {
     "id": "maria-soledad-perez-tello-de-rodriguez-2025-12-14-larepublica",
@@ -2372,8 +2372,8 @@
     "titulo": "Pérez Tello: No trato con dictadores, ni de derecha ni de izquierda",
     "medio": "La República",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2025-12-14"
+    "fechaEvento": "2025-12-14",
+    "userId": "bot-moralscore"
   },
   {
     "id": "roberto-enrique-chiabra-leon-2026-04-01-infobae",
@@ -2383,8 +2383,8 @@
     "titulo": "Chiabra propone construcción y equipamiento educativo",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "bot-moralscore"
   },
   {
     "id": "ronald-darwin-atencio-sotomayor-2026-03-25-debate-salud",
@@ -2394,8 +2394,8 @@
     "titulo": "Atencio propone eliminar seguros privados del Estado para financiar salud pública",
     "medio": "Diario Correo",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "jose-daniel-williams-zapata-2026-04-03-caretas",
@@ -2405,8 +2405,8 @@
     "titulo": "Williams propone autonomía institucional para entes de control",
     "medio": "Caretas",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "bot-moralscore"
   },
   {
     "id": "alvaro-gonzalo-paz-de-la-barra-freigeiro-2026-03-25-infobae",
@@ -2416,8 +2416,8 @@
     "titulo": "Paz de la Barra: expulsión migrantes 48h, chapa tu corrupto",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "fiorella-giannina-molinelli-aristondo-2026-03-24-larepublica",
@@ -2427,8 +2427,8 @@
     "titulo": "Molinelli: propuestas anticorrupción en debate",
     "medio": "La República",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "bot-moralscore"
   },
   {
     "id": "roberto-helbert-sanchez-palomino-2026-03-18-larepublica",
@@ -2438,8 +2438,8 @@
     "titulo": "Sánchez propone nueva Constitución y cadena perpetua para corruptos",
     "medio": "La República",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-18"
+    "fechaEvento": "2026-03-18",
+    "userId": "bot-moralscore"
   },
   {
     "id": "rafael-jorge-belaunde-llosa-2026-03-15-infobae",
@@ -2449,8 +2449,8 @@
     "titulo": "Belaúnde: consensos en Congreso y muerte cruzada",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "bot-moralscore"
   },
   {
     "id": "pitter-enrique-valderrama-pena-2026-03-26-infobae",
@@ -2460,8 +2460,8 @@
     "titulo": "Valderrama propone cadena perpetua para corruptos institucionales",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-26"
+    "fechaEvento": "2026-03-26",
+    "userId": "bot-moralscore"
   },
   {
     "id": "ricardo-pablo-belmont-cassinelli-2026-03-24-elcomercio",
@@ -2471,8 +2471,8 @@
     "titulo": "Belmont: elegir jueces y fiscales por voto popular",
     "medio": "El Comercio",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "bot-moralscore"
   },
   {
     "id": "charlie-carrasco-salazar-2026-04-03-infobae",
@@ -2482,8 +2482,8 @@
     "titulo": "Carrasco: expulsión 48h y principios bíblicos",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "bot-moralscore"
   },
   {
     "id": "alex-gonzales-castillo-2026-03-23-debate-jne",
@@ -2493,8 +2493,8 @@
     "titulo": "Gonzales: cárcel o cementerio para criminales",
     "medio": "Infobae / JNE",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-23"
+    "fechaEvento": "2026-03-23",
+    "userId": "bot-moralscore"
   },
   {
     "id": "mesias-antonio-guevara-amasifuen-2026-03-31-andina",
@@ -2504,8 +2504,8 @@
     "titulo": "Guevara plantea endurecer estrategia contra crimen",
     "medio": "Andina",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "bot-moralscore"
   },
   {
     "id": "carlos-gonzalo-alvarez-loayza-2026-04-06-infobae",
@@ -2515,8 +2515,8 @@
     "titulo": "Álvarez cierra campaña sin ataques ni bajezas",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "herbert-caller-gutierrez-2026-03-20-andina",
@@ -2526,8 +2526,8 @@
     "titulo": "Caller propone transformar cárceles en centros productivos",
     "medio": "Andina",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-20"
+    "fechaEvento": "2026-03-20",
+    "userId": "bot-moralscore"
   },
   {
     "id": "yonhy-lescano-ancieta-2026-04-06-sinfronteras",
@@ -2537,8 +2537,8 @@
     "titulo": "Lescano no descarta indulto a Castillo si pide perdón",
     "medio": "Diario Sin Fronteras",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "wolfgang-mario-grozo-costa-2026-03-07-larepublica",
@@ -2548,8 +2548,8 @@
     "titulo": "Grozo llamó violentistas a manifestantes contra Boluarte",
     "medio": "La República",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-07"
+    "fechaEvento": "2026-03-07",
+    "userId": "bot-moralscore"
   },
   {
     "id": "francisco-ernesto-diez-canseco-tavara-2026-03-25-infobae",
@@ -2559,8 +2559,8 @@
     "titulo": "Diez Canseco propone Consejo Nacional de Moral Pública",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "mario-enrique-vizcarra-cornejo-2026-03-08-larepublica",
@@ -2570,8 +2570,8 @@
     "titulo": "Mario Vizcarra anuncia que indultará a Martín Vizcarra",
     "medio": "La República",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-08"
+    "fechaEvento": "2026-03-08",
+    "userId": "bot-moralscore"
   },
   {
     "id": "walter-gilmer-chirinos-purizaga-2026-03-30-elcomercio",
@@ -2581,8 +2581,8 @@
     "titulo": "Chirinos propone método Bukele y estado de excepción auditado",
     "medio": "El Comercio",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-30"
+    "fechaEvento": "2026-03-30",
+    "userId": "bot-moralscore"
   },
   {
     "id": "alfonso-carlos-espa-y-garces-alvear-2026-02-17-elperuano",
@@ -2592,8 +2592,8 @@
     "titulo": "Espá: crecimiento de abajo hacia arriba, zar anticorrupción",
     "medio": "El Peruano",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-02-17"
+    "fechaEvento": "2026-02-17",
+    "userId": "bot-moralscore"
   },
   {
     "id": "paul-davis-jaimes-blanco-2026-03-15-rpp",
@@ -2603,8 +2603,8 @@
     "titulo": "Jaimes propone salida de Corte IDH y pena de muerte",
     "medio": "RPP",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-15"
+    "fechaEvento": "2026-03-15",
+    "userId": "bot-moralscore"
   },
   {
     "id": "antonio-ortiz-villano-2026-03-25-debate-jne",
@@ -2614,8 +2614,8 @@
     "titulo": "Ortiz propone muerte civil para corruptos",
     "medio": "JNE",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "rosario-del-pilar-fernandez-bazan-2025-12-19-infobae",
@@ -2625,8 +2625,8 @@
     "titulo": "Fernández rechaza Pacto Ético: la ética se practica, no se firma",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2025-12-19"
+    "fechaEvento": "2025-12-19",
+    "userId": "bot-moralscore"
   },
   {
     "id": "armando-joaquin-masse-fernandez-2026-03-24-correo",
@@ -2636,8 +2636,8 @@
     "titulo": "Massé: propuestas para erradicar corrupción",
     "medio": "Diario Correo",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "bot-moralscore"
   },
   {
     "id": "luis-fernando-olivera-vega-2026-03-25-infobae",
@@ -2647,8 +2647,8 @@
     "titulo": "APP formaliza querella contra Fernando Olivera",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "vladimir-roy-cerron-rojas-2026-04-01-infobae",
@@ -2658,8 +2658,8 @@
     "titulo": "Cerrón cuestiona renovación de orden de captura",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-01"
+    "fechaEvento": "2026-04-01",
+    "userId": "bot-moralscore"
   },
   {
     "id": "carlos-ernesto-jaico-carranza-2026-03-24-correo",
@@ -2669,8 +2669,8 @@
     "titulo": "Jaico: protección denunciantes y muerte civil corruptos",
     "medio": "Diario Correo",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-24"
+    "fechaEvento": "2026-03-24",
+    "userId": "bot-moralscore"
   },
   {
     "id": "jose-leon-luna-galvez-2025-08-07-infobae",
@@ -2680,8 +2680,8 @@
     "titulo": "Luna Gálvez acusado de encabezar organización criminal",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2025-08-07"
+    "fechaEvento": "2025-08-07",
+    "userId": "bot-moralscore"
   },
   {
     "id": "maria-soledad-perez-tello-de-rodriguez-2026-03-31-caretas",
@@ -2691,8 +2691,8 @@
     "titulo": "Pérez Tello: posición principista democracia y derechos",
     "medio": "Caretas",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "bot-moralscore"
   },
   {
     "id": "roberto-enrique-chiabra-leon-2026-02-08-andina",
@@ -2702,8 +2702,8 @@
     "titulo": "Chiabra: reducir burocracia para combatir corrupción",
     "medio": "Andina",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-02-08"
+    "fechaEvento": "2026-02-08",
+    "userId": "bot-moralscore"
   },
   {
     "id": "ronald-darwin-atencio-sotomayor-2026-01-12-infobae",
@@ -2713,8 +2713,8 @@
     "titulo": "Atencio vinculado a red de venta ilegal de tesis",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-01-12"
+    "fechaEvento": "2026-01-12",
+    "userId": "bot-moralscore"
   },
   {
     "id": "jose-daniel-williams-zapata-2026-04-03-infobae",
@@ -2724,8 +2724,8 @@
     "titulo": "Williams: muerte civil y transparencia total",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-03"
+    "fechaEvento": "2026-04-03",
+    "userId": "bot-moralscore"
   },
   {
     "id": "alvaro-gonzalo-paz-de-la-barra-freigeiro-2026-03-25-disculpa",
@@ -2735,8 +2735,8 @@
     "titulo": "Paz de la Barra pide perdón a Sofía Franco en debate",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-25"
+    "fechaEvento": "2026-03-25",
+    "userId": "bot-moralscore"
   },
   {
     "id": "fiorella-giannina-molinelli-aristondo-2021-08-essalud",
@@ -2746,8 +2746,8 @@
     "titulo": "Club de las Farmacéuticas: organización criminal en EsSalud",
     "medio": "Salud con Lupa",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2021-08-01"
+    "fechaEvento": "2021-08-01",
+    "userId": "bot-moralscore"
   },
   {
     "id": "roberto-helbert-sanchez-palomino-2025-08-12-elcomercio",
@@ -2757,8 +2757,8 @@
     "titulo": "Sánchez: carpetas fiscales y red familiar",
     "medio": "El Comercio",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2025-08-12"
+    "fechaEvento": "2025-08-12",
+    "userId": "bot-moralscore"
   },
   {
     "id": "rafael-jorge-belaunde-llosa-2026-04-06-ojopublico",
@@ -2768,8 +2768,8 @@
     "titulo": "Belaúnde: salirse de la Corte IDH es un disparate",
     "medio": "Ojo Público",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "pitter-enrique-valderrama-pena-2026-03-31-infobae",
@@ -2779,8 +2779,8 @@
     "titulo": "Cruce Valderrama-Olivera en debate presidencial",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-03-31"
+    "fechaEvento": "2026-03-31",
+    "userId": "bot-moralscore"
   },
   {
     "id": "ricardo-pablo-belmont-cassinelli-2026-04-06-infobae",
@@ -2790,8 +2790,8 @@
     "titulo": "Plan de Gobierno Partido Cívico Obras 2026-2031",
     "medio": "Infobae",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   },
   {
     "id": "charlie-carrasco-salazar-2026-04-06-elperuano",
@@ -2801,7 +2801,7 @@
     "titulo": "Carrasco: reorganizar Estado y ofensiva anticrimen",
     "medio": "El Peruano",
     "estado": "evaluada",
-    "creadaPor": "moralscore-bot",
-    "fechaEvento": "2026-04-06"
+    "fechaEvento": "2026-04-06",
+    "userId": "bot-moralscore"
   }
 ]

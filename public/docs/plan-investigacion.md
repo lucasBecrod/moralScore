@@ -81,16 +81,17 @@ comparte → otro lo ve → repite
 ## Actores del Sistema (publicadores de fuentes)
 
 ### Humanos
-- Usuarios registrados (email/Google)
-- Cada publicación tiene autor visible
-- Reputación basada en fuentes validadas
+- Autenticación con Google (Firebase Auth) requerida para subir fuentes
+- Cada fuente queda vinculada al `userId` del autor (Firebase Auth UID)
+- El usuario se registra automáticamente en la colección `usuarios/` al subir su primera fuente
+- Cada publicación tiene autor trazable internamente
 
-### Agente IA Autónomo
-- Actúa como un usuario más en el sistema
+### Agente IA Autónomo (bot-moralscore)
+- Actúa como un usuario más en el sistema, con userId fijo: `bot-moralscore`
 - Busca fuentes automáticamente (YouTube, medios, etc.)
-- Publica a través del mismo pipeline
+- Publica a través del mismo pipeline que los humanos
 - Sus publicaciones se identifican como "MoralScore Bot"
-- Pasan por el mismo proceso de evaluación
+- Pasan por el mismo proceso de evaluación y validación
 - Objetivo: bootstrapear contenido antes de que lleguen usuarios reales
 
 ---
@@ -102,8 +103,10 @@ comparte → otro lo ve → repite
 - [x] Página de detalle con fuentes
 - [x] Formulario para subir fuentes
 - [ ] Análisis automático con Claude API
-- [ ] Login con Google (Firebase Auth)
-- [ ] Panel de validación para Lucas/Lady
+- [x] Login con Google (Firebase Auth)
+- [x] Sistema de usuarios (`usuarios/` en Firestore, auto-registro al subir fuente)
+- [x] Trazabilidad: cada fuente y evaluación vinculada a `userId`
+- [ ] Panel de validación
 
 ### Fase 2 — Social mínima
 - [ ] Perfil público del publicador

@@ -31,9 +31,6 @@ interface HistorialEvaluacionesProps {
 export default function HistorialEvaluaciones({ evaluaciones, onFuenteExpanded, onRequestAuth }: HistorialEvaluacionesProps) {
   return (
     <section>
-      <h2 className="text-lg font-semibold text-zinc-100 mb-4">
-        Evaluaciones ({evaluaciones.length})
-      </h2>
       {evaluaciones.length === 0 ? (
         <p className="text-sm text-zinc-400">
           A&uacute;n no hay evaluaciones para este candidato.

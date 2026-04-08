@@ -15,6 +15,14 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
 
+    const { userId } = body;
+    if (!userId || typeof userId !== "string") {
+      return NextResponse.json(
+        { error: "Autenticación requerida" },
+        { status: 401 },
+      );
+    }
+
     const parsed = SubirFuenteInput.safeParse(body);
     if (!parsed.success) {
       return NextResponse.json(
@@ -25,6 +33,7 @@ export async function POST(request: Request) {
 
     const id = await createFuente({
       ...parsed.data,
+      userId,
       titulo: body.titulo,
       medio: body.medio,
     });

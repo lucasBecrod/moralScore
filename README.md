@@ -2,7 +2,7 @@
 
 > El fin de la amnesia política.
 
-Cada elección los políticos se reinventan: promesas nuevas, pasado borrado. Y ningún ciudadano tiene tiempo de revisar cientos de entrevistas y debates para saber quién dice la verdad y quién manipula.
+En cada elección los políticos se reinventan: promesas nuevas, pasado borrado. Y ningún ciudadano tiene tiempo de revisar cientos de entrevistas y debates para saber quién dice la verdad y quién manipula.
 
 **MoralScore hace ese trabajo por ti.** Usamos inteligencia artificial para analizar lo que los candidatos dicen en entrevistas, debates y declaraciones públicas. No evaluamos si son de izquierda o derecha — evaluamos *cómo justifican sus decisiones*: si razonan con principios o con clientelismo, si respetan las reglas básicas de convivencia o las rompen cuando les conviene.
 
