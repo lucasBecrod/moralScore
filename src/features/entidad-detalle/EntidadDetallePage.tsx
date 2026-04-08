@@ -130,7 +130,6 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
     return {
       id: ev.id,
       estadio: ev.estadio,
-      confianza: ev.confianza,
       justificacion: ev.justificacion,
       citas: ev.citas,
       validacionesCiudadanas: ev.validacionesCiudadanas ?? 0,

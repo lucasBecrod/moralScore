@@ -9,7 +9,6 @@ interface Cita {
 interface Evaluacion {
   id: string;
   estadio: number;
-  confianza: "alta" | "media" | "baja";
   justificacion: string;
   citas: Cita[];
   validacionesCiudadanas?: number;
@@ -46,7 +45,6 @@ export default function HistorialEvaluaciones({ evaluaciones, onFuenteExpanded, 
               url={ev.fuente.url}
               medio={ev.fuente.medio}
               fechaFuente={ev.fuente.fechaFuente}
-              confianza={ev.confianza}
               justificacion={ev.justificacion}
               citas={ev.citas}
               imagen={ev.fuente.imagen}

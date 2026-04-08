@@ -31,10 +31,17 @@ const FuenteData = FuenteSchema
 const EvaluacionData = EvaluacionSchema
   .pick({
     id: true, entidadId: true, fuenteId: true, estadio: true,
-    confianza: true, justificacion: true, citas: true,
-    estadioAlternativo: true, notas: true, fechaEvento: true,
+    justificacion: true, citas: true, fechaEvento: true,
   })
-  .extend({ evaluador: z.string() });
+  .extend({
+    evaluador: z.string(),
+    // V1 data may still have these fields; V2 data will have reglaGert/gertCumplida
+    confianza: z.string().optional(),
+    estadioAlternativo: z.number().nullable().optional(),
+    notas: z.string().nullable().optional(),
+    reglaGert: z.string().optional(),
+    gertCumplida: z.boolean().optional(),
+  });
 
 const CandidaturaData = CandidaturaSchema;
 

@@ -1,6 +1,11 @@
 import { z } from "zod/v4";
 
-export const FuenteTipo = z.enum(["youtube", "articulo", "entrevista", "debate", "mitin", "conferencia", "columna"]);
+export const FuenteTipo = z.enum([
+  // Discursivas
+  "youtube", "articulo", "entrevista", "debate", "mitin", "conferencia", "columna",
+  // Materiales
+  "voto-congreso", "ejecucion-presupuestal", "sentencia-judicial", "declaracion-jurada",
+]);
 export type FuenteTipo = z.infer<typeof FuenteTipo>;
 
 export const FuenteEstado = z.enum(["pendiente", "aprobada", "rechazada", "evaluada"]);
