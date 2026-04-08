@@ -12,6 +12,7 @@ import HistorialEvaluaciones from "./HistorialEvaluaciones";
 import EngagementBar from "./EngagementBar";
 import FuentesPendientes from "./FuentesPendientes";
 import { OpenSourceCTA } from "@/shared/ui/OpenSourceCTA";
+import { RetoEvolutivo } from "./RetoEvolutivo";
 import SubirFuenteModal from "@/features/subir-fuente/SubirFuenteModal";
 import type { Entidad } from "@/schemas/entidad.schema";
 import type { Candidatura } from "@/schemas/candidatura.schema";
@@ -274,6 +275,10 @@ export default function EntidadDetallePage({ id }: EntidadDetallePageProps) {
           )}
         </div>
       </div>
+
+      {entidad.scoreHistorico !== null && (
+        <RetoEvolutivo score={entidad.scoreHistorico} />
+      )}
 
       <EngagementBar
         copied={copied}
