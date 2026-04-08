@@ -31,10 +31,17 @@ const FuenteData = FuenteSchema
 const EvaluacionData = EvaluacionSchema
   .pick({
     id: true, entidadId: true, fuenteId: true, estadio: true,
-    confianza: true, justificacion: true, citas: true,
-    estadioAlternativo: true, notas: true, fechaEvento: true,
+    justificacion: true, citas: true, fechaEvento: true,
   })
-  .extend({ evaluador: z.string() });
+  .extend({
+    evaluador: z.string().optional(),
+    // V1 data may still have these fields; V2 data will have reglaGert/gertCumplida
+    confianza: z.string().optional(),
+    estadioAlternativo: z.number().nullable().optional(),
+    notas: z.string().nullable().optional(),
+    reglaGert: z.string().optional(),
+    gertCumplida: z.boolean().optional(),
+  });
 
 const CandidaturaData = CandidaturaSchema;
 
@@ -110,7 +117,7 @@ procErrors.length === 0
 // --- Fuentes ---
 console.log(`\n📰 Fuentes: ${fuentes.length}`);
 
-try { assert.equal(fuentes.length, 276); pass("Count: 276"); }
+try { assert.equal(fuentes.length, 285); pass("Count: 285"); }
 catch { fail("Count != 276"); }
 
 const fErrors: string[] = [];
@@ -139,7 +146,7 @@ withOldFecha.length === 0
 // --- Evaluaciones ---
 console.log(`\n🧠 Evaluaciones: ${evaluaciones.length}`);
 
-try { assert.equal(evaluaciones.length, 272); pass("Count: 272"); }
+try { assert.equal(evaluaciones.length, 281); pass("Count: 281"); }
 catch { fail("Count != 272"); }
 
 const eErrors: string[] = [];

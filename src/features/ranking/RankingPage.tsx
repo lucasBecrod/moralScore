@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useCandidaturas } from "@/shared/hooks/useCandidaturas";
 import { useAuthContext } from "@/shared/providers/AuthProvider";
 import { AuthModal } from "@/shared/ui/AuthModal";
+import { OpenSourceCTA } from "@/shared/ui/OpenSourceCTA";
 import { EntidadCard } from "./EntidadCard";
 
 const SORT_OPTIONS = [
@@ -79,14 +80,14 @@ export function RankingPage() {
       {/* Hero section */}
       <section className="border-b border-zinc-800 bg-zinc-950 px-4 py-20 text-center">
         <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-5xl">
-          El fin de la amnesia política.
+          El fin de la hipocres&iacute;a pol&iacute;tica.
         </h1>
         <p className="mx-auto mt-5 max-w-lg text-balance text-lg leading-relaxed text-zinc-400">
-          Un algoritmo que procesa la vida p&uacute;blica de los candidatos
-          para revelar c&oacute;mo razonan realmente.
+          Un algoritmo de c&oacute;digo abierto que audita el discurso
+          de los candidatos y lo estrella contra su historial material.
         </p>
-        <p className="mt-1 text-sm tracking-wide text-zinc-500">
-          Sin ideolog&iacute;a. Sin olvidos. Solo evidencia.
+        <p className="mt-2 text-sm tracking-wide text-zinc-500">
+          La ret&oacute;rica define su potencial. Sus actos fijan su l&iacute;mite.
         </p>
 
         {/* Retratos solapados — formato vertical para fotos del JNE */}
@@ -150,7 +151,8 @@ export function RankingPage() {
           Auditor&iacute;a P&uacute;blica de Candidatos
         </h2>
         <p className="mb-4 text-center text-sm text-zinc-500">
-          El score es resultado directo de las fuentes subidas. Si falta evidencia, s&uacute;bela.
+          El discurso define la mediana. La evidencia dura activa el colapso.
+          &iquest;Conoces un voto pol&eacute;mico o una sentencia? S&uacute;bela.
         </p>
 
         {/* Sort chips */}
@@ -206,6 +208,8 @@ export function RankingPage() {
           />
         </div>
       </section>
+
+      <OpenSourceCTA />
     </div>
   );
 }

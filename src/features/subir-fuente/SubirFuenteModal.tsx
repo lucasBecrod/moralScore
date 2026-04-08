@@ -5,6 +5,7 @@ import { SubirFuenteInput, FuenteTipo } from "@/schemas/fuente.schema";
 
 interface SubirFuenteModalProps {
   entidadId: string;
+  userId: string;
   onClose: () => void;
 }
 
@@ -23,7 +24,7 @@ const TIPO_OPTIONS: { value: FuenteTipo; label: string }[] = [
   { value: "mitin", label: "Discurso / mitin" },
 ];
 
-export default function SubirFuenteModal({ entidadId, onClose }: SubirFuenteModalProps) {
+export default function SubirFuenteModal({ entidadId, userId, onClose }: SubirFuenteModalProps) {
   const [url, setUrl] = useState("");
   const [tipo, setTipo] = useState<FuenteTipo>("entrevista");
   const [error, setError] = useState<string | null>(null);
@@ -74,6 +75,7 @@ export default function SubirFuenteModal({ entidadId, onClose }: SubirFuenteModa
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...result.data,
+          userId,
           titulo: meta?.title || undefined,
           medio: meta?.domain || undefined,
         }),

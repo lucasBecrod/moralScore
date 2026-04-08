@@ -19,7 +19,6 @@ interface FuenteCardProps {
   url?: string;
   medio?: string;
   fechaFuente?: string;
-  confianza: "alta" | "media" | "baja";
   justificacion: string;
   citas: Cita[];
   imagen?: string;
@@ -65,7 +64,6 @@ export default function FuenteCard({
   url,
   medio,
   fechaFuente,
-  confianza,
   justificacion,
   citas,
   imagen,

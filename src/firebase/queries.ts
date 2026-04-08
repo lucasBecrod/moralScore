@@ -18,6 +18,7 @@ import type { Fuente, SubirFuenteInput } from "@/schemas/fuente.schema";
 import type { Evaluacion } from "@/schemas/evaluacion.schema";
 import type { Candidatura } from "@/schemas/candidatura.schema";
 import type { Proceso } from "@/schemas/proceso.schema";
+import type { Usuario } from "@/schemas/usuario.schema";
 
 // Verifica si Firebase está configurado (env vars presentes)
 function isFirebaseConfigured(): boolean {
@@ -78,6 +79,7 @@ export async function getFuentesByEntidad(
 }
 
 interface CreateFuenteInput extends SubirFuenteInput {
+  userId: string;
   titulo?: string;
   medio?: string;
   imagen?: string;
@@ -100,7 +102,7 @@ export async function createFuente(
     fechaEvento: now.slice(0, 10),
     estado: "pendiente",
     calidadIA: null,
-    creadaPor: "publico",
+    userId: input.userId,
     createdAt: now,
   };
 
@@ -207,35 +209,24 @@ export async function toggleValidacion(
   }
 }
 
-// --- Reconciliación ---
+// --- Usuarios ---
 
-/** Recalcula scoreHistorico y totalEvaluacionesHistoricas para una entidad */
-export async function reconcileEntidad(entidadId: string): Promise<void> {
+export async function getOrCreateUsuario(
+  uid: string,
+  nombre: string,
+  email: string | null,
+  foto: string | null,
+): Promise<void> {
   if (!isFirebaseConfigured()) return;
-
-  const evals = await getEvaluacionesByEntidad(entidadId);
-  const total = evals.length;
-  const score = total > 0
-    ? Math.round((evals.reduce((sum, e) => sum + e.estadio, 0) / total) * 10) / 10
-    : null;
-
-  await updateDoc(doc(db, "entidades", entidadId), {
-    totalEvaluacionesHistoricas: total,
-    scoreHistorico: score,
-  });
-}
-
-/** Recalcula scoreHistorico y totalEvaluacionesHistoricas para TODAS las entidades */
-export async function reconcileAll(): Promise<{ updated: number }> {
-  if (!isFirebaseConfigured()) return { updated: 0 };
-
-  const entidades = await getEntidades();
-  let updated = 0;
-
-  for (const entidad of entidades) {
-    await reconcileEntidad(entidad.id);
-    updated++;
+  const ref = doc(db, "usuarios", uid);
+  const snap = await getDoc(ref);
+  if (!snap.exists()) {
+    await setDoc(ref, {
+      id: uid,
+      nombre,
+      email,
+      foto,
+      createdAt: new Date().toISOString(),
+    });
   }
-
-  return { updated };
 }
