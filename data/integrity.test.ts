@@ -172,6 +172,18 @@ orphanEF.length === 0
   ? pass("Integridad referencial (fuenteId → fuentes)")
   : fail(`${orphanEF.length} evaluaciones con fuenteId huérfano`);
 
+// --- Consistencia estado fuentes ---
+console.log(`\n🔗 Consistencia fuentes-evaluaciones:`);
+
+const evalFuenteIds = new Set(evaluaciones.map((e: any) => e.fuenteId as string));
+const fuentesConEvalNoEvaluada = fuentes.filter(
+  (f: any) => evalFuenteIds.has(f.id) && f.estado !== "evaluada"
+);
+fuentesConEvalNoEvaluada.length === 0
+  ? pass("Fuentes con evaluación tienen estado 'evaluada'")
+  : (fail(`${fuentesConEvalNoEvaluada.length} fuentes con evaluación pero estado != evaluada`),
+     fuentesConEvalNoEvaluada.forEach((f: any) => console.log(`      ${f.id}: estado=${f.estado}`)));
+
 // --- Result ---
 console.log("");
 if (ok) console.log("✅ Integridad: todos los checks pasaron\n");
