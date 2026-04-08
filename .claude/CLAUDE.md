@@ -79,5 +79,5 @@ pnpm dev                                                    # desarrollo
 pnpm build                                                  # build producción
 npx tsx scripts/seed-candidatos.ts                          # seed/actualizar candidatos
 npx tsx scripts/cache-images.ts                             # descargar fotos del JNE
-npx tsx --env-file=.env.local scripts/reconcile-scores.ts   # reconciliar scores (CORRER DESPUÉS DE CADA SEED)
+npx tsx --env-file=.env.local scripts/sync-firestore.ts      # sync data/*.json → Firestore + recalcular scores
 ```

@@ -230,36 +230,3 @@ export async function getOrCreateUsuario(
     });
   }
 }
-
-// --- Reconciliación ---
-
-/** Recalcula scoreHistorico y totalEvaluacionesHistoricas para una entidad */
-export async function reconcileEntidad(entidadId: string): Promise<void> {
-  if (!isFirebaseConfigured()) return;
-
-  const evals = await getEvaluacionesByEntidad(entidadId);
-  const total = evals.length;
-  const score = total > 0
-    ? Math.round((evals.reduce((sum, e) => sum + e.estadio, 0) / total) * 10) / 10
-    : null;
-
-  await updateDoc(doc(db, "entidades", entidadId), {
-    totalEvaluacionesHistoricas: total,
-    scoreHistorico: score,
-  });
-}
-
-/** Recalcula scoreHistorico y totalEvaluacionesHistoricas para TODAS las entidades */
-export async function reconcileAll(): Promise<{ updated: number }> {
-  if (!isFirebaseConfigured()) return { updated: 0 };
-
-  const entidades = await getEntidades();
-  let updated = 0;
-
-  for (const entidad of entidades) {
-    await reconcileEntidad(entidad.id);
-    updated++;
-  }
-
-  return { updated };
-}
