@@ -10,7 +10,7 @@
  *   npx tsx --env-file=.env.local scripts/sync-firestore.ts
  */
 
-import { readFileSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
 import { initializeApp, applicationDefault, cert, getApps } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
@@ -245,14 +245,30 @@ async function main() {
   const totalCandidatos = (await db.collection("candidaturas").get()).size;
   const totalProcesos = (await db.collection("procesos").get()).size;
 
-  await db.collection("metricas").doc("global").set({
+  const metricasGlobales = {
     totalFuentes,
     totalEvaluaciones,
     totalCandidatos,
     totalProcesos,
     updatedAt: new Date().toISOString(),
-  });
+  };
+
+  await db.collection("metricas").doc("global").set(metricasGlobales);
   console.log(`   fuentes: ${totalFuentes}, evaluaciones: ${totalEvaluaciones}, candidatos: ${totalCandidatos}, procesos: ${totalProcesos}`);
+
+  // 8. Generar JSON estáticos → public/api/ (CDN, 0 reads Firestore)
+  console.log("\n📦 Generando JSON estáticos...");
+  const apiDir = join(process.cwd(), "public", "api");
+  mkdirSync(apiDir, { recursive: true });
+
+  writeFileSync(join(apiDir, "metricas.json"), JSON.stringify(metricasGlobales));
+  console.log("   public/api/metricas.json ✓");
+
+  // Leer candidaturas finales con scores recalculados
+  const allCandSnap = await db.collection("candidaturas").get();
+  const candidaturasJson = allCandSnap.docs.map(d => ({ id: d.id, ...d.data() }));
+  writeFileSync(join(apiDir, "candidaturas.json"), JSON.stringify(candidaturasJson));
+  console.log(`   public/api/candidaturas.json (${candidaturasJson.length} registros) ✓`);
 
   console.log("\n✅ Sync completado.\n");
 }

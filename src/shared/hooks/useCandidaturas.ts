@@ -1,12 +1,17 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
-import { getCandidaturas } from "@/firebase/queries";
 import type { Candidatura } from "@/schemas/candidatura.schema";
 
 let cachedCandidaturas: Candidatura[] | null = null;
 let lastFetchTime = 0;
 const STALE_MS = 60_000;
+
+async function fetchCandidaturas(): Promise<Candidatura[]> {
+  const res = await fetch("/api/candidaturas.json");
+  if (!res.ok) return [];
+  return res.json();
+}
 
 export function useCandidaturas(procesoId?: string) {
   const [candidaturas, setCandidaturas] = useState<Candidatura[]>(cachedCandidaturas || []);
@@ -14,7 +19,10 @@ export function useCandidaturas(procesoId?: string) {
 
   const refresh = useCallback(async () => {
     try {
-      const data = await getCandidaturas(procesoId);
+      let data = await fetchCandidaturas();
+      if (procesoId) {
+        data = data.filter((c) => c.procesoId === procesoId);
+      }
       cachedCandidaturas = data;
       lastFetchTime = Date.now();
       setCandidaturas(data);

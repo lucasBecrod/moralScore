@@ -1,10 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getMetricasGlobales } from "@/firebase/queries";
 import type { MetricasGlobales } from "@/schemas/metrica.schema";
 
 let cached: MetricasGlobales | null = null;
+
+async function fetchMetricas(): Promise<MetricasGlobales | null> {
+  const res = await fetch("/api/metricas.json");
+  if (!res.ok) return null;
+  return res.json();
+}
 
 export function useMetricasGlobales() {
   const [metricas, setMetricas] = useState<MetricasGlobales | null>(cached);
@@ -16,7 +21,7 @@ export function useMetricasGlobales() {
       setLoading(false);
       return;
     }
-    getMetricasGlobales()
+    fetchMetricas()
       .then((data) => {
         cached = data;
         setMetricas(data);
